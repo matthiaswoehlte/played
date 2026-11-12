@@ -1,0 +1,8 @@
+{
+  "kennung": "wunsch-006",
+  "name": "Correction: bar stays in the new row",
+  "wortlaut": "Drag and drop does not work, the indicator for the bar is shown but the bar does not stay in the new row. Please fix",
+  "wortlautDeutsch": "Das Drag und Drop funktioniert nicht, der Indikator für den Balken wird gezeigt aber der Balken bleibt nicht in der neuen Zeile. Bitte korrigieren",
+  "datum": "2026-11-06T20:48:14.660Z",
+  "kurz": "On release, the replanning now goes through the same access the subscribers use, and an older drag logic that is still active can no longer catch the drag; the exact cause is not confirmed, because a real mouse drag cannot be checked here and the script sends “umplanen” directly, so please test it once by hand."
+}

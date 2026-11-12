@@ -1,0 +1,26 @@
+{
+  "kennung": "konflikt-rand",
+  "name": "Roter Rand bei Überlappung",
+  "reihe": 6,
+  "kurz": "Überlappende Balken eines Mitarbeiters tragen einen roten Rand, solange der Konflikt besteht.",
+  "wuensche": [
+    {
+      "kennung": "wunsch-010",
+      "name": "Überlappungen als Konflikte zeigen",
+      "wortlaut": "Wenn mehrere Balken sich bei einem Mitarbeiter überlappen, dann sollen sie einen Konflikt bekommen und der Konflikt zeigt sich optisch, dass der Balken eine rote Umrandung hat. Auf der rechten Seite soll bei Klick auf Konflikte eine List der Konflikte erscheinen, die auch durch die Aktionen gepflegt wird. Sobald sich z.B. Balken nicht mehr  überlappen, ist der Konflikt nicht mehr existent.",
+      "datum": "2026-11-06T22:29:36.711Z"
+    }
+  ],
+  "aktuell": 1,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "zuschnitt",
+      "wortlaut": null,
+      "datum": "2026-11-06T23:59:00.000Z",
+      "kurz": "Aus den Wünschen herausgeschnitten, Verhalten unverändert.",
+      "drehbuch": null
+    }
+  ]
+}

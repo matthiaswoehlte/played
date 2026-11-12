@@ -1,0 +1,57 @@
+{
+  "kennung": "geraet-balken-zeit",
+  "name": "Move and stretch equipment bars",
+  "reihe": 26,
+  "kurz": "In Equipment Dispatch, you can now drag an equipment task bar by its left or right edge to change its start or end, or drag it by the middle to move it in time on the same unit; dropping it on the unassigned list still unassigns it.",
+  "teilApp": "geraete",
+  "wuensche": [
+    {
+      "kennung": "wunsch-034",
+      "name": "Move and stretch equipment bars",
+      "wortlaut": "I can grab a bar at its left or right edge with the mouse and drag it to change its start or end. If I grab it in the middle, I can move the whole bar along the time axis; it stays on its unit. If I release it over the list of unassigned equipment tasks instead, it goes into the list as before.",
+      "datum": "2026-11-11T17:43:22.785Z",
+      "teilApp": "geraete"
+    }
+  ],
+  "aktuell": 2,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "wunsch",
+      "wunsch": "wunsch-034",
+      "wortlaut": "I can grab a bar at its left or right edge with the mouse and drag it to change its start or end. If I grab it in the middle, I can move the whole bar along the time axis; it stays on its unit. If I release it over the list of unassigned equipment tasks instead, it goes into the list as before.",
+      "datum": "2026-11-11T17:43:22.785Z",
+      "kurz": "In Equipment Dispatch, you can now drag an equipment task bar by its left or right edge to change its start or end, or drag it by the middle to move it in time on the same unit; dropping it on the unassigned list still unassigns it.",
+      "drehbuch": "wunsch-034",
+      "bestaetigt": {
+        "datum": "2026-11-11T17:43:43.626Z",
+        "wie": "vom PO mit „Bestätigen“"
+      },
+      "entscheidungen": [
+        {
+          "datum": "2026-11-11T17:43:44.602Z",
+          "art": "enger",
+          "wahl": "behalten",
+          "was": "It doesn't let an edge drag make an equipment task shorter than 5 minutes. Your request doesn't set a minimum length.",
+          "wie": "vom PO per Klick „So lassen“",
+          "wunsch": "wunsch-034"
+        }
+      ]
+    },
+    {
+      "nr": 2,
+      "vorige": 1,
+      "art": "aendern",
+      "wunsch": "wunsch-035",
+      "wortlaut": "“While I am dragging an edge, the bar follows the mouse and changes its size live — not only after I release. The same while moving a bar in the middle: it moves with the mouse",
+      "datum": "2026-11-11T17:47:32.382Z",
+      "kurz": "While you drag an edge, the equipment bar now grows or shrinks with the mouse, and while you drag it from the middle, the whole bar moves with the mouse, minute by minute.",
+      "drehbuch": "wunsch-035",
+      "bestaetigt": {
+        "datum": "2026-11-11T17:47:56.221Z",
+        "wie": "vom PO mit „Bestätigen“"
+      }
+    }
+  ]
+}

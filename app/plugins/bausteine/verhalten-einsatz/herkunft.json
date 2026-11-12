@@ -1,0 +1,192 @@
+{
+  "kennung": "verhalten-einsatz",
+  "name": "Einsatz ändern",
+  "reihe": 12,
+  "kurz": null,
+  "wuensche": [],
+  "aktuell": 4,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "grund",
+      "wortlaut": null,
+      "datum": null,
+      "kurz": "Grundausstattung",
+      "drehbuch": null
+    },
+    {
+      "nr": 2,
+      "vorige": 1,
+      "art": "aendern",
+      "wunsch": "wunsch-014",
+      "wortlaut": "Ein Auftrag soll auch einem Mitarbeiter ohne passende Qualifikation zugewiesen werden können; das wird nicht verweigert, sondern ist ein Konflikt und erscheint als solcher. Der Hinweis beim Ziehen sagt dann „Geht, aber ohne passende Qualifikation: Konflikt“.",
+      "datum": "2026-11-07T17:30:57.132Z",
+      "kurz": "Ein Auftrag lässt sich jetzt auch einem Mitarbeiter ohne passende Qualifikation zuweisen. Er bleibt dort und erscheint als Konflikt „Qualifikation fehlt“. Beim Ziehen steht am Zeiger „Geht, aber ohne passende Qualifikation: Konflikt“.",
+      "drehbuch": null,
+      "erwartungen": [
+        {
+          "drehbuch": "wunsch-005",
+          "nr": 2,
+          "satz": "XC 810 Betanken auf I. Reindl ist jetzt ein Konflikt statt verweigert.",
+          "alt": {
+            "text": "XC 810 Betanken bleibt bei D. Mahler, weil I. Reindl nicht betanken darf.",
+            "pruefe": [
+              {
+                "nachricht": "auftraege/XC810-TANK-01.verweigert"
+              },
+              {
+                "pfad": "auftraege/XC810-TANK-01/mitarbeiter",
+                "gleich": "MA-20"
+              },
+              {
+                "sicht": "gantt",
+                "enthaelt": "auftraege/XC810-TANK-01"
+              }
+            ]
+          },
+          "neu": {
+            "text": "XC 810 Betanken liegt jetzt bei I. Reindl, obwohl sie nicht betanken darf; das ist ein Konflikt „Qualifikation fehlt“.",
+            "pruefe": [
+              {
+                "nachricht": "auftraege/XC810-TANK-01.umplanen"
+              },
+              {
+                "pfad": "auftraege/XC810-TANK-01/mitarbeiter",
+                "gleich": "MA-40"
+              },
+              {
+                "sicht": "gantt",
+                "enthaelt": "auftraege/XC810-TANK-01"
+              }
+            ]
+          }
+        },
+        {
+          "drehbuch": "wunsch-005",
+          "nr": 3,
+          "satz": "XC 810 Innenraum-Cleaning auf D. Mahler ist jetzt ein Konflikt statt verweigert.",
+          "alt": {
+            "text": "XC 810 Innenraum-Cleaning bleibt bei I. Reindl, weil D. Mahler kein Cleaning machen darf.",
+            "pruefe": [
+              {
+                "nachricht": "auftraege/XC810-CLEAN-01.verweigert"
+              },
+              {
+                "pfad": "auftraege/XC810-CLEAN-01/mitarbeiter",
+                "gleich": "MA-40"
+              },
+              {
+                "sicht": "gantt",
+                "enthaelt": "auftraege/XC810-CLEAN-01"
+              }
+            ]
+          },
+          "neu": {
+            "text": "XC 810 Innenraum-Cleaning liegt jetzt bei D. Mahler, obwohl er kein Cleaning machen darf; das ist ein Konflikt „Qualifikation fehlt“.",
+            "pruefe": [
+              {
+                "nachricht": "auftraege/XC810-CLEAN-01.umplanen"
+              },
+              {
+                "pfad": "auftraege/XC810-CLEAN-01/mitarbeiter",
+                "gleich": "MA-20"
+              },
+              {
+                "sicht": "gantt",
+                "enthaelt": "auftraege/XC810-CLEAN-01"
+              }
+            ]
+          }
+        },
+        {
+          "drehbuch": "wunsch-005",
+          "nr": 6,
+          "satz": "Am Ende stehen 7 statt 5 Konflikte, weil die beiden Zuweisungen ohne Qualifikation jetzt als Konflikt zählen.",
+          "alt": {
+            "text": "Der Konfliktzähler steht auf 5, weil sich bei F. Ohlsen XA 745 Betanken und Fäkalien entleeren nicht mehr überschneiden.",
+            "pruefe": [
+              {
+                "pfad": "kennzahlen/konflikte/wert",
+                "gleich": 5
+              }
+            ]
+          },
+          "neu": {
+            "text": "Der Konfliktzähler steht auf 7: Bei F. Ohlsen überschneiden sich XA 745 Betanken und Fäkalien entleeren nicht mehr, dafür fehlt bei XC 810 Betanken und bei XC 810 Innenraum-Cleaning die Qualifikation.",
+            "pruefe": [
+              {
+                "pfad": "kennzahlen/konflikte/wert",
+                "gleich": 7
+              }
+            ]
+          }
+        },
+        {
+          "drehbuch": "wunsch-009",
+          "nr": 4,
+          "satz": "XC 810 Beladen auf D. Mahler wird jetzt zugewiesen (vorübergehend ein Konflikt) statt verweigert.",
+          "alt": {
+            "text": "D. Mahler bekommt XC 810 Beladen nicht, weil er nicht beladen darf.",
+            "pruefe": [
+              {
+                "nachricht": "auftraege/XC810-BELA-01.verweigert"
+              }
+            ]
+          },
+          "neu": {
+            "text": "D. Mahler bekommt XC 810 Beladen zunächst, obwohl er nicht beladen darf; danach zieht der Disponent es weiter auf W. Fiedler.",
+            "pruefe": [
+              {
+                "nachricht": "auftraege/XC810-BELA-01.umplanen"
+              },
+              {
+                "pfad": "auftraege/XC810-BELA-01/mitarbeiter",
+                "gleich": "MA-06"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "nr": 3,
+      "vorige": 2,
+      "art": "aendern",
+      "wunsch": "wunsch-016",
+      "wortlaut": "Bitte beim Drag over / Hover wenn ein Einsatz verschoben werden soll auf einen Kollegen, der die Qualifikation nicht hat, das im Tooltip rot mit anzeigen",
+      "datum": "2026-11-07T17:38:54.336Z",
+      "kurz": "Wenn du einen Einsatz auf einen Kollegen ohne passende Qualifikation ziehst, erscheint am Zeiger ein roter Hinweis, zum Beispiel „I. Reindl hat keine Qualifikation für Betanken: Konflikt“, und seine Zeile ist rot umrandet. Die Zuweisung bleibt erlaubt.",
+      "drehbuch": null
+    },
+    {
+      "nr": 4,
+      "vorige": 3,
+      "art": "vertrag",
+      "wortlaut": null,
+      "datum": "2026-11-08T12:00:00.000Z",
+      "kurz": "Auf den Bus-Vertrag umgestellt: Den Mitarbeiter, Beginn und Ende eines Auftrags ändert nur noch dieses Plugin. Es setzt jetzt auch „gelöst“ (nach Krankmeldung) und „zurück in die Liste“ um; das Verhalten bleibt gleich.",
+      "drehbuch": null,
+      "auftrag": "005",
+      "entscheidungen": [
+        {
+          "datum": "2026-11-09T20:45:16.228Z",
+          "art": "bedienung",
+          "wahl": "balken-zuweisen",
+          "was": "Ziehst du einen Balken im Tagesplan auf einen Mitarbeiter (z. B. XA 101 Entladen auf D. Mahler), wollen „Balken auf andere Mitarbeiter ziehen“ und „Einsatz ändern“ das übernehmen.",
+          "wie": "vom PO per Klick „Balken auf andere Mitarbeiter ziehen übernimmt“",
+          "schluessel": "gantt|ziehen|balken-zuweisen+verhalten-einsatz"
+        },
+        {
+          "datum": "2026-11-09T20:45:20.571Z",
+          "art": "bedienung",
+          "wahl": "verhalten-einsatz",
+          "was": "Ziehst du einen Balken im Tagesplan auf einen Mitarbeiter (z. B. XA 101 Entladen auf D. Mahler), wollen „Balken auf andere Mitarbeiter ziehen“ und „Einsatz ändern“ das übernehmen.",
+          "wie": "vom PO per Klick „Einsatz ändern übernimmt“",
+          "schluessel": "gantt|ziehen|balken-zuweisen+verhalten-einsatz"
+        }
+      ]
+    }
+  ],
+  "teilApp": "disposition"
+}

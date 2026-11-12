@@ -1,0 +1,8 @@
+{
+  "kennung": "wunsch-002",
+  "name": "Flight delay, requested again",
+  "wortlaut": "If a flight is delayed, all its tasks move by the same time.",
+  "wortlautDeutsch": "Wenn ein Flug sich verspätet, verschieben sich alle seine Aufträge um dieselbe Zeit mit.",
+  "datum": "2026-11-06T20:34:00.796Z",
+  "kurz": "This already exists: if a flight is delayed, its block times and all its tasks already move by the same time, so Flight delay stays unchanged and a second plugin would move the tasks twice; the script “Delay XC 810 by 20 minutes” plays it."
+}

@@ -1,0 +1,29 @@
+{
+  "kennung": "balken-overlay",
+  "name": "Einsatz-Details beim Überfahren",
+  "reihe": 13,
+  "kurz": "Fährt man mit der Maus über einen Balken im Tagesplan, erscheint jetzt ein kleines Fenster. Es zeigt die beste Zeit des Flugs (On-Block, sonst Touchdown, sonst ETA), den Mitarbeiter, den Einsatz mit Zeit und alle Konflikte dieses Einsatzes.",
+  "wuensche": [
+    {
+      "kennung": "wunsch-015",
+      "name": "Einsatz-Details beim Überfahren",
+      "wortlaut": "Wenn ein Balken Konflikte hat, dann sollen die bei Mousover auch mit angezeigt werden zusätzlich zu den aktuell schon im Tooltip vorhandenen Informationen. Der Tooltip sollte als ein echtes kleines Overlay gezeigt werden mit Flugdateninfo für für die besten Zeit also ETA, aber Touchdown falls da oder mit Onblock noch am besten. Dann der Name der Person, die den Einsatz hat, welcher Einsatz das ist und welche Konflikte auf dem Einsatz sind",
+      "datum": "2026-11-07T17:37:33.382Z",
+      "teilApp": "disposition"
+    }
+  ],
+  "aktuell": 1,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "wunsch",
+      "wunsch": "wunsch-015",
+      "wortlaut": "Wenn ein Balken Konflikte hat, dann sollen die bei Mousover auch mit angezeigt werden zusätzlich zu den aktuell schon im Tooltip vorhandenen Informationen. Der Tooltip sollte als ein echtes kleines Overlay gezeigt werden mit Flugdateninfo für für die besten Zeit also ETA, aber Touchdown falls da oder mit Onblock noch am besten. Dann der Name der Person, die den Einsatz hat, welcher Einsatz das ist und welche Konflikte auf dem Einsatz sind",
+      "datum": "2026-11-07T17:37:33.382Z",
+      "kurz": "Fährt man mit der Maus über einen Balken im Tagesplan, erscheint jetzt ein kleines Fenster. Es zeigt die beste Zeit des Flugs (On-Block, sonst Touchdown, sonst ETA), den Mitarbeiter, den Einsatz mit Zeit und alle Konflikte dieses Einsatzes.",
+      "drehbuch": "wunsch-015"
+    }
+  ],
+  "teilApp": "disposition"
+}

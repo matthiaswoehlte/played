@@ -1,0 +1,8 @@
+{
+  "kennung": "wunsch-008",
+  "name": "Move bars left and right",
+  "wortlaut": "I also want to grab a bar and move it left and right",
+  "wortlautDeutsch": "Ich möchte einen Balken auch greifen und nach links und rechts verschieben können",
+  "datum": "2026-11-06T21:47:01.804Z",
+  "kurz": "You can now grab a bar by its body and move it left or right in its own row in 5-minute steps; its duration stays the same. If you drop it on another row, only the agent changes as before and the time stays."
+}

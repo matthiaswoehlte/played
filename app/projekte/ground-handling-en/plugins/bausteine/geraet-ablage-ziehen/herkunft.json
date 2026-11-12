@@ -1,0 +1,54 @@
+{
+  "kennung": "geraet-ablage-ziehen",
+  "name": "Drag equipment tasks to and from list",
+  "reihe": 25,
+  "kurz": "You can now drag an equipment task from the chart into the list of unassigned tasks, and drag it from that list onto any unit; the chart scrolls while you hold it at its edge. A unit of the wrong type is allowed but is shown as a conflict.",
+  "teilApp": "geraete",
+  "wuensche": [
+    {
+      "kennung": "wunsch-033",
+      "name": "Drag equipment tasks to and from list",
+      "wortlaut": "I can drag a bar from the Gantt into the list of unassigned equipment tasks with the mouse, and it is unassigned. I can also drag a task from that list back onto a unit in the Gantt; it keeps its time and is assigned to the unit where I drop it. While I am dragging, holding the task near an edge of the chart scrolls it in that direction, horizontally and vertically, so I can reach units and times that are out of view. If I drop it on a unit of the wrong equipment type, this is allowed and shown as a conflict.",
+      "datum": "2026-11-11T17:33:34.342Z",
+      "teilApp": "geraete"
+    },
+    {
+      "kennung": "wunsch-036",
+      "name": "Drag equipment bars to another unit",
+      "wortlaut": "I can drag a bar from one unit to another unit with the mouse; it keeps its time and is reassigned to the new unit. If the new unit is of the wrong equipment type or already busy at that time, this is allowed and shown as a conflict. Do not add a new list; the existing conflict list already shows these conflicts.",
+      "datum": "2026-11-11T17:50:35.426Z",
+      "teilApp": "geraete"
+    }
+  ],
+  "aktuell": 2,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "wunsch",
+      "wunsch": "wunsch-033",
+      "wortlaut": "I can drag a bar from the Gantt into the list of unassigned equipment tasks with the mouse, and it is unassigned. I can also drag a task from that list back onto a unit in the Gantt; it keeps its time and is assigned to the unit where I drop it. While I am dragging, holding the task near an edge of the chart scrolls it in that direction, horizontally and vertically, so I can reach units and times that are out of view. If I drop it on a unit of the wrong equipment type, this is allowed and shown as a conflict.",
+      "datum": "2026-11-11T17:33:34.342Z",
+      "kurz": "You can now drag an equipment task from the chart into the list of unassigned tasks, and drag it from that list onto any unit; the chart scrolls while you hold it at its edge. A unit of the wrong type is allowed but is shown as a conflict.",
+      "drehbuch": "wunsch-033",
+      "bestaetigt": {
+        "datum": "2026-11-11T17:34:02.963Z",
+        "wie": "vom PO mit „Bestätigen“"
+      }
+    },
+    {
+      "nr": 2,
+      "vorige": 1,
+      "art": "wunsch",
+      "wunsch": "wunsch-036",
+      "wortlaut": "I can drag a bar from one unit to another unit with the mouse; it keeps its time and is reassigned to the new unit. If the new unit is of the wrong equipment type or already busy at that time, this is allowed and shown as a conflict. Do not add a new list; the existing conflict list already shows these conflicts.",
+      "datum": "2026-11-11T17:50:35.426Z",
+      "kurz": "You can now drag an equipment bar onto another unit. It keeps its time and moves to that unit, even if the unit is the wrong type or already busy; the existing conflict list then shows it.",
+      "drehbuch": "wunsch-036",
+      "bestaetigt": {
+        "datum": "2026-11-11T17:50:50.888Z",
+        "wie": "vom PO mit „Bestätigen“"
+      }
+    }
+  ]
+}

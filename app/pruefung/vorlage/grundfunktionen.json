@@ -1,0 +1,35 @@
+[
+  {
+    "kennung": "balkenfarbe",
+    "name": "Farbe der Balken",
+    "satz": "Die Farbe eines Balkens zeigt die Arbeit, die Legende steht darüber.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "ohne"
+    }
+  },
+  {
+    "kennung": "konflikt-ueberlappung",
+    "name": "Überlappung",
+    "satz": "Überschneiden sich zwei Aufträge derselben Person, ist das ein Konflikt.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "wortlaut",
+      "wortlaut": "Es muss eine Konfliktliste geben, wenn sich Aufgaben mit anderen überlappen.",
+      "datum": "27.09.2026",
+      "wie": "Auftrag des PO an Claude Code, wörtlich"
+    }
+  },
+  {
+    "kennung": "konflikt-qualifikation",
+    "name": "Qualifikation fehlt",
+    "satz": "Liegt ein Auftrag bei jemandem ohne die passende Qualifikation, ist das der Konflikt „Qualifikation fehlt“.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "umfang",
+      "wortlaut": "Lasse ich den Balken trotzdem bei einem Mitarbeiter ohne Qualifikation fallen, wird zugewiesen und ein neuer Konflikt „Qualifikation fehlt“ entsteht in der Konfliktliste.",
+      "datum": "27.09.2026",
+      "wie": "Umfang Fassung 2 des Prototyps"
+    }
+  }
+]

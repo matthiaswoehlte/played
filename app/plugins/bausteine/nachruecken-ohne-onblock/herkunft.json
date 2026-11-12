@@ -1,0 +1,29 @@
+{
+  "kennung": "nachruecken-ohne-onblock",
+  "name": "Aufträge rücken ohne On-Block",
+  "reihe": 19,
+  "kurz": "Ist ein Flug zur geplanten On-Block-Zeit noch nicht am Block, rücken seine offenen Aufträge Minute für Minute nach hinten, bis er am Block ist; begonnene und fertige Aufträge bleiben stehen.",
+  "wuensche": [
+    {
+      "kennung": "wunsch-027",
+      "name": "Aufträge rücken ohne On-Block",
+      "wortlaut": "Ein Flug ist zur geplanten Onblock-Zeit noch nicht am Block: … dann rücken seine offenen Aufträge mit der Uhr nach hinten, bis er am Block ist.",
+      "datum": "2026-11-09T08:43:34.571Z",
+      "teilApp": "disposition"
+    }
+  ],
+  "aktuell": 1,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "wunsch",
+      "wunsch": "wunsch-027",
+      "wortlaut": "Ein Flug ist zur geplanten Onblock-Zeit noch nicht am Block: … dann rücken seine offenen Aufträge mit der Uhr nach hinten, bis er am Block ist.",
+      "datum": "2026-11-09T08:43:34.571Z",
+      "kurz": "Ist ein Flug zur geplanten On-Block-Zeit noch nicht am Block, rücken seine offenen Aufträge Minute für Minute nach hinten, bis er am Block ist; begonnene und fertige Aufträge bleiben stehen.",
+      "drehbuch": "wunsch-027"
+    }
+  ],
+  "teilApp": "disposition"
+}

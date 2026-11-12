@@ -1,0 +1,292 @@
+[
+  {
+    "kennung": "tagesplan",
+    "name": "Daily Plan",
+    "satz": "Each agent has a row in the daily plan, each task is a bar with the flight number.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "wortlaut",
+      "wortlaut": "You see it in a Gantt chart: each agent has a row, the bars represent a task and show the flight number plus the TODO.",
+      "wortlautDeutsch": "Man sieht das in einem Gantt-Chart: Mitarbeiter haben jeweils eine Zeile, die Balken stellen einen Auftrag dar und zeigen die Flugnummer plus das TODO.",
+      "datum": "27.09.2026",
+      "wie": "PO's order to Claude Code, verbatim"
+    }
+  },
+  {
+    "kennung": "balkenfarbe",
+    "name": "Bar colour",
+    "satz": "The colour of a bar shows the job; the legend is above it.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "ohne"
+    }
+  },
+  {
+    "kennung": "balken-untereinander",
+    "name": "Bars stacked",
+    "satz": "If an agent's bars overlap, they sit one below the other in the agent's row.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "ohne"
+    }
+  },
+  {
+    "kennung": "zeitachse",
+    "name": "Time axis",
+    "satz": "The time axis runs from the first to the last task of the day, rounded to full hours.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "ohne"
+    }
+  },
+  {
+    "kennung": "jetzt-linie",
+    "name": "Current time line",
+    "satz": "A gold line shows the current time in the daily plan.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "ohne"
+    }
+  },
+  {
+    "kennung": "vor-schicht",
+    "name": "Before the shift",
+    "satz": "Before an agent's shift start, their row is dark.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "ohne"
+    }
+  },
+  {
+    "kennung": "abwesend-sichtbar",
+    "name": "Absence in the plan",
+    "satz": "If an agent is absent, their row is striped red from that time, and the reason is shown next to the name.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "ohne"
+    }
+  },
+  {
+    "kennung": "nicht-zugewiesen",
+    "name": "Unassigned tasks",
+    "satz": "Tasks without an agent are listed under “Unassigned tasks”, sorted by start.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "umfang",
+      "wortlaut": "All tasks still running after that time are unassigned and listed under “Unassigned tasks”",
+      "wortlautDeutsch": "Alle Aufträge, die nach dem Zeitpunkt noch laufen, werden gelöst und liegen unzugewiesen unter „Nicht zugewiesene Aufträge“",
+      "datum": "29.09.2026",
+      "wie": "Scope of prototype version 8; chosen by the PO with a click and adopted"
+    }
+  },
+  {
+    "kennung": "niemand-frei",
+    "name": "Nobody available",
+    "satz": "If nobody is available for an unassigned task, it shows “nobody available”.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "ohne"
+    }
+  },
+  {
+    "kennung": "konfliktzahl",
+    "name": "Number of conflicts",
+    "satz": "The number of conflicts is shown large next to the plan.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "ohne",
+      "zusatz": "The counter is in the architect's order 001."
+    }
+  },
+  {
+    "kennung": "konflikt-ueberlappung",
+    "name": "Overlap",
+    "satz": "If two tasks of the same person overlap, that is a conflict.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "wortlaut",
+      "wortlaut": "There must be a conflict list when tasks overlap with others.",
+      "wortlautDeutsch": "Es muss eine Konfliktliste geben, wenn sich Aufgaben mit anderen überlappen.",
+      "datum": "27.09.2026",
+      "wie": "PO's order to Claude Code, verbatim"
+    }
+  },
+  {
+    "kennung": "konflikt-kapazitaet",
+    "name": "Capacity gap",
+    "satz": "If nobody present, qualified and available is found for a task, that is a capacity gap.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "wortlaut",
+      "wortlaut": "The flight schedule may need more teams than are available.",
+      "wortlautDeutsch": "Es kann sein, dass der Flugplan mehr Teams verlangt als verfügbar sind.",
+      "datum": "27.09.2026",
+      "wie": "PO's order to Claude Code, verbatim"
+    }
+  },
+  {
+    "kennung": "konflikt-qualifikation",
+    "name": "Missing qualification",
+    "satz": "If a task is with someone without the right qualification, that is the “Missing qualification” conflict.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "wortlaut",
+      "wortlaut": "If I drop the bar on an agent without the qualification anyway, it is assigned and a new “Missing qualification” conflict appears in the conflict list.",
+      "wortlautDeutsch": "Lasse ich den Balken trotzdem bei einem Mitarbeiter ohne Qualifikation fallen, wird zugewiesen und ein neuer Konflikt „Qualifikation fehlt“ entsteht in der Konfliktliste.",
+      "datum": "27.09.2026",
+      "wie": "Scope of prototype version 2; written by the PO himself (his statement of 09.11.2026)"
+    }
+  },
+  {
+    "kennung": "konflikt-anwesenheit",
+    "name": "Outside presence",
+    "satz": "If a task is outside its agent's shift or presence, that is a conflict.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "umfang",
+      "wortlaut": "\"Task outside presence\" is a conflict, counts towards the number on the \"Conflict list\" tab and is outlined in coral red.",
+      "wortlautDeutsch": "\"Auftrag außerhalb der Anwesenheit\" ist ein Konflikt, zählt in die Zahl am Reiter \"Konfliktliste\" und wird korallrot umrandet.",
+      "datum": "28.09.2026",
+      "wie": "Scope of prototype version 6; worded by the Refiner, changed and adopted by the PO"
+    }
+  },
+  {
+    "kennung": "krankmeldung",
+    "name": "Sick call",
+    "satz": "An agent can be reported sick from a given time.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "wortlaut",
+      "wortlaut": "Agents must also be able to go sick or be on leave.",
+      "wortlautDeutsch": "Es müssen Mitarbeiter auch krank werden dürfen oder Urlaub haben.",
+      "datum": "27.09.2026",
+      "wie": "PO's order to Claude Code, verbatim"
+    }
+  },
+  {
+    "kennung": "krank-loest",
+    "name": "Unassign tasks on sickness",
+    "satz": "On a sick call, all tasks still running after that time are unassigned.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "umfang",
+      "wortlaut": "All tasks still running after that time are unassigned and listed under “Unassigned tasks”",
+      "wortlautDeutsch": "Alle Aufträge, die nach dem Zeitpunkt noch laufen, werden gelöst und liegen unzugewiesen unter „Nicht zugewiesene Aufträge“",
+      "datum": "29.09.2026",
+      "wie": "Scope of prototype version 8; chosen by the PO with a click and adopted"
+    }
+  },
+  {
+    "kennung": "zuweisen",
+    "name": "Assign",
+    "satz": "A task can be assigned to another agent.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "wortlaut",
+      "wortlaut": "You must be able to click a bar and say: assign to another agent.",
+      "wortlautDeutsch": "Man muss auf einen Balken klicken können und sagen: An einen anderen Mitarbeiter zuweisen.",
+      "datum": "27.09.2026",
+      "wie": "PO's order to Claude Code, verbatim"
+    }
+  },
+  {
+    "kennung": "zuweisen-verweigert",
+    "name": "Assignment without qualification",
+    "satz": "In the starter kit, assigning to someone without the right qualification is refused. Your request 014 changed that.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "ohne"
+    }
+  },
+  {
+    "kennung": "verschieben",
+    "name": "Move",
+    "satz": "A task can be moved in time.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "wortlaut",
+      "wortlaut": "Dragging a bar sideways moves the task in time.",
+      "wortlautDeutsch": "Balken waagerecht ziehen verschiebt den Auftrag zeitlich.",
+      "datum": "27.09.2026",
+      "wie": "Scope of prototype version 2; written by the PO himself (his statement of 09.11.2026)"
+    }
+  },
+  {
+    "kennung": "kanten",
+    "name": "Change start and end",
+    "satz": "The start and end of a task can be changed separately.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "wortlaut",
+      "wortlaut": "Dragging the left or right edge changes the start or end.",
+      "wortlautDeutsch": "An der linken oder rechten Kante ziehen ändert Beginn oder Ende.",
+      "datum": "27.09.2026",
+      "wie": "Scope of prototype version 2; written by the PO himself (his statement of 09.11.2026)"
+    }
+  },
+  {
+    "kennung": "mindestdauer",
+    "name": "Minimum duration",
+    "satz": "A task takes at least 5 minutes.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "umfang",
+      "wortlaut": "The same rules apply as for dragging, including that a task is at least 5 minutes long.",
+      "wortlautDeutsch": "Es gelten dieselben Regeln wie beim Ziehen, auch dass ein Auftrag mindestens 5 Minuten lang ist.",
+      "datum": "30.09.2026",
+      "wie": "Scope of prototype version 10; worded by Claude, adopted by the PO in the chat on 30.09."
+    }
+  },
+  {
+    "kennung": "flugplan",
+    "name": "Flight Schedule",
+    "satz": "There is a flight schedule for the day.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "wortlaut",
+      "wortlaut": "There is a flight schedule for the day.",
+      "wortlautDeutsch": "Es gibt einen Flugplan für den Tag.",
+      "datum": "27.09.2026",
+      "wie": "PO's order to Claude Code, verbatim"
+    }
+  },
+  {
+    "kennung": "arbeiten",
+    "name": "Jobs on the flight",
+    "satz": "The jobs on the flights are unloading, loading, lavatory service, fuelling and cabin cleaning.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "wortlaut",
+      "wortlaut": "The following jobs must be done on every flight: loading and unloading, lavatory service, fuelling, cabin cleaning.",
+      "wortlautDeutsch": "An jedem Flug müssen folgende Arbeiten erledigt werden. Be- und Entladen, Fäkalien entleeren, Betanken, Cleaning des innenraums.",
+      "datum": "27.09.2026",
+      "wie": "PO's order to Claude Code, verbatim"
+    }
+  },
+  {
+    "kennung": "qualifikationen",
+    "name": "Qualifications",
+    "satz": "Each job needs its own qualification; each agent has their qualifications.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "wortlaut",
+      "wortlaut": "Each job needs its own qualification.",
+      "wortlautDeutsch": "Für jeden Job braucht man eine eigene Qulifikation.",
+      "datum": "27.09.2026",
+      "wie": "PO's order to Claude Code, verbatim"
+    }
+  },
+  {
+    "kennung": "schichten",
+    "name": "Shifts",
+    "satz": "Each agent has a shift start and a shift end.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "wortlaut",
+      "wortlaut": "Shift data: every agent has a shift start and a shift end.",
+      "wortlautDeutsch": "Schichtdaten: Jeder Mitarbeiter hat Schichtstart und Schichtende.",
+      "datum": "28.09.2026",
+      "wie": "Scope of prototype version 5; written by the PO himself (his statement of 09.11.2026)"
+    }
+  }
+]

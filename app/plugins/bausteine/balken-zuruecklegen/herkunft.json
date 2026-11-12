@@ -1,0 +1,59 @@
+{
+  "kennung": "balken-zuruecklegen",
+  "name": "Balken zurück in die Liste",
+  "reihe": 14,
+  "kurz": "Du kannst jetzt einen Balken aus dem Tagesplan in die Liste „Nicht zugewiesene Aufträge“ ziehen. Der Auftrag behält seine Zeit, ist danach ohne Mitarbeiter und lässt sich wie bisher aus der Liste wieder auf einen Mitarbeiter ziehen.",
+  "wuensche": [
+    {
+      "kennung": "wunsch-017",
+      "name": "Balken zurück in die Liste",
+      "wortlaut": "IOch will einen Balken in die Liste der \"nicht zugewiesenen Aufträge\" ziehen. Ich wil auch Aufträge, die sich schon dort drin befinden wieder im Gantt einem MItarbeiter zuordnen können per Drag & Drop",
+      "datum": "2026-11-07T19:09:18.300Z",
+      "teilApp": "disposition"
+    }
+  ],
+  "aktuell": 4,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "wunsch",
+      "wunsch": "wunsch-017",
+      "wortlaut": "IOch will einen Balken in die Liste der \"nicht zugewiesenen Aufträge\" ziehen. Ich wil auch Aufträge, die sich schon dort drin befinden wieder im Gantt einem MItarbeiter zuordnen können per Drag & Drop",
+      "datum": "2026-11-07T19:09:18.300Z",
+      "kurz": "Du kannst jetzt einen Balken aus dem Tagesplan in die Liste „Nicht zugewiesene Aufträge“ ziehen. Der Auftrag behält seine Zeit, ist danach ohne Mitarbeiter und lässt sich wie bisher aus der Liste wieder auf einen Mitarbeiter ziehen.",
+      "drehbuch": "wunsch-017"
+    },
+    {
+      "nr": 2,
+      "vorige": 1,
+      "art": "stimmt-nicht",
+      "wunsch": "wunsch-018",
+      "wortlaut": "Ich kann den Balken nicht aus dem Gantt in die Liste per Drag und Drop ziehen. Der Auftrag wird dort nicht angenommen. Zurück aus der Liste in den Gantt auf einen Mitarbeiter scheint zu funktionieren",
+      "datum": "2026-11-07T19:12:41.615Z",
+      "kurz": "Die Liste „Nicht zugewiesene Aufträge“ nimmt einen Balken aus dem Tagesplan jetzt an, egal ob er auf einem freien Platz in der Liste oder auf einem Auftrag darin losgelassen wird.",
+      "drehbuch": null
+    },
+    {
+      "nr": 3,
+      "vorige": 2,
+      "art": "stimmt-nicht",
+      "wunsch": "wunsch-019",
+      "wortlaut": "Ich kann immer noch keinen Auftrag in die Liste \"Nicht zugewiesene Aufträge\" mit der Maus ziehen. Die Liste oder das Panel nimmt den Balken nicht an",
+      "datum": "2026-11-07T19:14:59.108Z",
+      "kurz": "Ein Balken lässt sich jetzt auf jede Stelle von „Nicht zugewiesene Aufträge“ ziehen, auch wenn dort kein Ablageort erkannt wird; das Panel ist dabei farbig umrandet.",
+      "drehbuch": null
+    },
+    {
+      "nr": 4,
+      "vorige": 3,
+      "art": "vertrag",
+      "wortlaut": null,
+      "datum": "2026-11-08T12:00:00.000Z",
+      "kurz": "Auf den Bus-Vertrag umgestellt: Das Zurücklegen selbst setzt jetzt „Einsatz ändern“ um, dem der Mitarbeiter eines Auftrags gehört; dieses Plugin bildet weiter den Zug in die Liste. Das Verhalten bleibt gleich.",
+      "drehbuch": null,
+      "auftrag": "005"
+    }
+  ],
+  "teilApp": "disposition"
+}

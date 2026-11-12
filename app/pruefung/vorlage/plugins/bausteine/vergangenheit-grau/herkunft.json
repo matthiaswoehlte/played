@@ -1,0 +1,27 @@
+{
+  "kennung": "vergangenheit-grau",
+  "name": "Vergangene Zeit grau",
+  "reihe": 11,
+  "kurz": "In der Zeitleiste über dem Tagesplan ist jetzt alles, was schon vorbei ist, grau hinterlegt, bis zur Linie für die aktuelle Uhrzeit. Das Grau läuft mit der Uhr Minute für Minute mit.",
+  "wuensche": [
+    {
+      "kennung": "wunsch-013",
+      "name": "Vergangene Zeit grau",
+      "wortlaut": "Das was in der Vergangenheit liegt in der Anzeige des Gannt oben bei den Uhrzeiten, soll grau markiert werden bis zum aktuellen Zeitstrahl",
+      "datum": "2026-11-07T16:15:13.207Z"
+    }
+  ],
+  "aktuell": 1,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "wunsch",
+      "wunsch": "wunsch-013",
+      "wortlaut": "Das was in der Vergangenheit liegt in der Anzeige des Gannt oben bei den Uhrzeiten, soll grau markiert werden bis zum aktuellen Zeitstrahl",
+      "datum": "2026-11-07T16:15:13.207Z",
+      "kurz": "In der Zeitleiste über dem Tagesplan ist jetzt alles, was schon vorbei ist, grau hinterlegt, bis zur Linie für die aktuelle Uhrzeit. Das Grau läuft mit der Uhr Minute für Minute mit.",
+      "drehbuch": null
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "kennung": "geraete-konflikte",
+  "name": "Gerätekonflikte rot umrandet",
+  "reihe": 22,
+  "kurz": "Überschneidungen und weniger als 10 Minuten Fahrzeit zwischen zwei Flügen auf einem Gerät sind rot umrandet, ebenso Aufträge in einer Wartung oder auf einem Gerät der falschen Art.",
+  "teilApp": "geraete",
+  "wuensche": [
+    {
+      "kennung": "wunsch-032",
+      "name": "Gerätekonflikte rot umrandet",
+      "wortlaut": "Überschneidungen oder zu knappe Fahrzeit sind ein Konflikt und werden rot umrandet, wie im Tagesplan.",
+      "datum": "2026-11-09T23:09:33.187Z",
+      "teilApp": "geraete"
+    }
+  ],
+  "aktuell": 1,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "prototyp",
+      "wunsch": "wunsch-032",
+      "wortlaut": "Überschneidungen oder zu knappe Fahrzeit sind ein Konflikt und werden rot umrandet, wie im Tagesplan.",
+      "datum": "2026-11-09T23:09:33.187Z",
+      "kurz": "Überschneidungen und weniger als 10 Minuten Fahrzeit zwischen zwei Flügen auf einem Gerät sind rot umrandet, ebenso Aufträge in einer Wartung oder auf einem Gerät der falschen Art.",
+      "drehbuch": null
+    }
+  ]
+}

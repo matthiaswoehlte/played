@@ -1,0 +1,19 @@
+{
+  "kennung": "verhalten-umverteilen",
+  "name": "Bei Krankmeldung automatisch umverteilen",
+  "reihe": 0,
+  "kurz": "Variante aus Auftrag 001; widerspricht N-111 und liegt seit dem 07.11.2026 auf Entscheidung des PO im Papierkorb.",
+  "wuensche": [],
+  "aktuell": 1,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "grund",
+      "wortlaut": null,
+      "datum": "2026-11-06T12:00:00.000Z",
+      "kurz": "Grundausstattung aus Auftrag 001 als Beweis für austauschbares Verhalten, keine Entscheidung des PO. Am 07.11.2026 in den Papierkorb gelegt: Sie widerspricht N-111 (Aufträge eines Abwesenden bleiben unzugewiesen); Entscheidung des PO in Docs/design-log/2026-11-07-entscheidungen-n111-n132.md.",
+      "drehbuch": null
+    }
+  ]
+}

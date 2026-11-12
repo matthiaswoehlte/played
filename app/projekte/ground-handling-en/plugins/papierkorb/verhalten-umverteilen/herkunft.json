@@ -1,0 +1,20 @@
+{
+  "kennung": "verhalten-umverteilen",
+  "name": "Reassign automatically on a sick call",
+  "reihe": 0,
+  "kurz": "Variant from order 001; contradicts N-111 and has been in the bin since 07.11.2026 by decision of the PO.",
+  "wuensche": [],
+  "aktuell": 1,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "grund",
+      "wortlaut": null,
+      "datum": "2026-11-06T12:00:00.000Z",
+      "kurz": "Base equipment from job 001 as proof of exchangeable behaviour, not a PO decision. Moved to the bin on 07.11.2026: it contradicts N-111 (tasks of an absent agent stay unassigned); PO decision in Docs/design-log/2026-11-07-entscheidungen-n111-n132.md.",
+      "drehbuch": null
+    }
+  ],
+  "teilApp": "disposition"
+}

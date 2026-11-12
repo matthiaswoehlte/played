@@ -1,0 +1,28 @@
+{
+  "kennung": "offen-zuweisen",
+  "name": "Aufträge aus der Liste neu einteilen",
+  "reihe": 5,
+  "kurz": "Aufträge aus „Nicht zugewiesene Aufträge“ lassen sich auf einen Mitarbeiter im Tagesplan ziehen.",
+  "wuensche": [
+    {
+      "kennung": "wunsch-009",
+      "name": "Aufträge aus der Liste neu einteilen",
+      "wortlaut": "Wenn sich ein Mitarbeiter krank meldet, dann sollen die Einsätze ab den Zeitpunkt auf die Nicht zugewiesene Liste der Aufträge kommen, um neu eingeteilt zu werden. Das neue Einteilen soll dann per Drag & Drop aus der List der nicht zugewiesenen Aufträge möglich sein",
+      "datum": "2026-11-06T21:52:18.161Z",
+      "teilApp": "disposition"
+    }
+  ],
+  "aktuell": 1,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "zuschnitt",
+      "wortlaut": null,
+      "datum": "2026-11-06T23:59:00.000Z",
+      "kurz": "Aus den Wünschen herausgeschnitten, Verhalten unverändert.",
+      "drehbuch": "wunsch-009"
+    }
+  ],
+  "teilApp": "disposition"
+}

@@ -1,0 +1,194 @@
+{
+  "kennung": "verhalten-einsatz",
+  "name": "Change assignment",
+  "reihe": 12,
+  "kurz": null,
+  "wuensche": [],
+  "aktuell": 4,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "grund",
+      "wortlaut": null,
+      "datum": null,
+      "kurz": "Base equipment",
+      "drehbuch": null
+    },
+    {
+      "nr": 2,
+      "vorige": 1,
+      "art": "aendern",
+      "wunsch": "wunsch-014",
+      "wortlaut": "It should be possible to assign a task to an agent without a matching qualification too; this is not refused but is a conflict and shows as one. The hint while dragging then says “Works, but without matching qualification: conflict”.",
+      "wortlautDeutsch": "Ein Auftrag soll auch einem Mitarbeiter ohne passende Qualifikation zugewiesen werden können; das wird nicht verweigert, sondern ist ein Konflikt und erscheint als solcher. Der Hinweis beim Ziehen sagt dann „Geht, aber ohne passende Qualifikation: Konflikt“.",
+      "datum": "2026-11-07T17:30:57.132Z",
+      "kurz": "A task can now also be assigned to an agent without a matching qualification. It stays there and shows as the conflict “Missing qualification”. While dragging, the pointer shows “Works, but without matching qualification: conflict”.",
+      "drehbuch": null,
+      "erwartungen": [
+        {
+          "drehbuch": "wunsch-005",
+          "nr": 2,
+          "satz": "XC 810 Fuelling to I. Reindl is now a conflict instead of refused.",
+          "alt": {
+            "text": "XC 810 Fuelling stays with D. Mahler, because I. Reindl is not allowed to fuel.",
+            "pruefe": [
+              {
+                "nachricht": "auftraege/XC810-TANK-01.verweigert"
+              },
+              {
+                "pfad": "auftraege/XC810-TANK-01/mitarbeiter",
+                "gleich": "MA-20"
+              },
+              {
+                "sicht": "gantt",
+                "enthaelt": "auftraege/XC810-TANK-01"
+              }
+            ]
+          },
+          "neu": {
+            "text": "XC 810 Fuelling is now with I. Reindl, although she is not allowed to fuel; that is a “Missing qualification” conflict.",
+            "pruefe": [
+              {
+                "nachricht": "auftraege/XC810-TANK-01.umplanen"
+              },
+              {
+                "pfad": "auftraege/XC810-TANK-01/mitarbeiter",
+                "gleich": "MA-40"
+              },
+              {
+                "sicht": "gantt",
+                "enthaelt": "auftraege/XC810-TANK-01"
+              }
+            ]
+          }
+        },
+        {
+          "drehbuch": "wunsch-005",
+          "nr": 3,
+          "satz": "XC 810 Cabin cleaning to D. Mahler is now a conflict instead of refused.",
+          "alt": {
+            "text": "XC 810 Cabin cleaning stays with I. Reindl, because D. Mahler is not allowed to do cleaning.",
+            "pruefe": [
+              {
+                "nachricht": "auftraege/XC810-CLEAN-01.verweigert"
+              },
+              {
+                "pfad": "auftraege/XC810-CLEAN-01/mitarbeiter",
+                "gleich": "MA-40"
+              },
+              {
+                "sicht": "gantt",
+                "enthaelt": "auftraege/XC810-CLEAN-01"
+              }
+            ]
+          },
+          "neu": {
+            "text": "XC 810 Cabin cleaning is now with D. Mahler, although he is not allowed to do cleaning; that is a “Missing qualification” conflict.",
+            "pruefe": [
+              {
+                "nachricht": "auftraege/XC810-CLEAN-01.umplanen"
+              },
+              {
+                "pfad": "auftraege/XC810-CLEAN-01/mitarbeiter",
+                "gleich": "MA-20"
+              },
+              {
+                "sicht": "gantt",
+                "enthaelt": "auftraege/XC810-CLEAN-01"
+              }
+            ]
+          }
+        },
+        {
+          "drehbuch": "wunsch-005",
+          "nr": 6,
+          "satz": "At the end there are 7 conflicts instead of 5, because the two assignments without qualification now count as conflicts.",
+          "alt": {
+            "text": "The conflict counter is at 5, because XA 745 Fuelling and Lavatory service no longer overlap for F. Ohlsen.",
+            "pruefe": [
+              {
+                "pfad": "kennzahlen/konflikte/wert",
+                "gleich": 5
+              }
+            ]
+          },
+          "neu": {
+            "text": "The conflict counter is at 7: XA 745 Fuelling and Lavatory service no longer overlap for F. Ohlsen, but the qualification is missing for XC 810 Fuelling and XC 810 Cabin cleaning.",
+            "pruefe": [
+              {
+                "pfad": "kennzahlen/konflikte/wert",
+                "gleich": 7
+              }
+            ]
+          }
+        },
+        {
+          "drehbuch": "wunsch-009",
+          "nr": 4,
+          "satz": "XC 810 Loading to D. Mahler is now assigned (temporarily a conflict) instead of refused.",
+          "alt": {
+            "text": "D. Mahler does not get XC 810 Loading, because he is not qualified for loading.",
+            "pruefe": [
+              {
+                "nachricht": "auftraege/XC810-BELA-01.verweigert"
+              }
+            ]
+          },
+          "neu": {
+            "text": "D. Mahler gets XC 810 Loading at first, although he is not qualified for loading; then the dispatcher drags it on to W. Fiedler.",
+            "pruefe": [
+              {
+                "nachricht": "auftraege/XC810-BELA-01.umplanen"
+              },
+              {
+                "pfad": "auftraege/XC810-BELA-01/mitarbeiter",
+                "gleich": "MA-06"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "nr": 3,
+      "vorige": 2,
+      "art": "aendern",
+      "wunsch": "wunsch-016",
+      "wortlaut": "On drag over / hover, when an assignment is about to be moved to a colleague without the qualification, please show this in red in the tooltip",
+      "wortlautDeutsch": "Bitte beim Drag over / Hover wenn ein Einsatz verschoben werden soll auf einen Kollegen, der die Qualifikation nicht hat, das im Tooltip rot mit anzeigen",
+      "datum": "2026-11-07T17:38:54.336Z",
+      "kurz": "If you drag an assignment onto a colleague without the right qualification, a red note appears at the pointer, for example “I. Reindl has no qualification for Fuelling: conflict”, and his row is outlined in red. The assignment is still allowed.",
+      "drehbuch": null
+    },
+    {
+      "nr": 4,
+      "vorige": 3,
+      "art": "vertrag",
+      "wortlaut": null,
+      "datum": "2026-11-08T12:00:00.000Z",
+      "kurz": "Switched to the bus contract: only this plugin now changes a task's agent, start and end. It now also handles “unassigned” (after a sick call) and “back to the list”; the behaviour stays the same.",
+      "drehbuch": null,
+      "auftrag": "005",
+      "entscheidungen": [
+        {
+          "datum": "2026-11-09T20:45:16.228Z",
+          "art": "bedienung",
+          "wahl": "balken-zuweisen",
+          "was": "If you drag a bar in the daily plan onto an agent (e.g. XA 101 Unloading onto D. Mahler), both “Drag bars to other agents” and “Change assignment” want to take it over.",
+          "wie": "by the PO with a click on “Drag bars to other agents takes over”",
+          "schluessel": "gantt|ziehen|balken-zuweisen+verhalten-einsatz"
+        },
+        {
+          "datum": "2026-11-09T20:45:20.571Z",
+          "art": "bedienung",
+          "wahl": "verhalten-einsatz",
+          "was": "If you drag a bar in the daily plan onto an agent (e.g. XA 101 Unloading onto D. Mahler), both “Drag bars to other agents” and “Change assignment” want to take it over.",
+          "wie": "by the PO with a click on “Change assignment takes over”",
+          "schluessel": "gantt|ziehen|balken-zuweisen+verhalten-einsatz"
+        }
+      ]
+    }
+  ],
+  "teilApp": "disposition"
+}

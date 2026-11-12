@@ -1,0 +1,29 @@
+{
+  "kennung": "offen-zuweisen",
+  "name": "Reassign tasks from the list",
+  "reihe": 5,
+  "kurz": "Tasks from “Unassigned tasks” can be dragged onto an agent in the daily plan.",
+  "wuensche": [
+    {
+      "kennung": "wunsch-009",
+      "name": "Reassign tasks from the list",
+      "wortlaut": "If an agent calls in sick, the assignments from that time go to the list of unassigned tasks to be reassigned. Reassigning should then be possible by drag & drop from the list of unassigned tasks",
+      "wortlautDeutsch": "Wenn sich ein Mitarbeiter krank meldet, dann sollen die Einsätze ab den Zeitpunkt auf die Nicht zugewiesene Liste der Aufträge kommen, um neu eingeteilt zu werden. Das neue Einteilen soll dann per Drag & Drop aus der List der nicht zugewiesenen Aufträge möglich sein",
+      "datum": "2026-11-06T21:52:18.161Z",
+      "teilApp": "disposition"
+    }
+  ],
+  "aktuell": 1,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "zuschnitt",
+      "wortlaut": null,
+      "datum": "2026-11-06T23:59:00.000Z",
+      "kurz": "Cut out of the requests, behaviour unchanged.",
+      "drehbuch": "wunsch-009"
+    }
+  ],
+  "teilApp": "disposition"
+}

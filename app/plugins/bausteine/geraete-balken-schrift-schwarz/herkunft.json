@@ -1,0 +1,33 @@
+{
+  "kennung": "geraete-balken-schrift-schwarz",
+  "name": "Schwarze Schrift auf Balken",
+  "reihe": 26,
+  "kurz": "In der Gerätedisposition ist die Schrift auf den Balken jetzt schwarz.",
+  "teilApp": "geraete",
+  "wuensche": [
+    {
+      "kennung": "wunsch-036",
+      "name": "Schwarze Schrift auf Balken",
+      "wortlaut": "Die Schriftfarbe der Balken soll Schwarz sein.",
+      "datum": "2026-11-10T07:28:35.052Z",
+      "teilApp": "geraete"
+    }
+  ],
+  "aktuell": 1,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "wunsch",
+      "wunsch": "wunsch-036",
+      "wortlaut": "Die Schriftfarbe der Balken soll Schwarz sein.",
+      "datum": "2026-11-10T07:28:35.052Z",
+      "kurz": "In der Gerätedisposition ist die Schrift auf den Balken jetzt schwarz.",
+      "drehbuch": null,
+      "bestaetigt": {
+        "datum": "2026-11-10T07:28:42.392Z",
+        "wie": "vom PO mit „Bestätigen“"
+      }
+    }
+  ]
+}

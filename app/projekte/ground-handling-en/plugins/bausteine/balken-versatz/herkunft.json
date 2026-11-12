@@ -1,0 +1,29 @@
+{
+  "kennung": "balken-versatz",
+  "name": "Show overlapping bars offset",
+  "reihe": 8,
+  "kurz": "Overlapping bars sit offset on top of each other and overlap by about a third of their height.",
+  "wuensche": [
+    {
+      "kennung": "wunsch-011",
+      "name": "Show overlapping bars offset",
+      "wortlaut": "Make sure that when bars overlap, the vertically offset bars are not shown fully below each other but really overlap, with about a third of their height on top of each other",
+      "wortlautDeutsch": "Sorge dafür, dass bei Balkenüberlappung die Balken im Vertikalen Versatz nicht vollständig untereinander gezeigt werden sondern sich wirklich überlappen und von der Höhe etwa ein drittel übereinander liegen",
+      "datum": "2026-11-06T22:41:42.076Z",
+      "teilApp": "disposition"
+    }
+  ],
+  "aktuell": 1,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "zuschnitt",
+      "wortlaut": null,
+      "datum": "2026-11-06T23:59:00.000Z",
+      "kurz": "Cut out of the requests, behaviour unchanged.",
+      "drehbuch": null
+    }
+  ],
+  "teilApp": "disposition"
+}

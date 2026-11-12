@@ -1,0 +1,19 @@
+{
+  "geraete-konflikte-seite": {
+    "abdruck": "14898:-1260937420",
+    "szenario": "wunsch-032",
+    "ereignis": "kennzahlen/*.zeigen",
+    "zugriffe": {
+      "kennzahlen": "aendert",
+      "kennzahlen/konfliktwahl": "aendert"
+    },
+    "datum": "2026-11-10"
+  },
+  "geraete-neue-fluege": {
+    "abdruck": "4287:2086708379",
+    "szenario": "krankmeldung-ma-01",
+    "ereignis": null,
+    "zugriffe": {},
+    "datum": "2026-11-10"
+  }
+}

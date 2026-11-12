@@ -1,0 +1,26 @@
+{
+  "kennung": "balken-verschieben",
+  "name": "Balken nach links und rechts verschieben",
+  "reihe": 4,
+  "kurz": "Ein Balken lässt sich in der eigenen Zeile im 5-Minuten-Raster verschieben, seine Dauer bleibt gleich.",
+  "wuensche": [
+    {
+      "kennung": "wunsch-008",
+      "name": "Balken nach links und rechts verschieben",
+      "wortlaut": "Ich möchte einen Balken auch greifen und nach links und rechts verschieben können",
+      "datum": "2026-11-06T21:47:01.804Z"
+    }
+  ],
+  "aktuell": 1,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "zuschnitt",
+      "wortlaut": null,
+      "datum": "2026-11-06T23:59:00.000Z",
+      "kurz": "Aus den Wünschen herausgeschnitten, Verhalten unverändert.",
+      "drehbuch": "wunsch-008"
+    }
+  ]
+}

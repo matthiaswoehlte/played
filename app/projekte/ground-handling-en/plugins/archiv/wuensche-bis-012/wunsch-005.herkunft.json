@@ -1,0 +1,8 @@
+{
+  "kennung": "wunsch-005",
+  "name": "Drag bars to other agents",
+  "wortlaut": "I want to assign the bar to another agent by drag & drop. But only within the same qualification (so fuelling only to fuelling, cleaning only to cleaning), otherwise it should be refused. A tooltip should show whether the assignment works",
+  "wortlautDeutsch": "Ich möchte den Balken per drag & drop einem anderen Mitarbeiter zuweisen können. Das soll aber nur innerhalb der selben Qualifikation gehen (also Tanke und bei Tanken, Cleaning nur bei Cleaning) ansonsten soll das verweigert werden. Ein Tooltip soll anzeigen, ob die Zuteilung geht",
+  "datum": "2026-11-06T20:40:49.264Z",
+  "kurz": "You can now drag bars in the daily plan to another agent with the mouse: a tooltip shows whether the assignment works, and without a matching qualification it is refused; overlaps and absences do not block the assignment, they still show in the conflict counter."
+}

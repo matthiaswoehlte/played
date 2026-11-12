@@ -1,0 +1,39 @@
+{
+  "kennung": "konflikt-liste",
+  "name": "Conflict list",
+  "reihe": 7,
+  "kurz": "A click on “Conflicts” opens the list, which updates with every action.",
+  "wuensche": [
+    {
+      "kennung": "wunsch-010",
+      "name": "Show overlaps as conflicts",
+      "wortlaut": "If several bars overlap for one agent, they get a conflict, and the conflict shows as a red outline on the bar. On the right, a click on Conflicts should show a list of conflicts, which is kept up to date by the actions. As soon as e.g. bars no longer  overlap, the conflict no longer exists.",
+      "wortlautDeutsch": "Wenn mehrere Balken sich bei einem Mitarbeiter überlappen, dann sollen sie einen Konflikt bekommen und der Konflikt zeigt sich optisch, dass der Balken eine rote Umrandung hat. Auf der rechten Seite soll bei Klick auf Konflikte eine List der Konflikte erscheinen, die auch durch die Aktionen gepflegt wird. Sobald sich z.B. Balken nicht mehr  überlappen, ist der Konflikt nicht mehr existent.",
+      "datum": "2026-11-06T22:29:36.711Z",
+      "teilApp": "disposition"
+    }
+  ],
+  "aktuell": 2,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "zuschnitt",
+      "wortlaut": null,
+      "datum": "2026-11-06T23:59:00.000Z",
+      "kurz": "Cut out of the requests, behaviour unchanged.",
+      "drehbuch": "wunsch-010"
+    },
+    {
+      "nr": 2,
+      "vorige": 1,
+      "art": "vertrag",
+      "wortlaut": null,
+      "datum": "2026-11-08T12:00:00.000Z",
+      "kurz": "Switched to the bus contract: declares that it changes expanding and collapsing the list. The behaviour stays the same.",
+      "drehbuch": null,
+      "auftrag": "005"
+    }
+  ],
+  "teilApp": "disposition"
+}

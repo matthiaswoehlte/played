@@ -1,0 +1,7 @@
+{
+  "kennung": "probe",
+  "name": "Probeprojekt",
+  "bereiche": [
+    { "kennung": "liste", "name": "Liste", "verantwortlich": null, "prototyp": true, "fachobjekte": ["eintraege"] }
+  ]
+}

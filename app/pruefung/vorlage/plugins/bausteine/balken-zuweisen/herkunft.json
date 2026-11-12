@@ -1,0 +1,38 @@
+{
+  "kennung": "balken-zuweisen",
+  "name": "Balken auf andere Mitarbeiter ziehen",
+  "reihe": 3,
+  "kurz": "Balken lassen sich auf einen anderen Mitarbeiter ziehen; ohne passende Qualifikation wird die Zuteilung verweigert.",
+  "wuensche": [
+    {
+      "kennung": "wunsch-005",
+      "name": "Balken auf andere Mitarbeiter ziehen",
+      "wortlaut": "Ich möchte den Balken per drag & drop einem anderen Mitarbeiter zuweisen können. Das soll aber nur innerhalb der selben Qualifikation gehen (also Tanke und bei Tanken, Cleaning nur bei Cleaning) ansonsten soll das verweigert werden. Ein Tooltip soll anzeigen, ob die Zuteilung geht",
+      "datum": "2026-11-06T20:40:49.264Z"
+    },
+    {
+      "kennung": "wunsch-006",
+      "name": "Korrektur: Balken bleibt in der neuen Zeile",
+      "wortlaut": "Das Drag und Drop funktioniert nicht, der Indikator für den Balken wird gezeigt aber der Balken bleibt nicht in der neuen Zeile. Bitte korrigieren",
+      "datum": "2026-11-06T20:48:14.660Z"
+    },
+    {
+      "kennung": "wunsch-007",
+      "name": "Umbau: Ziehen im Tagesplan über den Bus",
+      "wortlaut": null,
+      "datum": "2026-11-06T21:27:00.000Z"
+    }
+  ],
+  "aktuell": 1,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "zuschnitt",
+      "wortlaut": null,
+      "datum": "2026-11-06T23:59:00.000Z",
+      "kurz": "Aus den Wünschen herausgeschnitten, Verhalten unverändert.",
+      "drehbuch": "wunsch-005"
+    }
+  ]
+}

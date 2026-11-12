@@ -1,0 +1,36 @@
+{
+  "kennung": "balken-kante",
+  "name": "Stretch and shrink bars at the edge",
+  "reihe": 2,
+  "kurz": "Assignment bars can be stretched or shrunk at the left and right edge in 5-minute steps.",
+  "wuensche": [
+    {
+      "kennung": "wunsch-004",
+      "name": "Stretch and shrink bars at the edge",
+      "wortlaut": "I want to stretch or shrink the assignment bars on the left and right with the mouse; the cursor should show the left-right arrow.",
+      "wortlautDeutsch": "Ich möchte die Einsatzbalken links und rechts durch die Maus verlängern oder verkürzen können, dabei soll der Mauscursor den Linksrechts Pfeil zeigen.",
+      "datum": "2026-11-06T20:35:58.215Z",
+      "teilApp": "disposition"
+    },
+    {
+      "kennung": "wunsch-007",
+      "name": "Rework: dragging in the daily plan via the bus",
+      "wortlaut": null,
+      "datum": "2026-11-06T21:27:00.000Z",
+      "teilApp": "disposition"
+    }
+  ],
+  "aktuell": 1,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "zuschnitt",
+      "wortlaut": null,
+      "datum": "2026-11-06T23:59:00.000Z",
+      "kurz": "Cut out of the requests, behaviour unchanged.",
+      "drehbuch": "wunsch-004"
+    }
+  ],
+  "teilApp": "disposition"
+}

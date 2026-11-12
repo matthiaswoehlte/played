@@ -1,0 +1,40 @@
+{
+  "kennung": "gantt",
+  "name": "Time line follows the clock",
+  "reihe": 15,
+  "kurz": null,
+  "wuensche": [
+    {
+      "kennung": "wunsch-020",
+      "name": "Time line follows the clock",
+      "wortlaut": "The yellow time line showing the current time should move right every minute, so you always see what time it is. Please set up a timer for it.",
+      "wortlautDeutsch": "Die gelbe Zeitlinie, die die aktuelle Uhrzeit anzeigt, soll jede Minuten weiter nach rechts wandern, damit man immer sieht wie spät es ist. Bitte einen Timer dazu einrichten.",
+      "datum": "2026-11-07T19:18:40.714Z",
+      "teilApp": "disposition"
+    }
+  ],
+  "aktuell": 2,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "grund",
+      "wortlaut": null,
+      "datum": null,
+      "kurz": "Base equipment",
+      "drehbuch": null
+    },
+    {
+      "nr": 2,
+      "vorige": 1,
+      "art": "wunsch",
+      "wunsch": "wunsch-020",
+      "wortlaut": "The yellow time line showing the current time should move right every minute, so you always see what time it is. Please set up a timer for it.",
+      "wortlautDeutsch": "Die gelbe Zeitlinie, die die aktuelle Uhrzeit anzeigt, soll jede Minuten weiter nach rechts wandern, damit man immer sieht wie spät es ist. Bitte einen Timer dazu einrichten.",
+      "datum": "2026-11-07T19:18:40.714Z",
+      "kurz": "The yellow time line in the daily plan now moves right with every play minute. Before, the daily plan looked for the line on the whole page and did not find it. Now it looks for it in its own view. There is no extra timer: the play clock already reports every minute, and that tick moves the line, so every run stays the same.",
+      "drehbuch": null
+    }
+  ],
+  "teilApp": "disposition"
+}

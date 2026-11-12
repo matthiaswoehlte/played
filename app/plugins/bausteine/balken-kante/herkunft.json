@@ -1,0 +1,35 @@
+{
+  "kennung": "balken-kante",
+  "name": "Balken am Rand verlängern und verkürzen",
+  "reihe": 2,
+  "kurz": "Einsatzbalken lassen sich am linken und rechten Rand im 5-Minuten-Raster verlängern oder verkürzen.",
+  "wuensche": [
+    {
+      "kennung": "wunsch-004",
+      "name": "Balken am Rand verlängern und verkürzen",
+      "wortlaut": "Ich möchte die Einsatzbalken links und rechts durch die Maus verlängern oder verkürzen können, dabei soll der Mauscursor den Linksrechts Pfeil zeigen.",
+      "datum": "2026-11-06T20:35:58.215Z",
+      "teilApp": "disposition"
+    },
+    {
+      "kennung": "wunsch-007",
+      "name": "Umbau: Ziehen im Tagesplan über den Bus",
+      "wortlaut": null,
+      "datum": "2026-11-06T21:27:00.000Z",
+      "teilApp": "disposition"
+    }
+  ],
+  "aktuell": 1,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "zuschnitt",
+      "wortlaut": null,
+      "datum": "2026-11-06T23:59:00.000Z",
+      "kurz": "Aus den Wünschen herausgeschnitten, Verhalten unverändert.",
+      "drehbuch": "wunsch-004"
+    }
+  ],
+  "teilApp": "disposition"
+}

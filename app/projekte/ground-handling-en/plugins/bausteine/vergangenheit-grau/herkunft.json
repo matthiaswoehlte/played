@@ -1,0 +1,49 @@
+{
+  "kennung": "vergangenheit-grau",
+  "name": "Past time in grey",
+  "reihe": 11,
+  "kurz": "In the time axis above the daily plan, everything already past is now shaded grey, up to the line for the current time. The grey follows the clock minute by minute.",
+  "wuensche": [
+    {
+      "kennung": "wunsch-013",
+      "name": "Past time in grey",
+      "wortlaut": "Whatever is in the past in the Gantt display, at the top by the times, should be marked grey up to the current time line",
+      "wortlautDeutsch": "Das was in der Vergangenheit liegt in der Anzeige des Gannt oben bei den Uhrzeiten, soll grau markiert werden bis zum aktuellen Zeitstrahl",
+      "datum": "2026-11-07T16:15:13.207Z",
+      "teilApp": "disposition"
+    }
+  ],
+  "aktuell": 2,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "wunsch",
+      "wunsch": "wunsch-013",
+      "wortlaut": "Whatever is in the past in the Gantt display, at the top by the times, should be marked grey up to the current time line",
+      "wortlautDeutsch": "Das was in der Vergangenheit liegt in der Anzeige des Gannt oben bei den Uhrzeiten, soll grau markiert werden bis zum aktuellen Zeitstrahl",
+      "datum": "2026-11-07T16:15:13.207Z",
+      "kurz": "In the time axis above the daily plan, everything already past is now shaded grey, up to the line for the current time. The grey follows the clock minute by minute.",
+      "drehbuch": null
+    },
+    {
+      "nr": 2,
+      "vorige": 1,
+      "art": "stimmt-nicht",
+      "wunsch": "wunsch-030",
+      "wortlaut": "I said that wrong, that is not right",
+      "wortlautDeutsch": "Ich habe das falsch gesagt, das stimmt so nicht",
+      "rueckfragen": [
+        {
+          "rueckfrage": "How should past time look instead? So far only the time bar above the daily plan is shaded grey, from the start of the axis to the current time. Should, for example, the whole daily plan with all agent rows be grey, should only past bars turn grey, or should the grey look different?",
+          "antwort": "This is only about the time axis. It should no longer be grey for the past.",
+          "datum": "2026-11-09T20:14:41.201Z"
+        }
+      ],
+      "datum": "2026-11-09T20:15:09.656Z",
+      "kurz": "The time axis above the daily plan no longer has a grey background for past time.",
+      "drehbuch": null
+    }
+  ],
+  "teilApp": "disposition"
+}

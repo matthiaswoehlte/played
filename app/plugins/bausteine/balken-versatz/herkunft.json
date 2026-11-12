@@ -1,0 +1,28 @@
+{
+  "kennung": "balken-versatz",
+  "name": "Überlappende Balken versetzt zeigen",
+  "reihe": 8,
+  "kurz": "Überschneidende Balken liegen versetzt übereinander und decken sich um etwa ein Drittel ihrer Höhe.",
+  "wuensche": [
+    {
+      "kennung": "wunsch-011",
+      "name": "Überlappende Balken versetzt zeigen",
+      "wortlaut": "Sorge dafür, dass bei Balkenüberlappung die Balken im Vertikalen Versatz nicht vollständig untereinander gezeigt werden sondern sich wirklich überlappen und von der Höhe etwa ein drittel übereinander liegen",
+      "datum": "2026-11-06T22:41:42.076Z",
+      "teilApp": "disposition"
+    }
+  ],
+  "aktuell": 1,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "zuschnitt",
+      "wortlaut": null,
+      "datum": "2026-11-06T23:59:00.000Z",
+      "kurz": "Aus den Wünschen herausgeschnitten, Verhalten unverändert.",
+      "drehbuch": null
+    }
+  ],
+  "teilApp": "disposition"
+}

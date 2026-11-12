@@ -1,0 +1,3014 @@
+{
+  "gespielt-001": {
+    "plugins": [
+      "auftrag-status",
+      "balken-kante",
+      "balken-zuweisen",
+      "gantt",
+      "geraet-ablage-ziehen",
+      "konfliktzaehler",
+      "liste-auf-offen",
+      "nachruecken-ohne-onblock",
+      "offen-zuweisen",
+      "vergangenheit-grau",
+      "verhalten-einsatz",
+      "verhalten-krankmeldung"
+    ],
+    "zugriffe": {
+      "gantt": {
+        "auftraege": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/arbeit": "liest",
+        "auftraege/flug": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "mitarbeiter/gruppe": "liest",
+        "mitarbeiter/name": "liest",
+        "uhr": "liest",
+        "mitarbeiter/abwesendAb": "liest",
+        "mitarbeiter/grund": "liest"
+      },
+      "geraete-gantt": {
+        "geraetetypen": "liest",
+        "geraetetypen/reihenfolge": "liest",
+        "geraete": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "wartungen": "liest",
+        "wartungen/tag": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraetetypen/name": "liest",
+        "geraete/typ": "liest",
+        "wartungen/geraet": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraete/name": "liest",
+        "wartungen/start": "liest",
+        "wartungen/ende": "liest"
+      },
+      "geraete-konflikte": {
+        "geraete": "liest",
+        "geraeteanzeige": "liest",
+        "geraeteanzeige/offen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "wartungen": "liest",
+        "wartungen/geraet": "liest",
+        "wartungen/tag": "liest",
+        "wartungen/ende": "liest",
+        "wartungen/start": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraete/name": "liest"
+      },
+      "geraete-offen": {
+        "geraetetypen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraetetypen/einzeln": "liest"
+      },
+      "konfliktzaehler": {
+        "kennzahlen": "aendert",
+        "kennzahlen/wert": "aendert",
+        "bus": "liest",
+        "kennzahlen/liste": "aendert",
+        "auftraege": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "auftraege/arbeit": "liest",
+        "mitarbeiter/qualifikationen": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/schichtEnde": "liest",
+        "mitarbeiter/abwesendAb": "liest",
+        "auftraege/flug": "liest"
+      },
+      "nicht-zugewiesen": {
+        "auftraege": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "kennzahlen": "liest",
+        "kennzahlen/liste": "liest",
+        "auftraege/flug": "liest",
+        "auftraege/arbeit": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest"
+      },
+      "vergangenheit-grau": {
+        "uhr": "liest"
+      },
+      "nachruecken-ohne-onblock": {
+        "uhr": "liest",
+        "fluege": "liest",
+        "fluege/ueberfaellig": "liest"
+      },
+      "verhalten-krankmeldung": {
+        "mitarbeiter": "aendert",
+        "mitarbeiter/name": "liest",
+        "mitarbeiter/abwesend": "aendert",
+        "mitarbeiter/grund": "aendert",
+        "mitarbeiter/abwesendAb": "aendert",
+        "auftraege": "aendert",
+        "auftraege/mitarbeiter": "aendert",
+        "auftraege/ende": "liest",
+        "auftraege/flug": "liest",
+        "auftraege/arbeit": "liest",
+        "durch/verhalten-einsatz/auftraege/mitarbeiter": "aendert"
+      },
+      "verhalten-einsatz": {
+        "auftraege": "aendert",
+        "auftraege/mitarbeiter": "aendert",
+        "auftraege/ende": "aendert"
+      },
+      "auftrag-status": {
+        "auftraege": "liest"
+      },
+      "liste-auf-offen": {
+        "auftraege": "liest",
+        "auftraege/status": "liest"
+      }
+    },
+    "datum": "2026-11-12"
+  },
+  "krankmeldung-ma-01": {
+    "plugins": [
+      "auftrag-status",
+      "gantt",
+      "konfliktzaehler",
+      "liste-auf-offen",
+      "nachruecken-ohne-onblock",
+      "vergangenheit-grau",
+      "verhalten-einsatz",
+      "verhalten-krankmeldung"
+    ],
+    "zugriffe": {
+      "gantt": {
+        "auftraege": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/arbeit": "liest",
+        "auftraege/flug": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "mitarbeiter/gruppe": "liest",
+        "mitarbeiter/name": "liest",
+        "uhr": "liest",
+        "mitarbeiter/abwesendAb": "liest",
+        "mitarbeiter/grund": "liest"
+      },
+      "geraete-gantt": {
+        "geraetetypen": "liest",
+        "geraetetypen/reihenfolge": "liest",
+        "geraete": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "wartungen": "liest",
+        "wartungen/tag": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraetetypen/name": "liest",
+        "geraete/typ": "liest",
+        "wartungen/geraet": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraete/name": "liest",
+        "wartungen/start": "liest",
+        "wartungen/ende": "liest"
+      },
+      "geraete-konflikte": {
+        "geraete": "liest",
+        "geraeteanzeige": "liest",
+        "geraeteanzeige/offen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "wartungen": "liest",
+        "wartungen/geraet": "liest",
+        "wartungen/tag": "liest",
+        "wartungen/ende": "liest",
+        "wartungen/start": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraete/name": "liest"
+      },
+      "geraete-offen": {
+        "geraetetypen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraetetypen/einzeln": "liest"
+      },
+      "konfliktzaehler": {
+        "kennzahlen": "aendert",
+        "kennzahlen/wert": "aendert",
+        "bus": "liest",
+        "kennzahlen/liste": "aendert",
+        "auftraege": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "auftraege/arbeit": "liest",
+        "mitarbeiter/qualifikationen": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/schichtEnde": "liest",
+        "mitarbeiter/abwesendAb": "liest",
+        "auftraege/flug": "liest"
+      },
+      "nicht-zugewiesen": {
+        "auftraege": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "kennzahlen": "liest",
+        "kennzahlen/liste": "liest",
+        "auftraege/flug": "liest",
+        "auftraege/arbeit": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest"
+      },
+      "vergangenheit-grau": {
+        "uhr": "liest"
+      },
+      "nachruecken-ohne-onblock": {
+        "uhr": "liest",
+        "fluege": "liest",
+        "fluege/ueberfaellig": "liest"
+      },
+      "verhalten-krankmeldung": {
+        "mitarbeiter": "aendert",
+        "mitarbeiter/name": "liest",
+        "mitarbeiter/abwesend": "aendert",
+        "mitarbeiter/grund": "aendert",
+        "mitarbeiter/abwesendAb": "aendert",
+        "auftraege": "aendert",
+        "auftraege/mitarbeiter": "aendert",
+        "auftraege/ende": "liest",
+        "auftraege/flug": "liest",
+        "auftraege/arbeit": "liest",
+        "durch/verhalten-einsatz/auftraege/mitarbeiter": "aendert"
+      },
+      "verhalten-einsatz": {
+        "auftraege": "aendert",
+        "auftraege/mitarbeiter": "aendert"
+      },
+      "auftrag-status": {
+        "auftraege": "liest"
+      },
+      "liste-auf-offen": {
+        "auftraege": "liest",
+        "auftraege/status": "liest"
+      }
+    },
+    "datum": "2026-11-12"
+  },
+  "krankmeldung-ma-20": {
+    "plugins": [
+      "auftrag-status",
+      "gantt",
+      "konfliktzaehler",
+      "liste-auf-offen",
+      "nachruecken-ohne-onblock",
+      "vergangenheit-grau",
+      "verhalten-einsatz",
+      "verhalten-krankmeldung"
+    ],
+    "zugriffe": {
+      "gantt": {
+        "auftraege": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/arbeit": "liest",
+        "auftraege/flug": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "mitarbeiter/gruppe": "liest",
+        "mitarbeiter/name": "liest",
+        "uhr": "liest",
+        "mitarbeiter/abwesendAb": "liest",
+        "mitarbeiter/grund": "liest"
+      },
+      "geraete-gantt": {
+        "geraetetypen": "liest",
+        "geraetetypen/reihenfolge": "liest",
+        "geraete": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "wartungen": "liest",
+        "wartungen/tag": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraetetypen/name": "liest",
+        "geraete/typ": "liest",
+        "wartungen/geraet": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraete/name": "liest",
+        "wartungen/start": "liest",
+        "wartungen/ende": "liest"
+      },
+      "geraete-konflikte": {
+        "geraete": "liest",
+        "geraeteanzeige": "liest",
+        "geraeteanzeige/offen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "wartungen": "liest",
+        "wartungen/geraet": "liest",
+        "wartungen/tag": "liest",
+        "wartungen/ende": "liest",
+        "wartungen/start": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraete/name": "liest"
+      },
+      "geraete-offen": {
+        "geraetetypen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraetetypen/einzeln": "liest"
+      },
+      "konfliktzaehler": {
+        "kennzahlen": "liest",
+        "kennzahlen/wert": "liest",
+        "bus": "liest",
+        "kennzahlen/liste": "liest",
+        "auftraege": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "auftraege/arbeit": "liest",
+        "mitarbeiter/qualifikationen": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/schichtEnde": "liest",
+        "mitarbeiter/abwesendAb": "liest"
+      },
+      "nicht-zugewiesen": {
+        "auftraege": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "kennzahlen": "liest",
+        "kennzahlen/liste": "liest",
+        "auftraege/flug": "liest",
+        "auftraege/arbeit": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest"
+      },
+      "vergangenheit-grau": {
+        "uhr": "liest"
+      },
+      "nachruecken-ohne-onblock": {
+        "uhr": "liest",
+        "fluege": "liest",
+        "fluege/ueberfaellig": "liest"
+      },
+      "verhalten-krankmeldung": {
+        "mitarbeiter": "aendert",
+        "mitarbeiter/name": "liest",
+        "mitarbeiter/abwesend": "aendert",
+        "mitarbeiter/grund": "aendert",
+        "mitarbeiter/abwesendAb": "aendert",
+        "auftraege": "aendert",
+        "auftraege/mitarbeiter": "aendert",
+        "auftraege/ende": "liest",
+        "auftraege/flug": "liest",
+        "auftraege/arbeit": "liest",
+        "durch/verhalten-einsatz/auftraege/mitarbeiter": "aendert"
+      },
+      "verhalten-einsatz": {
+        "auftraege": "aendert",
+        "auftraege/mitarbeiter": "aendert"
+      },
+      "auftrag-status": {
+        "auftraege": "liest"
+      },
+      "liste-auf-offen": {
+        "auftraege": "liest",
+        "auftraege/status": "liest"
+      }
+    },
+    "datum": "2026-11-12"
+  },
+  "wunsch-001": {
+    "plugins": [
+      "auftrag-status",
+      "flugverspaetung",
+      "gantt",
+      "konfliktzaehler",
+      "liste-auf-offen",
+      "nachruecken-ohne-onblock",
+      "vergangenheit-grau",
+      "verhalten-einsatz"
+    ],
+    "zugriffe": {
+      "gantt": {
+        "auftraege": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/arbeit": "liest",
+        "auftraege/flug": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "mitarbeiter/gruppe": "liest",
+        "mitarbeiter/name": "liest",
+        "uhr": "liest"
+      },
+      "geraete-gantt": {
+        "geraetetypen": "liest",
+        "geraetetypen/reihenfolge": "liest",
+        "geraete": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "wartungen": "liest",
+        "wartungen/tag": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraetetypen/name": "liest",
+        "geraete/typ": "liest",
+        "wartungen/geraet": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraete/name": "liest",
+        "wartungen/start": "liest",
+        "wartungen/ende": "liest"
+      },
+      "geraete-konflikte": {
+        "geraete": "liest",
+        "geraeteanzeige": "liest",
+        "geraeteanzeige/offen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "wartungen": "liest",
+        "wartungen/geraet": "liest",
+        "wartungen/tag": "liest",
+        "wartungen/ende": "liest",
+        "wartungen/start": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraete/name": "liest"
+      },
+      "geraete-offen": {
+        "geraetetypen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraetetypen/einzeln": "liest"
+      },
+      "konfliktzaehler": {
+        "kennzahlen": "aendert",
+        "kennzahlen/wert": "aendert",
+        "bus": "liest",
+        "kennzahlen/liste": "aendert",
+        "auftraege": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "auftraege/arbeit": "liest",
+        "mitarbeiter/qualifikationen": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/schichtEnde": "liest",
+        "auftraege/flug": "liest"
+      },
+      "nicht-zugewiesen": {
+        "auftraege": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "kennzahlen": "liest",
+        "kennzahlen/liste": "liest"
+      },
+      "vergangenheit-grau": {
+        "uhr": "liest"
+      },
+      "nachruecken-ohne-onblock": {
+        "uhr": "liest",
+        "fluege": "liest",
+        "fluege/ueberfaellig": "liest"
+      },
+      "flugverspaetung": {
+        "fluege": "aendert",
+        "fluege/onBlock": "aendert",
+        "fluege/offBlock": "aendert",
+        "auftraege": "aendert",
+        "auftraege/flug": "liest",
+        "auftraege/arbeit": "liest",
+        "auftraege/start": "aendert",
+        "auftraege/ende": "aendert",
+        "auftraege/status": "liest",
+        "durch/verhalten-einsatz/auftraege/start": "aendert",
+        "durch/verhalten-einsatz/auftraege/ende": "aendert"
+      },
+      "verhalten-einsatz": {
+        "auftraege": "aendert",
+        "auftraege/start": "aendert",
+        "auftraege/ende": "aendert"
+      },
+      "auftrag-status": {
+        "auftraege": "liest"
+      },
+      "liste-auf-offen": {
+        "auftraege": "liest"
+      }
+    },
+    "datum": "2026-11-12"
+  },
+  "wunsch-004": {
+    "plugins": [
+      "auftrag-status",
+      "balken-kante",
+      "gantt",
+      "konfliktzaehler",
+      "liste-auf-offen",
+      "nachruecken-ohne-onblock",
+      "vergangenheit-grau",
+      "verhalten-einsatz"
+    ],
+    "zugriffe": {
+      "gantt": {
+        "auftraege": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/arbeit": "liest",
+        "auftraege/flug": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "mitarbeiter/gruppe": "liest",
+        "mitarbeiter/name": "liest",
+        "uhr": "liest"
+      },
+      "geraete-gantt": {
+        "geraetetypen": "liest",
+        "geraetetypen/reihenfolge": "liest",
+        "geraete": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "wartungen": "liest",
+        "wartungen/tag": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraetetypen/name": "liest",
+        "geraete/typ": "liest",
+        "wartungen/geraet": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraete/name": "liest",
+        "wartungen/start": "liest",
+        "wartungen/ende": "liest"
+      },
+      "geraete-konflikte": {
+        "geraete": "liest",
+        "geraeteanzeige": "liest",
+        "geraeteanzeige/offen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "wartungen": "liest",
+        "wartungen/geraet": "liest",
+        "wartungen/tag": "liest",
+        "wartungen/ende": "liest",
+        "wartungen/start": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraete/name": "liest"
+      },
+      "geraete-offen": {
+        "geraetetypen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraetetypen/einzeln": "liest"
+      },
+      "konfliktzaehler": {
+        "kennzahlen": "aendert",
+        "kennzahlen/wert": "aendert",
+        "bus": "liest",
+        "kennzahlen/liste": "aendert",
+        "auftraege": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "auftraege/arbeit": "liest",
+        "mitarbeiter/qualifikationen": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/schichtEnde": "liest",
+        "auftraege/flug": "liest"
+      },
+      "nicht-zugewiesen": {
+        "auftraege": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "kennzahlen": "liest",
+        "kennzahlen/liste": "liest"
+      },
+      "vergangenheit-grau": {
+        "uhr": "liest"
+      },
+      "nachruecken-ohne-onblock": {
+        "uhr": "liest",
+        "fluege": "liest",
+        "fluege/ueberfaellig": "liest"
+      },
+      "verhalten-einsatz": {
+        "auftraege": "aendert",
+        "auftraege/ende": "aendert",
+        "auftraege/start": "aendert"
+      },
+      "auftrag-status": {
+        "auftraege": "liest"
+      },
+      "liste-auf-offen": {
+        "auftraege": "liest"
+      }
+    },
+    "datum": "2026-11-12"
+  },
+  "wunsch-005": {
+    "plugins": [
+      "auftrag-status",
+      "balken-zuweisen",
+      "gantt",
+      "geraet-ablage-ziehen",
+      "konfliktzaehler",
+      "liste-auf-offen",
+      "nachruecken-ohne-onblock",
+      "offen-zuweisen",
+      "vergangenheit-grau",
+      "verhalten-einsatz"
+    ],
+    "zugriffe": {
+      "gantt": {
+        "auftraege": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/arbeit": "liest",
+        "auftraege/flug": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "mitarbeiter/gruppe": "liest",
+        "mitarbeiter/name": "liest",
+        "uhr": "liest"
+      },
+      "geraete-gantt": {
+        "geraetetypen": "liest",
+        "geraetetypen/reihenfolge": "liest",
+        "geraete": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "wartungen": "liest",
+        "wartungen/tag": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraetetypen/name": "liest",
+        "geraete/typ": "liest",
+        "wartungen/geraet": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraete/name": "liest",
+        "wartungen/start": "liest",
+        "wartungen/ende": "liest"
+      },
+      "geraete-konflikte": {
+        "geraete": "liest",
+        "geraeteanzeige": "liest",
+        "geraeteanzeige/offen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "wartungen": "liest",
+        "wartungen/geraet": "liest",
+        "wartungen/tag": "liest",
+        "wartungen/ende": "liest",
+        "wartungen/start": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraete/name": "liest"
+      },
+      "geraete-offen": {
+        "geraetetypen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraetetypen/einzeln": "liest"
+      },
+      "konfliktzaehler": {
+        "kennzahlen": "aendert",
+        "kennzahlen/wert": "aendert",
+        "bus": "liest",
+        "kennzahlen/liste": "aendert",
+        "auftraege": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "auftraege/arbeit": "liest",
+        "mitarbeiter/qualifikationen": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/schichtEnde": "liest",
+        "auftraege/flug": "liest"
+      },
+      "nicht-zugewiesen": {
+        "auftraege": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "kennzahlen": "liest",
+        "kennzahlen/liste": "liest"
+      },
+      "vergangenheit-grau": {
+        "uhr": "liest"
+      },
+      "nachruecken-ohne-onblock": {
+        "uhr": "liest",
+        "fluege": "liest",
+        "fluege/ueberfaellig": "liest"
+      },
+      "verhalten-einsatz": {
+        "auftraege": "aendert",
+        "auftraege/mitarbeiter": "aendert"
+      },
+      "auftrag-status": {
+        "auftraege": "liest"
+      },
+      "liste-auf-offen": {
+        "auftraege": "liest"
+      }
+    },
+    "datum": "2026-11-12"
+  },
+  "wunsch-008": {
+    "plugins": [
+      "auftrag-status",
+      "balken-verschieben",
+      "gantt",
+      "geraet-balken-zeit",
+      "konfliktzaehler",
+      "liste-auf-offen",
+      "nachruecken-ohne-onblock",
+      "vergangenheit-grau",
+      "verhalten-einsatz"
+    ],
+    "zugriffe": {
+      "gantt": {
+        "auftraege": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/arbeit": "liest",
+        "auftraege/flug": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "mitarbeiter/gruppe": "liest",
+        "mitarbeiter/name": "liest",
+        "uhr": "liest"
+      },
+      "geraete-gantt": {
+        "geraetetypen": "liest",
+        "geraetetypen/reihenfolge": "liest",
+        "geraete": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "wartungen": "liest",
+        "wartungen/tag": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraetetypen/name": "liest",
+        "geraete/typ": "liest",
+        "wartungen/geraet": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraete/name": "liest",
+        "wartungen/start": "liest",
+        "wartungen/ende": "liest"
+      },
+      "geraete-konflikte": {
+        "geraete": "liest",
+        "geraeteanzeige": "liest",
+        "geraeteanzeige/offen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "wartungen": "liest",
+        "wartungen/geraet": "liest",
+        "wartungen/tag": "liest",
+        "wartungen/ende": "liest",
+        "wartungen/start": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraete/name": "liest"
+      },
+      "geraete-offen": {
+        "geraetetypen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraetetypen/einzeln": "liest"
+      },
+      "konfliktzaehler": {
+        "kennzahlen": "aendert",
+        "kennzahlen/wert": "aendert",
+        "bus": "liest",
+        "kennzahlen/liste": "aendert",
+        "auftraege": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "auftraege/arbeit": "liest",
+        "mitarbeiter/qualifikationen": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/schichtEnde": "liest"
+      },
+      "nicht-zugewiesen": {
+        "auftraege": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "kennzahlen": "liest",
+        "kennzahlen/liste": "liest"
+      },
+      "vergangenheit-grau": {
+        "uhr": "liest"
+      },
+      "nachruecken-ohne-onblock": {
+        "uhr": "liest",
+        "fluege": "liest",
+        "fluege/ueberfaellig": "liest"
+      },
+      "verhalten-einsatz": {
+        "auftraege": "aendert",
+        "auftraege/start": "aendert",
+        "auftraege/ende": "aendert"
+      },
+      "auftrag-status": {
+        "auftraege": "liest"
+      },
+      "liste-auf-offen": {
+        "auftraege": "liest"
+      }
+    },
+    "datum": "2026-11-12"
+  },
+  "wunsch-009": {
+    "plugins": [
+      "auftrag-status",
+      "balken-zuweisen",
+      "gantt",
+      "geraet-ablage-ziehen",
+      "konfliktzaehler",
+      "liste-auf-offen",
+      "nachruecken-ohne-onblock",
+      "offen-zuweisen",
+      "vergangenheit-grau",
+      "verhalten-einsatz",
+      "verhalten-krankmeldung"
+    ],
+    "zugriffe": {
+      "gantt": {
+        "auftraege": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/arbeit": "liest",
+        "auftraege/flug": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "mitarbeiter/gruppe": "liest",
+        "mitarbeiter/name": "liest",
+        "uhr": "liest",
+        "mitarbeiter/abwesendAb": "liest",
+        "mitarbeiter/grund": "liest"
+      },
+      "geraete-gantt": {
+        "geraetetypen": "liest",
+        "geraetetypen/reihenfolge": "liest",
+        "geraete": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "wartungen": "liest",
+        "wartungen/tag": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraetetypen/name": "liest",
+        "geraete/typ": "liest",
+        "wartungen/geraet": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraete/name": "liest",
+        "wartungen/start": "liest",
+        "wartungen/ende": "liest"
+      },
+      "geraete-konflikte": {
+        "geraete": "liest",
+        "geraeteanzeige": "liest",
+        "geraeteanzeige/offen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "wartungen": "liest",
+        "wartungen/geraet": "liest",
+        "wartungen/tag": "liest",
+        "wartungen/ende": "liest",
+        "wartungen/start": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraete/name": "liest"
+      },
+      "geraete-offen": {
+        "geraetetypen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraetetypen/einzeln": "liest"
+      },
+      "konfliktzaehler": {
+        "kennzahlen": "aendert",
+        "kennzahlen/wert": "aendert",
+        "bus": "liest",
+        "kennzahlen/liste": "aendert",
+        "auftraege": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "auftraege/arbeit": "liest",
+        "mitarbeiter/qualifikationen": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/schichtEnde": "liest",
+        "mitarbeiter/abwesendAb": "liest",
+        "auftraege/flug": "liest"
+      },
+      "nicht-zugewiesen": {
+        "auftraege": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "kennzahlen": "liest",
+        "kennzahlen/liste": "liest",
+        "auftraege/flug": "liest",
+        "auftraege/arbeit": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest"
+      },
+      "vergangenheit-grau": {
+        "uhr": "liest"
+      },
+      "nachruecken-ohne-onblock": {
+        "uhr": "liest",
+        "fluege": "liest",
+        "fluege/ueberfaellig": "liest"
+      },
+      "verhalten-krankmeldung": {
+        "mitarbeiter": "aendert",
+        "mitarbeiter/name": "liest",
+        "mitarbeiter/abwesend": "aendert",
+        "mitarbeiter/grund": "aendert",
+        "mitarbeiter/abwesendAb": "aendert",
+        "auftraege": "aendert",
+        "auftraege/mitarbeiter": "aendert",
+        "auftraege/ende": "liest",
+        "auftraege/flug": "liest",
+        "auftraege/arbeit": "liest",
+        "durch/verhalten-einsatz/auftraege/mitarbeiter": "aendert"
+      },
+      "verhalten-einsatz": {
+        "auftraege": "aendert",
+        "auftraege/mitarbeiter": "aendert"
+      },
+      "auftrag-status": {
+        "auftraege": "liest"
+      },
+      "liste-auf-offen": {
+        "auftraege": "liest",
+        "auftraege/status": "liest"
+      }
+    },
+    "datum": "2026-11-12"
+  },
+  "wunsch-010": {
+    "plugins": [
+      "auftrag-status",
+      "balken-kante",
+      "balken-verschieben",
+      "balken-zuweisen",
+      "gantt",
+      "geraet-ablage-ziehen",
+      "geraet-balken-zeit",
+      "konflikt-liste",
+      "konfliktzaehler",
+      "liste-auf-offen",
+      "mitarbeiter-karte",
+      "nachruecken-ohne-onblock",
+      "offen-zuweisen",
+      "vergangenheit-grau",
+      "verhalten-einsatz"
+    ],
+    "zugriffe": {
+      "gantt": {
+        "auftraege": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/arbeit": "liest",
+        "auftraege/flug": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "mitarbeiter/gruppe": "liest",
+        "mitarbeiter/name": "liest",
+        "uhr": "liest"
+      },
+      "geraete-gantt": {
+        "geraetetypen": "liest",
+        "geraetetypen/reihenfolge": "liest",
+        "geraete": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "wartungen": "liest",
+        "wartungen/tag": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraetetypen/name": "liest",
+        "geraete/typ": "liest",
+        "wartungen/geraet": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraete/name": "liest",
+        "wartungen/start": "liest",
+        "wartungen/ende": "liest"
+      },
+      "geraete-konflikte": {
+        "geraete": "liest",
+        "geraeteanzeige": "liest",
+        "geraeteanzeige/offen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "wartungen": "liest",
+        "wartungen/geraet": "liest",
+        "wartungen/tag": "liest",
+        "wartungen/ende": "liest",
+        "wartungen/start": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraete/name": "liest"
+      },
+      "geraete-offen": {
+        "geraetetypen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraetetypen/einzeln": "liest"
+      },
+      "konfliktzaehler": {
+        "kennzahlen": "aendert",
+        "kennzahlen/wert": "aendert",
+        "bus": "liest",
+        "kennzahlen/liste": "aendert",
+        "auftraege": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "auftraege/arbeit": "liest",
+        "mitarbeiter/qualifikationen": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/schichtEnde": "liest",
+        "auftraege/flug": "liest"
+      },
+      "nicht-zugewiesen": {
+        "auftraege": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "kennzahlen": "liest",
+        "kennzahlen/liste": "liest"
+      },
+      "vergangenheit-grau": {
+        "uhr": "liest"
+      },
+      "nachruecken-ohne-onblock": {
+        "uhr": "liest",
+        "fluege": "liest",
+        "fluege/ueberfaellig": "liest"
+      },
+      "konflikt-liste": {
+        "kennzahlen": "aendert",
+        "kennzahlen/offen": "aendert"
+      },
+      "verhalten-einsatz": {
+        "auftraege": "aendert",
+        "auftraege/start": "aendert",
+        "auftraege/ende": "aendert",
+        "auftraege/mitarbeiter": "aendert"
+      },
+      "auftrag-status": {
+        "auftraege": "liest"
+      },
+      "liste-auf-offen": {
+        "auftraege": "liest"
+      }
+    },
+    "datum": "2026-11-12"
+  },
+  "wunsch-012": {
+    "plugins": [
+      "auftrag-status",
+      "gantt",
+      "konflikt-leuchten",
+      "konflikt-liste",
+      "konfliktzaehler",
+      "liste-auf-offen",
+      "mitarbeiter-karte",
+      "nachruecken-ohne-onblock",
+      "vergangenheit-grau",
+      "verhalten-einsatz",
+      "verhalten-krankmeldung"
+    ],
+    "zugriffe": {
+      "gantt": {
+        "auftraege": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/arbeit": "liest",
+        "auftraege/flug": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "mitarbeiter/gruppe": "liest",
+        "mitarbeiter/name": "liest",
+        "uhr": "liest",
+        "mitarbeiter/abwesendAb": "liest",
+        "mitarbeiter/grund": "liest"
+      },
+      "geraete-gantt": {
+        "geraetetypen": "liest",
+        "geraetetypen/reihenfolge": "liest",
+        "geraete": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "wartungen": "liest",
+        "wartungen/tag": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraetetypen/name": "liest",
+        "geraete/typ": "liest",
+        "wartungen/geraet": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraete/name": "liest",
+        "wartungen/start": "liest",
+        "wartungen/ende": "liest"
+      },
+      "geraete-konflikte": {
+        "geraete": "liest",
+        "geraeteanzeige": "liest",
+        "geraeteanzeige/offen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "wartungen": "liest",
+        "wartungen/geraet": "liest",
+        "wartungen/tag": "liest",
+        "wartungen/ende": "liest",
+        "wartungen/start": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraete/name": "liest"
+      },
+      "geraete-offen": {
+        "geraetetypen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraetetypen/einzeln": "liest"
+      },
+      "konfliktzaehler": {
+        "kennzahlen": "aendert",
+        "kennzahlen/wert": "aendert",
+        "bus": "liest",
+        "kennzahlen/liste": "aendert",
+        "auftraege": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "auftraege/arbeit": "liest",
+        "mitarbeiter/qualifikationen": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/schichtEnde": "liest",
+        "mitarbeiter/abwesendAb": "liest",
+        "auftraege/flug": "liest"
+      },
+      "nicht-zugewiesen": {
+        "auftraege": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "kennzahlen": "liest",
+        "kennzahlen/liste": "liest",
+        "auftraege/flug": "liest",
+        "auftraege/arbeit": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest"
+      },
+      "vergangenheit-grau": {
+        "uhr": "liest"
+      },
+      "nachruecken-ohne-onblock": {
+        "uhr": "liest",
+        "fluege": "liest",
+        "fluege/ueberfaellig": "liest"
+      },
+      "konflikt-liste": {
+        "kennzahlen": "aendert",
+        "kennzahlen/offen": "aendert"
+      },
+      "konflikt-leuchten": {
+        "konflikte": "liest"
+      },
+      "verhalten-krankmeldung": {
+        "mitarbeiter": "aendert",
+        "mitarbeiter/name": "liest",
+        "mitarbeiter/abwesend": "aendert",
+        "mitarbeiter/grund": "aendert",
+        "mitarbeiter/abwesendAb": "aendert",
+        "auftraege": "aendert",
+        "auftraege/mitarbeiter": "aendert",
+        "auftraege/ende": "liest",
+        "auftraege/flug": "liest",
+        "auftraege/arbeit": "liest",
+        "durch/verhalten-einsatz/auftraege/mitarbeiter": "aendert"
+      },
+      "verhalten-einsatz": {
+        "auftraege": "aendert",
+        "auftraege/mitarbeiter": "aendert"
+      },
+      "auftrag-status": {
+        "auftraege": "liest"
+      },
+      "liste-auf-offen": {
+        "auftraege": "liest",
+        "auftraege/status": "liest"
+      },
+      "geraet-ablage-ziehen": {
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraete": "liest",
+        "geraete/typ": "liest",
+        "geraeteauftraege/typ": "liest"
+      },
+      "geraet-balken-zeit": {
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest"
+      }
+    },
+    "datum": "2026-11-12"
+  },
+  "wunsch-015": {
+    "plugins": [
+      "auftrag-status",
+      "balken-zuweisen",
+      "gantt",
+      "geraet-ablage-ziehen",
+      "konflikt-liste",
+      "konfliktzaehler",
+      "liste-auf-offen",
+      "mitarbeiter-karte",
+      "nachruecken-ohne-onblock",
+      "offen-zuweisen",
+      "vergangenheit-grau",
+      "verhalten-einsatz"
+    ],
+    "zugriffe": {
+      "gantt": {
+        "auftraege": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/arbeit": "liest",
+        "auftraege/flug": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "mitarbeiter/gruppe": "liest",
+        "mitarbeiter/name": "liest",
+        "uhr": "liest"
+      },
+      "geraete-gantt": {
+        "geraetetypen": "liest",
+        "geraetetypen/reihenfolge": "liest",
+        "geraete": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "wartungen": "liest",
+        "wartungen/tag": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraetetypen/name": "liest",
+        "geraete/typ": "liest",
+        "wartungen/geraet": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraete/name": "liest",
+        "wartungen/start": "liest",
+        "wartungen/ende": "liest"
+      },
+      "geraete-konflikte": {
+        "geraete": "liest",
+        "geraeteanzeige": "liest",
+        "geraeteanzeige/offen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "wartungen": "liest",
+        "wartungen/geraet": "liest",
+        "wartungen/tag": "liest",
+        "wartungen/ende": "liest",
+        "wartungen/start": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraete/name": "liest"
+      },
+      "geraete-offen": {
+        "geraetetypen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraetetypen/einzeln": "liest"
+      },
+      "konfliktzaehler": {
+        "kennzahlen": "aendert",
+        "kennzahlen/wert": "aendert",
+        "bus": "liest",
+        "kennzahlen/liste": "aendert",
+        "auftraege": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "auftraege/arbeit": "liest",
+        "mitarbeiter/qualifikationen": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/schichtEnde": "liest",
+        "auftraege/flug": "liest"
+      },
+      "nicht-zugewiesen": {
+        "auftraege": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "kennzahlen": "liest",
+        "kennzahlen/liste": "liest"
+      },
+      "vergangenheit-grau": {
+        "uhr": "liest"
+      },
+      "nachruecken-ohne-onblock": {
+        "uhr": "liest",
+        "fluege": "liest",
+        "fluege/ueberfaellig": "liest"
+      },
+      "verhalten-einsatz": {
+        "auftraege": "aendert",
+        "auftraege/mitarbeiter": "aendert"
+      },
+      "auftrag-status": {
+        "auftraege": "liest"
+      },
+      "liste-auf-offen": {
+        "auftraege": "liest"
+      },
+      "konflikt-liste": {
+        "kennzahlen": "aendert",
+        "kennzahlen/offen": "aendert"
+      }
+    },
+    "datum": "2026-11-12"
+  },
+  "wunsch-017": {
+    "plugins": [
+      "auftrag-status",
+      "balken-zuruecklegen",
+      "balken-zuweisen",
+      "gantt",
+      "geraet-ablage-ziehen",
+      "konfliktzaehler",
+      "liste-auf-offen",
+      "nachruecken-ohne-onblock",
+      "offen-zuweisen",
+      "vergangenheit-grau",
+      "verhalten-einsatz"
+    ],
+    "zugriffe": {
+      "gantt": {
+        "auftraege": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/arbeit": "liest",
+        "auftraege/flug": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "mitarbeiter/gruppe": "liest",
+        "mitarbeiter/name": "liest",
+        "uhr": "liest"
+      },
+      "geraete-gantt": {
+        "geraetetypen": "liest",
+        "geraetetypen/reihenfolge": "liest",
+        "geraete": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "wartungen": "liest",
+        "wartungen/tag": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraetetypen/name": "liest",
+        "geraete/typ": "liest",
+        "wartungen/geraet": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraete/name": "liest",
+        "wartungen/start": "liest",
+        "wartungen/ende": "liest"
+      },
+      "geraete-konflikte": {
+        "geraete": "liest",
+        "geraeteanzeige": "liest",
+        "geraeteanzeige/offen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "wartungen": "liest",
+        "wartungen/geraet": "liest",
+        "wartungen/tag": "liest",
+        "wartungen/ende": "liest",
+        "wartungen/start": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraete/name": "liest"
+      },
+      "geraete-offen": {
+        "geraetetypen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraetetypen/einzeln": "liest"
+      },
+      "konfliktzaehler": {
+        "kennzahlen": "liest",
+        "kennzahlen/wert": "liest",
+        "bus": "liest",
+        "kennzahlen/liste": "liest",
+        "auftraege": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "auftraege/arbeit": "liest",
+        "mitarbeiter/qualifikationen": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/schichtEnde": "liest"
+      },
+      "nicht-zugewiesen": {
+        "auftraege": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "kennzahlen": "liest",
+        "kennzahlen/liste": "liest",
+        "auftraege/flug": "liest",
+        "auftraege/arbeit": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest"
+      },
+      "vergangenheit-grau": {
+        "uhr": "liest"
+      },
+      "nachruecken-ohne-onblock": {
+        "uhr": "liest",
+        "fluege": "liest",
+        "fluege/ueberfaellig": "liest"
+      },
+      "verhalten-einsatz": {
+        "auftraege": "aendert",
+        "auftraege/mitarbeiter": "aendert"
+      },
+      "auftrag-status": {
+        "auftraege": "liest"
+      },
+      "liste-auf-offen": {
+        "auftraege": "liest",
+        "auftraege/status": "liest"
+      }
+    },
+    "datum": "2026-11-12"
+  },
+  "wunsch-022": {
+    "plugins": [
+      "auftrag-status",
+      "gantt",
+      "konflikt-liste",
+      "konfliktzaehler",
+      "liste-auf-offen",
+      "mitarbeiter-karte",
+      "nachruecken-ohne-onblock",
+      "vergangenheit-grau"
+    ],
+    "zugriffe": {
+      "gantt": {
+        "auftraege": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/arbeit": "liest",
+        "auftraege/flug": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "mitarbeiter/gruppe": "liest",
+        "mitarbeiter/name": "liest",
+        "uhr": "liest"
+      },
+      "geraete-gantt": {
+        "geraetetypen": "liest",
+        "geraetetypen/reihenfolge": "liest",
+        "geraete": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "wartungen": "liest",
+        "wartungen/tag": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraetetypen/name": "liest",
+        "geraete/typ": "liest",
+        "wartungen/geraet": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraete/name": "liest",
+        "wartungen/start": "liest",
+        "wartungen/ende": "liest"
+      },
+      "geraete-konflikte": {
+        "geraete": "liest",
+        "geraeteanzeige": "liest",
+        "geraeteanzeige/offen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "wartungen": "liest",
+        "wartungen/geraet": "liest",
+        "wartungen/tag": "liest",
+        "wartungen/ende": "liest",
+        "wartungen/start": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraete/name": "liest"
+      },
+      "geraete-offen": {
+        "geraetetypen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraetetypen/einzeln": "liest"
+      },
+      "konfliktzaehler": {
+        "kennzahlen": "liest",
+        "kennzahlen/wert": "liest",
+        "bus": "liest",
+        "kennzahlen/liste": "liest",
+        "auftraege": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "auftraege/arbeit": "liest",
+        "mitarbeiter/qualifikationen": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/schichtEnde": "liest"
+      },
+      "nicht-zugewiesen": {
+        "auftraege": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "kennzahlen": "liest",
+        "kennzahlen/liste": "liest"
+      },
+      "vergangenheit-grau": {
+        "uhr": "liest"
+      },
+      "nachruecken-ohne-onblock": {
+        "uhr": "liest",
+        "fluege": "liest",
+        "fluege/ueberfaellig": "liest"
+      },
+      "auftrag-status": {
+        "kennzahlen": "aendert",
+        "kennzahlen/auftrag": "aendert",
+        "auftraege": "liest"
+      },
+      "liste-auf-offen": {
+        "auftraege": "liest"
+      }
+    },
+    "datum": "2026-11-12"
+  },
+  "wunsch-023": {
+    "plugins": [
+      "gantt",
+      "konfliktzaehler",
+      "nachruecken-ohne-onblock",
+      "plan-suche",
+      "vergangenheit-grau"
+    ],
+    "zugriffe": {
+      "gantt": {
+        "auftraege": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/arbeit": "liest",
+        "auftraege/flug": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "mitarbeiter/gruppe": "liest",
+        "mitarbeiter/name": "liest",
+        "uhr": "liest"
+      },
+      "geraete-gantt": {
+        "geraetetypen": "liest",
+        "geraetetypen/reihenfolge": "liest",
+        "geraete": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "wartungen": "liest",
+        "wartungen/tag": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraetetypen/name": "liest",
+        "geraete/typ": "liest",
+        "wartungen/geraet": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraete/name": "liest",
+        "wartungen/start": "liest",
+        "wartungen/ende": "liest"
+      },
+      "geraete-konflikte": {
+        "geraete": "liest",
+        "geraeteanzeige": "liest",
+        "geraeteanzeige/offen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "wartungen": "liest",
+        "wartungen/geraet": "liest",
+        "wartungen/tag": "liest",
+        "wartungen/ende": "liest",
+        "wartungen/start": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraete/name": "liest"
+      },
+      "geraete-offen": {
+        "geraetetypen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraetetypen/einzeln": "liest"
+      },
+      "konfliktzaehler": {
+        "kennzahlen": "liest",
+        "kennzahlen/wert": "liest",
+        "bus": "liest",
+        "kennzahlen/liste": "liest",
+        "auftraege": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "auftraege/arbeit": "liest",
+        "mitarbeiter/qualifikationen": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/schichtEnde": "liest"
+      },
+      "nicht-zugewiesen": {
+        "auftraege": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "kennzahlen": "liest",
+        "kennzahlen/liste": "liest"
+      },
+      "vergangenheit-grau": {
+        "uhr": "liest"
+      },
+      "nachruecken-ohne-onblock": {
+        "uhr": "liest",
+        "fluege": "liest",
+        "fluege/ueberfaellig": "liest"
+      },
+      "plan-suche": {
+        "kennzahlen": "aendert",
+        "kennzahlen/begriff": "aendert",
+        "kennzahlen/nr": "aendert"
+      }
+    },
+    "datum": "2026-11-12"
+  },
+  "wunsch-025": {
+    "plugins": [
+      "auftrag-status",
+      "gantt",
+      "konflikt-liste",
+      "konfliktzaehler",
+      "liste-auf-offen",
+      "mitarbeiter-karte",
+      "nachruecken-ohne-onblock",
+      "vergangenheit-grau",
+      "verhalten-einsatz",
+      "verhalten-krankmeldung"
+    ],
+    "zugriffe": {
+      "gantt": {
+        "auftraege": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/arbeit": "liest",
+        "auftraege/flug": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "mitarbeiter/gruppe": "liest",
+        "mitarbeiter/name": "liest",
+        "uhr": "liest",
+        "mitarbeiter/abwesendAb": "liest",
+        "mitarbeiter/grund": "liest"
+      },
+      "geraete-gantt": {
+        "geraetetypen": "liest",
+        "geraetetypen/reihenfolge": "liest",
+        "geraete": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "wartungen": "liest",
+        "wartungen/tag": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraetetypen/name": "liest",
+        "geraete/typ": "liest",
+        "wartungen/geraet": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraete/name": "liest",
+        "wartungen/start": "liest",
+        "wartungen/ende": "liest"
+      },
+      "geraete-konflikte": {
+        "geraete": "liest",
+        "geraeteanzeige": "liest",
+        "geraeteanzeige/offen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "wartungen": "liest",
+        "wartungen/geraet": "liest",
+        "wartungen/tag": "liest",
+        "wartungen/ende": "liest",
+        "wartungen/start": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraete/name": "liest"
+      },
+      "geraete-offen": {
+        "geraetetypen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraetetypen/einzeln": "liest"
+      },
+      "konfliktzaehler": {
+        "kennzahlen": "aendert",
+        "kennzahlen/wert": "aendert",
+        "bus": "liest",
+        "kennzahlen/liste": "aendert",
+        "auftraege": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "auftraege/arbeit": "liest",
+        "mitarbeiter/qualifikationen": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/schichtEnde": "liest",
+        "mitarbeiter/abwesendAb": "liest",
+        "auftraege/flug": "liest"
+      },
+      "nicht-zugewiesen": {
+        "auftraege": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "kennzahlen": "liest",
+        "kennzahlen/liste": "liest",
+        "auftraege/flug": "liest",
+        "auftraege/arbeit": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest"
+      },
+      "vergangenheit-grau": {
+        "uhr": "liest"
+      },
+      "nachruecken-ohne-onblock": {
+        "uhr": "liest",
+        "fluege": "liest",
+        "fluege/ueberfaellig": "liest"
+      },
+      "mitarbeiter-karte": {
+        "kennzahlen": "aendert",
+        "kennzahlen/mitarbeiter": "aendert"
+      },
+      "verhalten-krankmeldung": {
+        "mitarbeiter": "aendert",
+        "mitarbeiter/name": "liest",
+        "mitarbeiter/abwesend": "aendert",
+        "mitarbeiter/grund": "aendert",
+        "mitarbeiter/abwesendAb": "aendert",
+        "auftraege": "aendert",
+        "auftraege/mitarbeiter": "aendert",
+        "auftraege/ende": "liest",
+        "auftraege/flug": "liest",
+        "auftraege/arbeit": "liest",
+        "durch/verhalten-einsatz/auftraege/mitarbeiter": "aendert"
+      },
+      "verhalten-einsatz": {
+        "auftraege": "aendert",
+        "auftraege/mitarbeiter": "aendert"
+      },
+      "auftrag-status": {
+        "auftraege": "liest"
+      },
+      "liste-auf-offen": {
+        "auftraege": "liest",
+        "auftraege/status": "liest"
+      }
+    },
+    "datum": "2026-11-12"
+  },
+  "wunsch-027": {
+    "plugins": [
+      "auftrag-status",
+      "gantt",
+      "konfliktzaehler",
+      "liste-auf-offen",
+      "nachruecken-ohne-onblock",
+      "vergangenheit-grau",
+      "verhalten-einsatz"
+    ],
+    "zugriffe": {
+      "gantt": {
+        "auftraege": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/arbeit": "liest",
+        "auftraege/flug": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "mitarbeiter/gruppe": "liest",
+        "mitarbeiter/name": "liest",
+        "uhr": "liest"
+      },
+      "geraete-gantt": {
+        "geraetetypen": "liest",
+        "geraetetypen/reihenfolge": "liest",
+        "geraete": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "wartungen": "liest",
+        "wartungen/tag": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraetetypen/name": "liest",
+        "geraete/typ": "liest",
+        "wartungen/geraet": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraete/name": "liest",
+        "wartungen/start": "liest",
+        "wartungen/ende": "liest"
+      },
+      "geraete-konflikte": {
+        "geraete": "liest",
+        "geraeteanzeige": "liest",
+        "geraeteanzeige/offen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "wartungen": "liest",
+        "wartungen/geraet": "liest",
+        "wartungen/tag": "liest",
+        "wartungen/ende": "liest",
+        "wartungen/start": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraete/name": "liest"
+      },
+      "geraete-offen": {
+        "geraetetypen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraetetypen/einzeln": "liest"
+      },
+      "konfliktzaehler": {
+        "kennzahlen": "liest",
+        "kennzahlen/wert": "liest",
+        "bus": "liest",
+        "kennzahlen/liste": "liest",
+        "auftraege": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "auftraege/arbeit": "liest",
+        "mitarbeiter/qualifikationen": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/schichtEnde": "liest"
+      },
+      "nicht-zugewiesen": {
+        "auftraege": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "kennzahlen": "liest",
+        "kennzahlen/liste": "liest"
+      },
+      "vergangenheit-grau": {
+        "uhr": "liest"
+      },
+      "nachruecken-ohne-onblock": {
+        "uhr": "liest",
+        "fluege": "aendert",
+        "fluege/ueberfaellig": "aendert",
+        "fluege/status": "liest",
+        "fluege/flug": "liest",
+        "fluege/onBlock": "liest",
+        "fluege/nachgerueckt": "aendert",
+        "auftraege": "aendert",
+        "auftraege/status": "liest",
+        "auftraege/start": "aendert",
+        "durch/verhalten-einsatz/auftraege/start": "aendert",
+        "auftraege/ende": "aendert",
+        "durch/verhalten-einsatz/auftraege/ende": "aendert"
+      },
+      "auftrag-status": {
+        "auftraege": "liest",
+        "kennzahlen": "liest",
+        "kennzahlen/auftrag": "liest"
+      },
+      "liste-auf-offen": {
+        "auftraege": "liest"
+      },
+      "verhalten-einsatz": {
+        "auftraege": "aendert",
+        "auftraege/start": "aendert",
+        "auftraege/ende": "aendert"
+      }
+    },
+    "datum": "2026-11-12"
+  },
+  "wunsch-028": {
+    "plugins": [
+      "auftrag-status",
+      "flugverspaetung",
+      "gantt",
+      "konfliktzaehler",
+      "liste-auf-offen",
+      "nachruecken-ohne-onblock",
+      "vergangenheit-grau",
+      "verhalten-einsatz"
+    ],
+    "zugriffe": {
+      "gantt": {
+        "auftraege": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/arbeit": "liest",
+        "auftraege/flug": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "mitarbeiter/gruppe": "liest",
+        "mitarbeiter/name": "liest",
+        "uhr": "liest"
+      },
+      "geraete-gantt": {
+        "geraetetypen": "liest",
+        "geraetetypen/reihenfolge": "liest",
+        "geraete": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "wartungen": "liest",
+        "wartungen/tag": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraetetypen/name": "liest",
+        "geraete/typ": "liest",
+        "wartungen/geraet": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraete/name": "liest",
+        "wartungen/start": "liest",
+        "wartungen/ende": "liest"
+      },
+      "geraete-konflikte": {
+        "geraete": "liest",
+        "geraeteanzeige": "liest",
+        "geraeteanzeige/offen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "wartungen": "liest",
+        "wartungen/geraet": "liest",
+        "wartungen/tag": "liest",
+        "wartungen/ende": "liest",
+        "wartungen/start": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraete/name": "liest"
+      },
+      "geraete-offen": {
+        "geraetetypen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraetetypen/einzeln": "liest"
+      },
+      "konfliktzaehler": {
+        "kennzahlen": "aendert",
+        "kennzahlen/wert": "aendert",
+        "bus": "liest",
+        "kennzahlen/liste": "aendert",
+        "auftraege": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "auftraege/arbeit": "liest",
+        "mitarbeiter/qualifikationen": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/schichtEnde": "liest",
+        "auftraege/flug": "liest"
+      },
+      "nicht-zugewiesen": {
+        "auftraege": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "kennzahlen": "liest",
+        "kennzahlen/liste": "liest"
+      },
+      "vergangenheit-grau": {
+        "uhr": "liest"
+      },
+      "nachruecken-ohne-onblock": {
+        "uhr": "liest",
+        "fluege": "liest",
+        "fluege/ueberfaellig": "liest"
+      },
+      "auftrag-status": {
+        "auftraege": "liest",
+        "kennzahlen": "liest",
+        "kennzahlen/auftrag": "liest"
+      },
+      "liste-auf-offen": {
+        "auftraege": "liest"
+      },
+      "flugverspaetung": {
+        "fluege": "aendert",
+        "fluege/onBlock": "aendert",
+        "fluege/offBlock": "aendert",
+        "auftraege": "aendert",
+        "auftraege/flug": "liest",
+        "auftraege/arbeit": "liest",
+        "auftraege/start": "aendert",
+        "auftraege/ende": "aendert",
+        "auftraege/status": "liest",
+        "durch/verhalten-einsatz/auftraege/start": "aendert",
+        "durch/verhalten-einsatz/auftraege/ende": "aendert"
+      },
+      "verhalten-einsatz": {
+        "auftraege": "aendert",
+        "auftraege/start": "aendert",
+        "auftraege/ende": "aendert"
+      }
+    },
+    "datum": "2026-11-12"
+  },
+  "wunsch-031": {
+    "plugins": [
+      "auftrag-status",
+      "balken-zuruecklegen",
+      "gantt",
+      "konfliktzaehler",
+      "liste-auf-offen",
+      "nachruecken-ohne-onblock",
+      "vergangenheit-grau",
+      "verhalten-einsatz",
+      "verhalten-krankmeldung"
+    ],
+    "zugriffe": {
+      "gantt": {
+        "auftraege": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/arbeit": "liest",
+        "auftraege/flug": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "mitarbeiter/gruppe": "liest",
+        "mitarbeiter/name": "liest",
+        "uhr": "liest",
+        "mitarbeiter/abwesendAb": "liest",
+        "mitarbeiter/grund": "liest"
+      },
+      "geraete-gantt": {
+        "geraetetypen": "liest",
+        "geraetetypen/reihenfolge": "liest",
+        "geraete": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "wartungen": "liest",
+        "wartungen/tag": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraetetypen/name": "liest",
+        "geraete/typ": "liest",
+        "wartungen/geraet": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraete/name": "liest",
+        "wartungen/start": "liest",
+        "wartungen/ende": "liest"
+      },
+      "geraete-konflikte": {
+        "geraete": "liest",
+        "geraeteanzeige": "liest",
+        "geraeteanzeige/offen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "wartungen": "liest",
+        "wartungen/geraet": "liest",
+        "wartungen/tag": "liest",
+        "wartungen/ende": "liest",
+        "wartungen/start": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraete/name": "liest"
+      },
+      "geraete-offen": {
+        "geraetetypen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraetetypen/einzeln": "liest"
+      },
+      "konfliktzaehler": {
+        "kennzahlen": "aendert",
+        "kennzahlen/wert": "aendert",
+        "bus": "liest",
+        "kennzahlen/liste": "aendert",
+        "auftraege": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "auftraege/arbeit": "liest",
+        "mitarbeiter/qualifikationen": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/schichtEnde": "liest",
+        "mitarbeiter/abwesendAb": "liest"
+      },
+      "nicht-zugewiesen": {
+        "auftraege": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "kennzahlen": "liest",
+        "kennzahlen/liste": "liest",
+        "auftraege/flug": "liest",
+        "auftraege/arbeit": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest"
+      },
+      "vergangenheit-grau": {
+        "uhr": "liest"
+      },
+      "nachruecken-ohne-onblock": {
+        "uhr": "liest",
+        "fluege": "liest",
+        "fluege/ueberfaellig": "liest"
+      },
+      "verhalten-einsatz": {
+        "auftraege": "aendert",
+        "auftraege/mitarbeiter": "aendert"
+      },
+      "auftrag-status": {
+        "auftraege": "liest",
+        "kennzahlen": "liest",
+        "kennzahlen/auftrag": "liest"
+      },
+      "liste-auf-offen": {
+        "auftraege": "liest",
+        "auftraege/status": "liest",
+        "auftraege/flug": "liest",
+        "auftraege/arbeit": "liest",
+        "befehl/auftraege/status": "aendert"
+      },
+      "verhalten-krankmeldung": {
+        "mitarbeiter": "aendert",
+        "mitarbeiter/name": "liest",
+        "mitarbeiter/abwesend": "aendert",
+        "mitarbeiter/grund": "aendert",
+        "mitarbeiter/abwesendAb": "aendert",
+        "auftraege": "aendert",
+        "auftraege/mitarbeiter": "aendert",
+        "auftraege/ende": "liest",
+        "auftraege/flug": "liest",
+        "auftraege/arbeit": "liest",
+        "durch/verhalten-einsatz/auftraege/mitarbeiter": "aendert"
+      }
+    },
+    "datum": "2026-11-12"
+  },
+  "wunsch-032": {
+    "plugins": [
+      "geraete-konflikt-leuchten",
+      "geraete-konflikte"
+    ],
+    "zugriffe": {
+      "gantt": {
+        "auftraege": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/arbeit": "liest",
+        "auftraege/flug": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "mitarbeiter/gruppe": "liest",
+        "mitarbeiter/name": "liest"
+      },
+      "geraete-gantt": {
+        "geraetetypen": "liest",
+        "geraetetypen/reihenfolge": "liest",
+        "geraete": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "wartungen": "liest",
+        "wartungen/tag": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraetetypen/name": "liest",
+        "geraete/typ": "liest",
+        "wartungen/geraet": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraete/name": "liest",
+        "wartungen/start": "liest",
+        "wartungen/ende": "liest"
+      },
+      "geraete-konflikte": {
+        "geraete": "liest",
+        "geraeteanzeige": "aendert",
+        "geraeteanzeige/offen": "aendert",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "wartungen": "liest",
+        "wartungen/geraet": "liest",
+        "wartungen/tag": "liest",
+        "wartungen/ende": "liest",
+        "wartungen/start": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraete/name": "liest"
+      },
+      "geraete-offen": {
+        "geraetetypen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraetetypen/einzeln": "liest"
+      },
+      "konfliktzaehler": {
+        "kennzahlen": "liest",
+        "kennzahlen/wert": "liest"
+      },
+      "nicht-zugewiesen": {
+        "auftraege": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "kennzahlen": "liest",
+        "kennzahlen/liste": "liest"
+      },
+      "geraete-konflikt-leuchten": {
+        "geraeteanzeige": "aendert",
+        "geraeteauftraege": "liest",
+        "geraeteanzeige/hervorgehoben": "aendert",
+        "geraeteanzeige/hervorhebung": "aendert"
+      }
+    },
+    "datum": "2026-11-12"
+  },
+  "wunsch-033": {
+    "plugins": [
+      "balken-zuweisen",
+      "geraet-ablage-ziehen",
+      "offen-zuweisen",
+      "verhalten-einsatz"
+    ],
+    "zugriffe": {
+      "gantt": {
+        "auftraege": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/arbeit": "liest",
+        "auftraege/flug": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "mitarbeiter/gruppe": "liest",
+        "mitarbeiter/name": "liest"
+      },
+      "geraete-gantt": {
+        "geraetetypen": "liest",
+        "geraetetypen/reihenfolge": "liest",
+        "geraete": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "wartungen": "liest",
+        "wartungen/tag": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraetetypen/name": "liest",
+        "geraete/typ": "liest",
+        "wartungen/geraet": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraete/name": "liest",
+        "wartungen/start": "liest",
+        "wartungen/ende": "liest"
+      },
+      "geraete-konflikte": {
+        "geraete": "liest",
+        "geraeteanzeige": "liest",
+        "geraeteanzeige/offen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "wartungen": "liest",
+        "wartungen/geraet": "liest",
+        "wartungen/tag": "liest",
+        "wartungen/ende": "liest",
+        "wartungen/start": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraete/name": "liest"
+      },
+      "geraete-offen": {
+        "geraetetypen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraetetypen/einzeln": "liest"
+      },
+      "konfliktzaehler": {
+        "kennzahlen": "liest",
+        "kennzahlen/wert": "liest"
+      },
+      "nicht-zugewiesen": {
+        "auftraege": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "kennzahlen": "liest",
+        "kennzahlen/liste": "liest"
+      },
+      "geraet-ablage-ziehen": {
+        "geraeteauftraege": "aendert",
+        "geraeteauftraege/geraet": "aendert"
+      }
+    },
+    "datum": "2026-11-12"
+  },
+  "wunsch-034": {
+    "plugins": [
+      "balken-verschieben",
+      "geraet-ablage-ziehen",
+      "geraet-balken-zeit"
+    ],
+    "zugriffe": {
+      "gantt": {
+        "auftraege": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/arbeit": "liest",
+        "auftraege/flug": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "mitarbeiter/gruppe": "liest",
+        "mitarbeiter/name": "liest"
+      },
+      "geraete-gantt": {
+        "geraetetypen": "liest",
+        "geraetetypen/reihenfolge": "liest",
+        "geraete": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "wartungen": "liest",
+        "wartungen/tag": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraetetypen/name": "liest",
+        "geraete/typ": "liest",
+        "wartungen/geraet": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraete/name": "liest",
+        "wartungen/start": "liest",
+        "wartungen/ende": "liest"
+      },
+      "geraete-konflikte": {
+        "geraete": "liest",
+        "geraeteanzeige": "liest",
+        "geraeteanzeige/offen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "wartungen": "liest",
+        "wartungen/geraet": "liest",
+        "wartungen/tag": "liest",
+        "wartungen/ende": "liest",
+        "wartungen/start": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraete/name": "liest"
+      },
+      "geraete-offen": {
+        "geraetetypen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraetetypen/einzeln": "liest"
+      },
+      "konfliktzaehler": {
+        "kennzahlen": "liest",
+        "kennzahlen/wert": "liest"
+      },
+      "nicht-zugewiesen": {
+        "auftraege": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "kennzahlen": "liest",
+        "kennzahlen/liste": "liest"
+      },
+      "geraet-balken-zeit": {
+        "geraeteauftraege": "aendert",
+        "geraeteauftraege/start": "aendert",
+        "geraeteauftraege/ende": "aendert"
+      },
+      "geraet-ablage-ziehen": {
+        "geraeteauftraege": "aendert",
+        "geraeteauftraege/geraet": "aendert"
+      }
+    },
+    "datum": "2026-11-12"
+  },
+  "wunsch-035": {
+    "plugins": [
+      "balken-verschieben",
+      "geraet-balken-zeit"
+    ],
+    "zugriffe": {
+      "gantt": {
+        "auftraege": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/arbeit": "liest",
+        "auftraege/flug": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "mitarbeiter/gruppe": "liest",
+        "mitarbeiter/name": "liest"
+      },
+      "geraete-gantt": {
+        "geraetetypen": "liest",
+        "geraetetypen/reihenfolge": "liest",
+        "geraete": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "wartungen": "liest",
+        "wartungen/tag": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraetetypen/name": "liest",
+        "geraete/typ": "liest",
+        "wartungen/geraet": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraete/name": "liest",
+        "wartungen/start": "liest",
+        "wartungen/ende": "liest"
+      },
+      "geraete-konflikte": {
+        "geraete": "liest",
+        "geraeteanzeige": "liest",
+        "geraeteanzeige/offen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "wartungen": "liest",
+        "wartungen/geraet": "liest",
+        "wartungen/tag": "liest",
+        "wartungen/ende": "liest",
+        "wartungen/start": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraete/name": "liest"
+      },
+      "geraete-offen": {
+        "geraetetypen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraetetypen/einzeln": "liest"
+      },
+      "konfliktzaehler": {
+        "kennzahlen": "liest",
+        "kennzahlen/wert": "liest"
+      },
+      "nicht-zugewiesen": {
+        "auftraege": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "kennzahlen": "liest",
+        "kennzahlen/liste": "liest"
+      },
+      "geraet-balken-zeit": {
+        "geraeteauftraege": "aendert",
+        "geraeteauftraege/start": "aendert",
+        "geraeteauftraege/ende": "aendert"
+      }
+    },
+    "datum": "2026-11-12"
+  },
+  "wunsch-036": {
+    "plugins": [
+      "balken-zuweisen",
+      "geraet-ablage-ziehen",
+      "offen-zuweisen",
+      "verhalten-einsatz"
+    ],
+    "zugriffe": {
+      "gantt": {
+        "auftraege": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/arbeit": "liest",
+        "auftraege/flug": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "mitarbeiter/gruppe": "liest",
+        "mitarbeiter/name": "liest"
+      },
+      "geraete-gantt": {
+        "geraetetypen": "liest",
+        "geraetetypen/reihenfolge": "liest",
+        "geraete": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "wartungen": "liest",
+        "wartungen/tag": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraetetypen/name": "liest",
+        "geraete/typ": "liest",
+        "wartungen/geraet": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraete/name": "liest",
+        "wartungen/start": "liest",
+        "wartungen/ende": "liest"
+      },
+      "geraete-konflikte": {
+        "geraete": "liest",
+        "geraeteanzeige": "liest",
+        "geraeteanzeige/offen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "wartungen": "liest",
+        "wartungen/geraet": "liest",
+        "wartungen/tag": "liest",
+        "wartungen/ende": "liest",
+        "wartungen/start": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraete/name": "liest"
+      },
+      "geraete-offen": {
+        "geraetetypen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraetetypen/einzeln": "liest"
+      },
+      "konfliktzaehler": {
+        "kennzahlen": "liest",
+        "kennzahlen/wert": "liest"
+      },
+      "nicht-zugewiesen": {
+        "auftraege": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "kennzahlen": "liest",
+        "kennzahlen/liste": "liest"
+      },
+      "geraet-ablage-ziehen": {
+        "geraeteauftraege": "aendert",
+        "geraeteauftraege/geraet": "aendert"
+      }
+    },
+    "datum": "2026-11-12"
+  },
+  "wunsch-039": {
+    "plugins": [
+      "geraete-konflikt-leuchten",
+      "geraete-konflikte"
+    ],
+    "zugriffe": {
+      "gantt": {
+        "auftraege": "liest",
+        "auftraege/start": "liest",
+        "auftraege/ende": "liest",
+        "mitarbeiter": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "auftraege/arbeit": "liest",
+        "auftraege/flug": "liest",
+        "mitarbeiter/schichtStart": "liest",
+        "mitarbeiter/abwesend": "liest",
+        "mitarbeiter/gruppe": "liest",
+        "mitarbeiter/name": "liest"
+      },
+      "geraete-gantt": {
+        "geraetetypen": "liest",
+        "geraetetypen/reihenfolge": "liest",
+        "geraete": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "wartungen": "liest",
+        "wartungen/tag": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraetetypen/name": "liest",
+        "geraete/typ": "liest",
+        "wartungen/geraet": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraete/name": "liest",
+        "wartungen/start": "liest",
+        "wartungen/ende": "liest"
+      },
+      "geraete-konflikte": {
+        "geraete": "liest",
+        "geraeteanzeige": "aendert",
+        "geraeteanzeige/offen": "aendert",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraeteauftraege/flug": "liest",
+        "wartungen": "liest",
+        "wartungen/geraet": "liest",
+        "wartungen/tag": "liest",
+        "wartungen/ende": "liest",
+        "wartungen/start": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraete/name": "liest"
+      },
+      "geraete-offen": {
+        "geraetetypen": "liest",
+        "geraeteauftraege": "liest",
+        "geraeteauftraege/geraet": "liest",
+        "geraeteauftraege/tag": "liest",
+        "geraeteauftraege/start": "liest",
+        "geraeteauftraege/typ": "liest",
+        "geraetetypen/farbe": "liest",
+        "geraeteauftraege/flug": "liest",
+        "geraeteauftraege/arbeit": "liest",
+        "geraeteauftraege/ende": "liest",
+        "geraetetypen/einzeln": "liest"
+      },
+      "konfliktzaehler": {
+        "kennzahlen": "liest",
+        "kennzahlen/wert": "liest"
+      },
+      "nicht-zugewiesen": {
+        "auftraege": "liest",
+        "auftraege/mitarbeiter": "liest",
+        "kennzahlen": "liest",
+        "kennzahlen/liste": "liest"
+      },
+      "geraete-konflikt-leuchten": {
+        "geraeteanzeige": "aendert",
+        "geraeteauftraege": "liest",
+        "geraeteanzeige/hervorgehoben": "aendert",
+        "geraeteanzeige/hervorhebung": "aendert"
+      }
+    },
+    "datum": "2026-11-12"
+  }
+}

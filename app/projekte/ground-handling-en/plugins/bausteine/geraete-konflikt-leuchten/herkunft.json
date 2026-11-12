@@ -1,0 +1,33 @@
+{
+  "kennung": "geraete-konflikt-leuchten",
+  "name": "Highlight conflict tasks in the plan",
+  "reihe": 28,
+  "kurz": "When you click a conflict in the list, the chart scrolls to its equipment tasks, and they glow brightly for 2.5 seconds; the bars do not move or change size.",
+  "teilApp": "geraete",
+  "wuensche": [
+    {
+      "kennung": "wunsch-039",
+      "name": "Highlight conflict tasks in the plan",
+      "wortlaut": "When I click a conflict in the conflict list, it expands or collapses as before, and the equipment tasks involved are highlighted in the Gantt with a bright glow that blinks for 2.5 seconds and then stops completely. If the tasks involved are outside the visible part of the chart, the chart scrolls there automatically, horizontally and vertically, so they are in view before the glow starts — also when the conflict lies on the other day. The glow does not move or resize the bars.",
+      "datum": "2026-11-11T17:56:03.001Z",
+      "teilApp": "geraete"
+    }
+  ],
+  "aktuell": 1,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "wunsch",
+      "wunsch": "wunsch-039",
+      "wortlaut": "When I click a conflict in the conflict list, it expands or collapses as before, and the equipment tasks involved are highlighted in the Gantt with a bright glow that blinks for 2.5 seconds and then stops completely. If the tasks involved are outside the visible part of the chart, the chart scrolls there automatically, horizontally and vertically, so they are in view before the glow starts — also when the conflict lies on the other day. The glow does not move or resize the bars.",
+      "datum": "2026-11-11T17:56:03.001Z",
+      "kurz": "When you click a conflict in the list, the chart scrolls to its equipment tasks, and they glow brightly for 2.5 seconds; the bars do not move or change size.",
+      "drehbuch": "wunsch-039",
+      "bestaetigt": {
+        "datum": "2026-11-11T17:56:29.154Z",
+        "wie": "vom PO mit „Bestätigen“"
+      }
+    }
+  ]
+}

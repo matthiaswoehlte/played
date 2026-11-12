@@ -1,0 +1,38 @@
+{
+  "kennung": "konflikt-liste",
+  "name": "Liste der Konflikte",
+  "reihe": 7,
+  "kurz": "Ein Klick auf „Konflikte“ klappt die Liste auf, die sich bei jeder Aktion mitpflegt.",
+  "wuensche": [
+    {
+      "kennung": "wunsch-010",
+      "name": "Überlappungen als Konflikte zeigen",
+      "wortlaut": "Wenn mehrere Balken sich bei einem Mitarbeiter überlappen, dann sollen sie einen Konflikt bekommen und der Konflikt zeigt sich optisch, dass der Balken eine rote Umrandung hat. Auf der rechten Seite soll bei Klick auf Konflikte eine List der Konflikte erscheinen, die auch durch die Aktionen gepflegt wird. Sobald sich z.B. Balken nicht mehr  überlappen, ist der Konflikt nicht mehr existent.",
+      "datum": "2026-11-06T22:29:36.711Z",
+      "teilApp": "disposition"
+    }
+  ],
+  "aktuell": 2,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "zuschnitt",
+      "wortlaut": null,
+      "datum": "2026-11-06T23:59:00.000Z",
+      "kurz": "Aus den Wünschen herausgeschnitten, Verhalten unverändert.",
+      "drehbuch": "wunsch-010"
+    },
+    {
+      "nr": 2,
+      "vorige": 1,
+      "art": "vertrag",
+      "wortlaut": null,
+      "datum": "2026-11-08T12:00:00.000Z",
+      "kurz": "Auf den Bus-Vertrag umgestellt: meldet an, dass es das Auf- und Zuklappen der Liste ändert. Das Verhalten bleibt gleich.",
+      "drehbuch": null,
+      "auftrag": "005"
+    }
+  ],
+  "teilApp": "disposition"
+}

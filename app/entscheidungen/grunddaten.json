@@ -1,0 +1,148 @@
+[
+  {
+    "pfad": "arten/auftraege/status/uebergaenge/begonnen",
+    "alt": [
+      "fertig"
+    ],
+    "neu": [
+      "offen",
+      "fertig"
+    ],
+    "satz": "Dafür ist der Schritt von Begonnen zurück auf Offen jetzt erlaubt, auch im Status-Menü am Balken.",
+    "wunsch": "wunsch-031",
+    "wortlaut": "Disponent darf überstimmen, was in ‚Nicht zugewiesene Aufträge‘ landet, geht auf Offen",
+    "datum": "2026-11-09T20:46:05.410Z",
+    "bestaetigt": "2026-11-09T20:47:13.906Z"
+  },
+  {
+    "pfad": "arten/auftraege/status/uebergaenge/fertig",
+    "alt": [],
+    "neu": [
+      "offen"
+    ],
+    "satz": "Dafür ist der Schritt von Fertig zurück auf Offen jetzt erlaubt, auch im Status-Menü am Balken.",
+    "wunsch": "wunsch-031",
+    "wortlaut": "Disponent darf überstimmen, was in ‚Nicht zugewiesene Aufträge‘ landet, geht auf Offen",
+    "datum": "2026-11-09T20:46:05.410Z",
+    "bestaetigt": "2026-11-09T20:47:13.906Z"
+  },
+  {
+    "pfad": "objekte/fluege/XC402",
+    "alt": null,
+    "neu": {
+      "flug": "XC 402",
+      "muster": "E190",
+      "position": "Gate B1",
+      "onBlock": "05:05",
+      "offBlock": "05:50"
+    },
+    "satz": "Neu im Flugplan: XC 402 (E190) an Gate B1, am Block von 05:05 bis 05:50.",
+    "wunsch": "wunsch-047",
+    "teilApp": "geraete",
+    "wortlaut": "Der Flugplan hat zwischen 05:00 und 11:00 etwa 15 Flüge, verteilt über den Vormittag, damit die Geräte gut ausgelastet sind.",
+    "datum": "2026-11-10T08:34:11.843Z",
+    "bestaetigt": "2026-11-10T08:36:04.718Z"
+  },
+  {
+    "pfad": "objekte/fluege/XA219",
+    "alt": null,
+    "neu": {
+      "flug": "XA 219",
+      "muster": "A320",
+      "position": "Gate B3",
+      "onBlock": "05:55",
+      "offBlock": "06:45"
+    },
+    "satz": "Neu im Flugplan: XA 219 (A320) an Gate B3, am Block von 05:55 bis 06:45.",
+    "wunsch": "wunsch-047",
+    "teilApp": "geraete",
+    "wortlaut": "Der Flugplan hat zwischen 05:00 und 11:00 etwa 15 Flüge, verteilt über den Vormittag, damit die Geräte gut ausgelastet sind.",
+    "datum": "2026-11-10T08:34:11.843Z",
+    "bestaetigt": "2026-11-10T08:36:04.718Z"
+  },
+  {
+    "pfad": "objekte/fluege/XC615",
+    "alt": null,
+    "neu": {
+      "flug": "XC 615",
+      "muster": "E195",
+      "position": "Gate B3",
+      "onBlock": "07:25",
+      "offBlock": "08:10"
+    },
+    "satz": "Neu im Flugplan: XC 615 (E195) an Gate B3, am Block von 07:25 bis 08:10.",
+    "wunsch": "wunsch-047",
+    "teilApp": "geraete",
+    "wortlaut": "Der Flugplan hat zwischen 05:00 und 11:00 etwa 15 Flüge, verteilt über den Vormittag, damit die Geräte gut ausgelastet sind.",
+    "datum": "2026-11-10T08:34:11.843Z",
+    "bestaetigt": "2026-11-10T08:36:04.718Z"
+  },
+  {
+    "pfad": "objekte/fluege/XA483",
+    "alt": null,
+    "neu": {
+      "flug": "XA 483",
+      "muster": "A20N",
+      "position": "Außenposition P8",
+      "onBlock": "08:00",
+      "offBlock": "08:55"
+    },
+    "satz": "Neu im Flugplan: XA 483 (A20N) auf Außenposition P8, am Block von 08:00 bis 08:55.",
+    "wunsch": "wunsch-047",
+    "teilApp": "geraete",
+    "wortlaut": "Der Flugplan hat zwischen 05:00 und 11:00 etwa 15 Flüge, verteilt über den Vormittag, damit die Geräte gut ausgelastet sind.",
+    "datum": "2026-11-10T08:34:11.843Z",
+    "bestaetigt": "2026-11-10T08:36:04.718Z"
+  },
+  {
+    "pfad": "objekte/fluege/XC871",
+    "alt": null,
+    "neu": {
+      "flug": "XC 871",
+      "muster": "E190",
+      "position": "Gate B1",
+      "onBlock": "09:05",
+      "offBlock": "09:50"
+    },
+    "satz": "Neu im Flugplan: XC 871 (E190) an Gate B1, am Block von 09:05 bis 09:50.",
+    "wunsch": "wunsch-047",
+    "teilApp": "geraete",
+    "wortlaut": "Der Flugplan hat zwischen 05:00 und 11:00 etwa 15 Flüge, verteilt über den Vormittag, damit die Geräte gut ausgelastet sind.",
+    "datum": "2026-11-10T08:34:11.843Z",
+    "bestaetigt": "2026-11-10T08:36:04.718Z"
+  },
+  {
+    "pfad": "objekte/fluege/XB956",
+    "alt": null,
+    "neu": {
+      "flug": "XB 956",
+      "muster": "B738",
+      "position": "Gate A2",
+      "onBlock": "09:50",
+      "offBlock": "10:35"
+    },
+    "satz": "Neu im Flugplan: XB 956 (B738) an Gate A2, am Block von 09:50 bis 10:35.",
+    "wunsch": "wunsch-047",
+    "teilApp": "geraete",
+    "wortlaut": "Der Flugplan hat zwischen 05:00 und 11:00 etwa 15 Flüge, verteilt über den Vormittag, damit die Geräte gut ausgelastet sind.",
+    "datum": "2026-11-10T08:34:11.843Z",
+    "bestaetigt": "2026-11-10T08:36:04.718Z"
+  },
+  {
+    "pfad": "objekte/fluege/XA990",
+    "alt": null,
+    "neu": {
+      "flug": "XA 990",
+      "muster": "A32N",
+      "position": "Gate B3",
+      "onBlock": "10:15",
+      "offBlock": "10:55"
+    },
+    "satz": "Neu im Flugplan: XA 990 (A32N) an Gate B3, am Block von 10:15 bis 10:55.",
+    "wunsch": "wunsch-047",
+    "teilApp": "geraete",
+    "wortlaut": "Der Flugplan hat zwischen 05:00 und 11:00 etwa 15 Flüge, verteilt über den Vormittag, damit die Geräte gut ausgelastet sind.",
+    "datum": "2026-11-10T08:34:11.843Z",
+    "bestaetigt": "2026-11-10T08:36:04.718Z"
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "schluessel": "gantt|ziehen|balken-zuweisen+verhalten-einsatz",
+    "plugins": [
+      "balken-zuweisen",
+      "verhalten-einsatz"
+    ],
+    "gewaehlt": "verhalten-einsatz",
+    "satz": "If you drag a bar in the daily plan onto an agent (e.g. XA 101 Unloading onto D. Mahler), both “Drag bars to other agents” and “Change assignment” want to take it over.",
+    "datum": "2026-11-09T20:45:20.571Z",
+    "wie": "by the PO with a click on “Change assignment takes over”"
+  }
+]

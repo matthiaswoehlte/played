@@ -1,0 +1,33 @@
+{
+  "kennung": "geraet-konflikt-rand",
+  "name": "Red outline on conflicting equipment",
+  "reihe": 27,
+  "kurz": "Equipment bars that are in a conflict now have a red outline in the equipment Gantt.",
+  "teilApp": "geraete",
+  "wuensche": [
+    {
+      "kennung": "wunsch-037",
+      "name": "Red outline on conflicting equipment",
+      "wortlaut": "Equipment tasks that are in a conflict have a red outline in the Gantt, so I can see the conflict directly on the bars.",
+      "datum": "2026-11-11T17:52:05.124Z",
+      "teilApp": "geraete"
+    }
+  ],
+  "aktuell": 1,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "wunsch",
+      "wunsch": "wunsch-037",
+      "wortlaut": "Equipment tasks that are in a conflict have a red outline in the Gantt, so I can see the conflict directly on the bars.",
+      "datum": "2026-11-11T17:52:05.124Z",
+      "kurz": "Equipment bars that are in a conflict now have a red outline in the equipment Gantt.",
+      "drehbuch": null,
+      "bestaetigt": {
+        "datum": "2026-11-11T17:52:17.696Z",
+        "wie": "vom PO mit „Bestätigen“"
+      }
+    }
+  ]
+}

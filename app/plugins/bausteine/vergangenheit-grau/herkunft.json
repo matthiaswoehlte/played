@@ -1,0 +1,46 @@
+{
+  "kennung": "vergangenheit-grau",
+  "name": "Vergangene Zeit grau",
+  "reihe": 11,
+  "kurz": "In der Zeitleiste über dem Tagesplan ist jetzt alles, was schon vorbei ist, grau hinterlegt, bis zur Linie für die aktuelle Uhrzeit. Das Grau läuft mit der Uhr Minute für Minute mit.",
+  "wuensche": [
+    {
+      "kennung": "wunsch-013",
+      "name": "Vergangene Zeit grau",
+      "wortlaut": "Das was in der Vergangenheit liegt in der Anzeige des Gannt oben bei den Uhrzeiten, soll grau markiert werden bis zum aktuellen Zeitstrahl",
+      "datum": "2026-11-07T16:15:13.207Z",
+      "teilApp": "disposition"
+    }
+  ],
+  "aktuell": 2,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "wunsch",
+      "wunsch": "wunsch-013",
+      "wortlaut": "Das was in der Vergangenheit liegt in der Anzeige des Gannt oben bei den Uhrzeiten, soll grau markiert werden bis zum aktuellen Zeitstrahl",
+      "datum": "2026-11-07T16:15:13.207Z",
+      "kurz": "In der Zeitleiste über dem Tagesplan ist jetzt alles, was schon vorbei ist, grau hinterlegt, bis zur Linie für die aktuelle Uhrzeit. Das Grau läuft mit der Uhr Minute für Minute mit.",
+      "drehbuch": null
+    },
+    {
+      "nr": 2,
+      "vorige": 1,
+      "art": "stimmt-nicht",
+      "wunsch": "wunsch-030",
+      "wortlaut": "Ich habe das falsch gesagt, das stimmt so nicht",
+      "rueckfragen": [
+        {
+          "rueckfrage": "Wie soll die vergangene Zeit stattdessen aussehen? Bisher ist nur die Zeitleiste über dem Tagesplan grau hinterlegt, vom Beginn der Achse bis zur aktuellen Uhrzeit. Soll zum Beispiel der ganze Tagesplan mit allen Mitarbeiterzeilen grau sein, sollen nur die vergangenen Balken grau werden, oder soll das Grau anders aussehen?",
+          "antwort": "Es geht nur um die Zeitleist. Sie soll für die Vergangenheit nicht mehr grau sein.",
+          "datum": "2026-11-09T20:14:41.201Z"
+        }
+      ],
+      "datum": "2026-11-09T20:15:09.656Z",
+      "kurz": "Die Zeitleiste über dem Tagesplan ist für die vergangene Zeit nicht mehr grau hinterlegt.",
+      "drehbuch": null
+    }
+  ],
+  "teilApp": "disposition"
+}

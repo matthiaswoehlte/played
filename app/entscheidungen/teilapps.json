@@ -1,0 +1,25 @@
+{
+  "plugins": {
+    "gantt": "disposition",
+    "nicht-zugewiesen": "disposition",
+    "konfliktzaehler": "disposition",
+    "verhalten-krankmeldung": "disposition",
+    "verhalten-einsatz": "disposition",
+    "fachsprache": "disposition"
+  },
+  "szenarien": {
+    "krankmeldung-ma-01": "disposition",
+    "krankmeldung-ma-20": "disposition"
+  },
+  "gespielt": {
+    "gespielt-001": "disposition"
+  },
+  "regeln": {
+    "abwesend-auftraege-geloest.js": "disposition",
+    "beginn-ab-on-block.js": "disposition",
+    "fremd-schichtplanung-zwei-auftraege.js": "personal",
+    "ladegruppe-je-flug.js": "disposition",
+    "mindestdauer.js": "disposition",
+    "qualifikation-passt.js": "disposition"
+  }
+}

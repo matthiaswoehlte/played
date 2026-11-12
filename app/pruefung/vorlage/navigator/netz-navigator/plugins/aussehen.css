@@ -1,0 +1,125 @@
+/* Aussehen des Netz-Navigators: Look „Edel“ (Fassung LF-1), Kästen mit Verbindungsfäden, Wasserlicht auf allem Anklickbaren. */
+:root { --nv-wasser: rgba(114,214,199,.13); --nv-wasser2: rgba(143,176,255,.10); --nv-glanz: linear-gradient(120deg,#72D6C7 0%,#8FB0FF 55%,#EBC47E 100%); --nv-faden: #72D6C7; --nv-naht: #56736E; --nv-ease: cubic-bezier(.2,.7,.2,1); }
+
+/* Übersicht links, das Hauptfeld daneben */
+.orte { grid-template-columns: 220px minmax(0, 1fr); }
+.ort[data-ort="seite"] { order: -1; }
+.sicht:empty { display: none; }
+
+/* Wasserlicht: alles, was sich anklicken lässt */
+.nv-klick { position: relative; overflow: hidden; isolation: isolate; cursor: pointer; color: inherit; font: inherit; transition: transform .55s var(--nv-ease), box-shadow .55s var(--nv-ease), background-color .45s ease, border-color .45s ease; }
+.nv-klick::after { content: ""; position: absolute; inset: -90% -45%; z-index: -1; pointer-events: none; background: radial-gradient(34% 26% at 30% 50%, var(--nv-wasser) 0%, transparent 72%), radial-gradient(26% 38% at 70% 55%, var(--nv-wasser2) 0%, transparent 74%); opacity: .5; animation: nv-wasser 26s cubic-bezier(.45,0,.55,1) infinite alternate; transition: opacity .7s ease; }
+.nv-klick:hover::after { opacity: 1; }
+.nv-klick:hover { transform: translateY(-1px); box-shadow: 0 12px 30px -14px rgba(114,214,199,.38); }
+@keyframes nv-wasser { 0% { transform: translate3d(-16%,-4%,0) rotate(-2deg) scale(1); } 50% { transform: translate3d(4%,5%,0) rotate(3deg) scale(1.07); } 100% { transform: translate3d(16%,-3%,0) rotate(-1deg) scale(1); } }
+@media (prefers-reduced-motion: reduce) { .nv-klick::after { animation: none; } .nv-klick, .nv-klick:hover { transition: none; transform: none; } }
+
+/* Karte */
+.nv-flaeche { position: relative; height: min(62vh, 560px); min-height: 380px; }
+.nv-flaeche svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+.nv-fadenlinie { stroke: var(--nv-faden); stroke-width: 1.5; opacity: .55; vector-effect: non-scaling-stroke; }
+.nv-treffer { stroke: transparent; stroke-width: 18; vector-effect: non-scaling-stroke; cursor: pointer; pointer-events: stroke; }
+.nv-kasten { position: absolute; transform: translate(-50%,-50%); width: 230px; display: flex; flex-direction: column; gap: 3px; text-align: left; padding: 14px 16px; border-radius: 14px; background: #12201f; border: 1px solid rgba(170,225,212,.32); }
+.nv-kasten:hover { transform: translate(-50%,calc(-50% - 1px)); border-color: var(--nv-faden); }
+.nv-kasten strong { font-size: 15.5px; font-weight: 600; background: var(--nv-glanz); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.nv-kasten span { font-size: 13px; }
+.nv-kasten small { font-size: 12px; color: var(--dim); }
+/* Baustand: nur die Form, keine Farbe */
+.nv-b-leer { border-style: dashed !important; }
+.nv-b-daten { border-style: dotted !important; }
+.nv-aussen { width: 170px; border-color: rgba(170,225,212,.16); }
+.nv-aussen > :not(.nv-merk) { opacity: .55; }
+/* Zahl am Kasten: innen, damit nichts abgeschnitten wird. Rot Regelverstöße, gelb wartet auf eine Entscheidung. */
+.nv-kasten:has(.nv-merk) { padding-right: 52px; }
+.nv-merk { position: absolute; top: 10px; right: 10px; min-width: 28px; height: 28px; padding: 0 8px; box-sizing: border-box; border-radius: 14px; display: flex; align-items: center; justify-content: center; font-style: normal; font-size: 15px; font-weight: 700; color: #14130C; }
+.nv-rot { background: #FF5A5A; }
+.nv-gelb { background: #FFD24A; }
+/* Zustand eines Strangs: Farbe, Widerspruch und instabil auch mit eigener Linie */
+.nv-z-klar { --z: rgba(114,214,199,.32); }
+.nv-z-offen { --z: #FFD24A; }
+.nv-z-instabil { --z: #FFD24A; }
+.nv-z-widerspruch { --z: #FF5A5A; }
+.nv-fadenlinie { stroke: var(--z); opacity: 1; }
+.nv-fadenlinie.nv-z-widerspruch { stroke-dasharray: 10 5; stroke-width: 2.4; }
+.nv-fadenlinie.nv-z-instabil { stroke-dasharray: 2 5; stroke-width: 2.4; }
+.nv-fadenlinie.nv-z-klar { stroke-width: 1; }
+.nv-zahl.nv-z-klar { opacity: .6; }
+.nv-zahl { border-color: var(--z) !important; color: var(--z); }
+.nv-zahl.nv-z-klar { color: inherit; }
+.nv-marke { flex: none; align-self: center; width: 9px; height: 9px; border-radius: 50%; background: var(--z); }
+.nv-liste li small { align-self: center; color: var(--dim); white-space: nowrap; }
+.nv-liste li > span, .nv-liste li > .nv-link { flex: 1; }
+/* Legende: eine Zeile am unteren Rand der Karte */
+.nv-legende { font-size: 12px; color: var(--dim); padding: 4px 2px 0; }
+.nv-legende summary { cursor: pointer; }
+.nv-legende div { display: flex; flex-wrap: wrap; gap: 4px 16px; padding-top: 5px; }
+.nv-legende p { flex-basis: 100%; margin: 0; }
+.nv-linie { display: inline-block; width: 24px; margin-right: 5px; vertical-align: 3px; border-top: 2px dashed var(--z); }
+.nv-linie.nv-z-instabil { border-top-style: dotted; }
+.nv-mass { display: inline-block; width: 22px; height: 11px; margin-right: 5px; border: 1px solid var(--kante2); vertical-align: -1px; }
+.nv-zahl { position: absolute; transform: translate(-50%,-50%); min-width: 30px; height: 30px; padding: 0 8px; border-radius: 15px; background: #0E2024; border: 1px solid var(--nv-faden); font-size: 13px; font-weight: 600; }
+.nv-zahl:hover { transform: translate(-50%,calc(-50% - 1px)); }
+
+/* Hineinzoomen */
+.nv-tief { max-height: calc(100vh - 260px); overflow-y: auto; padding-right: 8px; }
+.nv-kopf h2 { margin: 0 0 3px; font-size: 19px; font-weight: 600; background: var(--nv-glanz); -webkit-background-clip: text; background-clip: text; color: transparent; display: inline-block; }
+.nv-kopf p { margin: 0 0 12px; color: var(--dim); font-size: 13px; }
+.nv-tief h3 { margin: 14px 0 7px; font-size: 13px; font-weight: 600; color: var(--nv-faden); letter-spacing: .02em; }
+.nv-kacheln { display: grid; grid-template-columns: repeat(auto-fill, minmax(215px, 1fr)); gap: 9px; }
+.nv-merk { cursor: pointer; }
+.nv-merk-strang { position: static; display: inline-flex; margin-left: 8px; vertical-align: middle; }
+.nv-kachel { position: relative; display: flex; flex-direction: column; gap: 2px; text-align: left; padding: 10px 12px; border-radius: 11px; background: var(--glas); border: 1px solid var(--kante); }
+.nv-kachel strong { font-weight: 600; font-size: 13.5px; }
+.nv-kachel span { color: var(--dim); font-size: 12px; }
+.nv-aus { opacity: .55; }
+.nv-liste { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 5px; font-size: 13.5px; }
+.nv-liste li { display: flex; justify-content: space-between; gap: 14px; }
+.nv-link { background: none; border: 0; padding: 2px 5px; border-radius: 6px; text-align: left; }
+time { color: var(--dim); font-size: 12px; font-weight: 400; white-space: nowrap; }
+
+/* Herkunftskette */
+.nv-kette { display: flex; flex-direction: column; }
+.nv-glied { position: relative; padding: 0 0 12px 20px; border-left: 1.5px solid rgba(114,214,199,.42); margin-left: 5px; }
+.nv-glied::before { content: ""; position: absolute; left: -5.5px; top: 4px; width: 9px; height: 9px; border-radius: 50%; background: var(--nv-faden); box-shadow: 0 0 9px rgba(114,214,199,.75); }
+.nv-glied h3 { margin-top: 0; }
+.nv-glied article { padding: 7px 10px; margin-bottom: 6px; border-radius: 9px; background: var(--glas); }
+.nv-glied article.nv-aktuell { outline: 1px solid rgba(114,214,199,.42); }
+.nv-glied h4 { margin: 0 0 3px; font-size: 13px; font-weight: 600; display: flex; justify-content: space-between; gap: 12px; }
+.nv-glied p, .nv-glied blockquote { margin: 3px 0 0; font-size: 13px; line-height: 1.42; }
+.nv-glied blockquote { font-style: italic; }
+.nv-alt { color: var(--dim); }
+.nv-neu { color: var(--nv-faden); }
+.nv-klein { color: var(--dim); }
+.nv-liste small { display: block; font-size: 12px; margin-top: 1px; }
+.nv-frage { display: flex; flex-direction: column; gap: 2px; margin-top: 5px; font-size: 12.5px; color: var(--dim); }
+
+/* Übersicht */
+.nv-mini { display: flex; flex-direction: column; gap: 7px; }
+.nv-gesamt, .nv-minibox > button { width: 100%; text-align: left; padding: 6px 8px; font-size: 12.5px; border-radius: 8px; background: transparent; border: 0; }
+.nv-gesamt { border: 1px solid var(--kante); }
+.nv-minibox { border-radius: 9px; border: 1px solid var(--kante); }
+.nv-hier.nv-gesamt, .nv-minibox.nv-hier { border-color: var(--nv-faden); box-shadow: 0 0 12px -2px rgba(114,214,199,.55); }
+.nv-punkte { display: flex; flex-wrap: wrap; gap: 5px; padding: 0 8px 8px; }
+.nv-punkt { width: 11px; height: 11px; padding: 0; border-radius: 50%; border: 1px solid var(--kante2); background: transparent; }
+.nv-punkt.nv-hier { background: var(--nv-faden); border-color: var(--nv-faden); box-shadow: 0 0 8px var(--nv-faden); }
+
+/* Ariadnefaden */
+.nv-faden { display: flex; flex-wrap: wrap; align-items: center; row-gap: 6px; }
+.nv-station { padding: 4px 11px; font-size: 12.5px; border-radius: 13px; background: var(--glas); border: 1px solid rgba(114,214,199,.45); }
+.nv-station.nv-hier { border-color: var(--nv-faden); box-shadow: 0 0 11px -1px rgba(114,214,199,.7); font-weight: 600; }
+.nv-strang { width: 22px; height: 2px; background: var(--nv-faden); box-shadow: 0 0 7px 1px rgba(114,214,199,.6); }
+
+/* Grundstock: nachträglich erfasst, deutlich anders als echte Herkunft */
+.nv-kachel.nv-grund { border: 1px dashed #EBC47E; background: transparent; }
+.nv-anmerkung { display: block; width: 100%; box-sizing: border-box; margin: 4px 0 7px; padding: 7px 9px; border-radius: 8px; background: var(--glas); border: 1px solid var(--kante); color: inherit; font: inherit; font-size: 13px; }
+.nv-stimmtnicht { padding: 5px 13px; border-radius: 12px; background: var(--glas); border: 1px solid #EBC47E; }
+
+/* Prototyp beginnen: am gestrichelten Kasten, Play nimmt die Bitte an */
+.nv-beginnen { position: absolute; transform: translate(-50%,-50%); padding: 4px 12px; font-size: 12.5px; border-radius: 12px; background: #12201f; border: 1px solid var(--nv-faden); }
+.nv-beginnen:hover { transform: translate(-50%,calc(-50% - 1px)); }
+.nv-leeren { opacity: .7; font-size: 11.5px; }
+.nv-leeren:hover { opacity: 1; }
+/* Anweisung 45 (e): Sicherungen unter der Karte, je Zeile mit „Zurückholen“ */
+.nv-sicherungen ul { list-style: none; margin: 0; padding: 5px 0 0; }
+.nv-sicherungen li { padding: 2px 0; }
+.nv-sicherungen button { margin-left: 8px; padding: 1px 10px; font-size: 11.5px; border-radius: 10px; background: #12201f; border: 1px solid var(--nv-faden); color: inherit; }

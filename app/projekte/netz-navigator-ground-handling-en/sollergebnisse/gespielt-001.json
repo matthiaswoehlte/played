@@ -1,0 +1,3107 @@
+{
+  "kennung": "gespielt-001",
+  "zuletzt": "{}",
+  "je": {
+    "{}": {
+      "zustand": {
+        "navi": {
+          "jetzt": {
+            "kennung": "jetzt",
+            "pfad": "bereiche/disposition-ordner"
+          },
+          "faden": {
+            "kennung": "faden",
+            "stationen": [
+              "karte",
+              "bereiche/disposition-ordner",
+              "bereiche/geraete",
+              "bereiche/flugplan"
+            ],
+            "hier": 1
+          }
+        },
+        "bereiche": {
+          "disposition-ordner": {
+            "kennung": "disposition-ordner",
+            "name": "Dispatch",
+            "verantwortlich": "Matthias",
+            "eltern": null,
+            "tiefe": 0,
+            "ordner": true,
+            "beispieldaten": false,
+            "baustand": "prototyp",
+            "prototyp": true,
+            "zahl": {
+              "verstoesse": 2,
+              "faelle": 10,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            },
+            "ohnePlugin": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            },
+            "fachobjekte": []
+          },
+          "disposition": {
+            "kennung": "disposition",
+            "name": "Staff Dispatch",
+            "verantwortlich": null,
+            "eltern": "disposition-ordner",
+            "tiefe": 1,
+            "ordner": false,
+            "beispieldaten": false,
+            "baustand": "prototyp",
+            "prototyp": true,
+            "zahl": {
+              "verstoesse": 2,
+              "faelle": 10,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            },
+            "ohnePlugin": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            },
+            "fachobjekte": [
+              "Tasks",
+              "Conflicts"
+            ]
+          },
+          "geraete": {
+            "kennung": "geraete",
+            "name": "Equipment Dispatch",
+            "verantwortlich": null,
+            "eltern": "disposition-ordner",
+            "tiefe": 1,
+            "ordner": false,
+            "beispieldaten": false,
+            "baustand": "leer",
+            "prototyp": false,
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            },
+            "ohnePlugin": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            },
+            "fachobjekte": []
+          },
+          "personal-ordner": {
+            "kennung": "personal-ordner",
+            "name": "Staff and Shift Planning",
+            "verantwortlich": null,
+            "eltern": null,
+            "tiefe": 0,
+            "ordner": true,
+            "beispieldaten": false,
+            "baustand": "daten",
+            "prototyp": false,
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            },
+            "ohnePlugin": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            },
+            "fachobjekte": []
+          },
+          "personal": {
+            "kennung": "personal",
+            "name": "Shifts",
+            "verantwortlich": null,
+            "eltern": "personal-ordner",
+            "tiefe": 1,
+            "ordner": false,
+            "beispieldaten": false,
+            "baustand": "daten",
+            "prototyp": false,
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            },
+            "ohnePlugin": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            },
+            "fachobjekte": [
+              "Agent"
+            ]
+          },
+          "urlaub": {
+            "kennung": "urlaub",
+            "name": "Leave Planning",
+            "verantwortlich": null,
+            "eltern": "personal-ordner",
+            "tiefe": 1,
+            "ordner": false,
+            "beispieldaten": false,
+            "baustand": "leer",
+            "prototyp": false,
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            },
+            "ohnePlugin": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            },
+            "fachobjekte": []
+          },
+          "flugplan": {
+            "kennung": "flugplan",
+            "name": "Flight Schedule",
+            "verantwortlich": null,
+            "eltern": null,
+            "tiefe": 0,
+            "ordner": false,
+            "beispieldaten": false,
+            "baustand": "daten",
+            "prototyp": false,
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            },
+            "ohnePlugin": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            },
+            "fachobjekte": [
+              "Flights"
+            ]
+          }
+        },
+        "bausteine": {
+          "auftrag-status": {
+            "kennung": "auftrag-status",
+            "name": "Task status on the bar",
+            "bereich": "disposition",
+            "aktuell": 3,
+            "aus": false,
+            "fassungen": [
+              {
+                "nr": 1,
+                "art": "wunsch",
+                "datum": "07.11.2026",
+                "wunsch": "022",
+                "wortlaut": "Each task has a status: Open, Started or Done. The status is shown in the overlay on hover. It is set via a small status icon on the bar; a click on it opens a menu with the three statuses. At the start of the day the status follows the time: past = Done, running = Started, not yet started = Open.",
+                "kurz": "Each task now has a status (Open, Started or Done): it is shown in the overlay on hover and can be set from a menu via a status icon on the bar; at the start of the day it follows the time.",
+                "rueckfragen": [],
+                "anhaenge": [],
+                "erwartungen": [],
+                "gespielt": {
+                  "szenario": "wunsch-022",
+                  "name": "Set a task's status on the bar"
+                },
+                "entscheidungen": []
+              },
+              {
+                "nr": 2,
+                "art": "vertrag",
+                "datum": "08.11.2026",
+                "wunsch": null,
+                "wortlaut": null,
+                "kurz": "Switched to the bus contract: declares that it changes the task status and the open status menu. The behaviour stays the same.",
+                "rueckfragen": [],
+                "anhaenge": [],
+                "erwartungen": [],
+                "gespielt": null,
+                "entscheidungen": []
+              },
+              {
+                "nr": 3,
+                "art": "vertrag",
+                "datum": "08.11.2026",
+                "wunsch": null,
+                "wortlaut": null,
+                "kurz": "Play now keeps the status according to the data model, including the status at the start of the day from your request. The plugin shows it and sends your choice; whatever cannot follow from a status is grey in the menu.",
+                "rueckfragen": [],
+                "anhaenge": [],
+                "erwartungen": [],
+                "gespielt": null,
+                "entscheidungen": []
+              }
+            ],
+            "entscheidungen": [],
+            "arbeitetIn": [
+              {
+                "szenario": "wunsch-031",
+                "name": "Tasks in the list go back to Open",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-017",
+                "name": "Drag bar back to the list and reassign",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-012",
+                "name": "Highlight everyone in a conflict from the list",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-015",
+                "name": "Assignment details with conflicts on hover",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-005",
+                "name": "Drag assignment bars to other agents",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-004",
+                "name": "Stretch and shrink assignment bars with the mouse",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-008",
+                "name": "Move assignment bars left and right",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "krankmeldung-ma-01",
+                "name": "Sick call AG-01 from 08:00",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-009",
+                "name": "Sick call AG-01: reassign tasks from the list",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "krankmeldung-ma-20",
+                "name": "Sick call AG-20 from 09:00",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-025",
+                "name": "View agent details in the overlay",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-022",
+                "name": "Set a task's status on the bar",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-010",
+                "name": "Overlaps in the daily plan and in the conflict list",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-028",
+                "name": "Delay of XC 810 hits a started task",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-001",
+                "name": "XC 810 delayed by 20 minutes",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "gespielt-001",
+                "name": "By hand: XC 508 Fuelling now ends at 07:55",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-027",
+                "name": "XB 933 arrives on block 20 minutes later",
+                "datum": "09.11.2026"
+              }
+            ],
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "balken-kante": {
+            "kennung": "balken-kante",
+            "name": "Stretch and shrink bars at the edge",
+            "bereich": "disposition",
+            "aktuell": 1,
+            "aus": false,
+            "fassungen": [
+              {
+                "nr": 1,
+                "art": "zuschnitt",
+                "datum": "06.11.2026",
+                "wunsch": null,
+                "wortlaut": null,
+                "kurz": "Cut out of the requests, behaviour unchanged.",
+                "rueckfragen": [],
+                "anhaenge": [],
+                "erwartungen": [],
+                "gespielt": {
+                  "szenario": "wunsch-004",
+                  "name": "Stretch and shrink assignment bars with the mouse"
+                },
+                "entscheidungen": []
+              }
+            ],
+            "entscheidungen": [],
+            "arbeitetIn": [
+              {
+                "szenario": "wunsch-004",
+                "name": "Stretch and shrink assignment bars with the mouse",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-010",
+                "name": "Overlaps in the daily plan and in the conflict list",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "gespielt-001",
+                "name": "By hand: XC 508 Fuelling now ends at 07:55",
+                "datum": "09.11.2026"
+              }
+            ],
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "balken-overlay": {
+            "kennung": "balken-overlay",
+            "name": "Assignment details on hover",
+            "bereich": "disposition",
+            "aktuell": 1,
+            "aus": false,
+            "fassungen": [
+              {
+                "nr": 1,
+                "art": "wunsch",
+                "datum": "07.11.2026",
+                "wunsch": "015",
+                "wortlaut": "If a bar has conflicts, show them on mouseover as well, in addition to the information already in the tooltip. The tooltip should be a real small overlay with flight data for the best time, so ETA, but touchdown if there, or on-block even better. Then the name of the person who has the assignment, which assignment it is and which conflicts are on the assignment",
+                "kurz": "Hovering the mouse over a bar in the daily plan now shows a small window. It shows the best time of the flight (on-block, else touchdown, else ETA), the agent, the assignment with its time and all conflicts of this assignment.",
+                "rueckfragen": [],
+                "anhaenge": [],
+                "erwartungen": [],
+                "gespielt": {
+                  "szenario": "wunsch-015",
+                  "name": "Assignment details with conflicts on hover"
+                },
+                "entscheidungen": []
+              }
+            ],
+            "entscheidungen": [],
+            "arbeitetIn": [],
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "balken-versatz": {
+            "kennung": "balken-versatz",
+            "name": "Show overlapping bars offset",
+            "bereich": "disposition",
+            "aktuell": 1,
+            "aus": false,
+            "fassungen": [
+              {
+                "nr": 1,
+                "art": "zuschnitt",
+                "datum": "06.11.2026",
+                "wunsch": null,
+                "wortlaut": null,
+                "kurz": "Cut out of the requests, behaviour unchanged.",
+                "rueckfragen": [],
+                "anhaenge": [],
+                "erwartungen": [],
+                "gespielt": null,
+                "entscheidungen": []
+              }
+            ],
+            "entscheidungen": [],
+            "arbeitetIn": [],
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "balken-verschieben": {
+            "kennung": "balken-verschieben",
+            "name": "Move bars left and right",
+            "bereich": "disposition",
+            "aktuell": 1,
+            "aus": false,
+            "fassungen": [
+              {
+                "nr": 1,
+                "art": "zuschnitt",
+                "datum": "06.11.2026",
+                "wunsch": null,
+                "wortlaut": null,
+                "kurz": "Cut out of the requests, behaviour unchanged.",
+                "rueckfragen": [],
+                "anhaenge": [],
+                "erwartungen": [],
+                "gespielt": {
+                  "szenario": "wunsch-008",
+                  "name": "Move assignment bars left and right"
+                },
+                "entscheidungen": []
+              }
+            ],
+            "entscheidungen": [],
+            "arbeitetIn": [
+              {
+                "szenario": "wunsch-008",
+                "name": "Move assignment bars left and right",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-010",
+                "name": "Overlaps in the daily plan and in the conflict list",
+                "datum": "09.11.2026"
+              }
+            ],
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "balken-zuruecklegen": {
+            "kennung": "balken-zuruecklegen",
+            "name": "Bar back to the list",
+            "bereich": "disposition",
+            "aktuell": 4,
+            "aus": false,
+            "fassungen": [
+              {
+                "nr": 1,
+                "art": "wunsch",
+                "datum": "07.11.2026",
+                "wunsch": "017",
+                "wortlaut": "I want to drag a bar into the list of \"unassigned tasks\". I also want to be able to assign tasks that are already in there to an agent in the Gantt again by drag & drop",
+                "kurz": "You can now drag a bar from the daily plan into the “Unassigned tasks” list. The task keeps its time, then has no agent, and can be dragged from the list onto an agent again as before.",
+                "rueckfragen": [],
+                "anhaenge": [],
+                "erwartungen": [],
+                "gespielt": {
+                  "szenario": "wunsch-017",
+                  "name": "Drag bar back to the list and reassign"
+                },
+                "entscheidungen": []
+              },
+              {
+                "nr": 2,
+                "art": "stimmt-nicht",
+                "datum": "07.11.2026",
+                "wunsch": "018",
+                "wortlaut": "I can't drag and drop the bar from the Gantt into the list. The task is not accepted there. Back from the list into the Gantt onto an agent seems to work",
+                "kurz": "The list “Unassigned tasks” now accepts a bar from the daily plan, whether it is dropped on free space in the list or on a task in it.",
+                "rueckfragen": [],
+                "anhaenge": [],
+                "erwartungen": [],
+                "gespielt": null,
+                "entscheidungen": []
+              },
+              {
+                "nr": 3,
+                "art": "stimmt-nicht",
+                "datum": "07.11.2026",
+                "wunsch": "019",
+                "wortlaut": "I still can't drag a task into the \"Unassigned tasks\" list with the mouse. The list or panel doesn't accept the bar",
+                "kurz": "A bar can now be dragged onto any spot of “Unassigned tasks”, even where no drop target is detected; the panel is outlined in colour meanwhile.",
+                "rueckfragen": [],
+                "anhaenge": [],
+                "erwartungen": [],
+                "gespielt": null,
+                "entscheidungen": []
+              },
+              {
+                "nr": 4,
+                "art": "vertrag",
+                "datum": "08.11.2026",
+                "wunsch": null,
+                "wortlaut": null,
+                "kurz": "Switched to the bus contract: putting a task back is now done by “Change assignment”, which owns a task's agent; this plugin still handles the drag into the list. The behaviour stays the same.",
+                "rueckfragen": [],
+                "anhaenge": [],
+                "erwartungen": [],
+                "gespielt": null,
+                "entscheidungen": []
+              }
+            ],
+            "entscheidungen": [],
+            "arbeitetIn": [
+              {
+                "szenario": "wunsch-031",
+                "name": "Tasks in the list go back to Open",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-017",
+                "name": "Drag bar back to the list and reassign",
+                "datum": "09.11.2026"
+              }
+            ],
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "balken-zuweisen": {
+            "kennung": "balken-zuweisen",
+            "name": "Drag bars to other agents",
+            "bereich": "disposition",
+            "aktuell": 1,
+            "aus": false,
+            "fassungen": [
+              {
+                "nr": 1,
+                "art": "zuschnitt",
+                "datum": "06.11.2026",
+                "wunsch": null,
+                "wortlaut": null,
+                "kurz": "Cut out of the requests, behaviour unchanged.",
+                "rueckfragen": [],
+                "anhaenge": [],
+                "erwartungen": [],
+                "gespielt": {
+                  "szenario": "wunsch-005",
+                  "name": "Drag assignment bars to other agents"
+                },
+                "entscheidungen": [
+                  {
+                    "satz": "If you drag a bar in the daily plan onto an agent (e.g. XA 101 Unloading onto D. Mahler), both “Drag bars to other agents” and “Change assignment” want to take it over.",
+                    "wie": "by the PO with a click on “Drag bars to other agents takes over”",
+                    "datum": "09.11.2026"
+                  },
+                  {
+                    "satz": "If you drag a bar in the daily plan onto an agent (e.g. XA 101 Unloading onto D. Mahler), both “Drag bars to other agents” and “Change assignment” want to take it over.",
+                    "wie": "by the PO with a click on “Change assignment takes over”",
+                    "datum": "09.11.2026"
+                  }
+                ]
+              }
+            ],
+            "entscheidungen": [],
+            "arbeitetIn": [
+              {
+                "szenario": "wunsch-017",
+                "name": "Drag bar back to the list and reassign",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-015",
+                "name": "Assignment details with conflicts on hover",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-005",
+                "name": "Drag assignment bars to other agents",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-009",
+                "name": "Sick call AG-01: reassign tasks from the list",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-010",
+                "name": "Overlaps in the daily plan and in the conflict list",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "gespielt-001",
+                "name": "By hand: XC 508 Fuelling now ends at 07:55",
+                "datum": "09.11.2026"
+              }
+            ],
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "fachsprache": {
+            "kennung": "fachsprache",
+            "name": "Trade language",
+            "bereich": "disposition",
+            "aktuell": null,
+            "aus": false,
+            "fassungen": [],
+            "entscheidungen": [],
+            "arbeitetIn": [],
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "flugverspaetung": {
+            "kennung": "flugverspaetung",
+            "name": "Flight delay",
+            "bereich": "disposition",
+            "aktuell": 3,
+            "aus": false,
+            "fassungen": [
+              {
+                "nr": 1,
+                "art": "zuschnitt",
+                "datum": "06.11.2026",
+                "wunsch": null,
+                "wortlaut": null,
+                "kurz": "Cut out of the requests, behaviour unchanged.",
+                "rueckfragen": [],
+                "anhaenge": [],
+                "erwartungen": [],
+                "gespielt": {
+                  "szenario": "wunsch-001",
+                  "name": "XC 810 delayed by 20 minutes"
+                },
+                "entscheidungen": []
+              },
+              {
+                "nr": 2,
+                "art": "vertrag",
+                "datum": "08.11.2026",
+                "wunsch": null,
+                "wortlaut": null,
+                "kurz": "Switched to the bus contract: declares that it changes the block times of the flights. The behaviour stays the same.",
+                "rueckfragen": [],
+                "anhaenge": [],
+                "erwartungen": [],
+                "gespielt": null,
+                "entscheidungen": []
+              },
+              {
+                "nr": 3,
+                "art": "wunsch",
+                "datum": "09.11.2026",
+                "wunsch": "028",
+                "wortlaut": "A flight delay hits a task that is already Started: then move the assignment with the flight. It should keep the status \"Started\"",
+                "kurz": "On a flight delay, a started task moves with the flight, stays Started, and the narration line says so.",
+                "rueckfragen": [],
+                "anhaenge": [],
+                "erwartungen": [],
+                "gespielt": {
+                  "szenario": "wunsch-028",
+                  "name": "Delay of XC 810 hits a started task"
+                },
+                "entscheidungen": []
+              }
+            ],
+            "entscheidungen": [],
+            "arbeitetIn": [
+              {
+                "szenario": "wunsch-028",
+                "name": "Delay of XC 810 hits a started task",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-001",
+                "name": "XC 810 delayed by 20 minutes",
+                "datum": "09.11.2026"
+              }
+            ],
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 2,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "gantt": {
+            "kennung": "gantt",
+            "name": "Time line follows the clock",
+            "bereich": "disposition",
+            "aktuell": 2,
+            "aus": false,
+            "fassungen": [
+              {
+                "nr": 1,
+                "art": "grund",
+                "datum": null,
+                "wunsch": null,
+                "wortlaut": null,
+                "kurz": "Base equipment",
+                "rueckfragen": [],
+                "anhaenge": [],
+                "erwartungen": [],
+                "gespielt": null,
+                "entscheidungen": []
+              },
+              {
+                "nr": 2,
+                "art": "wunsch",
+                "datum": "07.11.2026",
+                "wunsch": "020",
+                "wortlaut": "The yellow time line showing the current time should move right every minute, so you always see what time it is. Please set up a timer for it.",
+                "kurz": "The yellow time line in the daily plan now moves right with every play minute. Before, the daily plan looked for the line on the whole page and did not find it. Now it looks for it in its own view. There is no extra timer: the play clock already reports every minute, and that tick moves the line, so every run stays the same.",
+                "rueckfragen": [],
+                "anhaenge": [],
+                "erwartungen": [],
+                "gespielt": null,
+                "entscheidungen": []
+              }
+            ],
+            "entscheidungen": [],
+            "arbeitetIn": [
+              {
+                "szenario": "wunsch-031",
+                "name": "Tasks in the list go back to Open",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-017",
+                "name": "Drag bar back to the list and reassign",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-012",
+                "name": "Highlight everyone in a conflict from the list",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-015",
+                "name": "Assignment details with conflicts on hover",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-005",
+                "name": "Drag assignment bars to other agents",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-004",
+                "name": "Stretch and shrink assignment bars with the mouse",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-008",
+                "name": "Move assignment bars left and right",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "krankmeldung-ma-01",
+                "name": "Sick call AG-01 from 08:00",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-009",
+                "name": "Sick call AG-01: reassign tasks from the list",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "krankmeldung-ma-20",
+                "name": "Sick call AG-20 from 09:00",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-023",
+                "name": "Search agents and flights in the daily plan",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-025",
+                "name": "View agent details in the overlay",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-022",
+                "name": "Set a task's status on the bar",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-010",
+                "name": "Overlaps in the daily plan and in the conflict list",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-028",
+                "name": "Delay of XC 810 hits a started task",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-001",
+                "name": "XC 810 delayed by 20 minutes",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "gespielt-001",
+                "name": "By hand: XC 508 Fuelling now ends at 07:55",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-027",
+                "name": "XB 933 arrives on block 20 minutes later",
+                "datum": "09.11.2026"
+              }
+            ],
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "konflikt-leuchten": {
+            "kennung": "konflikt-leuchten",
+            "name": "Highlight everyone in a conflict",
+            "bereich": "disposition",
+            "aktuell": 1,
+            "aus": false,
+            "fassungen": [
+              {
+                "nr": 1,
+                "art": "zuschnitt",
+                "datum": "06.11.2026",
+                "wunsch": null,
+                "wortlaut": null,
+                "kurz": "Cut out of the requests, behaviour unchanged.",
+                "rueckfragen": [],
+                "anhaenge": [],
+                "erwartungen": [],
+                "gespielt": {
+                  "szenario": "wunsch-012",
+                  "name": "Highlight everyone in a conflict from the list"
+                },
+                "entscheidungen": []
+              }
+            ],
+            "entscheidungen": [],
+            "arbeitetIn": [
+              {
+                "szenario": "wunsch-012",
+                "name": "Highlight everyone in a conflict from the list",
+                "datum": "09.11.2026"
+              }
+            ],
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "konflikt-liste": {
+            "kennung": "konflikt-liste",
+            "name": "Conflict list",
+            "bereich": "disposition",
+            "aktuell": 2,
+            "aus": false,
+            "fassungen": [
+              {
+                "nr": 1,
+                "art": "zuschnitt",
+                "datum": "06.11.2026",
+                "wunsch": null,
+                "wortlaut": null,
+                "kurz": "Cut out of the requests, behaviour unchanged.",
+                "rueckfragen": [],
+                "anhaenge": [],
+                "erwartungen": [],
+                "gespielt": {
+                  "szenario": "wunsch-010",
+                  "name": "Overlaps in the daily plan and in the conflict list"
+                },
+                "entscheidungen": []
+              },
+              {
+                "nr": 2,
+                "art": "vertrag",
+                "datum": "08.11.2026",
+                "wunsch": null,
+                "wortlaut": null,
+                "kurz": "Switched to the bus contract: declares that it changes expanding and collapsing the list. The behaviour stays the same.",
+                "rueckfragen": [],
+                "anhaenge": [],
+                "erwartungen": [],
+                "gespielt": null,
+                "entscheidungen": []
+              }
+            ],
+            "entscheidungen": [],
+            "arbeitetIn": [
+              {
+                "szenario": "wunsch-012",
+                "name": "Highlight everyone in a conflict from the list",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-015",
+                "name": "Assignment details with conflicts on hover",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-025",
+                "name": "View agent details in the overlay",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-022",
+                "name": "Set a task's status on the bar",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-010",
+                "name": "Overlaps in the daily plan and in the conflict list",
+                "datum": "09.11.2026"
+              }
+            ],
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "konflikt-rand": {
+            "kennung": "konflikt-rand",
+            "name": "Red outline on overlap",
+            "bereich": "disposition",
+            "aktuell": 1,
+            "aus": false,
+            "fassungen": [
+              {
+                "nr": 1,
+                "art": "zuschnitt",
+                "datum": "06.11.2026",
+                "wunsch": null,
+                "wortlaut": null,
+                "kurz": "Cut out of the requests, behaviour unchanged.",
+                "rueckfragen": [],
+                "anhaenge": [],
+                "erwartungen": [],
+                "gespielt": null,
+                "entscheidungen": []
+              }
+            ],
+            "entscheidungen": [],
+            "arbeitetIn": [],
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "konfliktzaehler": {
+            "kennung": "konfliktzaehler",
+            "name": "Conflicts",
+            "bereich": "disposition",
+            "aktuell": 1,
+            "aus": false,
+            "fassungen": [
+              {
+                "nr": 1,
+                "art": "grund",
+                "datum": "06.11.2026",
+                "wunsch": null,
+                "wortlaut": null,
+                "kurz": "Base equipment; since request 010 every conflict has a fixed path.",
+                "rueckfragen": [],
+                "anhaenge": [],
+                "erwartungen": [],
+                "gespielt": null,
+                "entscheidungen": []
+              }
+            ],
+            "entscheidungen": [],
+            "arbeitetIn": [
+              {
+                "szenario": "wunsch-031",
+                "name": "Tasks in the list go back to Open",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-017",
+                "name": "Drag bar back to the list and reassign",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-012",
+                "name": "Highlight everyone in a conflict from the list",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-015",
+                "name": "Assignment details with conflicts on hover",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-005",
+                "name": "Drag assignment bars to other agents",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-004",
+                "name": "Stretch and shrink assignment bars with the mouse",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-008",
+                "name": "Move assignment bars left and right",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "krankmeldung-ma-01",
+                "name": "Sick call AG-01 from 08:00",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-009",
+                "name": "Sick call AG-01: reassign tasks from the list",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "krankmeldung-ma-20",
+                "name": "Sick call AG-20 from 09:00",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-023",
+                "name": "Search agents and flights in the daily plan",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-025",
+                "name": "View agent details in the overlay",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-022",
+                "name": "Set a task's status on the bar",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-010",
+                "name": "Overlaps in the daily plan and in the conflict list",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-028",
+                "name": "Delay of XC 810 hits a started task",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-001",
+                "name": "XC 810 delayed by 20 minutes",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "gespielt-001",
+                "name": "By hand: XC 508 Fuelling now ends at 07:55",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-027",
+                "name": "XB 933 arrives on block 20 minutes later",
+                "datum": "09.11.2026"
+              }
+            ],
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "liste-auf-offen": {
+            "kennung": "liste-auf-offen",
+            "name": "Back to Open from the list",
+            "bereich": "disposition",
+            "aktuell": 1,
+            "aus": false,
+            "fassungen": [
+              {
+                "nr": 1,
+                "art": "wunsch",
+                "datum": "09.11.2026",
+                "wunsch": "031",
+                "wortlaut": "Dispatcher may overrule; whatever lands in ‘Unassigned tasks’ goes to Open",
+                "kurz": "If a started or done task ends up under “Unassigned tasks”, whether put back by hand or by a sick call, it is set back to Open. For this, the step from Started back to Open is now allowed, also in the status menu on the bar. For this, the step from Done back to Open is now allowed, also in the status menu on the bar.",
+                "rueckfragen": [],
+                "anhaenge": [],
+                "erwartungen": [],
+                "gespielt": {
+                  "szenario": "wunsch-031",
+                  "name": "Tasks in the list go back to Open"
+                },
+                "entscheidungen": []
+              }
+            ],
+            "entscheidungen": [],
+            "arbeitetIn": [
+              {
+                "szenario": "wunsch-031",
+                "name": "Tasks in the list go back to Open",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-017",
+                "name": "Drag bar back to the list and reassign",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-012",
+                "name": "Highlight everyone in a conflict from the list",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-015",
+                "name": "Assignment details with conflicts on hover",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-005",
+                "name": "Drag assignment bars to other agents",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-004",
+                "name": "Stretch and shrink assignment bars with the mouse",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-008",
+                "name": "Move assignment bars left and right",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "krankmeldung-ma-01",
+                "name": "Sick call AG-01 from 08:00",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-009",
+                "name": "Sick call AG-01: reassign tasks from the list",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "krankmeldung-ma-20",
+                "name": "Sick call AG-20 from 09:00",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-025",
+                "name": "View agent details in the overlay",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-022",
+                "name": "Set a task's status on the bar",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-010",
+                "name": "Overlaps in the daily plan and in the conflict list",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-028",
+                "name": "Delay of XC 810 hits a started task",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-001",
+                "name": "XC 810 delayed by 20 minutes",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "gespielt-001",
+                "name": "By hand: XC 508 Fuelling now ends at 07:55",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-027",
+                "name": "XB 933 arrives on block 20 minutes later",
+                "datum": "09.11.2026"
+              }
+            ],
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "mitarbeiter-karte": {
+            "kennung": "mitarbeiter-karte",
+            "name": "Agent details on double-click",
+            "bereich": "disposition",
+            "aktuell": 3,
+            "aus": false,
+            "fassungen": [
+              {
+                "nr": 1,
+                "art": "wunsch",
+                "datum": "08.11.2026",
+                "wunsch": "025",
+                "wortlaut": "Double-clicking an agent should open an overlay showing the agent details: the name, the date they joined the company, their qualification, their status (present or sick)",
+                "kurz": "A double-click on an agent's name in the daily plan opens an overlay with name, start date, qualifications and status (present or sick); the start dates were missing in the sample day and are therefore made up, and since the page has no real double-click, the second click on the same name opens the overlay, even if it comes later.",
+                "rueckfragen": [],
+                "anhaenge": [],
+                "erwartungen": [],
+                "gespielt": {
+                  "szenario": "wunsch-025",
+                  "name": "View agent details in the overlay"
+                },
+                "entscheidungen": [
+                  {
+                    "satz": "It also opens the overlay on two separate clicks on the same name, even if the second click comes much later.",
+                    "wie": "by the PO with a click on “Get rid of it”",
+                    "datum": "08.11.2026"
+                  }
+                ]
+              },
+              {
+                "nr": 2,
+                "art": "aendern",
+                "datum": "08.11.2026",
+                "wunsch": "026",
+                "wortlaut": "Remove exactly what I did not say: it also opens the overlay on two separate clicks on the same name, even if the second click comes much later. Everything else in this plugin stays as it is. My request was: “On double-click on an agent an overlay should open showing the agent details. In it the name, the date they joined the company, their qualification. Their status (so present or sick)”",
+                "kurz": "The overlay now only opens if both clicks on the same name come within half a second; a later second click counts as a first click again.",
+                "rueckfragen": [],
+                "anhaenge": [],
+                "erwartungen": [],
+                "gespielt": null,
+                "entscheidungen": [
+                  {
+                    "satz": "It only opens the overlay if the second click comes within half a second; your request names no such time limit.",
+                    "wie": "by the PO with a click on “Leave as is”",
+                    "datum": "08.11.2026"
+                  }
+                ]
+              },
+              {
+                "nr": 3,
+                "art": "vertrag",
+                "datum": "08.11.2026",
+                "wunsch": null,
+                "wortlaut": null,
+                "kurz": "Switched to the bus contract: declares that it changes the start date and the open agent card. The behaviour stays the same.",
+                "rueckfragen": [],
+                "anhaenge": [],
+                "erwartungen": [],
+                "gespielt": null,
+                "entscheidungen": []
+              }
+            ],
+            "entscheidungen": [
+              {
+                "wunsch": "025",
+                "fassung": 1,
+                "satz": "It also opens the overlay on two separate clicks on the same name, even if the second click comes much later.",
+                "wie": "by the PO with a click on “Get rid of it”",
+                "datum": "08.11.2026"
+              },
+              {
+                "wunsch": "026",
+                "fassung": 2,
+                "satz": "It only opens the overlay if the second click comes within half a second; your request names no such time limit.",
+                "wie": "by the PO with a click on “Leave as is”",
+                "datum": "08.11.2026"
+              }
+            ],
+            "arbeitetIn": [
+              {
+                "szenario": "wunsch-012",
+                "name": "Highlight everyone in a conflict from the list",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-015",
+                "name": "Assignment details with conflicts on hover",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-025",
+                "name": "View agent details in the overlay",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-022",
+                "name": "Set a task's status on the bar",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-010",
+                "name": "Overlaps in the daily plan and in the conflict list",
+                "datum": "09.11.2026"
+              }
+            ],
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "nachruecken-ohne-onblock": {
+            "kennung": "nachruecken-ohne-onblock",
+            "name": "Tasks move without on-block",
+            "bereich": "disposition",
+            "aktuell": 1,
+            "aus": false,
+            "fassungen": [
+              {
+                "nr": 1,
+                "art": "wunsch",
+                "datum": "09.11.2026",
+                "wunsch": "027",
+                "wortlaut": "A flight is not yet on block at the planned on-block time: … then its open tasks move later with the clock until it is on block.",
+                "kurz": "If a flight is not on block at its planned on-block time, its open tasks move back minute by minute until it is on block; started and done tasks stay where they are.",
+                "rueckfragen": [],
+                "anhaenge": [],
+                "erwartungen": [],
+                "gespielt": {
+                  "szenario": "wunsch-027",
+                  "name": "XB 933 arrives on block 20 minutes later"
+                },
+                "entscheidungen": []
+              }
+            ],
+            "entscheidungen": [],
+            "arbeitetIn": [
+              {
+                "szenario": "wunsch-031",
+                "name": "Tasks in the list go back to Open",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-017",
+                "name": "Drag bar back to the list and reassign",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-012",
+                "name": "Highlight everyone in a conflict from the list",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-015",
+                "name": "Assignment details with conflicts on hover",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-005",
+                "name": "Drag assignment bars to other agents",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-004",
+                "name": "Stretch and shrink assignment bars with the mouse",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-008",
+                "name": "Move assignment bars left and right",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "krankmeldung-ma-01",
+                "name": "Sick call AG-01 from 08:00",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-009",
+                "name": "Sick call AG-01: reassign tasks from the list",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "krankmeldung-ma-20",
+                "name": "Sick call AG-20 from 09:00",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-023",
+                "name": "Search agents and flights in the daily plan",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-025",
+                "name": "View agent details in the overlay",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-022",
+                "name": "Set a task's status on the bar",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-010",
+                "name": "Overlaps in the daily plan and in the conflict list",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-028",
+                "name": "Delay of XC 810 hits a started task",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-001",
+                "name": "XC 810 delayed by 20 minutes",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "gespielt-001",
+                "name": "By hand: XC 508 Fuelling now ends at 07:55",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-027",
+                "name": "XB 933 arrives on block 20 minutes later",
+                "datum": "09.11.2026"
+              }
+            ],
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 2,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "nicht-zugewiesen": {
+            "kennung": "nicht-zugewiesen",
+            "name": "Unassigned tasks",
+            "bereich": "disposition",
+            "aktuell": null,
+            "aus": false,
+            "fassungen": [],
+            "entscheidungen": [],
+            "arbeitetIn": [],
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "offen-zuweisen": {
+            "kennung": "offen-zuweisen",
+            "name": "Reassign tasks from the list",
+            "bereich": "disposition",
+            "aktuell": 1,
+            "aus": false,
+            "fassungen": [
+              {
+                "nr": 1,
+                "art": "zuschnitt",
+                "datum": "06.11.2026",
+                "wunsch": null,
+                "wortlaut": null,
+                "kurz": "Cut out of the requests, behaviour unchanged.",
+                "rueckfragen": [],
+                "anhaenge": [],
+                "erwartungen": [],
+                "gespielt": {
+                  "szenario": "wunsch-009",
+                  "name": "Sick call AG-01: reassign tasks from the list"
+                },
+                "entscheidungen": []
+              }
+            ],
+            "entscheidungen": [],
+            "arbeitetIn": [
+              {
+                "szenario": "wunsch-017",
+                "name": "Drag bar back to the list and reassign",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-015",
+                "name": "Assignment details with conflicts on hover",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-005",
+                "name": "Drag assignment bars to other agents",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-009",
+                "name": "Sick call AG-01: reassign tasks from the list",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-010",
+                "name": "Overlaps in the daily plan and in the conflict list",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "gespielt-001",
+                "name": "By hand: XC 508 Fuelling now ends at 07:55",
+                "datum": "09.11.2026"
+              }
+            ],
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "plan-suche": {
+            "kennung": "plan-suche",
+            "name": "Search in the daily plan",
+            "bereich": "disposition",
+            "aktuell": 3,
+            "aus": false,
+            "fassungen": [
+              {
+                "nr": 1,
+                "art": "wunsch",
+                "datum": "07.11.2026",
+                "wunsch": "023",
+                "wortlaut": "I want a search field above the timeline (at the left end where the timeline starts). It should highlight a) the agents if the search term or part of it matches, or b) the bars if part of the flight number matches. Return/enter finds the next match",
+                "kurz": "Above the daily plan, on the left at the start of the time axis, there is a search field. It marks all agents whose name or short form matches the search term or part of it, and all bars whose flight number contains it. Enter or ▾ jumps to the next match.",
+                "rueckfragen": [],
+                "anhaenge": [],
+                "erwartungen": [],
+                "gespielt": {
+                  "szenario": "wunsch-023",
+                  "name": "Search agents and flights in the daily plan"
+                },
+                "entscheidungen": []
+              },
+              {
+                "nr": 2,
+                "art": "aendern",
+                "datum": "07.11.2026",
+                "wunsch": "024",
+                "wortlaut": "The function is fine. But the search field has made the header taller, and it should be as high as before again. So the search field should be placed at the height of the label \"Daily Plan\"",
+                "kurz": "The search field is now in the header of the daily plan, to the right of “Daily Plan”, so the header is as high as before again. Search works as before.",
+                "rueckfragen": [],
+                "anhaenge": [],
+                "erwartungen": [],
+                "gespielt": null,
+                "entscheidungen": []
+              },
+              {
+                "nr": 3,
+                "art": "vertrag",
+                "datum": "08.11.2026",
+                "wunsch": null,
+                "wortlaut": null,
+                "kurz": "Switched to the bus contract: declares that it changes the search term. The behaviour stays the same.",
+                "rueckfragen": [],
+                "anhaenge": [],
+                "erwartungen": [],
+                "gespielt": null,
+                "entscheidungen": []
+              }
+            ],
+            "entscheidungen": [],
+            "arbeitetIn": [
+              {
+                "szenario": "wunsch-023",
+                "name": "Search agents and flights in the daily plan",
+                "datum": "09.11.2026"
+              }
+            ],
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "vergangenheit-grau": {
+            "kennung": "vergangenheit-grau",
+            "name": "Past time in grey",
+            "bereich": "disposition",
+            "aktuell": 2,
+            "aus": false,
+            "fassungen": [
+              {
+                "nr": 1,
+                "art": "wunsch",
+                "datum": "07.11.2026",
+                "wunsch": "013",
+                "wortlaut": "Whatever is in the past in the Gantt display, at the top by the times, should be marked grey up to the current time line",
+                "kurz": "In the time axis above the daily plan, everything already past is now shaded grey, up to the line for the current time. The grey follows the clock minute by minute.",
+                "rueckfragen": [],
+                "anhaenge": [],
+                "erwartungen": [],
+                "gespielt": null,
+                "entscheidungen": []
+              },
+              {
+                "nr": 2,
+                "art": "stimmt-nicht",
+                "datum": "09.11.2026",
+                "wunsch": "030",
+                "wortlaut": "I said that wrong, that is not right",
+                "kurz": "The time axis above the daily plan no longer has a grey background for past time.",
+                "rueckfragen": [
+                  {
+                    "frage": "How should past time look instead? So far only the time bar above the daily plan is shaded grey, from the start of the axis to the current time. Should, for example, the whole daily plan with all agent rows be grey, should only past bars turn grey, or should the grey look different?",
+                    "antwort": "This is only about the time axis. It should no longer be grey for the past.",
+                    "datum": "09.11.2026",
+                    "anhaenge": []
+                  }
+                ],
+                "anhaenge": [],
+                "erwartungen": [],
+                "gespielt": null,
+                "entscheidungen": []
+              }
+            ],
+            "entscheidungen": [],
+            "arbeitetIn": [
+              {
+                "szenario": "wunsch-031",
+                "name": "Tasks in the list go back to Open",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-017",
+                "name": "Drag bar back to the list and reassign",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-012",
+                "name": "Highlight everyone in a conflict from the list",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-015",
+                "name": "Assignment details with conflicts on hover",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-005",
+                "name": "Drag assignment bars to other agents",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-004",
+                "name": "Stretch and shrink assignment bars with the mouse",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-008",
+                "name": "Move assignment bars left and right",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "krankmeldung-ma-01",
+                "name": "Sick call AG-01 from 08:00",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-009",
+                "name": "Sick call AG-01: reassign tasks from the list",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "krankmeldung-ma-20",
+                "name": "Sick call AG-20 from 09:00",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-023",
+                "name": "Search agents and flights in the daily plan",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-025",
+                "name": "View agent details in the overlay",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-022",
+                "name": "Set a task's status on the bar",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-010",
+                "name": "Overlaps in the daily plan and in the conflict list",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-028",
+                "name": "Delay of XC 810 hits a started task",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-001",
+                "name": "XC 810 delayed by 20 minutes",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "gespielt-001",
+                "name": "By hand: XC 508 Fuelling now ends at 07:55",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-027",
+                "name": "XB 933 arrives on block 20 minutes later",
+                "datum": "09.11.2026"
+              }
+            ],
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "verhalten-einsatz": {
+            "kennung": "verhalten-einsatz",
+            "name": "Change assignment",
+            "bereich": "disposition",
+            "aktuell": 4,
+            "aus": false,
+            "fassungen": [
+              {
+                "nr": 1,
+                "art": "grund",
+                "datum": null,
+                "wunsch": null,
+                "wortlaut": null,
+                "kurz": "Base equipment",
+                "rueckfragen": [],
+                "anhaenge": [],
+                "erwartungen": [],
+                "gespielt": null,
+                "entscheidungen": []
+              },
+              {
+                "nr": 2,
+                "art": "aendern",
+                "datum": "07.11.2026",
+                "wunsch": "014",
+                "wortlaut": "It should be possible to assign a task to an agent without a matching qualification too; this is not refused but is a conflict and shows as one. The hint while dragging then says “Works, but without matching qualification: conflict”.",
+                "kurz": "A task can now also be assigned to an agent without a matching qualification. It stays there and shows as the conflict “Missing qualification”. While dragging, the pointer shows “Works, but without matching qualification: conflict”.",
+                "rueckfragen": [],
+                "anhaenge": [],
+                "erwartungen": [
+                  {
+                    "szenario": "wunsch-005",
+                    "name": "Drag assignment bars to other agents",
+                    "satz": "XC 810 Fuelling to I. Reindl is now a conflict instead of refused.",
+                    "alt": "XC 810 Fuelling stays with D. Mahler, because I. Reindl is not allowed to fuel.",
+                    "neu": "XC 810 Fuelling is now with I. Reindl, although she is not allowed to fuel; that is a “Missing qualification” conflict."
+                  },
+                  {
+                    "szenario": "wunsch-005",
+                    "name": "Drag assignment bars to other agents",
+                    "satz": "XC 810 Cabin cleaning to D. Mahler is now a conflict instead of refused.",
+                    "alt": "XC 810 Cabin cleaning stays with I. Reindl, because D. Mahler is not allowed to do cleaning.",
+                    "neu": "XC 810 Cabin cleaning is now with D. Mahler, although he is not allowed to do cleaning; that is a “Missing qualification” conflict."
+                  },
+                  {
+                    "szenario": "wunsch-005",
+                    "name": "Drag assignment bars to other agents",
+                    "satz": "At the end there are 7 conflicts instead of 5, because the two assignments without qualification now count as conflicts.",
+                    "alt": "The conflict counter is at 5, because XA 745 Fuelling and Lavatory service no longer overlap for F. Ohlsen.",
+                    "neu": "The conflict counter is at 7: XA 745 Fuelling and Lavatory service no longer overlap for F. Ohlsen, but the qualification is missing for XC 810 Fuelling and XC 810 Cabin cleaning."
+                  },
+                  {
+                    "szenario": "wunsch-009",
+                    "name": "Sick call AG-01: reassign tasks from the list",
+                    "satz": "XC 810 Loading to D. Mahler is now assigned (temporarily a conflict) instead of refused.",
+                    "alt": "D. Mahler does not get XC 810 Loading, because he is not qualified for loading.",
+                    "neu": "D. Mahler gets XC 810 Loading at first, although he is not qualified for loading; then the dispatcher drags it on to W. Fiedler."
+                  }
+                ],
+                "gespielt": null,
+                "entscheidungen": []
+              },
+              {
+                "nr": 3,
+                "art": "aendern",
+                "datum": "07.11.2026",
+                "wunsch": "016",
+                "wortlaut": "On drag over / hover, when an assignment is about to be moved to a colleague without the qualification, please show this in red in the tooltip",
+                "kurz": "If you drag an assignment onto a colleague without the right qualification, a red note appears at the pointer, for example “I. Reindl has no qualification for Fuelling: conflict”, and his row is outlined in red. The assignment is still allowed.",
+                "rueckfragen": [],
+                "anhaenge": [],
+                "erwartungen": [],
+                "gespielt": null,
+                "entscheidungen": []
+              },
+              {
+                "nr": 4,
+                "art": "vertrag",
+                "datum": "08.11.2026",
+                "wunsch": null,
+                "wortlaut": null,
+                "kurz": "Switched to the bus contract: only this plugin now changes a task's agent, start and end. It now also handles “unassigned” (after a sick call) and “back to the list”; the behaviour stays the same.",
+                "rueckfragen": [],
+                "anhaenge": [],
+                "erwartungen": [],
+                "gespielt": null,
+                "entscheidungen": [
+                  {
+                    "satz": "If you drag a bar in the daily plan onto an agent (e.g. XA 101 Unloading onto D. Mahler), both “Drag bars to other agents” and “Change assignment” want to take it over.",
+                    "wie": "by the PO with a click on “Drag bars to other agents takes over”",
+                    "datum": "09.11.2026"
+                  },
+                  {
+                    "satz": "If you drag a bar in the daily plan onto an agent (e.g. XA 101 Unloading onto D. Mahler), both “Drag bars to other agents” and “Change assignment” want to take it over.",
+                    "wie": "by the PO with a click on “Change assignment takes over”",
+                    "datum": "09.11.2026"
+                  }
+                ]
+              }
+            ],
+            "entscheidungen": [],
+            "arbeitetIn": [
+              {
+                "szenario": "wunsch-031",
+                "name": "Tasks in the list go back to Open",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-017",
+                "name": "Drag bar back to the list and reassign",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-012",
+                "name": "Highlight everyone in a conflict from the list",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-015",
+                "name": "Assignment details with conflicts on hover",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-005",
+                "name": "Drag assignment bars to other agents",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-004",
+                "name": "Stretch and shrink assignment bars with the mouse",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-008",
+                "name": "Move assignment bars left and right",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "krankmeldung-ma-01",
+                "name": "Sick call AG-01 from 08:00",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-009",
+                "name": "Sick call AG-01: reassign tasks from the list",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "krankmeldung-ma-20",
+                "name": "Sick call AG-20 from 09:00",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-025",
+                "name": "View agent details in the overlay",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-010",
+                "name": "Overlaps in the daily plan and in the conflict list",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-028",
+                "name": "Delay of XC 810 hits a started task",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-001",
+                "name": "XC 810 delayed by 20 minutes",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "gespielt-001",
+                "name": "By hand: XC 508 Fuelling now ends at 07:55",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-027",
+                "name": "XB 933 arrives on block 20 minutes later",
+                "datum": "09.11.2026"
+              }
+            ],
+            "zahl": {
+              "verstoesse": 2,
+              "faelle": 6,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "verhalten-krankmeldung": {
+            "kennung": "verhalten-krankmeldung",
+            "name": "Sick call from a point in time",
+            "bereich": "disposition",
+            "aktuell": null,
+            "aus": false,
+            "fassungen": [],
+            "entscheidungen": [],
+            "arbeitetIn": [
+              {
+                "szenario": "wunsch-031",
+                "name": "Tasks in the list go back to Open",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-012",
+                "name": "Highlight everyone in a conflict from the list",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "krankmeldung-ma-01",
+                "name": "Sick call AG-01 from 08:00",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-009",
+                "name": "Sick call AG-01: reassign tasks from the list",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "krankmeldung-ma-20",
+                "name": "Sick call AG-20 from 09:00",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "wunsch-025",
+                "name": "View agent details in the overlay",
+                "datum": "09.11.2026"
+              },
+              {
+                "szenario": "gespielt-001",
+                "name": "By hand: XC 508 Fuelling now ends at 07:55",
+                "datum": "09.11.2026"
+              }
+            ],
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          }
+        },
+        "fachregeln": {
+          "abwesend-auftraege-geloest": {
+            "kennung": "abwesend-auftraege-geloest",
+            "satz": "If an agent is absent from a point in time, all their tasks still running after that time are unassigned and stay unassigned.",
+            "bereich": "disposition",
+            "wie": "chosen and taken over by the PO with a click (wording of the chosen option from prototype version 7)",
+            "datum": "29.09.2026",
+            "inKauf": []
+          },
+          "beginn-ab-on-block": {
+            "kennung": "beginn-ab-on-block",
+            "satz": "A job on a flight starts at on-block at the earliest.",
+            "bereich": "disposition",
+            "wie": "PO's wording",
+            "datum": "27.09.2026",
+            "inKauf": []
+          },
+          "fremd-schichtplanung-zwei-auftraege": {
+            "kennung": "fremd-schichtplanung-zwei-auftraege",
+            "satz": "An agent has at most two tasks per day.",
+            "bereich": "personal",
+            "wie": "Proof rule by Claude Code for order 006, not a statement by the PO",
+            "datum": "07.11.2026",
+            "inKauf": []
+          },
+          "ladegruppe-je-flug": {
+            "kennung": "ladegruppe-je-flug",
+            "satz": "The same ramp team does unloading and loading of a flight.",
+            "bereich": "disposition",
+            "wie": "worded by the Refiner, changed and taken over by the PO",
+            "datum": "28.09.2026",
+            "inKauf": []
+          },
+          "mindestdauer": {
+            "kennung": "mindestdauer",
+            "satz": "A task is at least 5 minutes long.",
+            "bereich": "disposition",
+            "wie": "worded by Claude, taken over by the PO in the chat",
+            "datum": "30.09.2026",
+            "inKauf": []
+          },
+          "qualifikation-passt": {
+            "kennung": "qualifikation-passt",
+            "satz": "A task with an agent who lacks the needed qualification stays assigned and is the conflict “Missing qualification”.",
+            "bereich": "disposition",
+            "wie": "taken from the prototype scope, confirmed by the PO in the chat on 30.09.2026",
+            "datum": "27.09.2026",
+            "inKauf": []
+          }
+        },
+        "faeden": {
+          "disposition--flugplan": {
+            "kennung": "disposition--flugplan",
+            "von": "disposition",
+            "nach": "flugplan",
+            "zustand": "offen",
+            "straenge": [
+              {
+                "von": "disposition",
+                "nach": "flugplan",
+                "wurzel": "fluege",
+                "wer": "regel",
+                "kennung": "beginn-ab-on-block",
+                "art": "liest",
+                "zustand": "klar",
+                "satz": "The rule “A job on a flight starts at on-block at the earliest.” checks the on-block and the flight number of a flight.",
+                "id": "regel|beginn-ab-on-block|disposition|flugplan|fluege",
+                "punkte": []
+              },
+              {
+                "von": "disposition",
+                "nach": "flugplan",
+                "wurzel": "fluege",
+                "wer": "plugin",
+                "kennung": "nachruecken-ohne-onblock",
+                "art": "aendert",
+                "zustand": "offen",
+                "satz": "“Tasks move without on-block” changes flights.",
+                "id": "plugin|nachruecken-ohne-onblock|disposition|flugplan|fluege",
+                "punkte": [
+                  "fall|status|fluege/*.onblock|fluege|abgefertigt",
+                  "fall|status|fluege/*.onblock|fluege|amBlock"
+                ]
+              },
+              {
+                "von": "disposition",
+                "nach": "flugplan",
+                "wurzel": "fluege",
+                "wer": "plugin",
+                "kennung": "flugverspaetung",
+                "art": "aendert",
+                "zustand": "offen",
+                "satz": "“Flight delay” changes the off-block and the on-block of a flight.",
+                "id": "plugin|flugverspaetung|disposition|flugplan|fluege",
+                "punkte": [
+                  "fall|status|fluege/*.verspaetung|fluege|abgefertigt",
+                  "fall|status|fluege/*.verspaetung|fluege|amBlock"
+                ]
+              }
+            ]
+          },
+          "disposition--personal": {
+            "kennung": "disposition--personal",
+            "von": "disposition",
+            "nach": "personal",
+            "zustand": "klar",
+            "straenge": [
+              {
+                "von": "disposition",
+                "nach": "personal",
+                "wurzel": "mitarbeiter",
+                "wer": "regel",
+                "kennung": "qualifikation-passt",
+                "art": "liest",
+                "zustand": "klar",
+                "satz": "The rule “A task with an agent without the required qualification stays assigned and is the conflict “Missing qualification”.” checks the qualifications of an agent.",
+                "id": "regel|qualifikation-passt|disposition|personal|mitarbeiter",
+                "punkte": []
+              },
+              {
+                "von": "personal",
+                "nach": "disposition",
+                "wurzel": "auftraege",
+                "wer": "regel",
+                "kennung": "fremd-schichtplanung-zwei-auftraege",
+                "art": "liest",
+                "zustand": "klar",
+                "satz": "The rule “An agent has at most two tasks per day.” checks tasks.",
+                "id": "regel|fremd-schichtplanung-zwei-auftraege|personal|disposition|auftraege",
+                "punkte": []
+              },
+              {
+                "von": "disposition",
+                "nach": "personal",
+                "wurzel": "mitarbeiter",
+                "wer": "regel",
+                "kennung": "ladegruppe-je-flug",
+                "art": "liest",
+                "zustand": "klar",
+                "satz": "The rule “Unloading and loading of a flight are done by the same ramp team.” checks the team of an agent.",
+                "id": "regel|ladegruppe-je-flug|disposition|personal|mitarbeiter",
+                "punkte": []
+              },
+              {
+                "von": "disposition",
+                "nach": "personal",
+                "wurzel": "mitarbeiter",
+                "wer": "regel",
+                "kennung": "abwesend-auftraege-geloest",
+                "art": "liest",
+                "zustand": "klar",
+                "satz": "The rule “If an agent is absent from a point in time, all their tasks still running after that time are unassigned and stay unassigned.” checks the absence of an agent.",
+                "id": "regel|abwesend-auftraege-geloest|disposition|personal|mitarbeiter",
+                "punkte": []
+              },
+              {
+                "von": "disposition",
+                "nach": "personal",
+                "wurzel": "mitarbeiter",
+                "wer": "plugin",
+                "kennung": "konfliktzaehler",
+                "art": "liest",
+                "zustand": "klar",
+                "satz": "“Conflicts” reads the absence, the qualifications and the shift of an agent.",
+                "id": "plugin|konfliktzaehler|disposition|personal|mitarbeiter",
+                "punkte": []
+              },
+              {
+                "von": "disposition",
+                "nach": "personal",
+                "wurzel": "mitarbeiter",
+                "wer": "plugin",
+                "kennung": "verhalten-krankmeldung",
+                "art": "aendert",
+                "zustand": "klar",
+                "satz": "“Sick call from a time” changes the absence of an agent.",
+                "id": "plugin|verhalten-krankmeldung|disposition|personal|mitarbeiter",
+                "punkte": []
+              },
+              {
+                "von": "disposition",
+                "nach": "personal",
+                "wurzel": "mitarbeiter",
+                "wer": "plugin",
+                "kennung": "gantt",
+                "art": "liest",
+                "zustand": "klar",
+                "satz": "“Time line follows the clock” reads the name, the absence, the team and the shift of an agent.",
+                "id": "plugin|gantt|disposition|personal|mitarbeiter",
+                "punkte": []
+              }
+            ]
+          },
+          "disposition--personal-ordner": {
+            "kennung": "disposition--personal-ordner",
+            "von": "disposition",
+            "nach": "personal-ordner",
+            "zustand": "klar",
+            "straenge": [
+              {
+                "von": "disposition",
+                "nach": "personal",
+                "wurzel": "mitarbeiter",
+                "wer": "regel",
+                "kennung": "qualifikation-passt",
+                "art": "liest",
+                "zustand": "klar",
+                "satz": "The rule “A task with an agent without the required qualification stays assigned and is the conflict “Missing qualification”.” checks the qualifications of an agent.",
+                "id": "regel|qualifikation-passt|disposition|personal|mitarbeiter",
+                "punkte": []
+              },
+              {
+                "von": "personal",
+                "nach": "disposition",
+                "wurzel": "auftraege",
+                "wer": "regel",
+                "kennung": "fremd-schichtplanung-zwei-auftraege",
+                "art": "liest",
+                "zustand": "klar",
+                "satz": "The rule “An agent has at most two tasks per day.” checks tasks.",
+                "id": "regel|fremd-schichtplanung-zwei-auftraege|personal|disposition|auftraege",
+                "punkte": []
+              },
+              {
+                "von": "disposition",
+                "nach": "personal",
+                "wurzel": "mitarbeiter",
+                "wer": "regel",
+                "kennung": "ladegruppe-je-flug",
+                "art": "liest",
+                "zustand": "klar",
+                "satz": "The rule “Unloading and loading of a flight are done by the same ramp team.” checks the team of an agent.",
+                "id": "regel|ladegruppe-je-flug|disposition|personal|mitarbeiter",
+                "punkte": []
+              },
+              {
+                "von": "disposition",
+                "nach": "personal",
+                "wurzel": "mitarbeiter",
+                "wer": "regel",
+                "kennung": "abwesend-auftraege-geloest",
+                "art": "liest",
+                "zustand": "klar",
+                "satz": "The rule “If an agent is absent from a point in time, all their tasks still running after that time are unassigned and stay unassigned.” checks the absence of an agent.",
+                "id": "regel|abwesend-auftraege-geloest|disposition|personal|mitarbeiter",
+                "punkte": []
+              },
+              {
+                "von": "disposition",
+                "nach": "personal",
+                "wurzel": "mitarbeiter",
+                "wer": "plugin",
+                "kennung": "konfliktzaehler",
+                "art": "liest",
+                "zustand": "klar",
+                "satz": "“Conflicts” reads the absence, the qualifications and the shift of an agent.",
+                "id": "plugin|konfliktzaehler|disposition|personal|mitarbeiter",
+                "punkte": []
+              },
+              {
+                "von": "disposition",
+                "nach": "personal",
+                "wurzel": "mitarbeiter",
+                "wer": "plugin",
+                "kennung": "verhalten-krankmeldung",
+                "art": "aendert",
+                "zustand": "klar",
+                "satz": "“Sick call from a time” changes the absence of an agent.",
+                "id": "plugin|verhalten-krankmeldung|disposition|personal|mitarbeiter",
+                "punkte": []
+              },
+              {
+                "von": "disposition",
+                "nach": "personal",
+                "wurzel": "mitarbeiter",
+                "wer": "plugin",
+                "kennung": "gantt",
+                "art": "liest",
+                "zustand": "klar",
+                "satz": "“Time line follows the clock” reads the name, the absence, the team and the shift of an agent.",
+                "id": "plugin|gantt|disposition|personal|mitarbeiter",
+                "punkte": []
+              }
+            ]
+          },
+          "disposition-ordner--flugplan": {
+            "kennung": "disposition-ordner--flugplan",
+            "von": "disposition-ordner",
+            "nach": "flugplan",
+            "zustand": "offen",
+            "straenge": [
+              {
+                "von": "disposition",
+                "nach": "flugplan",
+                "wurzel": "fluege",
+                "wer": "regel",
+                "kennung": "beginn-ab-on-block",
+                "art": "liest",
+                "zustand": "klar",
+                "satz": "The rule “A job on a flight starts at on-block at the earliest.” checks the on-block and the flight number of a flight.",
+                "id": "regel|beginn-ab-on-block|disposition|flugplan|fluege",
+                "punkte": []
+              },
+              {
+                "von": "disposition",
+                "nach": "flugplan",
+                "wurzel": "fluege",
+                "wer": "plugin",
+                "kennung": "nachruecken-ohne-onblock",
+                "art": "aendert",
+                "zustand": "offen",
+                "satz": "“Tasks move without on-block” changes flights.",
+                "id": "plugin|nachruecken-ohne-onblock|disposition|flugplan|fluege",
+                "punkte": [
+                  "fall|status|fluege/*.onblock|fluege|abgefertigt",
+                  "fall|status|fluege/*.onblock|fluege|amBlock"
+                ]
+              },
+              {
+                "von": "disposition",
+                "nach": "flugplan",
+                "wurzel": "fluege",
+                "wer": "plugin",
+                "kennung": "flugverspaetung",
+                "art": "aendert",
+                "zustand": "offen",
+                "satz": "“Flight delay” changes the off-block and the on-block of a flight.",
+                "id": "plugin|flugverspaetung|disposition|flugplan|fluege",
+                "punkte": [
+                  "fall|status|fluege/*.verspaetung|fluege|abgefertigt",
+                  "fall|status|fluege/*.verspaetung|fluege|amBlock"
+                ]
+              }
+            ]
+          },
+          "disposition-ordner--personal": {
+            "kennung": "disposition-ordner--personal",
+            "von": "disposition-ordner",
+            "nach": "personal",
+            "zustand": "klar",
+            "straenge": [
+              {
+                "von": "disposition",
+                "nach": "personal",
+                "wurzel": "mitarbeiter",
+                "wer": "regel",
+                "kennung": "qualifikation-passt",
+                "art": "liest",
+                "zustand": "klar",
+                "satz": "The rule “A task with an agent without the required qualification stays assigned and is the conflict “Missing qualification”.” checks the qualifications of an agent.",
+                "id": "regel|qualifikation-passt|disposition|personal|mitarbeiter",
+                "punkte": []
+              },
+              {
+                "von": "personal",
+                "nach": "disposition",
+                "wurzel": "auftraege",
+                "wer": "regel",
+                "kennung": "fremd-schichtplanung-zwei-auftraege",
+                "art": "liest",
+                "zustand": "klar",
+                "satz": "The rule “An agent has at most two tasks per day.” checks tasks.",
+                "id": "regel|fremd-schichtplanung-zwei-auftraege|personal|disposition|auftraege",
+                "punkte": []
+              },
+              {
+                "von": "disposition",
+                "nach": "personal",
+                "wurzel": "mitarbeiter",
+                "wer": "regel",
+                "kennung": "ladegruppe-je-flug",
+                "art": "liest",
+                "zustand": "klar",
+                "satz": "The rule “Unloading and loading of a flight are done by the same ramp team.” checks the team of an agent.",
+                "id": "regel|ladegruppe-je-flug|disposition|personal|mitarbeiter",
+                "punkte": []
+              },
+              {
+                "von": "disposition",
+                "nach": "personal",
+                "wurzel": "mitarbeiter",
+                "wer": "regel",
+                "kennung": "abwesend-auftraege-geloest",
+                "art": "liest",
+                "zustand": "klar",
+                "satz": "The rule “If an agent is absent from a point in time, all their tasks still running after that time are unassigned and stay unassigned.” checks the absence of an agent.",
+                "id": "regel|abwesend-auftraege-geloest|disposition|personal|mitarbeiter",
+                "punkte": []
+              },
+              {
+                "von": "disposition",
+                "nach": "personal",
+                "wurzel": "mitarbeiter",
+                "wer": "plugin",
+                "kennung": "konfliktzaehler",
+                "art": "liest",
+                "zustand": "klar",
+                "satz": "“Conflicts” reads the absence, the qualifications and the shift of an agent.",
+                "id": "plugin|konfliktzaehler|disposition|personal|mitarbeiter",
+                "punkte": []
+              },
+              {
+                "von": "disposition",
+                "nach": "personal",
+                "wurzel": "mitarbeiter",
+                "wer": "plugin",
+                "kennung": "verhalten-krankmeldung",
+                "art": "aendert",
+                "zustand": "klar",
+                "satz": "“Sick call from a time” changes the absence of an agent.",
+                "id": "plugin|verhalten-krankmeldung|disposition|personal|mitarbeiter",
+                "punkte": []
+              },
+              {
+                "von": "disposition",
+                "nach": "personal",
+                "wurzel": "mitarbeiter",
+                "wer": "plugin",
+                "kennung": "gantt",
+                "art": "liest",
+                "zustand": "klar",
+                "satz": "“Time line follows the clock” reads the name, the absence, the team and the shift of an agent.",
+                "id": "plugin|gantt|disposition|personal|mitarbeiter",
+                "punkte": []
+              }
+            ]
+          },
+          "disposition-ordner--personal-ordner": {
+            "kennung": "disposition-ordner--personal-ordner",
+            "von": "disposition-ordner",
+            "nach": "personal-ordner",
+            "zustand": "klar",
+            "straenge": [
+              {
+                "von": "disposition",
+                "nach": "personal",
+                "wurzel": "mitarbeiter",
+                "wer": "regel",
+                "kennung": "qualifikation-passt",
+                "art": "liest",
+                "zustand": "klar",
+                "satz": "The rule “A task with an agent without the required qualification stays assigned and is the conflict “Missing qualification”.” checks the qualifications of an agent.",
+                "id": "regel|qualifikation-passt|disposition|personal|mitarbeiter",
+                "punkte": []
+              },
+              {
+                "von": "personal",
+                "nach": "disposition",
+                "wurzel": "auftraege",
+                "wer": "regel",
+                "kennung": "fremd-schichtplanung-zwei-auftraege",
+                "art": "liest",
+                "zustand": "klar",
+                "satz": "The rule “An agent has at most two tasks per day.” checks tasks.",
+                "id": "regel|fremd-schichtplanung-zwei-auftraege|personal|disposition|auftraege",
+                "punkte": []
+              },
+              {
+                "von": "disposition",
+                "nach": "personal",
+                "wurzel": "mitarbeiter",
+                "wer": "regel",
+                "kennung": "ladegruppe-je-flug",
+                "art": "liest",
+                "zustand": "klar",
+                "satz": "The rule “Unloading and loading of a flight are done by the same ramp team.” checks the team of an agent.",
+                "id": "regel|ladegruppe-je-flug|disposition|personal|mitarbeiter",
+                "punkte": []
+              },
+              {
+                "von": "disposition",
+                "nach": "personal",
+                "wurzel": "mitarbeiter",
+                "wer": "regel",
+                "kennung": "abwesend-auftraege-geloest",
+                "art": "liest",
+                "zustand": "klar",
+                "satz": "The rule “If an agent is absent from a point in time, all their tasks still running after that time are unassigned and stay unassigned.” checks the absence of an agent.",
+                "id": "regel|abwesend-auftraege-geloest|disposition|personal|mitarbeiter",
+                "punkte": []
+              },
+              {
+                "von": "disposition",
+                "nach": "personal",
+                "wurzel": "mitarbeiter",
+                "wer": "plugin",
+                "kennung": "konfliktzaehler",
+                "art": "liest",
+                "zustand": "klar",
+                "satz": "“Conflicts” reads the absence, the qualifications and the shift of an agent.",
+                "id": "plugin|konfliktzaehler|disposition|personal|mitarbeiter",
+                "punkte": []
+              },
+              {
+                "von": "disposition",
+                "nach": "personal",
+                "wurzel": "mitarbeiter",
+                "wer": "plugin",
+                "kennung": "verhalten-krankmeldung",
+                "art": "aendert",
+                "zustand": "klar",
+                "satz": "“Sick call from a time” changes the absence of an agent.",
+                "id": "plugin|verhalten-krankmeldung|disposition|personal|mitarbeiter",
+                "punkte": []
+              },
+              {
+                "von": "disposition",
+                "nach": "personal",
+                "wurzel": "mitarbeiter",
+                "wer": "plugin",
+                "kennung": "gantt",
+                "art": "liest",
+                "zustand": "klar",
+                "satz": "“Time line follows the clock” reads the name, the absence, the team and the shift of an agent.",
+                "id": "plugin|gantt|disposition|personal|mitarbeiter",
+                "punkte": []
+              }
+            ]
+          }
+        },
+        "grundfunktionen": {
+          "tagesplan": {
+            "kennung": "tagesplan",
+            "name": "Daily Plan",
+            "satz": "Each agent has a row in the daily plan, each task is a bar with the flight number.",
+            "bereich": "disposition",
+            "quelle": {
+              "art": "wortlaut",
+              "wortlaut": "You see it in a Gantt chart: each agent has a row, the bars represent a task and show the flight number plus the TODO.",
+              "datum": "27.09.2026",
+              "wie": "PO's order to Claude Code, verbatim"
+            },
+            "anmerkung": null,
+            "anmerkungDatum": null,
+            "vorschlag": false,
+            "bestaetigt": "09.11.2026",
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "balkenfarbe": {
+            "kennung": "balkenfarbe",
+            "name": "Bar colour",
+            "satz": "The colour of a bar shows the job; the legend is above it.",
+            "bereich": "disposition",
+            "quelle": {
+              "art": "ohne"
+            },
+            "anmerkung": null,
+            "anmerkungDatum": null,
+            "vorschlag": false,
+            "bestaetigt": "09.11.2026",
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "balken-untereinander": {
+            "kennung": "balken-untereinander",
+            "name": "Bars stacked",
+            "satz": "If an agent's bars overlap, they sit one below the other in the agent's row.",
+            "bereich": "disposition",
+            "quelle": {
+              "art": "ohne"
+            },
+            "anmerkung": null,
+            "anmerkungDatum": null,
+            "vorschlag": false,
+            "bestaetigt": "09.11.2026",
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "zeitachse": {
+            "kennung": "zeitachse",
+            "name": "Time axis",
+            "satz": "The time axis runs from the first to the last task of the day, rounded to full hours.",
+            "bereich": "disposition",
+            "quelle": {
+              "art": "ohne"
+            },
+            "anmerkung": null,
+            "anmerkungDatum": null,
+            "vorschlag": false,
+            "bestaetigt": "09.11.2026",
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "jetzt-linie": {
+            "kennung": "jetzt-linie",
+            "name": "Current time line",
+            "satz": "A gold line shows the current time in the daily plan.",
+            "bereich": "disposition",
+            "quelle": {
+              "art": "ohne"
+            },
+            "anmerkung": null,
+            "anmerkungDatum": null,
+            "vorschlag": false,
+            "bestaetigt": "09.11.2026",
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "vor-schicht": {
+            "kennung": "vor-schicht",
+            "name": "Before the shift",
+            "satz": "Before an agent's shift start, their row is dark.",
+            "bereich": "disposition",
+            "quelle": {
+              "art": "ohne"
+            },
+            "anmerkung": null,
+            "anmerkungDatum": null,
+            "vorschlag": false,
+            "bestaetigt": "09.11.2026",
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "abwesend-sichtbar": {
+            "kennung": "abwesend-sichtbar",
+            "name": "Absence in the plan",
+            "satz": "If an agent is absent, their row is striped red from that time, and the reason is shown next to the name.",
+            "bereich": "disposition",
+            "quelle": {
+              "art": "ohne"
+            },
+            "anmerkung": null,
+            "anmerkungDatum": null,
+            "vorschlag": false,
+            "bestaetigt": "09.11.2026",
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "nicht-zugewiesen": {
+            "kennung": "nicht-zugewiesen",
+            "name": "Unassigned tasks",
+            "satz": "Tasks without an agent are listed under “Unassigned tasks”, sorted by start.",
+            "bereich": "disposition",
+            "quelle": {
+              "art": "umfang",
+              "wortlaut": "All tasks still running after that time are unassigned and listed under “Unassigned tasks”",
+              "datum": "29.09.2026",
+              "wie": "Scope of prototype version 8; chosen by the PO with a click and adopted"
+            },
+            "anmerkung": null,
+            "anmerkungDatum": null,
+            "vorschlag": false,
+            "bestaetigt": "09.11.2026",
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "niemand-frei": {
+            "kennung": "niemand-frei",
+            "name": "Nobody available",
+            "satz": "If nobody is available for an unassigned task, it shows “nobody available”.",
+            "bereich": "disposition",
+            "quelle": {
+              "art": "ohne"
+            },
+            "anmerkung": null,
+            "anmerkungDatum": null,
+            "vorschlag": false,
+            "bestaetigt": "09.11.2026",
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "konfliktzahl": {
+            "kennung": "konfliktzahl",
+            "name": "Number of conflicts",
+            "satz": "The number of conflicts is shown large next to the plan.",
+            "bereich": "disposition",
+            "quelle": {
+              "art": "ohne",
+              "zusatz": "The counter is in the architect's order 001."
+            },
+            "anmerkung": null,
+            "anmerkungDatum": null,
+            "vorschlag": false,
+            "bestaetigt": "09.11.2026",
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "konflikt-ueberlappung": {
+            "kennung": "konflikt-ueberlappung",
+            "name": "Overlap",
+            "satz": "If two tasks of the same person overlap, that is a conflict.",
+            "bereich": "disposition",
+            "quelle": {
+              "art": "wortlaut",
+              "wortlaut": "There must be a conflict list when tasks overlap with others.",
+              "datum": "27.09.2026",
+              "wie": "PO's order to Claude Code, verbatim"
+            },
+            "anmerkung": null,
+            "anmerkungDatum": null,
+            "vorschlag": false,
+            "bestaetigt": "09.11.2026",
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "konflikt-kapazitaet": {
+            "kennung": "konflikt-kapazitaet",
+            "name": "Capacity gap",
+            "satz": "If nobody present, qualified and available is found for a task, that is a capacity gap.",
+            "bereich": "disposition",
+            "quelle": {
+              "art": "wortlaut",
+              "wortlaut": "The flight schedule may need more teams than are available.",
+              "datum": "27.09.2026",
+              "wie": "PO's order to Claude Code, verbatim"
+            },
+            "anmerkung": null,
+            "anmerkungDatum": null,
+            "vorschlag": false,
+            "bestaetigt": "09.11.2026",
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "konflikt-qualifikation": {
+            "kennung": "konflikt-qualifikation",
+            "name": "Missing qualification",
+            "satz": "If a task is with someone without the right qualification, that is the “Missing qualification” conflict.",
+            "bereich": "disposition",
+            "quelle": {
+              "art": "wortlaut",
+              "wortlaut": "If I drop the bar on an agent without the qualification anyway, it is assigned and a new “Missing qualification” conflict appears in the conflict list.",
+              "datum": "27.09.2026",
+              "wie": "Scope of prototype version 2; written by the PO himself (his statement of 09.11.2026)"
+            },
+            "anmerkung": null,
+            "anmerkungDatum": null,
+            "vorschlag": false,
+            "bestaetigt": "09.11.2026",
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "konflikt-anwesenheit": {
+            "kennung": "konflikt-anwesenheit",
+            "name": "Outside presence",
+            "satz": "If a task is outside its agent's shift or presence, that is a conflict.",
+            "bereich": "disposition",
+            "quelle": {
+              "art": "umfang",
+              "wortlaut": "\"Task outside presence\" is a conflict, counts towards the number on the \"Conflict list\" tab and is outlined in coral red.",
+              "datum": "28.09.2026",
+              "wie": "Scope of prototype version 6; worded by the Refiner, changed and adopted by the PO"
+            },
+            "anmerkung": null,
+            "anmerkungDatum": null,
+            "vorschlag": false,
+            "bestaetigt": "09.11.2026",
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "krankmeldung": {
+            "kennung": "krankmeldung",
+            "name": "Sick call",
+            "satz": "An agent can be reported sick from a given time.",
+            "bereich": "disposition",
+            "quelle": {
+              "art": "wortlaut",
+              "wortlaut": "Agents must also be able to go sick or be on leave.",
+              "datum": "27.09.2026",
+              "wie": "PO's order to Claude Code, verbatim"
+            },
+            "anmerkung": null,
+            "anmerkungDatum": null,
+            "vorschlag": false,
+            "bestaetigt": "09.11.2026",
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "krank-loest": {
+            "kennung": "krank-loest",
+            "name": "Unassign tasks on sickness",
+            "satz": "On a sick call, all tasks still running after that time are unassigned.",
+            "bereich": "disposition",
+            "quelle": {
+              "art": "umfang",
+              "wortlaut": "All tasks still running after that time are unassigned and listed under “Unassigned tasks”",
+              "datum": "29.09.2026",
+              "wie": "Scope of prototype version 8; chosen by the PO with a click and adopted"
+            },
+            "anmerkung": null,
+            "anmerkungDatum": null,
+            "vorschlag": false,
+            "bestaetigt": "09.11.2026",
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "zuweisen": {
+            "kennung": "zuweisen",
+            "name": "Assign",
+            "satz": "A task can be assigned to another agent.",
+            "bereich": "disposition",
+            "quelle": {
+              "art": "wortlaut",
+              "wortlaut": "You must be able to click a bar and say: assign to another agent.",
+              "datum": "27.09.2026",
+              "wie": "PO's order to Claude Code, verbatim"
+            },
+            "anmerkung": null,
+            "anmerkungDatum": null,
+            "vorschlag": false,
+            "bestaetigt": "09.11.2026",
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "zuweisen-verweigert": {
+            "kennung": "zuweisen-verweigert",
+            "name": "Assignment without qualification",
+            "satz": "In the starter kit, assigning to someone without the right qualification is refused. Your request 014 changed that.",
+            "bereich": "disposition",
+            "quelle": {
+              "art": "ohne"
+            },
+            "anmerkung": null,
+            "anmerkungDatum": null,
+            "vorschlag": false,
+            "bestaetigt": "09.11.2026",
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "verschieben": {
+            "kennung": "verschieben",
+            "name": "Move",
+            "satz": "A task can be moved in time.",
+            "bereich": "disposition",
+            "quelle": {
+              "art": "wortlaut",
+              "wortlaut": "Dragging a bar sideways moves the task in time.",
+              "datum": "27.09.2026",
+              "wie": "Scope of prototype version 2; written by the PO himself (his statement of 09.11.2026)"
+            },
+            "anmerkung": null,
+            "anmerkungDatum": null,
+            "vorschlag": false,
+            "bestaetigt": "09.11.2026",
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "kanten": {
+            "kennung": "kanten",
+            "name": "Change start and end",
+            "satz": "The start and end of a task can be changed separately.",
+            "bereich": "disposition",
+            "quelle": {
+              "art": "wortlaut",
+              "wortlaut": "Dragging the left or right edge changes the start or end.",
+              "datum": "27.09.2026",
+              "wie": "Scope of prototype version 2; written by the PO himself (his statement of 09.11.2026)"
+            },
+            "anmerkung": null,
+            "anmerkungDatum": null,
+            "vorschlag": false,
+            "bestaetigt": "09.11.2026",
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "mindestdauer": {
+            "kennung": "mindestdauer",
+            "name": "Minimum duration",
+            "satz": "A task takes at least 5 minutes.",
+            "bereich": "disposition",
+            "quelle": {
+              "art": "umfang",
+              "wortlaut": "The same rules apply as for dragging, including that a task is at least 5 minutes long.",
+              "datum": "30.09.2026",
+              "wie": "Scope of prototype version 10; worded by Claude, adopted by the PO in the chat on 30.09."
+            },
+            "anmerkung": null,
+            "anmerkungDatum": null,
+            "vorschlag": false,
+            "bestaetigt": "09.11.2026",
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "flugplan": {
+            "kennung": "flugplan",
+            "name": "Flight Schedule",
+            "satz": "There is a flight schedule for the day.",
+            "bereich": "disposition",
+            "quelle": {
+              "art": "wortlaut",
+              "wortlaut": "There is a flight schedule for the day.",
+              "datum": "27.09.2026",
+              "wie": "PO's order to Claude Code, verbatim"
+            },
+            "anmerkung": null,
+            "anmerkungDatum": null,
+            "vorschlag": false,
+            "bestaetigt": "09.11.2026",
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "arbeiten": {
+            "kennung": "arbeiten",
+            "name": "Jobs on the flight",
+            "satz": "The jobs on the flights are unloading, loading, lavatory service, fuelling and cabin cleaning.",
+            "bereich": "disposition",
+            "quelle": {
+              "art": "wortlaut",
+              "wortlaut": "The following jobs must be done on every flight: loading and unloading, lavatory service, fuelling, cabin cleaning.",
+              "datum": "27.09.2026",
+              "wie": "PO's order to Claude Code, verbatim"
+            },
+            "anmerkung": null,
+            "anmerkungDatum": null,
+            "vorschlag": false,
+            "bestaetigt": "09.11.2026",
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "qualifikationen": {
+            "kennung": "qualifikationen",
+            "name": "Qualifications",
+            "satz": "Each job needs its own qualification; each agent has their qualifications.",
+            "bereich": "disposition",
+            "quelle": {
+              "art": "wortlaut",
+              "wortlaut": "Each job needs its own qualification.",
+              "datum": "27.09.2026",
+              "wie": "PO's order to Claude Code, verbatim"
+            },
+            "anmerkung": null,
+            "anmerkungDatum": null,
+            "vorschlag": false,
+            "bestaetigt": "09.11.2026",
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          },
+          "schichten": {
+            "kennung": "schichten",
+            "name": "Shifts",
+            "satz": "Each agent has a shift start and a shift end.",
+            "bereich": "disposition",
+            "quelle": {
+              "art": "wortlaut",
+              "wortlaut": "Shift data: every agent has a shift start and a shift end.",
+              "datum": "28.09.2026",
+              "wie": "Scope of prototype version 5; written by the PO himself (his statement of 09.11.2026)"
+            },
+            "anmerkung": null,
+            "anmerkungDatum": null,
+            "vorschlag": false,
+            "bestaetigt": "09.11.2026",
+            "zahl": {
+              "verstoesse": 0,
+              "faelle": 0,
+              "abweichend": 0,
+              "stimmtnicht": 0
+            }
+          }
+        }
+      },
+      "sichten": {
+        "karte": [
+          "bereiche/disposition",
+          "bereiche/flugplan",
+          "bereiche/geraete",
+          "bereiche/personal-ordner",
+          "faeden/disposition--flugplan",
+          "faeden/disposition--flugplan",
+          "faeden/disposition--personal-ordner",
+          "faeden/disposition--personal-ordner"
+        ],
+        "hineinzoomen": [],
+        "ariadnefaden": [
+          "bereiche/disposition-ordner",
+          "bereiche/flugplan",
+          "bereiche/geraete",
+          "karte"
+        ],
+        "uebersicht": [
+          "bereiche/disposition",
+          "bereiche/disposition-ordner",
+          "bereiche/flugplan",
+          "bereiche/geraete",
+          "bereiche/personal",
+          "bereiche/personal-ordner",
+          "bereiche/urlaub",
+          "karte"
+        ]
+      }
+    }
+  }
+}

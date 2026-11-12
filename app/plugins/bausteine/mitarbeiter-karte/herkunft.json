@@ -1,0 +1,69 @@
+{
+  "kennung": "mitarbeiter-karte",
+  "name": "Mitarbeiterdaten per Doppelklick",
+  "reihe": 18,
+  "kurz": "Ein Doppelklick auf den Namen eines Mitarbeiters im Tagesplan öffnet ein Overlay mit Name, Eintrittsdatum, Qualifikationen und Status (anwesend oder krank); die Eintrittsdaten fehlten im gemockten Tag und sind deshalb erfunden, und da die Seite keinen echten Doppelklick kennt, öffnet der zweite Klick auf denselben Namen das Overlay, auch wenn er später kommt.",
+  "wuensche": [
+    {
+      "kennung": "wunsch-025",
+      "name": "Mitarbeiterdaten per Doppelklick",
+      "wortlaut": "Beim Doppelklick auf einen Mitarbeiter soll ein overlay aufgehen, in dem die Mitarbeiterdatengezeigt werden. Darin der Name, das Eintrittdatum in die Firma, Seine Qualifikation. Sein status (also anwesen oder krank)",
+      "datum": "2026-11-08T13:43:19.300Z",
+      "teilApp": "disposition"
+    }
+  ],
+  "aktuell": 3,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "wunsch",
+      "wunsch": "wunsch-025",
+      "wortlaut": "Beim Doppelklick auf einen Mitarbeiter soll ein overlay aufgehen, in dem die Mitarbeiterdatengezeigt werden. Darin der Name, das Eintrittdatum in die Firma, Seine Qualifikation. Sein status (also anwesen oder krank)",
+      "datum": "2026-11-08T13:43:19.300Z",
+      "kurz": "Ein Doppelklick auf den Namen eines Mitarbeiters im Tagesplan öffnet ein Overlay mit Name, Eintrittsdatum, Qualifikationen und Status (anwesend oder krank); die Eintrittsdaten fehlten im gemockten Tag und sind deshalb erfunden, und da die Seite keinen echten Doppelklick kennt, öffnet der zweite Klick auf denselben Namen das Overlay, auch wenn er später kommt.",
+      "drehbuch": "wunsch-025",
+      "entscheidungen": [
+        {
+          "datum": "2026-11-08T13:44:21.080Z",
+          "art": "mehr",
+          "wahl": "weg",
+          "was": "Es öffnet das Overlay auch bei zwei getrennten Klicks auf denselben Namen, selbst wenn der zweite Klick erst viel später kommt.",
+          "wie": "vom PO per Klick „Weg damit“",
+          "wunsch": "wunsch-025"
+        }
+      ]
+    },
+    {
+      "nr": 2,
+      "vorige": 1,
+      "art": "aendern",
+      "wunsch": "wunsch-026",
+      "wortlaut": "Entferne genau das, was ich nicht gesagt habe: Es öffnet das Overlay auch bei zwei getrennten Klicks auf denselben Namen, selbst wenn der zweite Klick erst viel später kommt. Alles andere an diesem Plugin bleibt, wie es ist. Mein Wunsch war: „Beim Doppelklick auf einen Mitarbeiter soll ein overlay aufgehen, in dem die Mitarbeiterdatengezeigt werden. Darin der Name, das Eintrittdatum in die Firma, Seine Qualifikation. Sein status (also anwesen oder krank)“",
+      "datum": "2026-11-08T13:45:37.253Z",
+      "kurz": "Das Overlay öffnet sich jetzt nur noch, wenn beide Klicks auf denselben Namen innerhalb einer halben Sekunde kommen; ein späterer zweiter Klick zählt wieder als erster.",
+      "drehbuch": null,
+      "entscheidungen": [
+        {
+          "datum": "2026-11-08T13:48:04.253Z",
+          "art": "enger",
+          "wahl": "behalten",
+          "was": "Es öffnet das Overlay nur, wenn der zweite Klick innerhalb einer halben Sekunde kommt, dein Wunsch nennt keine Frist in dieser Höhe.",
+          "wie": "vom PO per Klick „So lassen“",
+          "wunsch": "wunsch-026"
+        }
+      ]
+    },
+    {
+      "nr": 3,
+      "vorige": 2,
+      "art": "vertrag",
+      "wortlaut": null,
+      "datum": "2026-11-08T12:00:00.000Z",
+      "kurz": "Auf den Bus-Vertrag umgestellt: meldet an, dass es das Eintrittsdatum und die offene Mitarbeiterkarte ändert. Das Verhalten bleibt gleich.",
+      "drehbuch": null,
+      "auftrag": "005"
+    }
+  ],
+  "teilApp": "disposition"
+}

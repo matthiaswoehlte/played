@@ -1,0 +1,29 @@
+{
+  "kennung": "geraete-plan",
+  "name": "Gerätedisposition als Gantt",
+  "reihe": 21,
+  "kurz": "Je Gerät eine Zeile, nach Art gruppiert, mit der Zeitleiste von 05:00 bis 11:00; die Geräteaufträge stehen als Balken mit Flugnummer darauf, Wartungszeiten sind grau gesperrt.",
+  "teilApp": "geraete",
+  "wuensche": [
+    {
+      "kennung": "wunsch-032",
+      "name": "Gerätedisposition als Gantt",
+      "wortlaut": "Ich will ein Gantt-Diagramm wie im Tagesplan: links je Gerät eine Zeile, rechts die Zeitleiste von 05:00 bis 11:00, die Aufträge als Balken mit Flugnummer.",
+      "datum": "2026-11-09T23:09:33.187Z",
+      "teilApp": "geraete"
+    }
+  ],
+  "aktuell": 1,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "prototyp",
+      "wunsch": "wunsch-032",
+      "wortlaut": "Ich will ein Gantt-Diagramm wie im Tagesplan: links je Gerät eine Zeile, rechts die Zeitleiste von 05:00 bis 11:00, die Aufträge als Balken mit Flugnummer.",
+      "datum": "2026-11-09T23:09:33.187Z",
+      "kurz": "Je Gerät eine Zeile, nach Art gruppiert, mit der Zeitleiste von 05:00 bis 11:00; die Geräteaufträge stehen als Balken mit Flugnummer darauf, Wartungszeiten sind grau gesperrt.",
+      "drehbuch": "wunsch-032"
+    }
+  ]
+}

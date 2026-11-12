@@ -1,0 +1,208 @@
+{
+  "kennung": "ground-handling-en",
+  "name": "Ground Handling (EN)",
+  "bereiche": [
+    {
+      "kennung": "disposition-ordner",
+      "name": "Dispatch",
+      "verantwortlich": "Matthias",
+      "kinder": [
+        {
+          "kennung": "disposition",
+          "name": "Staff Dispatch",
+          "prototyp": true,
+          "fachobjekte": [
+            "auftraege",
+            "kennzahlen/konflikte"
+          ],
+          "bestaetigt": "2026-11-09",
+          "pfade": [
+            "bodenabfertigung/tagesdisposition"
+          ]
+        },
+        {
+          "kennung": "geraete",
+          "name": "Equipment Dispatch",
+          "prototyp": true,
+          "fachobjekte": [
+            "geraetetypen",
+            "geraete",
+            "wartungen",
+            "geraeteauftraege",
+            "geraeteanzeige"
+          ],
+          "beispieldaten": true
+        }
+      ]
+    },
+    {
+      "kennung": "personal-ordner",
+      "name": "Staff and Shift Planning",
+      "verantwortlich": null,
+      "kinder": [
+        {
+          "kennung": "personal",
+          "name": "Shifts",
+          "prototyp": false,
+          "fachobjekte": [
+            "mitarbeiter"
+          ],
+          "bestaetigt": "2026-11-09",
+          "pfade": [
+            "bodenabfertigung/schichtplanung"
+          ],
+          "veroeffentlicht": [
+            {
+              "kennung": "mitarbeiter",
+              "muster": [
+                "mitarbeiter/*.*"
+              ],
+              "fuer": [
+                "disposition"
+              ],
+              "was": "the agents (name, team, qualifications, shift, absence)"
+            }
+          ]
+        },
+        {
+          "kennung": "urlaub",
+          "name": "Leave Planning",
+          "prototyp": false,
+          "fachobjekte": []
+        }
+      ]
+    },
+    {
+      "kennung": "flugplan",
+      "name": "Flight Schedule",
+      "verantwortlich": null,
+      "prototyp": false,
+      "fachobjekte": [
+        "fluege"
+      ],
+      "bestaetigt": "2026-11-09",
+      "veroeffentlicht": [
+        {
+          "kennung": "fluege",
+          "muster": [
+            "fluege/*.*"
+          ],
+          "fuer": [
+            "disposition",
+            "geraete"
+          ],
+          "was": "the flights (flight number, aircraft type, position, on-block and off-block, status)"
+        }
+      ]
+    }
+  ],
+  "fachobjektNamen": {
+    "auftraege": "Tasks",
+    "kennzahlen": "Conflicts",
+    "fluege": "Flights",
+    "mitarbeiter": "Agent",
+    "geraetetypen": "Equipment type",
+    "geraete": "Equipment unit",
+    "wartungen": "Maintenance block",
+    "geraeteauftraege": "Equipment task",
+    "geraeteanzeige": "Conflict list display"
+  },
+  "fachobjektEiner": {
+    "auftraege": "of a task",
+    "fluege": "of a flight",
+    "mitarbeiter": "of an agent",
+    "geraetetypen": "of an equipment type",
+    "geraete": "of an equipment unit",
+    "wartungen": "of a maintenance block",
+    "geraeteauftraege": "of an equipment task",
+    "geraeteanzeige": "of the conflict list display"
+  },
+  "feldNamen": {
+    "mitarbeiter": {
+      "name": "the name",
+      "gruppe": "the team",
+      "qualifikationen": "the qualifications",
+      "schichtStart": "the shift",
+      "schichtEnde": "the shift",
+      "abwesend": "the absence",
+      "abwesendAb": "the absence",
+      "grund": "the absence",
+      "eintritt": "the joining date"
+    },
+    "fluege": {
+      "flug": "the flight number",
+      "onBlock": "the on-block",
+      "offBlock": "the off-block",
+      "position": "the position",
+      "muster": "the aircraft type"
+    },
+    "geraetetypen": {
+      "name": "the group name",
+      "einzeln": "the type name",
+      "arbeit": "the activity",
+      "farbe": "the colour",
+      "reihenfolge": "the order"
+    },
+    "geraete": {
+      "name": "the name",
+      "typ": "the equipment type"
+    },
+    "wartungen": {
+      "geraet": "the unit",
+      "tag": "the day",
+      "start": "the start",
+      "ende": "the end"
+    },
+    "geraeteauftraege": {
+      "flug": "the flight",
+      "tag": "the day",
+      "arbeit": "the activity",
+      "typ": "the equipment type",
+      "geraet": "the unit",
+      "start": "the start",
+      "ende": "the end"
+    },
+    "geraeteanzeige": {
+      "offen": "the expanded conflicts"
+    }
+  },
+  "angabeNamen": {
+    "auftraege": {
+      "flug": "Flight",
+      "arbeit": "Job",
+      "mitarbeiter": "Agent",
+      "start": "Start",
+      "ende": "End",
+      "status": "Status"
+    },
+    "fluege": {
+      "flug": "Flight number",
+      "muster": "Aircraft type",
+      "position": "Position",
+      "onBlock": "On-block",
+      "offBlock": "Off-block",
+      "status": "Status",
+      "nachgerueckt": "Moved back",
+      "ueberfaellig": "Overdue"
+    },
+    "mitarbeiter": {
+      "name": "Name",
+      "gruppe": "Team",
+      "qualifikationen": "Qualifications",
+      "schichtStart": "Shift start",
+      "schichtEnde": "Shift end",
+      "abwesend": "Absence",
+      "abwesendAb": "Absent from",
+      "grund": "Reason for absence",
+      "eintritt": "Start date"
+    }
+  },
+  "sprache": "Englisch",
+  "kopie": {
+    "von": "bodenabfertigung",
+    "name": "Ground Handling",
+    "datum": "2026-11-10",
+    "uebersetzt": "2026-11-10T20:42:45.631Z"
+  },
+  "vermerk": "translated from the German original of 10 November 2026"
+}

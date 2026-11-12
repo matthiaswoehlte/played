@@ -1,0 +1,167 @@
+{
+  "kennung": "geraete-konflikte-seite",
+  "name": "Gerätekonflikte neben dem Plan",
+  "reihe": 28,
+  "kurz": "Rechts neben dem Geräteplan steht jetzt die Liste der Gerätekonflikte (Gerät doppelt belegt, falscher Gerätetyp); ein Klick auf einen Konflikt hebt die betroffenen Geräteaufträge im Plan hervor, ein zweiter Klick nimmt die Hervorhebung zurück.",
+  "teilApp": "geraete",
+  "wuensche": [
+    {
+      "kennung": "wunsch-039",
+      "name": "Gerätekonflikte neben dem Plan",
+      "wortlaut": "Rechts neben dem Gantt Chart soll soll eine Konflikliste erscheinen und darunter soll eine Liste für die nicht zugeteilten Geräteaufträge erscheinen. Wenn ich in der Konfliktliste einen Konflikt anklicke, dann soll mit der Konflikt im Gantt angezeigt werden. Die nicht zugeteilten Aufträge sollen von der Liste per Drag und Drop in den Gantt zugeteilt werden können. Dabei soll eine Prüfung stattfinden, ob der Gerätetyp passt und nur dann soll die Zuteilung möglich sein. Umgekehrt sollen auch Aufträge vom Gantt in die liste der nicht zugeteilten Aufträge per Drag und Drop gezogen werden können\nDie Liste der Nicht zugeteilten Geräteaufträge und die Konfliktliste sollen unterneinander auf der rechten Seite neben dem Gantt erscheinen mit gleicher Höhe und das Gantt Chart bekommt dann mehr Platz nach unten weil der Bereich frei wird",
+      "datum": "2026-11-10T07:54:00.924Z",
+      "rueckfragen": [
+        {
+          "rueckfrage": "Ich kann den Wunsch nicht in einem Schritt umsetzen, weil er mehrere Teile hat. Ich schlage diese vier Schritte vor:\n\n1. Die Konfliktliste rechts neben dem Geräteplan; ein Klick auf einen Konflikt zeigt ihn im Plan.\n2. Die Liste der nicht zugeteilten Geräteaufträge darunter, gleich hoch, und mehr Höhe für den Plan.\n3. Aufträge aus der Liste auf ein Gerät ziehen; passt der Gerätetyp nicht, wird die Zuteilung verweigert.\n4. Aufträge aus dem Plan zurück in die Liste ziehen.\n\nDazu eine fachliche Frage: Welche Konflikte sollen in der Liste stehen?\n\n- **Nur Gerätekonflikte:** Ein Gerät ist doppelt belegt, oder ein Auftrag liegt auf einem Gerät mit falschem Typ. Dann zählt und zeigt die Liste nur Konflikte der Gerätedisposition.\n- **Auch die Konflikte beim Personal**, so wie sie in der Tagesdisposition stehen. Dann steht dieselbe Liste in beiden Ansichten.\n\nWenn du nichts anderes sagst, nehme ich nur die Gerätekonflikte.",
+          "teile": [
+            "Rechts neben dem Geräteplan steht eine Konfliktliste der Gerätedisposition; ein Klick auf einen Konflikt hebt die betroffenen Geräteaufträge im Geräteplan hervor.",
+            "Unter der Konfliktliste steht gleich hoch die Liste der nicht zugeteilten Geräteaufträge, nach Beginn sortiert; der Geräteplan nutzt die frei gewordene Höhe nach unten.",
+            "Nicht zugeteilte Geräteaufträge lassen sich aus der Liste auf eine Gerätezeile im Geräteplan ziehen; passt der Gerätetyp nicht, wird die Zuteilung verweigert.",
+            "Geräteaufträge lassen sich aus dem Geräteplan zurück in die Liste ziehen und sind dann wieder nicht zugeteilt."
+          ],
+          "antwort": "So machen",
+          "datum": "2026-11-10T07:51:42.766Z"
+        }
+      ],
+      "teilApp": "geraete"
+    },
+    {
+      "kennung": "wunsch-040",
+      "name": "Gerätekonflikte neben dem Plan",
+      "wortlaut": "Das stimmt noch nicht, siehe Bild. Die Konfliktliste liegt über dem Gantt statt daneben, und ihre Überschrift steht doppelt. Richtig ist: Der Gantt endet links von einer eigenen rechten Spalte und wird von nichts verdeckt. In der rechten Spalte steht oben die Konfliktliste, darunter die Liste der nicht zugeteilten Geräteaufträge, beide gleich hoch. Unter dem Gantt steht nichts mehr, er reicht bis ganz nach unten. Die Zahl „im Konflikt“ oben am Gantt und die Konfliktliste zeigen immer dieselben Konflikte.",
+      "anhaenge": [
+        {
+          "name": "Bildschirmfoto 02-54-25.png",
+          "typ": "png",
+          "groesse": 433948,
+          "zur": "wunsch",
+          "pfad": "anhaenge/wunsch-040/Bildschirmfoto 02-54-25.png"
+        }
+      ],
+      "datum": "2026-11-10T07:56:35.617Z",
+      "teilApp": "geraete"
+    },
+    {
+      "kennung": "wunsch-041",
+      "name": "Gerätekonflikte einheitlich zählen",
+      "wortlaut": "Die Zahl „im Konflikt“ oben am Gantt und die Konfliktliste rechts zeigen immer dieselben Konflikte. Ein Konflikt ist: zwei Aufträge überschneiden sich auf einem Gerät, zwischen zwei Aufträgen sind weniger als 10 Minuten Fahrzeit, ein Auftrag liegt auf einem Gerät der falschen Art oder in der Wartung eines Geräts. Konflikte sind im Gantt rot umrandet.",
+      "datum": "2026-11-10T08:02:02.836Z",
+      "teilApp": "geraete"
+    },
+    {
+      "kennung": "wunsch-042",
+      "name": "Plan rollt zum gewählten Konflikt",
+      "wortlaut": "Beim Anklicken eines Konflikts werden die Konflikte im Gantt angezeigt, das funktioniert schon. Wenn aber die Balken ausserhalb des sichbaren Bereichs sind, dann soll der Gantt Chart gescrollt werden, damit die entsprechenden Balken sichtbar werden.",
+      "datum": "2026-11-10T08:07:18.185Z",
+      "teilApp": "geraete"
+    }
+  ],
+  "aktuell": 6,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "wunsch",
+      "wunsch": "wunsch-039",
+      "wortlaut": "Rechts neben dem Gantt Chart soll soll eine Konflikliste erscheinen und darunter soll eine Liste für die nicht zugeteilten Geräteaufträge erscheinen. Wenn ich in der Konfliktliste einen Konflikt anklicke, dann soll mit der Konflikt im Gantt angezeigt werden. Die nicht zugeteilten Aufträge sollen von der Liste per Drag und Drop in den Gantt zugeteilt werden können. Dabei soll eine Prüfung stattfinden, ob der Gerätetyp passt und nur dann soll die Zuteilung möglich sein. Umgekehrt sollen auch Aufträge vom Gantt in die liste der nicht zugeteilten Aufträge per Drag und Drop gezogen werden können\nDie Liste der Nicht zugeteilten Geräteaufträge und die Konfliktliste sollen unterneinander auf der rechten Seite neben dem Gantt erscheinen mit gleicher Höhe und das Gantt Chart bekommt dann mehr Platz nach unten weil der Bereich frei wird",
+      "rueckfragen": [
+        {
+          "rueckfrage": "Ich kann den Wunsch nicht in einem Schritt umsetzen, weil er mehrere Teile hat. Ich schlage diese vier Schritte vor:\n\n1. Die Konfliktliste rechts neben dem Geräteplan; ein Klick auf einen Konflikt zeigt ihn im Plan.\n2. Die Liste der nicht zugeteilten Geräteaufträge darunter, gleich hoch, und mehr Höhe für den Plan.\n3. Aufträge aus der Liste auf ein Gerät ziehen; passt der Gerätetyp nicht, wird die Zuteilung verweigert.\n4. Aufträge aus dem Plan zurück in die Liste ziehen.\n\nDazu eine fachliche Frage: Welche Konflikte sollen in der Liste stehen?\n\n- **Nur Gerätekonflikte:** Ein Gerät ist doppelt belegt, oder ein Auftrag liegt auf einem Gerät mit falschem Typ. Dann zählt und zeigt die Liste nur Konflikte der Gerätedisposition.\n- **Auch die Konflikte beim Personal**, so wie sie in der Tagesdisposition stehen. Dann steht dieselbe Liste in beiden Ansichten.\n\nWenn du nichts anderes sagst, nehme ich nur die Gerätekonflikte.",
+          "teile": [
+            "Rechts neben dem Geräteplan steht eine Konfliktliste der Gerätedisposition; ein Klick auf einen Konflikt hebt die betroffenen Geräteaufträge im Geräteplan hervor.",
+            "Unter der Konfliktliste steht gleich hoch die Liste der nicht zugeteilten Geräteaufträge, nach Beginn sortiert; der Geräteplan nutzt die frei gewordene Höhe nach unten.",
+            "Nicht zugeteilte Geräteaufträge lassen sich aus der Liste auf eine Gerätezeile im Geräteplan ziehen; passt der Gerätetyp nicht, wird die Zuteilung verweigert.",
+            "Geräteaufträge lassen sich aus dem Geräteplan zurück in die Liste ziehen und sind dann wieder nicht zugeteilt."
+          ],
+          "antwort": "So machen",
+          "datum": "2026-11-10T07:51:42.766Z"
+        }
+      ],
+      "datum": "2026-11-10T07:54:00.924Z",
+      "kurz": "Rechts neben dem Geräteplan steht jetzt die Liste der Gerätekonflikte (Gerät doppelt belegt, falscher Gerätetyp); ein Klick auf einen Konflikt hebt die betroffenen Geräteaufträge im Plan hervor, ein zweiter Klick nimmt die Hervorhebung zurück.",
+      "drehbuch": "wunsch-039",
+      "bestaetigt": {
+        "datum": "2026-11-10T08:00:15.573Z",
+        "wie": "vom PO mit „Bestätigen“"
+      }
+    },
+    {
+      "nr": 2,
+      "vorige": 1,
+      "art": "wunsch",
+      "wunsch": "wunsch-040",
+      "wortlaut": "Das stimmt noch nicht, siehe Bild. Die Konfliktliste liegt über dem Gantt statt daneben, und ihre Überschrift steht doppelt. Richtig ist: Der Gantt endet links von einer eigenen rechten Spalte und wird von nichts verdeckt. In der rechten Spalte steht oben die Konfliktliste, darunter die Liste der nicht zugeteilten Geräteaufträge, beide gleich hoch. Unter dem Gantt steht nichts mehr, er reicht bis ganz nach unten. Die Zahl „im Konflikt“ oben am Gantt und die Konfliktliste zeigen immer dieselben Konflikte.",
+      "anhaenge": [
+        {
+          "name": "Bildschirmfoto 02-54-25.png",
+          "typ": "png",
+          "groesse": 433948,
+          "zur": "wunsch",
+          "pfad": "anhaenge/wunsch-040/Bildschirmfoto 02-54-25.png"
+        }
+      ],
+      "datum": "2026-11-10T07:56:35.617Z",
+      "kurz": "Der Geräteplan hat jetzt eine eigene rechte Spalte: oben die Gerätekonflikte, darunter die nicht zugeteilten Geräteaufträge, beide gleich hoch. Der Gantt endet links davon und reicht bis ganz nach unten. Die doppelte Überschrift „Konflikte“ ist weg. Die Konfliktliste erkennt jetzt auch falsche Gerätearten und Aufträge während einer Wartung.",
+      "drehbuch": null,
+      "bestaetigt": {
+        "datum": "2026-11-10T08:00:16.299Z",
+        "wie": "vom PO mit „Bestätigen“"
+      }
+    },
+    {
+      "nr": 3,
+      "vorige": 2,
+      "art": "wunsch",
+      "wunsch": "wunsch-041",
+      "wortlaut": "Die Zahl „im Konflikt“ oben am Gantt und die Konfliktliste rechts zeigen immer dieselben Konflikte. Ein Konflikt ist: zwei Aufträge überschneiden sich auf einem Gerät, zwischen zwei Aufträgen sind weniger als 10 Minuten Fahrzeit, ein Auftrag liegt auf einem Gerät der falschen Art oder in der Wartung eines Geräts. Konflikte sind im Gantt rot umrandet.",
+      "datum": "2026-11-10T08:02:02.836Z",
+      "kurz": "Die Zahl „im Konflikt“ über dem Geräteplan und die Konfliktliste rechts zählen jetzt dieselben Konflikte: Überschneidung auf einem Gerät, weniger als 10 Minuten Fahrzeit zwischen zwei Aufträgen, falsche Geräteart und Wartung; betroffene Balken sind rot umrandet.",
+      "drehbuch": null,
+      "bestaetigt": {
+        "datum": "2026-11-10T08:04:20.955Z",
+        "wie": "vom PO mit „Bestätigen“"
+      }
+    },
+    {
+      "nr": 4,
+      "vorige": 3,
+      "art": "wunsch",
+      "wunsch": "wunsch-042",
+      "wortlaut": "Beim Anklicken eines Konflikts werden die Konflikte im Gantt angezeigt, das funktioniert schon. Wenn aber die Balken ausserhalb des sichbaren Bereichs sind, dann soll der Gantt Chart gescrollt werden, damit die entsprechenden Balken sichtbar werden.",
+      "datum": "2026-11-10T08:07:18.185Z",
+      "kurz": "Wählst du einen Konflikt, dessen Balken gerade nicht zu sehen sind, rollt der Geräteplan jetzt von selbst dorthin, waagerecht wie senkrecht.",
+      "drehbuch": null,
+      "bestaetigt": {
+        "datum": "2026-11-10T08:08:50.071Z",
+        "wie": "vom PO mit „Bestätigen“"
+      }
+    },
+    {
+      "nr": 5,
+      "vorige": 4,
+      "art": "aendern",
+      "wunsch": "wunsch-044",
+      "teilApp": "disposition",
+      "wortlaut": "Ein Klick auf einen Konflikt lässt die beteiligten Balken und Zeilen 2,5 Sekunden lang zweimal mit goldenem Rand aufblinken, danach ist alles wie vorher. Andere Balken werden nicht abgedunkelt. Ein zweiter Klick ist nicht nötig. Liegen die Balken außerhalb des sichtbaren Bereichs, scrollt der Gantt zu ihnen.",
+      "datum": "2026-11-10T08:18:27.460Z",
+      "kurz": "Ich habe es geändert: Ein Klick auf einen Konflikt lässt die beteiligten Balken und ihre Gerätezeilen innerhalb von 2,5 Sekunden zweimal mit goldenem Rand aufblinken. Danach sieht der Plan wieder aus wie vorher. Andere Balken werden nicht mehr abgedunkelt, und einen zweiten Klick zum Aufheben braucht es nicht. Jeder weitere Klick lässt die Balken erneut blinken. Liegen die Balken außerhalb des sichtbaren Bereichs, rollt der Plan zu ihnen. Dazu gibt es kein eigenes Szenario: Das Klicken im Geräteplan kann ich ohne die genauen Geräteaufträge nicht vorspielen. Du siehst es, wenn du in der Konfliktliste selbst einen Konflikt anklickst.",
+      "drehbuch": null,
+      "unbestaetigt": true
+    },
+    {
+      "nr": 6,
+      "vorige": 4,
+      "art": "aendern",
+      "wunsch": "wunsch-045",
+      "teilApp": "disposition",
+      "wortlaut": "Ein Klick auf einen Konflikt lässt die beteiligten Balken und Zeilen 2,5 Sekunden lang zweimal mit goldenem Rand aufblinken, danach ist alles wie vorher. Andere Balken werden nicht abgedunkelt. Ein zweiter Klick ist nicht nötig. Liegen die Balken außerhalb des sichtbaren Bereichs, scrollt der Gantt zu ihnen.",
+      "datum": "2026-11-10T08:20:01.321Z",
+      "kurz": "Ich habe das Plugin „Gerätekonflikte neben dem Plan“ geändert: Ein Klick auf einen Konflikt lässt die beteiligten Balken und ihre Zeilen 2,5 Sekunden lang zweimal mit goldenem Rand aufblinken, danach ist alles wie vorher. Andere Balken werden nicht mehr abgedunkelt, und ein zweiter Klick zum Aufheben ist nicht mehr nötig. Jeder weitere Klick lässt den Konflikt erneut aufblinken. Liegen die Balken außerhalb des sichtbaren Bereichs, rollt der Geräteplan weiter zu ihnen. Geprüft ist das nicht: Ich habe es nicht vorgespielt, und kein Szenario zeigt das Aufblinken. Offen ist, ob die Zeilen wirklich mitblinken. Ich kenne den Aufbau des Geräteplans nicht und finde die Zeile nur, wenn sie die Kennung des Geräts trägt.",
+      "drehbuch": null,
+      "bestaetigt": {
+        "datum": "2026-11-10T08:22:49.725Z",
+        "wie": "vom PO mit „Bestätigen“"
+      }
+    }
+  ]
+}

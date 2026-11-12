@@ -1,0 +1,8 @@
+{
+  "kennung": "wunsch-010",
+  "name": "Show overlaps as conflicts",
+  "wortlaut": "If several bars overlap for one agent, they get a conflict, and the conflict shows as a red outline on the bar. On the right, a click on Conflicts should show a list of conflicts, which is kept up to date by the actions. As soon as e.g. bars no longer  overlap, the conflict no longer exists.",
+  "wortlautDeutsch": "Wenn mehrere Balken sich bei einem Mitarbeiter überlappen, dann sollen sie einen Konflikt bekommen und der Konflikt zeigt sich optisch, dass der Balken eine rote Umrandung hat. Auf der rechten Seite soll bei Klick auf Konflikte eine List der Konflikte erscheinen, die auch durch die Aktionen gepflegt wird. Sobald sich z.B. Balken nicht mehr  überlappen, ist der Konflikt nicht mehr existent.",
+  "datum": "2026-11-06T22:29:36.711Z",
+  "kurz": "Overlapping bars of an agent now have a red outline, and a click on “Conflicts” opens a list on the right that updates with every action; for this, Gantt and the conflict counter are output again together in one source, so with two calls to Huelle.plugin instead of one."
+}

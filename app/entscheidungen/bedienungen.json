@@ -1,0 +1,13 @@
+[
+  {
+    "schluessel": "gantt|ziehen|balken-zuweisen+verhalten-einsatz",
+    "plugins": [
+      "balken-zuweisen",
+      "verhalten-einsatz"
+    ],
+    "gewaehlt": "verhalten-einsatz",
+    "satz": "Ziehst du einen Balken im Tagesplan auf einen Mitarbeiter (z. B. XA 101 Entladen auf D. Mahler), wollen „Balken auf andere Mitarbeiter ziehen“ und „Einsatz ändern“ das übernehmen.",
+    "datum": "2026-11-09T20:45:20.571Z",
+    "wie": "vom PO per Klick „Einsatz ändern übernimmt“"
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "kennung": "auftrag-status",
+  "name": "Task status on the bar",
+  "reihe": 16,
+  "kurz": "Each task now has a status (Open, Started or Done): it is shown in the overlay on hover and can be set from a menu via a status icon on the bar; at the start of the day it follows the time.",
+  "wuensche": [
+    {
+      "kennung": "wunsch-022",
+      "name": "Task status on the bar",
+      "wortlaut": "Each task has a status: Open, Started or Done. The status is shown in the overlay on hover. It is set via a small status icon on the bar; a click on it opens a menu with the three statuses. At the start of the day the status follows the time: past = Done, running = Started, not yet started = Open.",
+      "wortlautDeutsch": "Jeder Auftrag hat einen Status: Offen, Begonnen oder Fertig. Der Status steht im Overlay beim Überfahren. Gesetzt wird er über ein kleines Status-Zeichen am Balken; ein Klick darauf öffnet ein Menü mit den drei Status. Zu Tagesbeginn richtet sich der Status nach der Uhrzeit: vorbei = Fertig, läuft gerade = Begonnen, noch nicht begonnen = Offen.",
+      "datum": "2026-11-07T19:25:36.253Z",
+      "teilApp": "disposition"
+    }
+  ],
+  "aktuell": 3,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "wunsch",
+      "wunsch": "wunsch-022",
+      "wortlaut": "Each task has a status: Open, Started or Done. The status is shown in the overlay on hover. It is set via a small status icon on the bar; a click on it opens a menu with the three statuses. At the start of the day the status follows the time: past = Done, running = Started, not yet started = Open.",
+      "wortlautDeutsch": "Jeder Auftrag hat einen Status: Offen, Begonnen oder Fertig. Der Status steht im Overlay beim Überfahren. Gesetzt wird er über ein kleines Status-Zeichen am Balken; ein Klick darauf öffnet ein Menü mit den drei Status. Zu Tagesbeginn richtet sich der Status nach der Uhrzeit: vorbei = Fertig, läuft gerade = Begonnen, noch nicht begonnen = Offen.",
+      "datum": "2026-11-07T19:25:36.253Z",
+      "kurz": "Each task now has a status (Open, Started or Done): it is shown in the overlay on hover and can be set from a menu via a status icon on the bar; at the start of the day it follows the time.",
+      "drehbuch": "wunsch-022"
+    },
+    {
+      "nr": 2,
+      "vorige": 1,
+      "art": "vertrag",
+      "wortlaut": null,
+      "datum": "2026-11-08T12:00:00.000Z",
+      "kurz": "Switched to the bus contract: declares that it changes the task status and the open status menu. The behaviour stays the same.",
+      "drehbuch": null,
+      "auftrag": "005"
+    },
+    {
+      "nr": 3,
+      "vorige": 2,
+      "art": "vertrag",
+      "wortlaut": null,
+      "datum": "2026-11-08T20:00:00.000Z",
+      "kurz": "Play now keeps the status according to the data model, including the status at the start of the day from your request. The plugin shows it and sends your choice; whatever cannot follow from a status is grey in the menu.",
+      "drehbuch": null,
+      "auftrag": "005"
+    }
+  ],
+  "teilApp": "disposition"
+}

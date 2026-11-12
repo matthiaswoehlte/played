@@ -1,0 +1,56 @@
+{
+  "kennung": "liste-auf-offen",
+  "name": "Back to Open from the list",
+  "reihe": 20,
+  "kurz": "If a started or done task ends up under “Unassigned tasks”, whether put back by hand or by a sick call, it is set back to Open. For this, the step from Started back to Open is now allowed, also in the status menu on the bar. For this, the step from Done back to Open is now allowed, also in the status menu on the bar.",
+  "wuensche": [
+    {
+      "kennung": "wunsch-031",
+      "name": "Back to Open from the list",
+      "wortlaut": "Dispatcher may overrule; whatever lands in ‘Unassigned tasks’ goes to Open",
+      "wortlautDeutsch": "Disponent darf überstimmen, was in ‚Nicht zugewiesene Aufträge‘ landet, geht auf Offen",
+      "datum": "2026-11-09T20:46:05.423Z",
+      "teilApp": "disposition"
+    }
+  ],
+  "aktuell": 1,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "wunsch",
+      "wunsch": "wunsch-031",
+      "wortlaut": "Dispatcher may overrule; whatever lands in ‘Unassigned tasks’ goes to Open",
+      "wortlautDeutsch": "Disponent darf überstimmen, was in ‚Nicht zugewiesene Aufträge‘ landet, geht auf Offen",
+      "datum": "2026-11-09T20:46:05.423Z",
+      "kurz": "If a started or done task ends up under “Unassigned tasks”, whether put back by hand or by a sick call, it is set back to Open. For this, the step from Started back to Open is now allowed, also in the status menu on the bar. For this, the step from Done back to Open is now allowed, also in the status menu on the bar.",
+      "drehbuch": "wunsch-031",
+      "grunddaten": [
+        {
+          "pfad": "arten/auftraege/status/uebergaenge/begonnen",
+          "alt": [
+            "fertig"
+          ],
+          "neu": [
+            "offen",
+            "fertig"
+          ],
+          "satz": "For this, the step from Started back to Open is now allowed, also in the status menu on the bar."
+        },
+        {
+          "pfad": "arten/auftraege/status/uebergaenge/fertig",
+          "alt": [],
+          "neu": [
+            "offen"
+          ],
+          "satz": "For this, the step from Done back to Open is now allowed, also in the status menu on the bar."
+        }
+      ],
+      "bestaetigt": {
+        "datum": "2026-11-09T20:47:13.906Z",
+        "wie": "by the PO with “Confirm”"
+      }
+    }
+  ],
+  "teilApp": "disposition"
+}

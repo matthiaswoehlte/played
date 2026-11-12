@@ -1,0 +1,28 @@
+{
+  "kennung": "geraete-offen",
+  "name": "Unassigned equipment tasks",
+  "reihe": 23,
+  "kurz": "Below the conflicts, a list counts the equipment tasks without a unit and shows each with flight, activity, time and equipment type, by day.",
+  "teilApp": "geraete",
+  "wuensche": [
+    {
+      "kennung": "wunsch-032",
+      "name": "Unassigned equipment tasks",
+      "wortlaut": "Below the conflict list there is the list of unassigned equipment tasks with their number, each with flight, activity, time and equipment type, for example \"XB 214 Catering 06:28–06:43 · Catering truck\".",
+      "datum": "2026-11-11T17:23:57.020Z"
+    }
+  ],
+  "aktuell": 1,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "prototyp",
+      "wunsch": "wunsch-032",
+      "wortlaut": "Below the conflict list there is the list of unassigned equipment tasks with their number, each with flight, activity, time and equipment type, for example \"XB 214 Catering 06:28–06:43 · Catering truck\".",
+      "datum": "2026-11-11T17:23:57.020Z",
+      "kurz": "Below the conflicts, a list counts the equipment tasks without a unit and shows each with flight, activity, time and equipment type, by day.",
+      "drehbuch": null
+    }
+  ]
+}

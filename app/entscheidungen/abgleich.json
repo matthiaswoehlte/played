@@ -1,0 +1,250 @@
+[
+  {
+    "wunsch": "wunsch-025",
+    "art": "wunsch",
+    "wortlaut": "Beim Doppelklick auf einen Mitarbeiter soll ein overlay aufgehen, in dem die Mitarbeiterdatengezeigt werden. Darin der Name, das Eintrittdatum in die Firma, Seine Qualifikation. Sein status (also anwesen oder krank)",
+    "plugin": "mitarbeiter-karte",
+    "name": "Mitarbeiterdaten per Doppelklick",
+    "fassung": 1,
+    "regel": null,
+    "datum": "2026-11-08T13:43:19.425Z",
+    "status": "fertig",
+    "mehr": [
+      {
+        "nr": 0,
+        "was": "Es öffnet das Overlay auch bei zwei getrennten Klicks auf denselben Namen, selbst wenn der zweite Klick erst viel später kommt."
+      }
+    ],
+    "enger": [],
+    "verstoesse": [],
+    "entscheidungen": {
+      "mehr-0": {
+        "wahl": "weg",
+        "datum": "2026-11-08T13:44:21.080Z",
+        "wie": "vom PO per Klick „Weg damit“"
+      }
+    }
+  },
+  {
+    "wunsch": "wunsch-026",
+    "art": "aendern",
+    "wortlaut": "Entferne genau das, was ich nicht gesagt habe: Es öffnet das Overlay auch bei zwei getrennten Klicks auf denselben Namen, selbst wenn der zweite Klick erst viel später kommt. Alles andere an diesem Plugin bleibt, wie es ist. Mein Wunsch war: „Beim Doppelklick auf einen Mitarbeiter soll ein overlay aufgehen, in dem die Mitarbeiterdatengezeigt werden. Darin der Name, das Eintrittdatum in die Firma, Seine Qualifikation. Sein status (also anwesen oder krank)“",
+    "plugin": "mitarbeiter-karte",
+    "name": "Mitarbeiterdaten per Doppelklick",
+    "fassung": 2,
+    "regel": null,
+    "datum": "2026-11-08T13:45:37.259Z",
+    "status": "fertig",
+    "mehr": [],
+    "enger": [
+      {
+        "nr": 0,
+        "was": "Es öffnet das Overlay nur, wenn der zweite Klick innerhalb einer halben Sekunde kommt, dein Wunsch nennt keine Frist in dieser Höhe.",
+        "regel": false
+      }
+    ],
+    "verstoesse": [],
+    "entscheidungen": {
+      "enger-0": {
+        "wahl": "behalten",
+        "datum": "2026-11-08T13:48:04.253Z",
+        "wie": "vom PO per Klick „So lassen“"
+      }
+    }
+  },
+  {
+    "wunsch": "wunsch-027",
+    "art": "wunsch",
+    "wortlaut": "Ein Flug ist zur geplanten Onblock-Zeit noch nicht am Block: … dann rücken seine offenen Aufträge mit der Uhr nach hinten, bis er am Block ist.",
+    "plugin": "nachruecken-ohne-onblock",
+    "name": "Aufträge rücken ohne On-Block",
+    "fassung": 1,
+    "regel": null,
+    "datum": "2026-11-09T08:43:34.639Z",
+    "status": "fertig",
+    "mehr": [],
+    "enger": [],
+    "verstoesse": [],
+    "entscheidungen": {}
+  },
+  {
+    "wunsch": "wunsch-028",
+    "art": "wunsch",
+    "wortlaut": "Flugverspätung trifft einen Auftrag, der schon Begonnen ist: Dann den Einsatz mit dem Flug verschieben. Er soll den Zustand \"Begonnen\" behalten",
+    "plugin": "flugverspaetung",
+    "name": "Flugverspätung bei begonnenen Aufträgen",
+    "fassung": 3,
+    "regel": null,
+    "datum": "2026-11-09T20:03:40.014Z",
+    "status": "fertig",
+    "mehr": [],
+    "enger": [],
+    "verstoesse": [],
+    "entscheidungen": {}
+  },
+  {
+    "wunsch": "wunsch-030",
+    "art": "stimmt-nicht",
+    "wortlaut": "Ich habe das falsch gesagt, das stimmt so nicht",
+    "plugin": "vergangenheit-grau",
+    "name": "Zeitleiste ohne graue Vergangenheit",
+    "fassung": 2,
+    "regel": null,
+    "datum": "2026-11-09T20:15:09.670Z",
+    "status": "fertig",
+    "mehr": [],
+    "enger": [],
+    "verstoesse": [],
+    "entscheidungen": {}
+  },
+  {
+    "wunsch": "wunsch-031",
+    "art": "wunsch",
+    "wortlaut": "Disponent darf überstimmen, was in ‚Nicht zugewiesene Aufträge‘ landet, geht auf Offen",
+    "plugin": "liste-auf-offen",
+    "name": "Aus der Liste wieder Offen",
+    "fassung": 1,
+    "regel": null,
+    "datum": "2026-11-09T20:46:05.453Z",
+    "status": "fertig",
+    "mehr": [],
+    "enger": [],
+    "verstoesse": [],
+    "entscheidungen": {}
+  },
+  {
+    "wunsch": "wunsch-034",
+    "art": "wunsch",
+    "wortlaut": "Die Gerätedisposition füllt den ganzen Nutzbereich aus: in der Breite bis an den rechten Rand, in der Höhe bis an den unteren Rand. Die Zeitleiste von 05:00 bis 11:00 dehnt sich über die volle Breite. Die Liste „Nicht zugeteilte Geräteaufträge“ bleibt unten am Rand sichtbar, und das Diagramm nutzt die ganze Höhe dazwischen. Gescrollt wird nur, wenn nicht alle Geräte hineinpassen.",
+    "plugin": "geraete-plan-voll",
+    "name": "Gerätedisposition füllt den Platz",
+    "fassung": 1,
+    "regel": null,
+    "datum": "2026-11-09T23:14:34.581Z",
+    "status": "fertig",
+    "mehr": [],
+    "enger": [],
+    "verstoesse": [],
+    "entscheidungen": {}
+  },
+  {
+    "wunsch": "wunsch-036",
+    "art": "wunsch",
+    "wortlaut": "Die Schriftfarbe der Balken soll Schwarz sein.",
+    "plugin": "geraete-balken-schrift-schwarz",
+    "name": "Schwarze Schrift auf Balken",
+    "fassung": 1,
+    "regel": null,
+    "datum": "2026-11-10T07:28:35.100Z",
+    "status": "fertig",
+    "mehr": [],
+    "enger": [],
+    "verstoesse": [],
+    "entscheidungen": {}
+  },
+  {
+    "wunsch": "wunsch-037",
+    "art": "wunsch",
+    "wortlaut": "Rechts neben dem Gantt Chart soll soll eine Konflikliste erscheinen und darunter soll eine Liste für die nicht zugeteilten Geräteaufträge erscheinen. Wenn ich in der Konfliktliste einen Konflikt anklicke, dann soll mit der Konflikt im Gantt angezeigt werden. Die nicht zugeteilten Aufträge sollen von der Liste per Drag und Drop in den Gantt zugeteilt werden können. Dabei soll eine Prüfung stattfinden, ob der Gerätetyp passt und nur dann soll die Zuteilung möglich sein. Umgekehrt sollen auch Aufträge vom Gantt in die liste der nicht zugeteilten Aufträge per Drag und Drop gezogen werden können",
+    "plugin": "geraete-konfliktliste",
+    "name": "Konfliktliste Gerätedisposition",
+    "fassung": 1,
+    "regel": null,
+    "datum": "2026-11-10T07:38:07.561Z",
+    "status": "fertig",
+    "mehr": [],
+    "enger": [],
+    "verstoesse": [],
+    "entscheidungen": {}
+  },
+  {
+    "wunsch": "wunsch-039",
+    "art": "wunsch",
+    "wortlaut": "Rechts neben dem Gantt Chart soll soll eine Konflikliste erscheinen und darunter soll eine Liste für die nicht zugeteilten Geräteaufträge erscheinen. Wenn ich in der Konfliktliste einen Konflikt anklicke, dann soll mit der Konflikt im Gantt angezeigt werden. Die nicht zugeteilten Aufträge sollen von der Liste per Drag und Drop in den Gantt zugeteilt werden können. Dabei soll eine Prüfung stattfinden, ob der Gerätetyp passt und nur dann soll die Zuteilung möglich sein. Umgekehrt sollen auch Aufträge vom Gantt in die liste der nicht zugeteilten Aufträge per Drag und Drop gezogen werden können\nDie Liste der Nicht zugeteilten Geräteaufträge und die Konfliktliste sollen unterneinander auf der rechten Seite neben dem Gantt erscheinen mit gleicher Höhe und das Gantt Chart bekommt dann mehr Platz nach unten weil der Bereich frei wird",
+    "plugin": "geraete-konflikte-seite",
+    "name": "Gerätekonflikte neben dem Plan",
+    "fassung": 1,
+    "regel": null,
+    "datum": "2026-11-10T07:54:01.010Z",
+    "status": "fertig",
+    "mehr": [],
+    "enger": [],
+    "verstoesse": [],
+    "entscheidungen": {}
+  },
+  {
+    "wunsch": "wunsch-040",
+    "art": "wunsch",
+    "wortlaut": "Das stimmt noch nicht, siehe Bild. Die Konfliktliste liegt über dem Gantt statt daneben, und ihre Überschrift steht doppelt. Richtig ist: Der Gantt endet links von einer eigenen rechten Spalte und wird von nichts verdeckt. In der rechten Spalte steht oben die Konfliktliste, darunter die Liste der nicht zugeteilten Geräteaufträge, beide gleich hoch. Unter dem Gantt steht nichts mehr, er reicht bis ganz nach unten. Die Zahl „im Konflikt“ oben am Gantt und die Konfliktliste zeigen immer dieselben Konflikte.",
+    "plugin": "geraete-konflikte-seite",
+    "name": "Gerätekonflikte neben dem Plan",
+    "fassung": 2,
+    "regel": null,
+    "datum": "2026-11-10T07:56:35.635Z",
+    "status": "fertig",
+    "mehr": [],
+    "enger": [],
+    "verstoesse": [],
+    "entscheidungen": {}
+  },
+  {
+    "wunsch": "wunsch-041",
+    "art": "wunsch",
+    "wortlaut": "Die Zahl „im Konflikt“ oben am Gantt und die Konfliktliste rechts zeigen immer dieselben Konflikte. Ein Konflikt ist: zwei Aufträge überschneiden sich auf einem Gerät, zwischen zwei Aufträgen sind weniger als 10 Minuten Fahrzeit, ein Auftrag liegt auf einem Gerät der falschen Art oder in der Wartung eines Geräts. Konflikte sind im Gantt rot umrandet.",
+    "plugin": "geraete-konflikte-seite",
+    "name": "Gerätekonflikte einheitlich zählen",
+    "fassung": 3,
+    "regel": null,
+    "datum": "2026-11-10T08:02:02.840Z",
+    "status": "fertig",
+    "mehr": [],
+    "enger": [],
+    "verstoesse": [],
+    "entscheidungen": {}
+  },
+  {
+    "wunsch": "wunsch-042",
+    "art": "wunsch",
+    "wortlaut": "Beim Anklicken eines Konflikts werden die Konflikte im Gantt angezeigt, das funktioniert schon. Wenn aber die Balken ausserhalb des sichbaren Bereichs sind, dann soll der Gantt Chart gescrollt werden, damit die entsprechenden Balken sichtbar werden.",
+    "plugin": "geraete-konflikte-seite",
+    "name": "Plan rollt zum gewählten Konflikt",
+    "fassung": 4,
+    "regel": null,
+    "datum": "2026-11-10T08:07:18.189Z",
+    "status": "fertig",
+    "mehr": [],
+    "enger": [],
+    "verstoesse": [],
+    "entscheidungen": {}
+  },
+  {
+    "wunsch": "wunsch-045",
+    "art": "aendern",
+    "wortlaut": "Ein Klick auf einen Konflikt lässt die beteiligten Balken und Zeilen 2,5 Sekunden lang zweimal mit goldenem Rand aufblinken, danach ist alles wie vorher. Andere Balken werden nicht abgedunkelt. Ein zweiter Klick ist nicht nötig. Liegen die Balken außerhalb des sichtbaren Bereichs, scrollt der Gantt zu ihnen.",
+    "plugin": "geraete-konflikte-seite",
+    "name": "Konflikt im Geräteplan aufblinken",
+    "fassung": 6,
+    "regel": null,
+    "datum": "2026-11-10T08:20:01.324Z",
+    "status": "fertig",
+    "mehr": [],
+    "enger": [],
+    "verstoesse": [],
+    "entscheidungen": {}
+  },
+  {
+    "wunsch": "wunsch-048",
+    "art": "wunsch",
+    "wortlaut": "Der Flugplan hat zwischen 05:00 und 11:00 etwa 15 Flüge, verteilt über den Vormittag, damit die Geräte gut ausgelastet sind.",
+    "plugin": "geraete-neue-fluege",
+    "name": "Geräteaufträge der neuen Flüge",
+    "fassung": 1,
+    "regel": null,
+    "datum": "2026-11-10T08:35:42.242Z",
+    "status": "fertig",
+    "mehr": [],
+    "enger": [],
+    "verstoesse": [],
+    "entscheidungen": {}
+  }
+]

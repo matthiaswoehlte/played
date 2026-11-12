@@ -1,0 +1,47 @@
+{
+  "kennung": "plan-suche",
+  "name": "Suche im Tagesplan",
+  "reihe": 17,
+  "kurz": "Über dem Tagesplan steht links am Beginn der Zeitachse ein Suchfeld. Es markiert alle Mitarbeiter, deren Name oder Kurzform zum Suchbegriff oder zu einem Teil davon passt, und alle Balken, deren Flugnummer ihn enthält. Mit Enter oder ▾ springt die Suche zum nächsten Treffer.",
+  "wuensche": [
+    {
+      "kennung": "wunsch-023",
+      "name": "Suche im Tagesplan",
+      "wortlaut": "Ich möchte ein Suchfeld oberhalb der Timeline (am linken Ende wo die Timeline beginnt). Dort sollen a) die Mitarbeiter markiert werden wenn der Suchbegriff oder Teile davon passen oder b) die Balken wenn Teile der Flugnummern passen. Mit return/enter wird weiter gesucht",
+      "datum": "2026-11-07T20:18:54.471Z"
+    }
+  ],
+  "aktuell": 3,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "wunsch",
+      "wunsch": "wunsch-023",
+      "wortlaut": "Ich möchte ein Suchfeld oberhalb der Timeline (am linken Ende wo die Timeline beginnt). Dort sollen a) die Mitarbeiter markiert werden wenn der Suchbegriff oder Teile davon passen oder b) die Balken wenn Teile der Flugnummern passen. Mit return/enter wird weiter gesucht",
+      "datum": "2026-11-07T20:18:54.471Z",
+      "kurz": "Über dem Tagesplan steht links am Beginn der Zeitachse ein Suchfeld. Es markiert alle Mitarbeiter, deren Name oder Kurzform zum Suchbegriff oder zu einem Teil davon passt, und alle Balken, deren Flugnummer ihn enthält. Mit Enter oder ▾ springt die Suche zum nächsten Treffer.",
+      "drehbuch": "wunsch-023"
+    },
+    {
+      "nr": 2,
+      "vorige": 1,
+      "art": "aendern",
+      "wunsch": "wunsch-024",
+      "wortlaut": "Die Funktionalität passt. Das Suchfeld hat aber den Kopf höher gemacht und er soll wieder so hoch sein wie vorher. Also soll das Suchfeld auf der Höhe des Labels \"Tagesplan\" positioniert werden",
+      "datum": "2026-11-07T20:21:46.984Z",
+      "kurz": "Das Suchfeld steht jetzt im Kopf des Tagesplans rechts neben „Tagesplan“, damit ist der Kopf wieder so hoch wie vorher. Die Suche funktioniert wie bisher.",
+      "drehbuch": null
+    },
+    {
+      "nr": 3,
+      "vorige": 2,
+      "art": "vertrag",
+      "wortlaut": null,
+      "datum": "2026-11-08T12:00:00.000Z",
+      "kurz": "Auf den Bus-Vertrag umgestellt: meldet an, dass es den Suchbegriff ändert. Das Verhalten bleibt gleich.",
+      "drehbuch": null,
+      "auftrag": "005"
+    }
+  ]
+}

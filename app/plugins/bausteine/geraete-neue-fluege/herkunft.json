@@ -1,0 +1,69 @@
+{
+  "kennung": "geraete-neue-fluege",
+  "name": "Geräteaufträge der neuen Flüge",
+  "reihe": 29,
+  "kurz": "Die sieben neuen Flüge haben jetzt je einen Auftrag für Tanken, Frischwasser und Beladen. Diese Aufträge liegen in der Gerätedisposition auf Tankwagen, Frischwasserwagen und dem Gepäckschlepper GSL-05.",
+  "teilApp": "geraete",
+  "wuensche": [
+    {
+      "kennung": "wunsch-048",
+      "name": "Geräteaufträge der neuen Flüge",
+      "wortlaut": "Der Flugplan hat zwischen 05:00 und 11:00 etwa 15 Flüge, verteilt über den Vormittag, damit die Geräte gut ausgelastet sind.",
+      "datum": "2026-11-10T08:35:42.169Z",
+      "rueckfragen": [
+        {
+          "rueckfrage": "In der Gerätedisposition erscheinen nur Geräteaufträge, keine Flüge. Sieben neue Flüge im Flugplan allein lasten die Geräte also noch nicht aus. Ich schlage zwei Schritte vor: Zuerst kommen die sieben neuen Flüge in den Flugplan, sodass es 15 Flüge zwischen 05:05 und 10:55 sind. Danach bekommt jeder neue Flug seine Geräteaufträge (Tanken, Frischwasser, Beladen mit Gepäckschlepper) und sie werden auf passende Geräte verteilt. Sagst du „So machen“, baue ich beides nacheinander. Sollen die Geräteaufträge der neuen Flüge aber offen in der Liste liegen, damit du sie selbst auf Geräte ziehst, sag mir das. Dann lege ich sie ohne Gerät an.",
+          "teile": [
+            "Der Flugplan bekommt sieben neue Flüge, sodass zwischen 05:05 und 10:55 15 Flüge über den Vormittag verteilt sind.",
+            "Jeder neue Flug bekommt seine Geräteaufträge für Tanken, Frischwasser und Beladen, verteilt auf Tankwagen, Frischwasserwagen und Gepäckschlepper."
+          ],
+          "antwort": null,
+          "soMachen": true,
+          "datum": "2026-11-10T08:33:22.277Z"
+        }
+      ],
+      "teil": {
+        "nr": 2,
+        "von": 2,
+        "text": "Jeder neue Flug bekommt seine Geräteaufträge für Tanken, Frischwasser und Beladen, verteilt auf Tankwagen, Frischwasserwagen und Gepäckschlepper.",
+        "wunsch": "wunsch-046"
+      },
+      "teilApp": "geraete"
+    }
+  ],
+  "aktuell": 1,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "wunsch",
+      "wunsch": "wunsch-048",
+      "wortlaut": "Der Flugplan hat zwischen 05:00 und 11:00 etwa 15 Flüge, verteilt über den Vormittag, damit die Geräte gut ausgelastet sind.",
+      "rueckfragen": [
+        {
+          "rueckfrage": "In der Gerätedisposition erscheinen nur Geräteaufträge, keine Flüge. Sieben neue Flüge im Flugplan allein lasten die Geräte also noch nicht aus. Ich schlage zwei Schritte vor: Zuerst kommen die sieben neuen Flüge in den Flugplan, sodass es 15 Flüge zwischen 05:05 und 10:55 sind. Danach bekommt jeder neue Flug seine Geräteaufträge (Tanken, Frischwasser, Beladen mit Gepäckschlepper) und sie werden auf passende Geräte verteilt. Sagst du „So machen“, baue ich beides nacheinander. Sollen die Geräteaufträge der neuen Flüge aber offen in der Liste liegen, damit du sie selbst auf Geräte ziehst, sag mir das. Dann lege ich sie ohne Gerät an.",
+          "teile": [
+            "Der Flugplan bekommt sieben neue Flüge, sodass zwischen 05:05 und 10:55 15 Flüge über den Vormittag verteilt sind.",
+            "Jeder neue Flug bekommt seine Geräteaufträge für Tanken, Frischwasser und Beladen, verteilt auf Tankwagen, Frischwasserwagen und Gepäckschlepper."
+          ],
+          "antwort": null,
+          "soMachen": true,
+          "datum": "2026-11-10T08:33:22.277Z"
+        }
+      ],
+      "teil": {
+        "nr": 2,
+        "von": 2,
+        "text": "Jeder neue Flug bekommt seine Geräteaufträge für Tanken, Frischwasser und Beladen, verteilt auf Tankwagen, Frischwasserwagen und Gepäckschlepper.",
+        "wunsch": "wunsch-046"
+      },
+      "datum": "2026-11-10T08:35:42.169Z",
+      "kurz": "Die sieben neuen Flüge haben jetzt je einen Auftrag für Tanken, Frischwasser und Beladen. Diese Aufträge liegen in der Gerätedisposition auf Tankwagen, Frischwasserwagen und dem Gepäckschlepper GSL-05.",
+      "drehbuch": "wunsch-048",
+      "bestaetigt": {
+        "datum": "2026-11-10T08:36:05.663Z",
+        "wie": "vom PO mit „Bestätigen“"
+      }
+    }
+  ]
+}

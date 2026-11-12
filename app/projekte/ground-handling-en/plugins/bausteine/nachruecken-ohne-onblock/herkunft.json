@@ -1,0 +1,31 @@
+{
+  "kennung": "nachruecken-ohne-onblock",
+  "name": "Tasks move without on-block",
+  "reihe": 19,
+  "kurz": "If a flight is not on block at its planned on-block time, its open tasks move back minute by minute until it is on block; started and done tasks stay where they are.",
+  "wuensche": [
+    {
+      "kennung": "wunsch-027",
+      "name": "Tasks move without on-block",
+      "wortlaut": "A flight is not yet on block at the planned on-block time: … then its open tasks move later with the clock until it is on block.",
+      "wortlautDeutsch": "Ein Flug ist zur geplanten Onblock-Zeit noch nicht am Block: … dann rücken seine offenen Aufträge mit der Uhr nach hinten, bis er am Block ist.",
+      "datum": "2026-11-09T08:43:34.571Z",
+      "teilApp": "disposition"
+    }
+  ],
+  "aktuell": 1,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "wunsch",
+      "wunsch": "wunsch-027",
+      "wortlaut": "A flight is not yet on block at the planned on-block time: … then its open tasks move later with the clock until it is on block.",
+      "wortlautDeutsch": "Ein Flug ist zur geplanten Onblock-Zeit noch nicht am Block: … dann rücken seine offenen Aufträge mit der Uhr nach hinten, bis er am Block ist.",
+      "datum": "2026-11-09T08:43:34.571Z",
+      "kurz": "If a flight is not on block at its planned on-block time, its open tasks move back minute by minute until it is on block; started and done tasks stay where they are.",
+      "drehbuch": "wunsch-027"
+    }
+  ],
+  "teilApp": "disposition"
+}

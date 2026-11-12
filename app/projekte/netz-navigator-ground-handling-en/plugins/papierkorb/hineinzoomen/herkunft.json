@@ -1,0 +1,38 @@
+{
+  "kennung": "hineinzoomen",
+  "name": "Mark starter kit as reviewed",
+  "reihe": 1,
+  "kurz": null,
+  "wuensche": [
+    {
+      "kennung": "wunsch-001",
+      "name": "Mark starter kit as reviewed",
+      "wortlaut": "Below the starter kit there is a button “List reviewed”. After that, instead of “not yet reviewed by the PO” it says “reviewed by the PO on <Datum>”. Whatever I marked with “Not right” stays visibly marked.",
+      "wortlautDeutsch": "Unter dem Grundstock gibt es einen Knopf „Liste durchgesehen“. Danach steht dort statt „vom PO noch nicht durchgesehen“ der Satz „vom PO durchgesehen am <Datum>“. Was ich mit „Stimmt nicht“ markiert habe, bleibt sichtbar markiert.",
+      "datum": "2026-11-09T12:06:15.765Z"
+    }
+  ],
+  "aktuell": 2,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "grund",
+      "wortlaut": null,
+      "datum": null,
+      "kurz": "Base equipment",
+      "drehbuch": null
+    },
+    {
+      "nr": 2,
+      "vorige": 1,
+      "art": "wunsch",
+      "wunsch": "wunsch-001",
+      "wortlaut": "Below the starter kit there is a button “List reviewed”. After that, instead of “not yet reviewed by the PO” it says “reviewed by the PO on <Datum>”. Whatever I marked with “Not right” stays visibly marked.",
+      "wortlautDeutsch": "Unter dem Grundstock gibt es einen Knopf „Liste durchgesehen“. Danach steht dort statt „vom PO noch nicht durchgesehen“ der Satz „vom PO durchgesehen am <Datum>“. Was ich mit „Stimmt nicht“ markiert habe, bleibt sichtbar markiert.",
+      "datum": "2026-11-09T12:06:15.765Z",
+      "kurz": "Below an area's starter kit there is now the button “List reviewed”. After that it says “reviewed by the PO on <Datum>”. The date is the latest day in the loaded project, because the prototype has no real clock. Anything marked “Not right” stays marked.",
+      "drehbuch": "wunsch-001"
+    }
+  ]
+}

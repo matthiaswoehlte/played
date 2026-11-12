@@ -1,0 +1,49 @@
+{
+  "kennung": "geraete-gantt",
+  "name": "Equipment plan over two days",
+  "reihe": 21,
+  "kurz": "The equipment units appear grouped and coloured by equipment type, with their tasks, grey maintenance blocks and a line for the current time, across 11/11 and 11/12/2026.",
+  "teilApp": "geraete",
+  "wuensche": [
+    {
+      "kennung": "wunsch-032",
+      "name": "Equipment plan over two days",
+      "wortlaut": "Build the Equipment Dispatch for two consecutive sample days, 11/11/2026 and 11/12/2026, each from 05:00 to 23:00, as a Gantt chart.",
+      "datum": "2026-11-11T17:23:57.020Z"
+    },
+    {
+      "kennung": "wunsch-038",
+      "name": "Overlapping equipment bars half offset",
+      "wortlaut": "When two equipment tasks overlap on the same unit, their bars overlap each other by half their height instead of standing fully one below the other. This way it is clear that both are on the same unit.",
+      "datum": "2026-11-11T17:53:45.960Z",
+      "teilApp": "geraete"
+    }
+  ],
+  "aktuell": 2,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "prototyp",
+      "wunsch": "wunsch-032",
+      "wortlaut": "Build the Equipment Dispatch for two consecutive sample days, 11/11/2026 and 11/12/2026, each from 05:00 to 23:00, as a Gantt chart.",
+      "datum": "2026-11-11T17:23:57.020Z",
+      "kurz": "The equipment units appear grouped and coloured by equipment type, with their tasks, grey maintenance blocks and a line for the current time, across 11/11 and 11/12/2026.",
+      "drehbuch": "wunsch-032"
+    },
+    {
+      "nr": 2,
+      "vorige": 1,
+      "art": "wunsch",
+      "wunsch": "wunsch-038",
+      "wortlaut": "When two equipment tasks overlap on the same unit, their bars overlap each other by half their height instead of standing fully one below the other. This way it is clear that both are on the same unit.",
+      "datum": "2026-11-11T17:53:45.960Z",
+      "kurz": "When two equipment tasks overlap on the same unit, the later bar now sits half a bar lower and covers half of the earlier one, and the unit's row gets taller so both fit.",
+      "drehbuch": null,
+      "bestaetigt": {
+        "datum": "2026-11-11T17:54:01.403Z",
+        "wie": "vom PO mit „Bestätigen“"
+      }
+    }
+  ]
+}

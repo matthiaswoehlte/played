@@ -1,0 +1,276 @@
+[
+  {
+    "kennung": "tagesplan",
+    "name": "Tagesplan",
+    "satz": "Jeder Mitarbeiter hat im Tagesplan eine Zeile, jeder Auftrag ist ein Balken mit der Flugnummer.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "wortlaut",
+      "wortlaut": "Man sieht das in einem Gantt-Chart: Mitarbeiter haben jeweils eine Zeile, die Balken stellen einen Auftrag dar und zeigen die Flugnummer plus das TODO.",
+      "datum": "27.09.2026",
+      "wie": "Auftrag des PO an Claude Code, wörtlich"
+    }
+  },
+  {
+    "kennung": "balkenfarbe",
+    "name": "Farbe der Balken",
+    "satz": "Die Farbe eines Balkens zeigt die Arbeit, die Legende steht darüber.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "ohne"
+    }
+  },
+  {
+    "kennung": "balken-untereinander",
+    "name": "Balken untereinander",
+    "satz": "Überschneiden sich Balken eines Mitarbeiters, liegen sie in seiner Zeile untereinander.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "ohne"
+    }
+  },
+  {
+    "kennung": "zeitachse",
+    "name": "Zeitachse",
+    "satz": "Die Zeitachse reicht vom ersten bis zum letzten Auftrag des Tages, auf volle Stunden gerundet.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "ohne"
+    }
+  },
+  {
+    "kennung": "jetzt-linie",
+    "name": "Linie der Uhrzeit",
+    "satz": "Eine goldene Linie zeigt im Tagesplan die aktuelle Uhrzeit.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "ohne"
+    }
+  },
+  {
+    "kennung": "vor-schicht",
+    "name": "Vor der Schicht",
+    "satz": "Vor dem Schichtbeginn eines Mitarbeiters ist seine Zeile dunkel.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "ohne"
+    }
+  },
+  {
+    "kennung": "abwesend-sichtbar",
+    "name": "Abwesenheit im Plan",
+    "satz": "Ist ein Mitarbeiter abwesend, ist seine Zeile ab dem Zeitpunkt rot gestreift, und neben dem Namen steht der Grund.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "ohne"
+    }
+  },
+  {
+    "kennung": "nicht-zugewiesen",
+    "name": "Nicht zugewiesene Aufträge",
+    "satz": "Aufträge ohne Mitarbeiter stehen nach Beginn sortiert unter „Nicht zugewiesene Aufträge“.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "umfang",
+      "wortlaut": "Alle Aufträge, die nach dem Zeitpunkt noch laufen, werden gelöst und liegen unzugewiesen unter „Nicht zugewiesene Aufträge“",
+      "datum": "29.09.2026",
+      "wie": "Umfang Fassung 8 des Prototyps; vom PO per Klick gewählt und übernommen"
+    }
+  },
+  {
+    "kennung": "niemand-frei",
+    "name": "Niemand frei",
+    "satz": "Ist für einen nicht zugewiesenen Auftrag niemand frei, steht dort „niemand frei“.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "ohne"
+    }
+  },
+  {
+    "kennung": "konfliktzahl",
+    "name": "Zahl der Konflikte",
+    "satz": "Die Zahl der Konflikte steht groß neben dem Plan.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "ohne",
+      "zusatz": "Der Zähler steht im Auftrag 001 des Architekten."
+    }
+  },
+  {
+    "kennung": "konflikt-ueberlappung",
+    "name": "Überlappung",
+    "satz": "Überschneiden sich zwei Aufträge derselben Person, ist das ein Konflikt.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "wortlaut",
+      "wortlaut": "Es muss eine Konfliktliste geben, wenn sich Aufgaben mit anderen überlappen.",
+      "datum": "27.09.2026",
+      "wie": "Auftrag des PO an Claude Code, wörtlich"
+    }
+  },
+  {
+    "kennung": "konflikt-kapazitaet",
+    "name": "Kapazitätslücke",
+    "satz": "Findet sich für einen Auftrag niemand, der anwesend, qualifiziert und frei ist, ist das eine Kapazitätslücke.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "wortlaut",
+      "wortlaut": "Es kann sein, dass der Flugplan mehr Teams verlangt als verfügbar sind.",
+      "datum": "27.09.2026",
+      "wie": "Auftrag des PO an Claude Code, wörtlich"
+    }
+  },
+  {
+    "kennung": "konflikt-qualifikation",
+    "name": "Qualifikation fehlt",
+    "satz": "Liegt ein Auftrag bei jemandem ohne die passende Qualifikation, ist das der Konflikt „Qualifikation fehlt“.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "wortlaut",
+      "wortlaut": "Lasse ich den Balken trotzdem bei einem Mitarbeiter ohne Qualifikation fallen, wird zugewiesen und ein neuer Konflikt „Qualifikation fehlt“ entsteht in der Konfliktliste.",
+      "datum": "27.09.2026",
+      "wie": "Umfang Fassung 2 des Prototyps; vom PO selbst geschrieben (seine Angabe vom 09.11.2026)"
+    }
+  },
+  {
+    "kennung": "konflikt-anwesenheit",
+    "name": "Außerhalb der Anwesenheit",
+    "satz": "Liegt ein Auftrag außerhalb der Schicht oder der Anwesenheit seines Mitarbeiters, ist das ein Konflikt.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "umfang",
+      "wortlaut": "\"Auftrag außerhalb der Anwesenheit\" ist ein Konflikt, zählt in die Zahl am Reiter \"Konfliktliste\" und wird korallrot umrandet.",
+      "datum": "28.09.2026",
+      "wie": "Umfang Fassung 6 des Prototyps; vom Refiner formuliert, vom PO geändert und übernommen"
+    }
+  },
+  {
+    "kennung": "krankmeldung",
+    "name": "Krankmeldung",
+    "satz": "Ein Mitarbeiter kann ab einem Zeitpunkt krank gemeldet werden.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "wortlaut",
+      "wortlaut": "Es müssen Mitarbeiter auch krank werden dürfen oder Urlaub haben.",
+      "datum": "27.09.2026",
+      "wie": "Auftrag des PO an Claude Code, wörtlich"
+    }
+  },
+  {
+    "kennung": "krank-loest",
+    "name": "Aufträge lösen bei Krankheit",
+    "satz": "Bei einer Krankmeldung werden alle Aufträge gelöst, die nach dem Zeitpunkt noch laufen.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "umfang",
+      "wortlaut": "Alle Aufträge, die nach dem Zeitpunkt noch laufen, werden gelöst und liegen unzugewiesen unter „Nicht zugewiesene Aufträge“",
+      "datum": "29.09.2026",
+      "wie": "Umfang Fassung 8 des Prototyps; vom PO per Klick gewählt und übernommen"
+    }
+  },
+  {
+    "kennung": "zuweisen",
+    "name": "Zuweisen",
+    "satz": "Ein Auftrag lässt sich einem anderen Mitarbeiter zuweisen.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "wortlaut",
+      "wortlaut": "Man muss auf einen Balken klicken können und sagen: An einen anderen Mitarbeiter zuweisen.",
+      "datum": "27.09.2026",
+      "wie": "Auftrag des PO an Claude Code, wörtlich"
+    }
+  },
+  {
+    "kennung": "zuweisen-verweigert",
+    "name": "Zuweisung ohne Qualifikation",
+    "satz": "Im Grundstock wird eine Zuweisung an jemanden ohne passende Qualifikation verweigert. Dein Wunsch 014 hat das geändert.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "ohne"
+    }
+  },
+  {
+    "kennung": "verschieben",
+    "name": "Verschieben",
+    "satz": "Ein Auftrag lässt sich zeitlich verschieben.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "wortlaut",
+      "wortlaut": "Balken waagerecht ziehen verschiebt den Auftrag zeitlich.",
+      "datum": "27.09.2026",
+      "wie": "Umfang Fassung 2 des Prototyps; vom PO selbst geschrieben (seine Angabe vom 09.11.2026)"
+    }
+  },
+  {
+    "kennung": "kanten",
+    "name": "Beginn und Ende ändern",
+    "satz": "Beginn und Ende eines Auftrags lassen sich einzeln ändern.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "wortlaut",
+      "wortlaut": "An der linken oder rechten Kante ziehen ändert Beginn oder Ende.",
+      "datum": "27.09.2026",
+      "wie": "Umfang Fassung 2 des Prototyps; vom PO selbst geschrieben (seine Angabe vom 09.11.2026)"
+    }
+  },
+  {
+    "kennung": "mindestdauer",
+    "name": "Mindestdauer",
+    "satz": "Ein Auftrag dauert mindestens 5 Minuten.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "umfang",
+      "wortlaut": "Es gelten dieselben Regeln wie beim Ziehen, auch dass ein Auftrag mindestens 5 Minuten lang ist.",
+      "datum": "30.09.2026",
+      "wie": "Umfang Fassung 10 des Prototyps; von Claude formuliert, vom PO im Chat am 30.09. übernommen"
+    }
+  },
+  {
+    "kennung": "flugplan",
+    "name": "Flugplan",
+    "satz": "Es gibt einen Flugplan für den Tag.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "wortlaut",
+      "wortlaut": "Es gibt einen Flugplan für den Tag.",
+      "datum": "27.09.2026",
+      "wie": "Auftrag des PO an Claude Code, wörtlich"
+    }
+  },
+  {
+    "kennung": "arbeiten",
+    "name": "Arbeiten am Flug",
+    "satz": "An den Flügen gibt es die Arbeiten Entladen, Beladen, Fäkalien entleeren, Betanken und Innenraum-Cleaning.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "wortlaut",
+      "wortlaut": "An jedem Flug müssen folgende Arbeiten erledigt werden. Be- und Entladen, Fäkalien entleeren, Betanken, Cleaning des innenraums.",
+      "datum": "27.09.2026",
+      "wie": "Auftrag des PO an Claude Code, wörtlich"
+    }
+  },
+  {
+    "kennung": "qualifikationen",
+    "name": "Qualifikationen",
+    "satz": "Jede Arbeit braucht ihre eigene Qualifikation; jeder Mitarbeiter hat seine Qualifikationen.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "wortlaut",
+      "wortlaut": "Für jeden Job braucht man eine eigene Qulifikation.",
+      "datum": "27.09.2026",
+      "wie": "Auftrag des PO an Claude Code, wörtlich"
+    }
+  },
+  {
+    "kennung": "schichten",
+    "name": "Schichten",
+    "satz": "Jeder Mitarbeiter hat einen Schichtbeginn und ein Schichtende.",
+    "bereich": "disposition",
+    "quelle": {
+      "art": "wortlaut",
+      "wortlaut": "Schichtdaten: Jeder Mitarbeiter hat Schichtstart und Schichtende.",
+      "datum": "28.09.2026",
+      "wie": "Umfang Fassung 5 des Prototyps; vom PO selbst geschrieben (seine Angabe vom 09.11.2026)"
+    }
+  }
+]

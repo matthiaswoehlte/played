@@ -1,0 +1,18 @@
+[
+  {
+    "wunsch": "wunsch-001",
+    "art": "wunsch",
+    "wortlaut": "Below the starter kit there is a button “List reviewed”. After that, instead of “not yet reviewed by the PO” it says “reviewed by the PO on <Datum>”. Whatever I marked with “Not right” stays visibly marked.",
+    "wortlautDeutsch": "Unter dem Grundstock gibt es einen Knopf „Liste durchgesehen“. Danach steht dort statt „vom PO noch nicht durchgesehen“ der Satz „vom PO durchgesehen am <Datum>“. Was ich mit „Stimmt nicht“ markiert habe, bleibt sichtbar markiert.",
+    "plugin": "hineinzoomen",
+    "name": "Mark starter kit as reviewed",
+    "fassung": 2,
+    "regel": null,
+    "datum": "2026-11-09T12:06:15.781Z",
+    "status": "fertig",
+    "mehr": [],
+    "enger": [],
+    "verstoesse": [],
+    "entscheidungen": {}
+  }
+]

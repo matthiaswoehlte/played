@@ -1,0 +1,38 @@
+{
+  "kennung": "gantt",
+  "name": "Zeitlinie läuft mit der Uhr",
+  "reihe": 15,
+  "kurz": null,
+  "wuensche": [
+    {
+      "kennung": "wunsch-020",
+      "name": "Zeitlinie läuft mit der Uhr",
+      "wortlaut": "Die gelbe Zeitlinie, die die aktuelle Uhrzeit anzeigt, soll jede Minuten weiter nach rechts wandern, damit man immer sieht wie spät es ist. Bitte einen Timer dazu einrichten.",
+      "datum": "2026-11-07T19:18:40.714Z",
+      "teilApp": "disposition"
+    }
+  ],
+  "aktuell": 2,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "grund",
+      "wortlaut": null,
+      "datum": null,
+      "kurz": "Grundausstattung",
+      "drehbuch": null
+    },
+    {
+      "nr": 2,
+      "vorige": 1,
+      "art": "wunsch",
+      "wunsch": "wunsch-020",
+      "wortlaut": "Die gelbe Zeitlinie, die die aktuelle Uhrzeit anzeigt, soll jede Minuten weiter nach rechts wandern, damit man immer sieht wie spät es ist. Bitte einen Timer dazu einrichten.",
+      "datum": "2026-11-07T19:18:40.714Z",
+      "kurz": "Die gelbe Zeitlinie im Tagesplan rückt jetzt mit jeder Spielminute nach rechts. Bisher hat der Tagesplan die Linie auf der ganzen Seite gesucht und sie dort nicht gefunden. Jetzt sucht er sie in seiner eigenen Ansicht. Einen zusätzlichen Timer gibt es nicht: Die Spieluhr meldet schon jede Minute, und dieser Takt bewegt die Linie, damit jeder Ablauf gleich bleibt.",
+      "drehbuch": null
+    }
+  ],
+  "teilApp": "disposition"
+}

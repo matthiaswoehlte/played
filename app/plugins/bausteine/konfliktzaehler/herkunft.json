@@ -1,0 +1,28 @@
+{
+  "kennung": "konfliktzaehler",
+  "name": "Konflikte",
+  "reihe": 10,
+  "kurz": null,
+  "wuensche": [
+    {
+      "kennung": "wunsch-010",
+      "name": "Überlappungen als Konflikte zeigen",
+      "wortlaut": "Wenn mehrere Balken sich bei einem Mitarbeiter überlappen, dann sollen sie einen Konflikt bekommen und der Konflikt zeigt sich optisch, dass der Balken eine rote Umrandung hat. Auf der rechten Seite soll bei Klick auf Konflikte eine List der Konflikte erscheinen, die auch durch die Aktionen gepflegt wird. Sobald sich z.B. Balken nicht mehr  überlappen, ist der Konflikt nicht mehr existent.",
+      "datum": "2026-11-06T22:29:36.711Z",
+      "teilApp": "disposition"
+    }
+  ],
+  "aktuell": 1,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "grund",
+      "wortlaut": null,
+      "datum": "2026-11-06T23:59:00.000Z",
+      "kurz": "Grundausstattung, jeder Konflikt trägt seit Wunsch 010 einen festen Pfad.",
+      "drehbuch": null
+    }
+  ],
+  "teilApp": "disposition"
+}

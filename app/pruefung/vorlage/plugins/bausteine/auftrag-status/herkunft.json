@@ -1,0 +1,47 @@
+{
+  "kennung": "auftrag-status",
+  "name": "Auftragsstatus am Balken",
+  "reihe": 16,
+  "kurz": "Jeder Auftrag hat jetzt einen Status (Offen, Begonnen oder Fertig): Er steht im Overlay beim Überfahren und lässt sich über ein Status-Zeichen am Balken per Menü setzen; zu Tagesbeginn richtet er sich nach der Uhrzeit.",
+  "wuensche": [
+    {
+      "kennung": "wunsch-022",
+      "name": "Auftragsstatus am Balken",
+      "wortlaut": "Jeder Auftrag hat einen Status: Offen, Begonnen oder Fertig. Der Status steht im Overlay beim Überfahren. Gesetzt wird er über ein kleines Status-Zeichen am Balken; ein Klick darauf öffnet ein Menü mit den drei Status. Zu Tagesbeginn richtet sich der Status nach der Uhrzeit: vorbei = Fertig, läuft gerade = Begonnen, noch nicht begonnen = Offen.",
+      "datum": "2026-11-07T19:25:36.253Z"
+    }
+  ],
+  "aktuell": 3,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "wunsch",
+      "wunsch": "wunsch-022",
+      "wortlaut": "Jeder Auftrag hat einen Status: Offen, Begonnen oder Fertig. Der Status steht im Overlay beim Überfahren. Gesetzt wird er über ein kleines Status-Zeichen am Balken; ein Klick darauf öffnet ein Menü mit den drei Status. Zu Tagesbeginn richtet sich der Status nach der Uhrzeit: vorbei = Fertig, läuft gerade = Begonnen, noch nicht begonnen = Offen.",
+      "datum": "2026-11-07T19:25:36.253Z",
+      "kurz": "Jeder Auftrag hat jetzt einen Status (Offen, Begonnen oder Fertig): Er steht im Overlay beim Überfahren und lässt sich über ein Status-Zeichen am Balken per Menü setzen; zu Tagesbeginn richtet er sich nach der Uhrzeit.",
+      "drehbuch": "wunsch-022"
+    },
+    {
+      "nr": 2,
+      "vorige": 1,
+      "art": "vertrag",
+      "wortlaut": null,
+      "datum": "2026-11-08T12:00:00.000Z",
+      "kurz": "Auf den Bus-Vertrag umgestellt: meldet an, dass es den Status der Aufträge und das offene Statusmenü ändert. Das Verhalten bleibt gleich.",
+      "drehbuch": null,
+      "auftrag": "005"
+    },
+    {
+      "nr": 3,
+      "vorige": 2,
+      "art": "vertrag",
+      "wortlaut": null,
+      "datum": "2026-11-08T20:00:00.000Z",
+      "kurz": "Den Status führt jetzt Play nach dem Datenmodell, auch den Status zu Tagesbeginn aus deinem Wunsch. Das Plugin zeigt ihn und schickt deine Wahl; was von einem Status aus nicht weitergeht, steht im Menü grau.",
+      "drehbuch": null,
+      "auftrag": "005"
+    }
+  ]
+}

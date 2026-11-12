@@ -1,0 +1,177 @@
+{
+  "kennung": "bodenabfertigung",
+  "name": "Bodenabfertigung",
+  "bereiche": [
+    {
+      "kennung": "disposition-ordner",
+      "name": "Disposition",
+      "verantwortlich": "Matthias",
+      "kinder": [
+        {
+          "kennung": "disposition",
+          "name": "Personaldisposition",
+          "prototyp": true,
+          "fachobjekte": [
+            "auftraege",
+            "kennzahlen/konflikte"
+          ],
+          "bestaetigt": "2026-11-09",
+          "pfade": [
+            "bodenabfertigung/tagesdisposition"
+          ]
+        },
+        {
+          "kennung": "geraete",
+          "name": "Gerätedisposition",
+          "prototyp": true,
+          "fachobjekte": [
+            "geraete",
+            "geraeteauftraege"
+          ],
+          "beispieldaten": true
+        }
+      ]
+    },
+    {
+      "kennung": "personal-ordner",
+      "name": "Personal und Schichtplanung",
+      "verantwortlich": null,
+      "kinder": [
+        {
+          "kennung": "personal",
+          "name": "Schichten",
+          "prototyp": false,
+          "fachobjekte": [
+            "mitarbeiter"
+          ],
+          "bestaetigt": "2026-11-09",
+          "pfade": [
+            "bodenabfertigung/schichtplanung"
+          ],
+          "veroeffentlicht": [
+            {
+              "kennung": "mitarbeiter",
+              "muster": [
+                "mitarbeiter/*.*"
+              ],
+              "fuer": [
+                "disposition"
+              ],
+              "was": "die Mitarbeiter (Name, Gruppe, Qualifikationen, Schicht, Abwesenheit)"
+            }
+          ]
+        },
+        {
+          "kennung": "urlaub",
+          "name": "Urlaubsplanung",
+          "prototyp": false,
+          "fachobjekte": []
+        }
+      ]
+    },
+    {
+      "kennung": "flugplan",
+      "name": "Flugplan",
+      "verantwortlich": null,
+      "prototyp": false,
+      "fachobjekte": [
+        "fluege"
+      ],
+      "bestaetigt": "2026-11-09",
+      "veroeffentlicht": [
+        {
+          "kennung": "fluege",
+          "muster": [
+            "fluege/*.*"
+          ],
+          "fuer": [
+            "disposition",
+            "geraete"
+          ],
+          "was": "die Flüge (Flugnummer, Muster, Position, On- und Off-Block, Status)"
+        }
+      ]
+    }
+  ],
+  "fachobjektNamen": {
+    "auftraege": "Aufträge",
+    "kennzahlen": "Konflikte",
+    "fluege": "Flüge",
+    "mitarbeiter": "Mitarbeiter",
+    "geraete": "Gerät",
+    "geraeteauftraege": "Geräteauftrag"
+  },
+  "fachobjektEiner": {
+    "auftraege": "eines Auftrags",
+    "fluege": "eines Flugs",
+    "mitarbeiter": "eines Mitarbeiters",
+    "geraete": "eines Geräts",
+    "geraeteauftraege": "eines Geräteauftrags"
+  },
+  "feldNamen": {
+    "mitarbeiter": {
+      "name": "den Namen",
+      "gruppe": "die Gruppe",
+      "qualifikationen": "die Qualifikationen",
+      "schichtStart": "die Schicht",
+      "schichtEnde": "die Schicht",
+      "abwesend": "die Abwesenheit",
+      "abwesendAb": "die Abwesenheit",
+      "grund": "die Abwesenheit",
+      "eintritt": "das Eintrittsdatum"
+    },
+    "fluege": {
+      "flug": "die Flugnummer",
+      "onBlock": "den On-Block",
+      "offBlock": "den Off-Block",
+      "position": "die Position",
+      "muster": "das Muster"
+    },
+    "geraete": {
+      "kennung": "die Kennung",
+      "art": "die Geräteart",
+      "wartungVon": "den Wartungsbeginn",
+      "wartungBis": "das Wartungsende"
+    },
+    "geraeteauftraege": {
+      "kennung": "die Kennung",
+      "flug": "den Flug",
+      "taetigkeit": "die Tätigkeit",
+      "geraeteart": "die Geräteart",
+      "geraet": "das Gerät",
+      "start": "den Beginn",
+      "ende": "das Ende"
+    }
+  },
+  "angabeNamen": {
+    "auftraege": {
+      "flug": "Flug",
+      "arbeit": "Arbeit",
+      "mitarbeiter": "Mitarbeiter",
+      "start": "Start",
+      "ende": "Ende",
+      "status": "Status"
+    },
+    "fluege": {
+      "flug": "Flugnummer",
+      "muster": "Muster",
+      "position": "Position",
+      "onBlock": "On-Block",
+      "offBlock": "Off-Block",
+      "status": "Status",
+      "nachgerueckt": "Nachgerückt",
+      "ueberfaellig": "Überfällig"
+    },
+    "mitarbeiter": {
+      "name": "Name",
+      "gruppe": "Gruppe",
+      "qualifikationen": "Qualifikationen",
+      "schichtStart": "Schichtbeginn",
+      "schichtEnde": "Schichtende",
+      "abwesend": "Abwesenheit",
+      "abwesendAb": "Abwesend ab",
+      "grund": "Grund der Abwesenheit",
+      "eintritt": "Eintrittsdatum"
+    }
+  }
+}

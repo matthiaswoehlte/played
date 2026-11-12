@@ -1,0 +1,29 @@
+{
+  "kennung": "balken-verschieben",
+  "name": "Move bars left and right",
+  "reihe": 4,
+  "kurz": "A bar can be moved within its own row in 5-minute steps; its duration stays the same.",
+  "wuensche": [
+    {
+      "kennung": "wunsch-008",
+      "name": "Move bars left and right",
+      "wortlaut": "I also want to grab a bar and move it left and right",
+      "wortlautDeutsch": "Ich möchte einen Balken auch greifen und nach links und rechts verschieben können",
+      "datum": "2026-11-06T21:47:01.804Z",
+      "teilApp": "disposition"
+    }
+  ],
+  "aktuell": 1,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "zuschnitt",
+      "wortlaut": null,
+      "datum": "2026-11-06T23:59:00.000Z",
+      "kurz": "Cut out of the requests, behaviour unchanged.",
+      "drehbuch": "wunsch-008"
+    }
+  ],
+  "teilApp": "disposition"
+}

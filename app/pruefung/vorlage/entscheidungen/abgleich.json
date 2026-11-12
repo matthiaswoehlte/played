@@ -1,0 +1,55 @@
+[
+  {
+    "wunsch": "wunsch-025",
+    "art": "wunsch",
+    "wortlaut": "Beim Doppelklick auf einen Mitarbeiter soll ein overlay aufgehen, in dem die Mitarbeiterdatengezeigt werden. Darin der Name, das Eintrittdatum in die Firma, Seine Qualifikation. Sein status (also anwesen oder krank)",
+    "plugin": "mitarbeiter-karte",
+    "name": "Mitarbeiterdaten per Doppelklick",
+    "fassung": 1,
+    "regel": null,
+    "datum": "2026-11-08T13:43:19.425Z",
+    "status": "fertig",
+    "mehr": [
+      {
+        "nr": 0,
+        "was": "Es öffnet das Overlay auch bei zwei getrennten Klicks auf denselben Namen, selbst wenn der zweite Klick erst viel später kommt."
+      }
+    ],
+    "enger": [],
+    "verstoesse": [],
+    "entscheidungen": {
+      "mehr-0": {
+        "wahl": "weg",
+        "datum": "2026-11-08T13:44:21.080Z",
+        "wie": "vom PO per Klick „Weg damit“"
+      }
+    }
+  },
+  {
+    "wunsch": "wunsch-026",
+    "art": "aendern",
+    "wortlaut": "Entferne genau das, was ich nicht gesagt habe: Es öffnet das Overlay auch bei zwei getrennten Klicks auf denselben Namen, selbst wenn der zweite Klick erst viel später kommt. Alles andere an diesem Plugin bleibt, wie es ist. Mein Wunsch war: „Beim Doppelklick auf einen Mitarbeiter soll ein overlay aufgehen, in dem die Mitarbeiterdatengezeigt werden. Darin der Name, das Eintrittdatum in die Firma, Seine Qualifikation. Sein status (also anwesen oder krank)“",
+    "plugin": "mitarbeiter-karte",
+    "name": "Mitarbeiterdaten per Doppelklick",
+    "fassung": 2,
+    "regel": null,
+    "datum": "2026-11-08T13:45:37.259Z",
+    "status": "fertig",
+    "mehr": [],
+    "enger": [
+      {
+        "nr": 0,
+        "was": "Es öffnet das Overlay nur, wenn der zweite Klick innerhalb einer halben Sekunde kommt, dein Wunsch nennt keine Frist in dieser Höhe.",
+        "regel": false
+      }
+    ],
+    "verstoesse": [],
+    "entscheidungen": {
+      "enger-0": {
+        "wahl": "behalten",
+        "datum": "2026-11-08T13:48:04.253Z",
+        "wie": "vom PO per Klick „So lassen“"
+      }
+    }
+  }
+]

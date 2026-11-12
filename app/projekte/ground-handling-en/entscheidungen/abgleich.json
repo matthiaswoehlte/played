@@ -1,0 +1,238 @@
+[
+  {
+    "wunsch": "wunsch-025",
+    "art": "wunsch",
+    "wortlaut": "Double-clicking an agent should open an overlay showing the agent details: the name, the date they joined the company, their qualification, their status (present or sick)",
+    "wortlautDeutsch": "Beim Doppelklick auf einen Mitarbeiter soll ein overlay aufgehen, in dem die Mitarbeiterdatengezeigt werden. Darin der Name, das Eintrittdatum in die Firma, Seine Qualifikation. Sein status (also anwesen oder krank)",
+    "plugin": "mitarbeiter-karte",
+    "name": "Agent details on double-click",
+    "fassung": 1,
+    "regel": null,
+    "datum": "2026-11-08T13:43:19.425Z",
+    "status": "fertig",
+    "mehr": [
+      {
+        "nr": 0,
+        "was": "It also opens the overlay on two separate clicks on the same name, even if the second click comes much later."
+      }
+    ],
+    "enger": [],
+    "verstoesse": [],
+    "entscheidungen": {
+      "mehr-0": {
+        "wahl": "weg",
+        "datum": "2026-11-08T13:44:21.080Z",
+        "wie": "by the PO with a click on “Get rid of it”"
+      }
+    }
+  },
+  {
+    "wunsch": "wunsch-026",
+    "art": "aendern",
+    "wortlaut": "Remove exactly what I did not say: it also opens the overlay on two separate clicks on the same name, even if the second click comes much later. Everything else in this plugin stays as it is. My request was: “On double-click on an agent an overlay should open showing the agent details. In it the name, the date they joined the company, their qualification. Their status (so present or sick)”",
+    "wortlautDeutsch": "Entferne genau das, was ich nicht gesagt habe: Es öffnet das Overlay auch bei zwei getrennten Klicks auf denselben Namen, selbst wenn der zweite Klick erst viel später kommt. Alles andere an diesem Plugin bleibt, wie es ist. Mein Wunsch war: „Beim Doppelklick auf einen Mitarbeiter soll ein overlay aufgehen, in dem die Mitarbeiterdatengezeigt werden. Darin der Name, das Eintrittdatum in die Firma, Seine Qualifikation. Sein status (also anwesen oder krank)“",
+    "plugin": "mitarbeiter-karte",
+    "name": "Agent details on double-click",
+    "fassung": 2,
+    "regel": null,
+    "datum": "2026-11-08T13:45:37.259Z",
+    "status": "fertig",
+    "mehr": [],
+    "enger": [
+      {
+        "nr": 0,
+        "was": "It only opens the overlay if the second click comes within half a second; your request names no such time limit.",
+        "regel": false
+      }
+    ],
+    "verstoesse": [],
+    "entscheidungen": {
+      "enger-0": {
+        "wahl": "behalten",
+        "datum": "2026-11-08T13:48:04.253Z",
+        "wie": "by the PO with a click on “Leave as is”"
+      }
+    }
+  },
+  {
+    "wunsch": "wunsch-027",
+    "art": "wunsch",
+    "wortlaut": "A flight is not yet on block at the planned on-block time: … then its open tasks move later with the clock until it is on block.",
+    "wortlautDeutsch": "Ein Flug ist zur geplanten Onblock-Zeit noch nicht am Block: … dann rücken seine offenen Aufträge mit der Uhr nach hinten, bis er am Block ist.",
+    "plugin": "nachruecken-ohne-onblock",
+    "name": "Tasks move without on-block",
+    "fassung": 1,
+    "regel": null,
+    "datum": "2026-11-09T08:43:34.639Z",
+    "status": "fertig",
+    "mehr": [],
+    "enger": [],
+    "verstoesse": [],
+    "entscheidungen": {}
+  },
+  {
+    "wunsch": "wunsch-028",
+    "art": "wunsch",
+    "wortlaut": "A flight delay hits a task that is already Started: then move the assignment with the flight. It should keep the status \"Started\"",
+    "wortlautDeutsch": "Flugverspätung trifft einen Auftrag, der schon Begonnen ist: Dann den Einsatz mit dem Flug verschieben. Er soll den Zustand \"Begonnen\" behalten",
+    "plugin": "flugverspaetung",
+    "name": "Flight delay on started tasks",
+    "fassung": 3,
+    "regel": null,
+    "datum": "2026-11-09T20:03:40.014Z",
+    "status": "fertig",
+    "mehr": [],
+    "enger": [],
+    "verstoesse": [],
+    "entscheidungen": {}
+  },
+  {
+    "wunsch": "wunsch-030",
+    "art": "stimmt-nicht",
+    "wortlaut": "I said that wrong, that is not right",
+    "wortlautDeutsch": "Ich habe das falsch gesagt, das stimmt so nicht",
+    "plugin": "vergangenheit-grau",
+    "name": "Time line without grey past",
+    "fassung": 2,
+    "regel": null,
+    "datum": "2026-11-09T20:15:09.670Z",
+    "status": "fertig",
+    "mehr": [],
+    "enger": [],
+    "verstoesse": [],
+    "entscheidungen": {}
+  },
+  {
+    "wunsch": "wunsch-031",
+    "art": "wunsch",
+    "wortlaut": "Dispatcher may overrule; whatever lands in ‘Unassigned tasks’ goes to Open",
+    "wortlautDeutsch": "Disponent darf überstimmen, was in ‚Nicht zugewiesene Aufträge‘ landet, geht auf Offen",
+    "plugin": "liste-auf-offen",
+    "name": "Back to Open from the list",
+    "fassung": 1,
+    "regel": null,
+    "datum": "2026-11-09T20:46:05.453Z",
+    "status": "fertig",
+    "mehr": [],
+    "enger": [],
+    "verstoesse": [],
+    "entscheidungen": {}
+  },
+  {
+    "wunsch": "wunsch-033",
+    "art": "wunsch",
+    "wortlaut": "I can drag a bar from the Gantt into the list of unassigned equipment tasks with the mouse, and it is unassigned. I can also drag a task from that list back onto a unit in the Gantt; it keeps its time and is assigned to the unit where I drop it. While I am dragging, holding the task near an edge of the chart scrolls it in that direction, horizontally and vertically, so I can reach units and times that are out of view. If I drop it on a unit of the wrong equipment type, this is allowed and shown as a conflict.",
+    "plugin": "geraet-ablage-ziehen",
+    "name": "Drag equipment tasks to and from list",
+    "fassung": 1,
+    "regel": null,
+    "datum": "2026-11-11T17:33:34.417Z",
+    "status": "fertig",
+    "mehr": [],
+    "enger": [],
+    "verstoesse": [],
+    "entscheidungen": {}
+  },
+  {
+    "wunsch": "wunsch-034",
+    "art": "wunsch",
+    "wortlaut": "I can grab a bar at its left or right edge with the mouse and drag it to change its start or end. If I grab it in the middle, I can move the whole bar along the time axis; it stays on its unit. If I release it over the list of unassigned equipment tasks instead, it goes into the list as before.",
+    "plugin": "geraet-balken-zeit",
+    "name": "Move and stretch equipment bars",
+    "fassung": 1,
+    "regel": null,
+    "datum": "2026-11-11T17:43:22.927Z",
+    "status": "fertig",
+    "mehr": [],
+    "enger": [
+      {
+        "nr": 0,
+        "was": "It doesn't let an edge drag make an equipment task shorter than 5 minutes. Your request doesn't set a minimum length.",
+        "regel": false
+      }
+    ],
+    "verstoesse": [],
+    "entscheidungen": {
+      "enger-0": {
+        "wahl": "behalten",
+        "datum": "2026-11-11T17:43:44.602Z",
+        "wie": "vom PO per Klick „So lassen“"
+      }
+    }
+  },
+  {
+    "wunsch": "wunsch-035",
+    "art": "aendern",
+    "wortlaut": "“While I am dragging an edge, the bar follows the mouse and changes its size live — not only after I release. The same while moving a bar in the middle: it moves with the mouse",
+    "plugin": "geraet-balken-zeit",
+    "name": "Move and stretch equipment bars",
+    "fassung": 2,
+    "regel": null,
+    "datum": "2026-11-11T17:47:32.390Z",
+    "status": "fertig",
+    "mehr": [],
+    "enger": [],
+    "verstoesse": [],
+    "entscheidungen": {}
+  },
+  {
+    "wunsch": "wunsch-036",
+    "art": "wunsch",
+    "wortlaut": "I can drag a bar from one unit to another unit with the mouse; it keeps its time and is reassigned to the new unit. If the new unit is of the wrong equipment type or already busy at that time, this is allowed and shown as a conflict. Do not add a new list; the existing conflict list already shows these conflicts.",
+    "plugin": "geraet-ablage-ziehen",
+    "name": "Drag equipment bars to another unit",
+    "fassung": 2,
+    "regel": null,
+    "datum": "2026-11-11T17:50:35.434Z",
+    "status": "fertig",
+    "mehr": [],
+    "enger": [],
+    "verstoesse": [],
+    "entscheidungen": {}
+  },
+  {
+    "wunsch": "wunsch-037",
+    "art": "wunsch",
+    "wortlaut": "Equipment tasks that are in a conflict have a red outline in the Gantt, so I can see the conflict directly on the bars.",
+    "plugin": "geraet-konflikt-rand",
+    "name": "Red outline on conflicting equipment",
+    "fassung": 1,
+    "regel": null,
+    "datum": "2026-11-11T17:52:05.208Z",
+    "status": "fertig",
+    "mehr": [],
+    "enger": [],
+    "verstoesse": [],
+    "entscheidungen": {}
+  },
+  {
+    "wunsch": "wunsch-038",
+    "art": "wunsch",
+    "wortlaut": "When two equipment tasks overlap on the same unit, their bars overlap each other by half their height instead of standing fully one below the other. This way it is clear that both are on the same unit.",
+    "plugin": "geraete-gantt",
+    "name": "Overlapping equipment bars half offset",
+    "fassung": 2,
+    "regel": null,
+    "datum": "2026-11-11T17:53:45.966Z",
+    "status": "fertig",
+    "mehr": [],
+    "enger": [],
+    "verstoesse": [],
+    "entscheidungen": {}
+  },
+  {
+    "wunsch": "wunsch-039",
+    "art": "wunsch",
+    "wortlaut": "When I click a conflict in the conflict list, it expands or collapses as before, and the equipment tasks involved are highlighted in the Gantt with a bright glow that blinks for 2.5 seconds and then stops completely. If the tasks involved are outside the visible part of the chart, the chart scrolls there automatically, horizontally and vertically, so they are in view before the glow starts — also when the conflict lies on the other day. The glow does not move or resize the bars.",
+    "plugin": "geraete-konflikt-leuchten",
+    "name": "Highlight conflict tasks in the plan",
+    "fassung": 1,
+    "regel": null,
+    "datum": "2026-11-11T17:56:03.096Z",
+    "status": "fertig",
+    "mehr": [],
+    "enger": [],
+    "verstoesse": [],
+    "entscheidungen": {}
+  }
+]

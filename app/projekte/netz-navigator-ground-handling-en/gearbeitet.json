@@ -1,0 +1,159 @@
+{
+  "gespielt-001": {
+    "plugins": [
+      "ariadnefaden",
+      "hineinzoomen",
+      "karte",
+      "uebersicht"
+    ],
+    "zugriffe": {
+      "ariadnefaden": {
+        "navi": "aendert",
+        "navi/hier": "aendert",
+        "navi/stationen": "aendert",
+        "navi/pfad": "liest",
+        "bereiche": "liest",
+        "bereiche/name": "liest"
+      },
+      "hineinzoomen": {
+        "navi": "aendert",
+        "navi/pfad": "aendert",
+        "bereiche": "liest",
+        "bereiche/ordner": "liest",
+        "bausteine": "liest",
+        "bausteine/bereich": "liest",
+        "fachregeln": "liest",
+        "fachregeln/bereich": "liest",
+        "bereiche/eltern": "liest",
+        "bereiche/baustand": "liest",
+        "bereiche/fachobjekte": "liest",
+        "bereiche/name": "liest",
+        "bausteine/fassungen": "liest",
+        "bausteine/aus": "liest",
+        "bausteine/name": "liest",
+        "bausteine/aktuell": "liest",
+        "bausteine/zahl": "liest",
+        "bereiche/ohnePlugin": "liest",
+        "grundfunktionen": "liest",
+        "grundfunktionen/bereich": "liest",
+        "bereiche/geleert": "liest",
+        "bereiche/verantwortlich": "liest"
+      },
+      "karte": {
+        "navi": "liest",
+        "navi/pfad": "liest",
+        "bereiche": "liest",
+        "bereiche/eltern": "liest",
+        "faeden": "liest",
+        "faeden/von": "liest",
+        "faeden/nach": "liest",
+        "faeden/straenge": "liest",
+        "bereiche/name": "liest",
+        "faeden/zustand": "liest",
+        "bereiche/zahl": "liest",
+        "bereiche/ordner": "liest",
+        "bereiche/baustand": "liest",
+        "bereiche/verantwortlich": "liest",
+        "bereiche/fachobjekte": "liest",
+        "bereiche/prototyp": "liest",
+        "sicherungen": "liest",
+        "sicherungen/reihe": "liest",
+        "sicherungen/zeit": "liest",
+        "sicherungen/satz": "liest"
+      },
+      "uebersicht": {
+        "navi": "liest",
+        "navi/pfad": "liest",
+        "bereiche": "liest",
+        "bereiche/baustand": "liest",
+        "bereiche/tiefe": "liest",
+        "bereiche/name": "liest",
+        "bereiche/eltern": "liest"
+      }
+    },
+    "datum": "2026-11-12"
+  },
+  "rundgang": {
+    "plugins": [
+      "ariadnefaden",
+      "hineinzoomen",
+      "karte",
+      "uebersicht"
+    ],
+    "zugriffe": {
+      "ariadnefaden": {
+        "navi": "aendert",
+        "navi/hier": "aendert",
+        "navi/stationen": "aendert",
+        "navi/pfad": "liest",
+        "bereiche": "liest",
+        "bereiche/name": "liest"
+      },
+      "hineinzoomen": {
+        "navi": "aendert",
+        "navi/pfad": "aendert",
+        "bereiche": "liest",
+        "bereiche/ordner": "liest",
+        "bausteine": "liest",
+        "bausteine/bereich": "liest",
+        "fachregeln": "liest",
+        "fachregeln/bereich": "liest",
+        "bereiche/eltern": "liest",
+        "bereiche/baustand": "liest",
+        "bereiche/fachobjekte": "liest",
+        "bereiche/name": "liest",
+        "bausteine/fassungen": "liest",
+        "bausteine/aus": "liest",
+        "bausteine/name": "liest",
+        "bausteine/aktuell": "liest",
+        "bausteine/zahl": "liest",
+        "bereiche/ohnePlugin": "liest",
+        "fachregeln/inKauf": "liest",
+        "fachregeln/satz": "liest",
+        "fachregeln/wie": "liest",
+        "fachregeln/datum": "liest",
+        "grundfunktionen": "liest",
+        "grundfunktionen/bereich": "liest",
+        "grundfunktionen/bestaetigt": "liest",
+        "grundfunktionen/name": "liest",
+        "grundfunktionen/anmerkung": "liest",
+        "grundfunktionen/vorschlag": "liest",
+        "grundfunktionen/quelle": "liest",
+        "grundfunktionen/zahl": "liest",
+        "bereiche/geleert": "liest"
+      },
+      "karte": {
+        "navi": "liest",
+        "navi/pfad": "liest",
+        "bereiche": "liest",
+        "bereiche/eltern": "liest",
+        "faeden": "liest",
+        "faeden/von": "liest",
+        "faeden/nach": "liest",
+        "faeden/straenge": "liest",
+        "bereiche/name": "liest",
+        "faeden/zustand": "liest",
+        "bereiche/zahl": "liest",
+        "bereiche/ordner": "liest",
+        "bereiche/baustand": "liest",
+        "bereiche/verantwortlich": "liest",
+        "bereiche/fachobjekte": "liest",
+        "bereiche/prototyp": "liest",
+        "sicherungen": "liest",
+        "sicherungen/reihe": "liest",
+        "sicherungen/zeit": "liest",
+        "sicherungen/satz": "liest"
+      },
+      "uebersicht": {
+        "navi": "liest",
+        "navi/pfad": "liest",
+        "bereiche": "liest",
+        "bereiche/baustand": "liest",
+        "bereiche/tiefe": "liest",
+        "bereiche/name": "liest",
+        "bereiche/eltern": "liest"
+      }
+    },
+    "datum": "2026-11-12"
+  }
+}

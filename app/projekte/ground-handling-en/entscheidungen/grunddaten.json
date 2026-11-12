@@ -1,0 +1,31 @@
+[
+  {
+    "pfad": "arten/auftraege/status/uebergaenge/begonnen",
+    "alt": [
+      "fertig"
+    ],
+    "neu": [
+      "offen",
+      "fertig"
+    ],
+    "satz": "For this, the step from Started back to Open is now allowed, also in the status menu on the bar.",
+    "wunsch": "wunsch-031",
+    "wortlaut": "Dispatcher may overrule; whatever lands in ‘Unassigned tasks’ goes to Open",
+    "wortlautDeutsch": "Disponent darf überstimmen, was in ‚Nicht zugewiesene Aufträge‘ landet, geht auf Offen",
+    "datum": "2026-11-09T20:46:05.410Z",
+    "bestaetigt": "2026-11-09T20:47:13.906Z"
+  },
+  {
+    "pfad": "arten/auftraege/status/uebergaenge/fertig",
+    "alt": [],
+    "neu": [
+      "offen"
+    ],
+    "satz": "For this, the step from Done back to Open is now allowed, also in the status menu on the bar.",
+    "wunsch": "wunsch-031",
+    "wortlaut": "Dispatcher may overrule; whatever lands in ‘Unassigned tasks’ goes to Open",
+    "wortlautDeutsch": "Disponent darf überstimmen, was in ‚Nicht zugewiesene Aufträge‘ landet, geht auf Offen",
+    "datum": "2026-11-09T20:46:05.410Z",
+    "bestaetigt": "2026-11-09T20:47:13.906Z"
+  }
+]

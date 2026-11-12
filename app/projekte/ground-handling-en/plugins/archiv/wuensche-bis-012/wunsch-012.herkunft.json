@@ -1,0 +1,8 @@
+{
+  "kennung": "wunsch-012",
+  "name": "Highlight everyone in a conflict",
+  "wortlaut": "When I click an entry in the conflict list, I want the objects involved / causing the conflict to light up, or be shown clearly active, for 2.5 seconds",
+  "wortlautDeutsch": "Wenn ich in der Konfliktliste auf einen Eintrag klicke, dann will ich die betreffenden Objekte / Konfliktverursacher aufleuchten sehen oder entsprechend auffallend aktiv gezeigt für 2,5 Sekunden",
+  "datum": "2026-11-06T22:45:39.546Z",
+  "kurz": "A click on an entry in the conflict list makes the affected bars, the agent row and open tasks in the list pulse for 2.5 seconds and scrolls them into view."
+}

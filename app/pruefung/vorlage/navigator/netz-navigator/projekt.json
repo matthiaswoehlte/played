@@ -1,0 +1,14 @@
+{
+  "kennung": "netz-navigator",
+  "name": "Netz-Navigator",
+  "liest": "bodenabfertigung",
+  "bereiche": [
+    {
+      "kennung": "navigator",
+      "name": "Navigator",
+      "verantwortlich": "Matthias",
+      "prototyp": true,
+      "fachobjekte": ["bereiche", "bausteine", "faeden", "fachregeln", "navi"]
+    }
+  ]
+}

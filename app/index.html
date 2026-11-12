@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Play</title>
+<link rel="stylesheet" href="huelle/huelle.css">
+</head>
+<body>
+<!-- Steuerbereich: das Werkzeug des PO. Es geht nie in die gebaute Anwendung. -->
+<header class="steuerbereich" id="steuerbereich">
+  <div class="steuer-immer">
+    <span class="steuer-marke">Play</span>
+    <select id="projektWahl" class="projekt-wahl" aria-label="Projekt" title="Projekt öffnen" hidden></select>
+    <div class="uhr" id="uhr">--:--</div>
+    <button id="play">Play</button>
+    <button id="vonVorn">Von vorn</button>
+    <div class="bedienung nur-auf" id="steuerBedienung">
+      <div class="tempo" id="tempo" title="Tempo">
+        <button data-wert="0.5">½×</button><button data-wert="1">1×</button><button data-wert="2">2×</button><button data-wert="4">4×</button>
+      </div>
+      <select id="wahl" aria-label="Szenario"></select>
+      <span id="folge" class="folge" hidden></span>
+      <span id="plaetze" class="plaetze"></span>
+      <button id="behalten" hidden>Als Szenario behalten</button>
+    </div>
+    <div class="erzaehlung">
+      <div class="spur" id="spur"></div>
+      <div class="zeile" id="zeile"></div>
+    </div>
+    <div class="steuer-rechts" id="steuerRechts">
+    <button id="einspielen" class="nur-auf">Plugin einspielen…</button>
+    <input type="file" id="datei" accept=".js" hidden>
+    <button id="pluginKnopf" class="nur-auf" aria-expanded="false">Plugins <span id="pluginAnzahl"></span></button>
+    <button type="button" id="maschinenraumKnopf" class="nur-auf" aria-pressed="false" title="Zeigt live jede Nachricht auf dem Bus">Maschinenraum</button>
+    <button type="button" id="alleBereicheKnopf" class="nur-auf" aria-pressed="false" title="Plugins, Szenarien, Zähler, Ketten und Maschinenraum aller Bereiche zeigen" hidden>alle Bereiche</button>
+    <button type="button" id="ketteKnopf" class="nur-auf" aria-expanded="false" title="Was jedes Ereignis ausgelöst hat">Ketten</button>
+    <div class="steuer-zaehler">
+      <button id="abweichKnopf" class="zaehler" aria-expanded="false" hidden></button>
+      <button id="verstossKnopf" class="zaehler verstoss-zaehler" aria-expanded="false" hidden></button>
+      <span id="standZeile" class="stand-zeile" hidden></span>
+      <button type="button" id="nichtZeigbarKnopf" class="luecken-zaehler" aria-expanded="false" hidden></button>
+      <button type="button" id="ohneSzenarioKnopf" class="luecken-zaehler" aria-expanded="false" hidden></button>
+      <button type="button" id="faelleKnopf" class="luecken-zaehler" aria-expanded="false" hidden></button>
+      <button type="button" id="meldungZaehler" class="meldung-zaehler" hidden></button>
+      <button type="button" id="punkteZahl" class="punkte-zahl" title="Offene Punkte aufklappen" hidden></button>
+    </div>
+    <button type="button" id="steuerAuf" class="steuer-knopf" aria-expanded="true" aria-controls="steuerMehr">Weniger</button>
+    <button type="button" id="steuerWeg" class="steuer-knopf" title="Nur die Anwendung zeigen">Nur Anwendung</button>
+    </div>
+  </div>
+  <div class="steuer-mehr" id="steuerMehr">
+    <div class="steuer-zeile2" id="steuerZeile2">
+      <form class="wunsch" id="wunsch" autocomplete="off">
+        <textarea id="wunschFeld" rows="1" placeholder="Dein Wunsch. Bildschirmfoto mit Strg+V, Dateien hierher ziehen, Strg+Enter schickt ab." aria-label="Dein Wunsch"></textarea>
+        <button type="submit" title="Strg+Enter">Wunsch abschicken</button>
+      </form>
+      <div class="steuer-rechts" id="steuerRechts2"></div>
+    </div>
+    <div class="ergebnis" id="ergebnis" hidden><span id="ergebnisText"></span><button id="widerspruch" hidden>Stimmt so nicht</button></div>
+    <div class="meldungen" id="meldungen"></div>
+  </div>
+</header>
+<div class="buehne">
+  <!-- Nutzbereich: nur, was die Anwendung tut. Hier zeichnen ausschließlich Plugins. -->
+  <main class="nutzbereich" id="nutzbereich">
+    <div class="kopf">
+      <h1 id="titel"></h1>
+      <div class="unter" id="untertitel"></div>
+    </div>
+    <div class="orte">
+      <div class="ort" data-ort="haupt"></div>
+      <div class="ort" data-ort="seite"></div>
+    </div>
+  </main>
+  <aside class="verwaltung" id="verwaltung" hidden>
+    <section class="verstoesse" id="verstoesse" hidden>
+      <div class="leiste-kopf">
+        <h2>Regelverstöße</h2>
+        <button id="verstoesseZu" title="Einklappen" aria-label="Regelverstöße einklappen">×</button>
+      </div>
+      <div id="verstossListe"></div>
+    </section>
+    <section class="luecken" id="nichtZeigbar" hidden>
+      <div class="leiste-kopf">
+        <h2>Lässt sich hier nicht zeigen</h2>
+        <button type="button" id="nichtZeigbarZu" title="Einklappen" aria-label="Einklappen">×</button>
+      </div>
+      <div class="plugin-notiz">Bewusste Lücken: Sie bleiben hier stehen, bis der echte Code sie prüft.</div>
+      <div id="nichtZeigbarListe"></div>
+    </section>
+    <section class="luecken" id="ohneSzenario" hidden>
+      <div class="leiste-kopf">
+        <h2>Ohne Szenario</h2>
+        <button type="button" id="ohneSzenarioZu" title="Einklappen" aria-label="Einklappen">×</button>
+      </div>
+      <div class="plugin-notiz">Ein Klick legt den Satz als Anfang eines Wunsches ins Wunschfeld.</div>
+      <div id="ohneSzenarioListe"></div>
+    </section>
+    <section class="luecken" id="faelle" hidden>
+      <div class="leiste-kopf">
+        <h2>Fälle ohne Regel</h2>
+        <button type="button" id="faelleZu" title="Einklappen" aria-label="Einklappen">×</button>
+      </div>
+      <div class="plugin-notiz">Ein Klick legt den Fall als Anfang eines Wunsches ins Wunschfeld.</div>
+      <div id="faelleListe"></div>
+    </section>
+    <section class="ketten" id="ketten" hidden>
+      <div class="leiste-kopf">
+        <h2>Ketten</h2>
+        <button type="button" id="kettenZu" title="Einklappen" aria-label="Ketten einklappen">×</button>
+      </div>
+      <div class="plugin-notiz">Je Ereignis, was es ausgelöst hat, die jüngste oben. Aufklappen zeigt jedes Glied und wer es getan hat.</div>
+      <div id="ketteListe"></div>
+    </section>
+    <section class="abweichungen" id="abweichungen" hidden></section>
+    <section class="leiste" id="leiste" hidden>
+      <div class="leiste-kopf">
+        <h2>Plugins</h2>
+        <button id="leisteZu" title="Einklappen" aria-label="Plugins einklappen">×</button>
+      </div>
+      <input id="pluginSuche" type="search" placeholder="Suchen" aria-label="Plugins suchen" autocomplete="off">
+      <div class="filter" id="pluginFilter"></div>
+      <div class="leiste-hinweis" id="leisteHinweis" hidden></div>
+      <div class="plugin-liste" id="pluginListe"></div>
+      <details class="papierkorb" id="papierkorb" hidden>
+        <summary></summary>
+        <div id="papierkorbListe"></div>
+      </details>
+    </section>
+  </aside>
+</div>
+<aside class="punkte-fenster" id="punkteFenster" hidden></aside>
+<aside class="punkte-fenster mr-fenster" id="maschinenraumFenster" hidden></aside>
+<button type="button" id="steuerGriff" class="steuer-griff" hidden title="Steuerung wieder zeigen">Steuerung</button>
+<script src="teilapps.js"></script>
+<script src="huelle/huelle.js"></script>
+<script src="huelle/soll.js"></script>
+<script src="huelle/nachspielen.js"></script>
+<script src="huelle/player.js"></script>
+<script src="huelle/anhaenge.js"></script>
+<script src="huelle/wunsch.js"></script>
+<script src="huelle/bedienung.js"></script>
+<script src="huelle/aufzeichnung.js"></script>
+<script src="huelle/verwaltung.js"></script>
+<script src="huelle/leiste.js"></script>
+<script src="huelle/waechter.js"></script>
+<script src="huelle/luecken.js"></script>
+<script src="huelle/kette.js"></script>
+<script src="huelle/abgleich.js"></script>
+<script src="huelle/steuer.js"></script>
+<script src="huelle/projekte.js"></script>
+<script src="huelle/punkte.js"></script>
+<script src="huelle/maschinenraum.js"></script>
+<script src="manifest.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+{
+  "kennung": "liste-auf-offen",
+  "name": "Aus der Liste wieder Offen",
+  "reihe": 20,
+  "kurz": "Landet ein begonnener oder fertiger Auftrag unter „Nicht zugewiesene Aufträge“, ob von Hand zurückgelegt oder durch eine Krankmeldung, steht er danach wieder auf Offen. Dafür ist der Schritt von Begonnen zurück auf Offen jetzt erlaubt, auch im Status-Menü am Balken. Dafür ist der Schritt von Fertig zurück auf Offen jetzt erlaubt, auch im Status-Menü am Balken.",
+  "wuensche": [
+    {
+      "kennung": "wunsch-031",
+      "name": "Aus der Liste wieder Offen",
+      "wortlaut": "Disponent darf überstimmen, was in ‚Nicht zugewiesene Aufträge‘ landet, geht auf Offen",
+      "datum": "2026-11-09T20:46:05.423Z",
+      "teilApp": "disposition"
+    }
+  ],
+  "aktuell": 1,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "wunsch",
+      "wunsch": "wunsch-031",
+      "wortlaut": "Disponent darf überstimmen, was in ‚Nicht zugewiesene Aufträge‘ landet, geht auf Offen",
+      "datum": "2026-11-09T20:46:05.423Z",
+      "kurz": "Landet ein begonnener oder fertiger Auftrag unter „Nicht zugewiesene Aufträge“, ob von Hand zurückgelegt oder durch eine Krankmeldung, steht er danach wieder auf Offen. Dafür ist der Schritt von Begonnen zurück auf Offen jetzt erlaubt, auch im Status-Menü am Balken. Dafür ist der Schritt von Fertig zurück auf Offen jetzt erlaubt, auch im Status-Menü am Balken.",
+      "drehbuch": "wunsch-031",
+      "grunddaten": [
+        {
+          "pfad": "arten/auftraege/status/uebergaenge/begonnen",
+          "alt": [
+            "fertig"
+          ],
+          "neu": [
+            "offen",
+            "fertig"
+          ],
+          "satz": "Dafür ist der Schritt von Begonnen zurück auf Offen jetzt erlaubt, auch im Status-Menü am Balken."
+        },
+        {
+          "pfad": "arten/auftraege/status/uebergaenge/fertig",
+          "alt": [],
+          "neu": [
+            "offen"
+          ],
+          "satz": "Dafür ist der Schritt von Fertig zurück auf Offen jetzt erlaubt, auch im Status-Menü am Balken."
+        }
+      ],
+      "bestaetigt": {
+        "datum": "2026-11-09T20:47:13.906Z",
+        "wie": "vom PO mit „Bestätigen“"
+      }
+    }
+  ],
+  "teilApp": "disposition"
+}

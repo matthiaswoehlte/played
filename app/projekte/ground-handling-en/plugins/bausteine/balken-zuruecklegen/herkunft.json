@@ -1,0 +1,63 @@
+{
+  "kennung": "balken-zuruecklegen",
+  "name": "Bar back to the list",
+  "reihe": 14,
+  "kurz": "You can now drag a bar from the daily plan into the “Unassigned tasks” list. The task keeps its time, then has no agent, and can be dragged from the list onto an agent again as before.",
+  "wuensche": [
+    {
+      "kennung": "wunsch-017",
+      "name": "Bar back to the list",
+      "wortlaut": "I want to drag a bar into the list of \"unassigned tasks\". I also want to be able to assign tasks that are already in there to an agent in the Gantt again by drag & drop",
+      "wortlautDeutsch": "IOch will einen Balken in die Liste der \"nicht zugewiesenen Aufträge\" ziehen. Ich wil auch Aufträge, die sich schon dort drin befinden wieder im Gantt einem MItarbeiter zuordnen können per Drag & Drop",
+      "datum": "2026-11-07T19:09:18.300Z",
+      "teilApp": "disposition"
+    }
+  ],
+  "aktuell": 4,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "wunsch",
+      "wunsch": "wunsch-017",
+      "wortlaut": "I want to drag a bar into the list of \"unassigned tasks\". I also want to be able to assign tasks that are already in there to an agent in the Gantt again by drag & drop",
+      "wortlautDeutsch": "IOch will einen Balken in die Liste der \"nicht zugewiesenen Aufträge\" ziehen. Ich wil auch Aufträge, die sich schon dort drin befinden wieder im Gantt einem MItarbeiter zuordnen können per Drag & Drop",
+      "datum": "2026-11-07T19:09:18.300Z",
+      "kurz": "You can now drag a bar from the daily plan into the “Unassigned tasks” list. The task keeps its time, then has no agent, and can be dragged from the list onto an agent again as before.",
+      "drehbuch": "wunsch-017"
+    },
+    {
+      "nr": 2,
+      "vorige": 1,
+      "art": "stimmt-nicht",
+      "wunsch": "wunsch-018",
+      "wortlaut": "I can't drag and drop the bar from the Gantt into the list. The task is not accepted there. Back from the list into the Gantt onto an agent seems to work",
+      "wortlautDeutsch": "Ich kann den Balken nicht aus dem Gantt in die Liste per Drag und Drop ziehen. Der Auftrag wird dort nicht angenommen. Zurück aus der Liste in den Gantt auf einen Mitarbeiter scheint zu funktionieren",
+      "datum": "2026-11-07T19:12:41.615Z",
+      "kurz": "The list “Unassigned tasks” now accepts a bar from the daily plan, whether it is dropped on free space in the list or on a task in it.",
+      "drehbuch": null
+    },
+    {
+      "nr": 3,
+      "vorige": 2,
+      "art": "stimmt-nicht",
+      "wunsch": "wunsch-019",
+      "wortlaut": "I still can't drag a task into the \"Unassigned tasks\" list with the mouse. The list or panel doesn't accept the bar",
+      "wortlautDeutsch": "Ich kann immer noch keinen Auftrag in die Liste \"Nicht zugewiesene Aufträge\" mit der Maus ziehen. Die Liste oder das Panel nimmt den Balken nicht an",
+      "datum": "2026-11-07T19:14:59.108Z",
+      "kurz": "A bar can now be dragged onto any spot of “Unassigned tasks”, even where no drop target is detected; the panel is outlined in colour meanwhile.",
+      "drehbuch": null
+    },
+    {
+      "nr": 4,
+      "vorige": 3,
+      "art": "vertrag",
+      "wortlaut": null,
+      "datum": "2026-11-08T12:00:00.000Z",
+      "kurz": "Switched to the bus contract: putting a task back is now done by “Change assignment”, which owns a task's agent; this plugin still handles the drag into the list. The behaviour stays the same.",
+      "drehbuch": null,
+      "auftrag": "005"
+    }
+  ],
+  "teilApp": "disposition"
+}

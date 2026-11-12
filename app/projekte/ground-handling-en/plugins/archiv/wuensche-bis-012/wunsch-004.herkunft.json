@@ -1,0 +1,8 @@
+{
+  "kennung": "wunsch-004",
+  "name": "Stretch and shrink bars at the edge",
+  "wortlaut": "I want to stretch or shrink the assignment bars on the left and right with the mouse; the cursor should show the left-right arrow.",
+  "wortlautDeutsch": "Ich möchte die Einsatzbalken links und rechts durch die Maus verlängern oder verkürzen können, dabei soll der Mauscursor den Linksrechts Pfeil zeigen.",
+  "datum": "2026-11-06T20:35:58.215Z",
+  "kurz": "Assignment bars in the daily plan can now be stretched or shrunk with the mouse at the left and right edge in 5-minute steps; at the edge the pointer shows the left-right arrow, and the conflict counter recalculates after you let go."
+}

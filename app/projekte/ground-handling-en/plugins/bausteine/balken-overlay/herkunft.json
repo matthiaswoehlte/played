@@ -1,0 +1,31 @@
+{
+  "kennung": "balken-overlay",
+  "name": "Assignment details on hover",
+  "reihe": 13,
+  "kurz": "Hovering the mouse over a bar in the daily plan now shows a small window. It shows the best time of the flight (on-block, else touchdown, else ETA), the agent, the assignment with its time and all conflicts of this assignment.",
+  "wuensche": [
+    {
+      "kennung": "wunsch-015",
+      "name": "Assignment details on hover",
+      "wortlaut": "If a bar has conflicts, show them on mouseover as well, in addition to the information already in the tooltip. The tooltip should be a real small overlay with flight data for the best time, so ETA, but touchdown if there, or on-block even better. Then the name of the person who has the assignment, which assignment it is and which conflicts are on the assignment",
+      "wortlautDeutsch": "Wenn ein Balken Konflikte hat, dann sollen die bei Mousover auch mit angezeigt werden zusätzlich zu den aktuell schon im Tooltip vorhandenen Informationen. Der Tooltip sollte als ein echtes kleines Overlay gezeigt werden mit Flugdateninfo für für die besten Zeit also ETA, aber Touchdown falls da oder mit Onblock noch am besten. Dann der Name der Person, die den Einsatz hat, welcher Einsatz das ist und welche Konflikte auf dem Einsatz sind",
+      "datum": "2026-11-07T17:37:33.382Z",
+      "teilApp": "disposition"
+    }
+  ],
+  "aktuell": 1,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "wunsch",
+      "wunsch": "wunsch-015",
+      "wortlaut": "If a bar has conflicts, show them on mouseover as well, in addition to the information already in the tooltip. The tooltip should be a real small overlay with flight data for the best time, so ETA, but touchdown if there, or on-block even better. Then the name of the person who has the assignment, which assignment it is and which conflicts are on the assignment",
+      "wortlautDeutsch": "Wenn ein Balken Konflikte hat, dann sollen die bei Mousover auch mit angezeigt werden zusätzlich zu den aktuell schon im Tooltip vorhandenen Informationen. Der Tooltip sollte als ein echtes kleines Overlay gezeigt werden mit Flugdateninfo für für die besten Zeit also ETA, aber Touchdown falls da oder mit Onblock noch am besten. Dann der Name der Person, die den Einsatz hat, welcher Einsatz das ist und welche Konflikte auf dem Einsatz sind",
+      "datum": "2026-11-07T17:37:33.382Z",
+      "kurz": "Hovering the mouse over a bar in the daily plan now shows a small window. It shows the best time of the flight (on-block, else touchdown, else ETA), the agent, the assignment with its time and all conflicts of this assignment.",
+      "drehbuch": "wunsch-015"
+    }
+  ],
+  "teilApp": "disposition"
+}

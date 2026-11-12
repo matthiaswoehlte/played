@@ -1,0 +1,52 @@
+{
+  "kennung": "plan-suche",
+  "name": "Search in the daily plan",
+  "reihe": 17,
+  "kurz": "Above the daily plan, on the left at the start of the time axis, there is a search field. It marks all agents whose name or short form matches the search term or part of it, and all bars whose flight number contains it. Enter or ▾ jumps to the next match.",
+  "wuensche": [
+    {
+      "kennung": "wunsch-023",
+      "name": "Search in the daily plan",
+      "wortlaut": "I want a search field above the timeline (at the left end where the timeline starts). It should highlight a) the agents if the search term or part of it matches, or b) the bars if part of the flight number matches. Return/enter finds the next match",
+      "wortlautDeutsch": "Ich möchte ein Suchfeld oberhalb der Timeline (am linken Ende wo die Timeline beginnt). Dort sollen a) die Mitarbeiter markiert werden wenn der Suchbegriff oder Teile davon passen oder b) die Balken wenn Teile der Flugnummern passen. Mit return/enter wird weiter gesucht",
+      "datum": "2026-11-07T20:18:54.471Z",
+      "teilApp": "disposition"
+    }
+  ],
+  "aktuell": 3,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "wunsch",
+      "wunsch": "wunsch-023",
+      "wortlaut": "I want a search field above the timeline (at the left end where the timeline starts). It should highlight a) the agents if the search term or part of it matches, or b) the bars if part of the flight number matches. Return/enter finds the next match",
+      "wortlautDeutsch": "Ich möchte ein Suchfeld oberhalb der Timeline (am linken Ende wo die Timeline beginnt). Dort sollen a) die Mitarbeiter markiert werden wenn der Suchbegriff oder Teile davon passen oder b) die Balken wenn Teile der Flugnummern passen. Mit return/enter wird weiter gesucht",
+      "datum": "2026-11-07T20:18:54.471Z",
+      "kurz": "Above the daily plan, on the left at the start of the time axis, there is a search field. It marks all agents whose name or short form matches the search term or part of it, and all bars whose flight number contains it. Enter or ▾ jumps to the next match.",
+      "drehbuch": "wunsch-023"
+    },
+    {
+      "nr": 2,
+      "vorige": 1,
+      "art": "aendern",
+      "wunsch": "wunsch-024",
+      "wortlaut": "The function is fine. But the search field has made the header taller, and it should be as high as before again. So the search field should be placed at the height of the label \"Daily Plan\"",
+      "wortlautDeutsch": "Die Funktionalität passt. Das Suchfeld hat aber den Kopf höher gemacht und er soll wieder so hoch sein wie vorher. Also soll das Suchfeld auf der Höhe des Labels \"Tagesplan\" positioniert werden",
+      "datum": "2026-11-07T20:21:46.984Z",
+      "kurz": "The search field is now in the header of the daily plan, to the right of “Daily Plan”, so the header is as high as before again. Search works as before.",
+      "drehbuch": null
+    },
+    {
+      "nr": 3,
+      "vorige": 2,
+      "art": "vertrag",
+      "wortlaut": null,
+      "datum": "2026-11-08T12:00:00.000Z",
+      "kurz": "Switched to the bus contract: declares that it changes the search term. The behaviour stays the same.",
+      "drehbuch": null,
+      "auftrag": "005"
+    }
+  ],
+  "teilApp": "disposition"
+}

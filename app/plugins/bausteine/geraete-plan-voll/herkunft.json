@@ -1,0 +1,33 @@
+{
+  "kennung": "geraete-plan-voll",
+  "name": "Gerätedisposition füllt den Platz",
+  "reihe": 25,
+  "kurz": "Die Gerätedisposition füllt jetzt den ganzen Platz aus. Die Zeitleiste reicht über die volle Breite, die Liste „Nicht zugeteilte Geräteaufträge“ bleibt unten am Rand, und das Diagramm rollt nur, wenn nicht alle Geräte hineinpassen.",
+  "teilApp": "geraete",
+  "wuensche": [
+    {
+      "kennung": "wunsch-034",
+      "name": "Gerätedisposition füllt den Platz",
+      "wortlaut": "Die Gerätedisposition füllt den ganzen Nutzbereich aus: in der Breite bis an den rechten Rand, in der Höhe bis an den unteren Rand. Die Zeitleiste von 05:00 bis 11:00 dehnt sich über die volle Breite. Die Liste „Nicht zugeteilte Geräteaufträge“ bleibt unten am Rand sichtbar, und das Diagramm nutzt die ganze Höhe dazwischen. Gescrollt wird nur, wenn nicht alle Geräte hineinpassen.",
+      "datum": "2026-11-09T23:14:34.518Z",
+      "teilApp": "geraete"
+    }
+  ],
+  "aktuell": 1,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "wunsch",
+      "wunsch": "wunsch-034",
+      "wortlaut": "Die Gerätedisposition füllt den ganzen Nutzbereich aus: in der Breite bis an den rechten Rand, in der Höhe bis an den unteren Rand. Die Zeitleiste von 05:00 bis 11:00 dehnt sich über die volle Breite. Die Liste „Nicht zugeteilte Geräteaufträge“ bleibt unten am Rand sichtbar, und das Diagramm nutzt die ganze Höhe dazwischen. Gescrollt wird nur, wenn nicht alle Geräte hineinpassen.",
+      "datum": "2026-11-09T23:14:34.518Z",
+      "kurz": "Die Gerätedisposition füllt jetzt den ganzen Platz aus. Die Zeitleiste reicht über die volle Breite, die Liste „Nicht zugeteilte Geräteaufträge“ bleibt unten am Rand, und das Diagramm rollt nur, wenn nicht alle Geräte hineinpassen.",
+      "drehbuch": null,
+      "bestaetigt": {
+        "datum": "2026-11-09T23:16:04.407Z",
+        "wie": "vom PO mit „Bestätigen“"
+      }
+    }
+  ]
+}

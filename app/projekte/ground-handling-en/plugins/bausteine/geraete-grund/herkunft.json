@@ -1,0 +1,28 @@
+{
+  "kennung": "geraete-grund",
+  "name": "Subtle glass background",
+  "reihe": 24,
+  "kurz": "The dark area behind the equipment plan has a very subtle gradient towards anthracite and a light glass sheen; the panels sit on it like frosted glass.",
+  "teilApp": "geraete",
+  "wuensche": [
+    {
+      "kennung": "wunsch-032",
+      "name": "Subtle glass background",
+      "wortlaut": "The dark area around and behind the chart is not flat black: give it a very subtle gradient towards anthracite and a slight glass-like sheen, so the surface has a little depth — kept so restrained that the coloured bars and group headings clearly stand out in front.",
+      "datum": "2026-11-11T17:23:57.020Z"
+    }
+  ],
+  "aktuell": 1,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "prototyp",
+      "wunsch": "wunsch-032",
+      "wortlaut": "The dark area around and behind the chart is not flat black: give it a very subtle gradient towards anthracite and a slight glass-like sheen, so the surface has a little depth — kept so restrained that the coloured bars and group headings clearly stand out in front.",
+      "datum": "2026-11-11T17:23:57.020Z",
+      "kurz": "The dark area behind the equipment plan has a very subtle gradient towards anthracite and a light glass sheen; the panels sit on it like frosted glass.",
+      "drehbuch": null
+    }
+  ]
+}

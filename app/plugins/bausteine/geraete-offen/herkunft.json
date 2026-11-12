@@ -1,0 +1,29 @@
+{
+  "kennung": "geraete-offen",
+  "name": "Nicht zugeteilte Geräteaufträge",
+  "reihe": 23,
+  "kurz": "Unter dem Diagramm stehen die Geräteaufträge, die noch keinem Gerät zugeteilt sind, mit Flug, Tätigkeit, Zeit und Geräteart.",
+  "teilApp": "geraete",
+  "wuensche": [
+    {
+      "kennung": "wunsch-032",
+      "name": "Nicht zugeteilte Geräteaufträge",
+      "wortlaut": "Ein paar Aufträge sind noch keinem Gerät zugeteilt und stehen in einer Liste „Nicht zugeteilte Geräteaufträge“.",
+      "datum": "2026-11-09T23:09:33.187Z",
+      "teilApp": "geraete"
+    }
+  ],
+  "aktuell": 1,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "prototyp",
+      "wunsch": "wunsch-032",
+      "wortlaut": "Ein paar Aufträge sind noch keinem Gerät zugeteilt und stehen in einer Liste „Nicht zugeteilte Geräteaufträge“.",
+      "datum": "2026-11-09T23:09:33.187Z",
+      "kurz": "Unter dem Diagramm stehen die Geräteaufträge, die noch keinem Gerät zugeteilt sind, mit Flug, Tätigkeit, Zeit und Geräteart.",
+      "drehbuch": null
+    }
+  ]
+}

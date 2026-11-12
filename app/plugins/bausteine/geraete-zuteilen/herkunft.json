@@ -1,0 +1,29 @@
+{
+  "kennung": "geraete-zuteilen",
+  "name": "Geräteauftrag auf Gerät ziehen",
+  "reihe": 24,
+  "kurz": "Ein Geräteauftrag lässt sich aus der Liste oder von einem anderen Gerät mit der Maus auf ein Gerät ziehen und ist dann diesem Gerät zugeteilt.",
+  "teilApp": "geraete",
+  "wuensche": [
+    {
+      "kennung": "wunsch-032",
+      "name": "Geräteauftrag auf Gerät ziehen",
+      "wortlaut": "Von dort ziehe ich sie mit der Maus auf ein Gerät.",
+      "datum": "2026-11-09T23:09:33.187Z",
+      "teilApp": "geraete"
+    }
+  ],
+  "aktuell": 1,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "prototyp",
+      "wunsch": "wunsch-032",
+      "wortlaut": "Von dort ziehe ich sie mit der Maus auf ein Gerät.",
+      "datum": "2026-11-09T23:09:33.187Z",
+      "kurz": "Ein Geräteauftrag lässt sich aus der Liste oder von einem anderen Gerät mit der Maus auf ein Gerät ziehen und ist dann diesem Gerät zugeteilt.",
+      "drehbuch": null
+    }
+  ]
+}

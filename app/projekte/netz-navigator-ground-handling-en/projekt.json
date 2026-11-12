@@ -1,0 +1,27 @@
+{
+  "kennung": "netz-navigator-ground-handling-en",
+  "name": "Network Navigator · Ground Handling (EN)",
+  "liest": "ground-handling-en",
+  "bereiche": [
+    {
+      "kennung": "navigator",
+      "name": "Navigator",
+      "verantwortlich": "Matthias",
+      "prototyp": true,
+      "fachobjekte": [
+        "bereiche",
+        "bausteine",
+        "faeden",
+        "fachregeln",
+        "navi"
+      ]
+    }
+  ],
+  "kopie": {
+    "von": "netz-navigator",
+    "name": "Network Navigator",
+    "datum": "2026-11-10"
+  },
+  "sprache": "Englisch",
+  "vermerk": "translated from the German original of 10 November 2026"
+}

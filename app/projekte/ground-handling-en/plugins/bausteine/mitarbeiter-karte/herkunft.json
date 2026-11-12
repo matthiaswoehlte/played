@@ -1,0 +1,72 @@
+{
+  "kennung": "mitarbeiter-karte",
+  "name": "Agent details on double-click",
+  "reihe": 18,
+  "kurz": "A double-click on an agent's name in the daily plan opens an overlay with name, start date, qualifications and status (present or sick); the start dates were missing in the sample day and are therefore made up, and since the page has no real double-click, the second click on the same name opens the overlay, even if it comes later.",
+  "wuensche": [
+    {
+      "kennung": "wunsch-025",
+      "name": "Agent details on double-click",
+      "wortlaut": "Double-clicking an agent should open an overlay showing the agent details: the name, the date they joined the company, their qualification, their status (present or sick)",
+      "wortlautDeutsch": "Beim Doppelklick auf einen Mitarbeiter soll ein overlay aufgehen, in dem die Mitarbeiterdatengezeigt werden. Darin der Name, das Eintrittdatum in die Firma, Seine Qualifikation. Sein status (also anwesen oder krank)",
+      "datum": "2026-11-08T13:43:19.300Z",
+      "teilApp": "disposition"
+    }
+  ],
+  "aktuell": 3,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "wunsch",
+      "wunsch": "wunsch-025",
+      "wortlaut": "Double-clicking an agent should open an overlay showing the agent details: the name, the date they joined the company, their qualification, their status (present or sick)",
+      "wortlautDeutsch": "Beim Doppelklick auf einen Mitarbeiter soll ein overlay aufgehen, in dem die Mitarbeiterdatengezeigt werden. Darin der Name, das Eintrittdatum in die Firma, Seine Qualifikation. Sein status (also anwesen oder krank)",
+      "datum": "2026-11-08T13:43:19.300Z",
+      "kurz": "A double-click on an agent's name in the daily plan opens an overlay with name, start date, qualifications and status (present or sick); the start dates were missing in the sample day and are therefore made up, and since the page has no real double-click, the second click on the same name opens the overlay, even if it comes later.",
+      "drehbuch": "wunsch-025",
+      "entscheidungen": [
+        {
+          "datum": "2026-11-08T13:44:21.080Z",
+          "art": "mehr",
+          "wahl": "weg",
+          "was": "It also opens the overlay on two separate clicks on the same name, even if the second click comes much later.",
+          "wie": "by the PO with a click on “Get rid of it”",
+          "wunsch": "wunsch-025"
+        }
+      ]
+    },
+    {
+      "nr": 2,
+      "vorige": 1,
+      "art": "aendern",
+      "wunsch": "wunsch-026",
+      "wortlaut": "Remove exactly what I did not say: it also opens the overlay on two separate clicks on the same name, even if the second click comes much later. Everything else in this plugin stays as it is. My request was: “On double-click on an agent an overlay should open showing the agent details. In it the name, the date they joined the company, their qualification. Their status (so present or sick)”",
+      "wortlautDeutsch": "Entferne genau das, was ich nicht gesagt habe: Es öffnet das Overlay auch bei zwei getrennten Klicks auf denselben Namen, selbst wenn der zweite Klick erst viel später kommt. Alles andere an diesem Plugin bleibt, wie es ist. Mein Wunsch war: „Beim Doppelklick auf einen Mitarbeiter soll ein overlay aufgehen, in dem die Mitarbeiterdatengezeigt werden. Darin der Name, das Eintrittdatum in die Firma, Seine Qualifikation. Sein status (also anwesen oder krank)“",
+      "datum": "2026-11-08T13:45:37.253Z",
+      "kurz": "The overlay now only opens if both clicks on the same name come within half a second; a later second click counts as a first click again.",
+      "drehbuch": null,
+      "entscheidungen": [
+        {
+          "datum": "2026-11-08T13:48:04.253Z",
+          "art": "enger",
+          "wahl": "behalten",
+          "was": "It only opens the overlay if the second click comes within half a second; your request names no such time limit.",
+          "wie": "by the PO with a click on “Leave as is”",
+          "wunsch": "wunsch-026"
+        }
+      ]
+    },
+    {
+      "nr": 3,
+      "vorige": 2,
+      "art": "vertrag",
+      "wortlaut": null,
+      "datum": "2026-11-08T12:00:00.000Z",
+      "kurz": "Switched to the bus contract: declares that it changes the start date and the open agent card. The behaviour stays the same.",
+      "drehbuch": null,
+      "auftrag": "005"
+    }
+  ],
+  "teilApp": "disposition"
+}

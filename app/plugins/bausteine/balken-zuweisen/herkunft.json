@@ -1,0 +1,60 @@
+{
+  "kennung": "balken-zuweisen",
+  "name": "Balken auf andere Mitarbeiter ziehen",
+  "reihe": 3,
+  "kurz": "Balken lassen sich auf einen anderen Mitarbeiter ziehen; ohne passende Qualifikation wird die Zuteilung verweigert.",
+  "wuensche": [
+    {
+      "kennung": "wunsch-005",
+      "name": "Balken auf andere Mitarbeiter ziehen",
+      "wortlaut": "Ich möchte den Balken per drag & drop einem anderen Mitarbeiter zuweisen können. Das soll aber nur innerhalb der selben Qualifikation gehen (also Tanke und bei Tanken, Cleaning nur bei Cleaning) ansonsten soll das verweigert werden. Ein Tooltip soll anzeigen, ob die Zuteilung geht",
+      "datum": "2026-11-06T20:40:49.264Z",
+      "teilApp": "disposition"
+    },
+    {
+      "kennung": "wunsch-006",
+      "name": "Korrektur: Balken bleibt in der neuen Zeile",
+      "wortlaut": "Das Drag und Drop funktioniert nicht, der Indikator für den Balken wird gezeigt aber der Balken bleibt nicht in der neuen Zeile. Bitte korrigieren",
+      "datum": "2026-11-06T20:48:14.660Z",
+      "teilApp": "disposition"
+    },
+    {
+      "kennung": "wunsch-007",
+      "name": "Umbau: Ziehen im Tagesplan über den Bus",
+      "wortlaut": null,
+      "datum": "2026-11-06T21:27:00.000Z",
+      "teilApp": "disposition"
+    }
+  ],
+  "aktuell": 1,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "zuschnitt",
+      "wortlaut": null,
+      "datum": "2026-11-06T23:59:00.000Z",
+      "kurz": "Aus den Wünschen herausgeschnitten, Verhalten unverändert.",
+      "drehbuch": "wunsch-005",
+      "entscheidungen": [
+        {
+          "datum": "2026-11-09T20:45:16.228Z",
+          "art": "bedienung",
+          "wahl": "balken-zuweisen",
+          "was": "Ziehst du einen Balken im Tagesplan auf einen Mitarbeiter (z. B. XA 101 Entladen auf D. Mahler), wollen „Balken auf andere Mitarbeiter ziehen“ und „Einsatz ändern“ das übernehmen.",
+          "wie": "vom PO per Klick „Balken auf andere Mitarbeiter ziehen übernimmt“",
+          "schluessel": "gantt|ziehen|balken-zuweisen+verhalten-einsatz"
+        },
+        {
+          "datum": "2026-11-09T20:45:20.571Z",
+          "art": "bedienung",
+          "wahl": "verhalten-einsatz",
+          "was": "Ziehst du einen Balken im Tagesplan auf einen Mitarbeiter (z. B. XA 101 Entladen auf D. Mahler), wollen „Balken auf andere Mitarbeiter ziehen“ und „Einsatz ändern“ das übernehmen.",
+          "wie": "vom PO per Klick „Einsatz ändern übernimmt“",
+          "schluessel": "gantt|ziehen|balken-zuweisen+verhalten-einsatz"
+        }
+      ]
+    }
+  ],
+  "teilApp": "disposition"
+}

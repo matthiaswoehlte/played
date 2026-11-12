@@ -1,0 +1,2236 @@
+{
+  "kennung": "wunsch-032",
+  "zuletzt": "{\"krankmeldung\":\"verhalten-krankmeldung\"}",
+  "je": {
+    "{\"krankmeldung\":\"verhalten-krankmeldung\"}": {
+      "zustand": {
+        "fluege": {
+          "XA101": {
+            "flug": "XA 101",
+            "muster": "A32N",
+            "position": "Gate A2",
+            "onBlock": "05:40",
+            "offBlock": "06:35",
+            "status": "abgefertigt",
+            "ueberfaellig": false,
+            "nachgerueckt": 0
+          },
+          "XB214": {
+            "flug": "XB 214",
+            "muster": "B738",
+            "position": "Gate A4",
+            "onBlock": "06:10",
+            "offBlock": "07:00",
+            "status": "amBlock",
+            "ueberfaellig": false,
+            "nachgerueckt": 0
+          },
+          "XA337": {
+            "flug": "XA 337",
+            "muster": "A20N",
+            "position": "Außenposition P7",
+            "onBlock": "06:35",
+            "offBlock": "07:40",
+            "status": "amBlock",
+            "ueberfaellig": false,
+            "nachgerueckt": 0
+          },
+          "XC508": {
+            "flug": "XC 508",
+            "muster": "E195",
+            "position": "Gate B1",
+            "onBlock": "07:05",
+            "offBlock": "07:50",
+            "status": "erwartet",
+            "ueberfaellig": false,
+            "nachgerueckt": 0
+          },
+          "XB622": {
+            "flug": "XB 622",
+            "muster": "B738",
+            "position": "Gate A2",
+            "onBlock": "07:40",
+            "offBlock": "08:40",
+            "status": "erwartet",
+            "ueberfaellig": false,
+            "nachgerueckt": 0
+          },
+          "XA745": {
+            "flug": "XA 745",
+            "muster": "A321",
+            "position": "Außenposition P9",
+            "onBlock": "08:15",
+            "offBlock": "09:25",
+            "status": "erwartet",
+            "ueberfaellig": false,
+            "nachgerueckt": 0
+          },
+          "XC810": {
+            "flug": "XC 810",
+            "muster": "E190",
+            "position": "Gate B3",
+            "onBlock": "08:50",
+            "offBlock": "09:40",
+            "status": "erwartet",
+            "ueberfaellig": false,
+            "nachgerueckt": 0
+          },
+          "XB933": {
+            "flug": "XB 933",
+            "muster": "B739",
+            "position": "Gate A4",
+            "onBlock": "09:25",
+            "offBlock": "10:25",
+            "status": "erwartet",
+            "ueberfaellig": false,
+            "nachgerueckt": 0
+          },
+          "XC402": {
+            "flug": "XC 402",
+            "muster": "E190",
+            "position": "Gate B1",
+            "onBlock": "05:05",
+            "offBlock": "05:50",
+            "status": "abgefertigt",
+            "ueberfaellig": false,
+            "nachgerueckt": 0
+          },
+          "XA219": {
+            "flug": "XA 219",
+            "muster": "A320",
+            "position": "Gate B3",
+            "onBlock": "05:55",
+            "offBlock": "06:45",
+            "status": "abgefertigt",
+            "ueberfaellig": false,
+            "nachgerueckt": 0
+          },
+          "XC615": {
+            "flug": "XC 615",
+            "muster": "E195",
+            "position": "Gate B3",
+            "onBlock": "07:25",
+            "offBlock": "08:10",
+            "status": "erwartet",
+            "ueberfaellig": false,
+            "nachgerueckt": 0
+          },
+          "XA483": {
+            "flug": "XA 483",
+            "muster": "A20N",
+            "position": "Außenposition P8",
+            "onBlock": "08:00",
+            "offBlock": "08:55",
+            "status": "erwartet",
+            "ueberfaellig": false,
+            "nachgerueckt": 0
+          },
+          "XC871": {
+            "flug": "XC 871",
+            "muster": "E190",
+            "position": "Gate B1",
+            "onBlock": "09:05",
+            "offBlock": "09:50",
+            "status": "erwartet",
+            "ueberfaellig": false,
+            "nachgerueckt": 0
+          },
+          "XB956": {
+            "flug": "XB 956",
+            "muster": "B738",
+            "position": "Gate A2",
+            "onBlock": "09:50",
+            "offBlock": "10:35",
+            "status": "erwartet",
+            "ueberfaellig": false,
+            "nachgerueckt": 0
+          },
+          "XA990": {
+            "flug": "XA 990",
+            "muster": "A32N",
+            "position": "Gate B3",
+            "onBlock": "10:15",
+            "offBlock": "10:55",
+            "status": "erwartet",
+            "ueberfaellig": false,
+            "nachgerueckt": 0
+          }
+        },
+        "mitarbeiter": {
+          "MA-01": {
+            "kennung": "MA-01",
+            "name": "R. Aldinger",
+            "gruppe": "Ladegruppe 1",
+            "qualifikationen": [
+              "Entladen",
+              "Beladen"
+            ],
+            "schichtStart": "05:00",
+            "schichtEnde": "13:00",
+            "abwesend": false,
+            "grund": null,
+            "abwesendAb": null,
+            "eintritt": "01.04.2012"
+          },
+          "MA-02": {
+            "kennung": "MA-02",
+            "name": "S. Brendel",
+            "gruppe": "Ladegruppe 1",
+            "qualifikationen": [
+              "Entladen",
+              "Beladen"
+            ],
+            "schichtStart": "05:00",
+            "schichtEnde": "13:00",
+            "abwesend": false,
+            "grund": null,
+            "abwesendAb": null,
+            "eintritt": "15.09.2015"
+          },
+          "MA-03": {
+            "kennung": "MA-03",
+            "name": "T. Cordes",
+            "gruppe": "Ladegruppe 1",
+            "qualifikationen": [
+              "Entladen",
+              "Beladen",
+              "Innenraum-Cleaning"
+            ],
+            "schichtStart": "05:00",
+            "schichtEnde": "13:00",
+            "abwesend": false,
+            "grund": null,
+            "abwesendAb": null,
+            "eintritt": "01.03.2010"
+          },
+          "MA-04": {
+            "kennung": "MA-04",
+            "name": "U. Dahlmann",
+            "gruppe": "Ladegruppe 1",
+            "qualifikationen": [
+              "Entladen",
+              "Beladen"
+            ],
+            "schichtStart": "05:00",
+            "schichtEnde": "13:00",
+            "abwesend": false,
+            "grund": null,
+            "abwesendAb": null,
+            "eintritt": "01.07.2018"
+          },
+          "MA-05": {
+            "kennung": "MA-05",
+            "name": "V. Engström",
+            "gruppe": "Ladegruppe 2",
+            "qualifikationen": [
+              "Entladen",
+              "Beladen"
+            ],
+            "schichtStart": "05:30",
+            "schichtEnde": "13:30",
+            "abwesend": false,
+            "grund": null,
+            "abwesendAb": null,
+            "eintritt": "01.10.2016"
+          },
+          "MA-06": {
+            "kennung": "MA-06",
+            "name": "W. Fiedler",
+            "gruppe": "Ladegruppe 2",
+            "qualifikationen": [
+              "Entladen",
+              "Beladen"
+            ],
+            "schichtStart": "05:30",
+            "schichtEnde": "13:30",
+            "abwesend": false,
+            "grund": null,
+            "abwesendAb": null,
+            "eintritt": "15.02.2019"
+          },
+          "MA-07": {
+            "kennung": "MA-07",
+            "name": "X. Gruber",
+            "gruppe": "Ladegruppe 2",
+            "qualifikationen": [
+              "Entladen",
+              "Beladen"
+            ],
+            "schichtStart": "05:30",
+            "schichtEnde": "13:30",
+            "abwesend": false,
+            "grund": null,
+            "abwesendAb": null,
+            "eintritt": "01.06.2021"
+          },
+          "MA-08": {
+            "kennung": "MA-08",
+            "name": "Y. Hauser",
+            "gruppe": "Ladegruppe 2",
+            "qualifikationen": [
+              "Entladen",
+              "Beladen",
+              "Innenraum-Cleaning"
+            ],
+            "schichtStart": "05:30",
+            "schichtEnde": "13:30",
+            "abwesend": false,
+            "grund": null,
+            "abwesendAb": null,
+            "eintritt": "01.04.2014"
+          },
+          "MA-09": {
+            "kennung": "MA-09",
+            "name": "Z. Iversen",
+            "gruppe": "Ladegruppe 3",
+            "qualifikationen": [
+              "Entladen",
+              "Beladen"
+            ],
+            "schichtStart": "06:00",
+            "schichtEnde": "14:00",
+            "abwesend": false,
+            "grund": null,
+            "abwesendAb": null,
+            "eintritt": "01.08.2017"
+          },
+          "MA-10": {
+            "kennung": "MA-10",
+            "name": "A. Jankowski",
+            "gruppe": "Ladegruppe 3",
+            "qualifikationen": [
+              "Entladen",
+              "Beladen"
+            ],
+            "schichtStart": "06:00",
+            "schichtEnde": "14:00",
+            "abwesend": false,
+            "grund": null,
+            "abwesendAb": null,
+            "eintritt": "15.05.2020"
+          },
+          "MA-11": {
+            "kennung": "MA-11",
+            "name": "B. Kerner",
+            "gruppe": "Ladegruppe 3",
+            "qualifikationen": [
+              "Entladen",
+              "Beladen"
+            ],
+            "schichtStart": "06:00",
+            "schichtEnde": "14:00",
+            "abwesend": false,
+            "grund": null,
+            "abwesendAb": null,
+            "eintritt": "01.11.2013"
+          },
+          "MA-12": {
+            "kennung": "MA-12",
+            "name": "C. Lubitz",
+            "gruppe": "Ladegruppe 3",
+            "qualifikationen": [
+              "Entladen",
+              "Beladen"
+            ],
+            "schichtStart": "06:00",
+            "schichtEnde": "14:00",
+            "abwesend": false,
+            "grund": null,
+            "abwesendAb": null,
+            "eintritt": "01.02.2022"
+          },
+          "MA-20": {
+            "kennung": "MA-20",
+            "name": "D. Mahler",
+            "gruppe": "Tankdienst",
+            "qualifikationen": [
+              "Betanken"
+            ],
+            "schichtStart": "05:00",
+            "schichtEnde": "13:00",
+            "abwesend": false,
+            "grund": null,
+            "abwesendAb": null,
+            "eintritt": "01.05.2009"
+          },
+          "MA-21": {
+            "kennung": "MA-21",
+            "name": "E. Novak",
+            "gruppe": "Tankdienst",
+            "qualifikationen": [
+              "Betanken"
+            ],
+            "schichtStart": "05:00",
+            "schichtEnde": "13:00",
+            "abwesend": false,
+            "grund": null,
+            "abwesendAb": null,
+            "eintritt": "15.03.2016"
+          },
+          "MA-22": {
+            "kennung": "MA-22",
+            "name": "F. Ohlsen",
+            "gruppe": "Tankdienst",
+            "qualifikationen": [
+              "Betanken",
+              "Fäkalien entleeren"
+            ],
+            "schichtStart": "05:00",
+            "schichtEnde": "13:00",
+            "abwesend": false,
+            "grund": null,
+            "abwesendAb": null,
+            "eintritt": "01.09.2011"
+          },
+          "MA-30": {
+            "kennung": "MA-30",
+            "name": "G. Pregler",
+            "gruppe": "Fäkaliendienst",
+            "qualifikationen": [
+              "Fäkalien entleeren"
+            ],
+            "schichtStart": "05:30",
+            "schichtEnde": "13:30",
+            "abwesend": false,
+            "grund": null,
+            "abwesendAb": null,
+            "eintritt": "01.06.2015"
+          },
+          "MA-31": {
+            "kennung": "MA-31",
+            "name": "H. Quandt",
+            "gruppe": "Fäkaliendienst",
+            "qualifikationen": [
+              "Fäkalien entleeren"
+            ],
+            "schichtStart": "05:30",
+            "schichtEnde": "13:30",
+            "abwesend": false,
+            "grund": null,
+            "abwesendAb": null,
+            "eintritt": "15.10.2018"
+          },
+          "MA-40": {
+            "kennung": "MA-40",
+            "name": "I. Reindl",
+            "gruppe": "Cleaning 1",
+            "qualifikationen": [
+              "Innenraum-Cleaning"
+            ],
+            "schichtStart": "06:00",
+            "schichtEnde": "14:00",
+            "abwesend": false,
+            "grund": null,
+            "abwesendAb": null,
+            "eintritt": "01.03.2017"
+          },
+          "MA-41": {
+            "kennung": "MA-41",
+            "name": "J. Sattler",
+            "gruppe": "Cleaning 1",
+            "qualifikationen": [
+              "Innenraum-Cleaning"
+            ],
+            "schichtStart": "06:00",
+            "schichtEnde": "14:00",
+            "abwesend": false,
+            "grund": null,
+            "abwesendAb": null,
+            "eintritt": "01.12.2019"
+          },
+          "MA-42": {
+            "kennung": "MA-42",
+            "name": "K. Tesar",
+            "gruppe": "Cleaning 2",
+            "qualifikationen": [
+              "Innenraum-Cleaning"
+            ],
+            "schichtStart": "06:00",
+            "schichtEnde": "14:00",
+            "abwesend": false,
+            "grund": null,
+            "abwesendAb": null,
+            "eintritt": "15.04.2021"
+          },
+          "MA-43": {
+            "kennung": "MA-43",
+            "name": "L. Urban",
+            "gruppe": "Cleaning 2",
+            "qualifikationen": [
+              "Innenraum-Cleaning"
+            ],
+            "schichtStart": "06:00",
+            "schichtEnde": "14:00",
+            "abwesend": false,
+            "grund": null,
+            "abwesendAb": null,
+            "eintritt": "01.09.2023"
+          }
+        },
+        "auftraege": {
+          "XA101-ENTL-01": {
+            "kennung": "XA101-ENTL-01",
+            "flug": "XA 101",
+            "arbeit": "Entladen",
+            "mitarbeiter": "MA-01",
+            "start": "05:45",
+            "ende": "06:05",
+            "status": "fertig"
+          },
+          "XA101-ENTL-02": {
+            "kennung": "XA101-ENTL-02",
+            "flug": "XA 101",
+            "arbeit": "Entladen",
+            "mitarbeiter": "MA-02",
+            "start": "05:45",
+            "ende": "06:05",
+            "status": "fertig"
+          },
+          "XA101-ENTL-03": {
+            "kennung": "XA101-ENTL-03",
+            "flug": "XA 101",
+            "arbeit": "Entladen",
+            "mitarbeiter": "MA-03",
+            "start": "05:45",
+            "ende": "06:05",
+            "status": "fertig"
+          },
+          "XA101-ENTL-04": {
+            "kennung": "XA101-ENTL-04",
+            "flug": "XA 101",
+            "arbeit": "Entladen",
+            "mitarbeiter": "MA-04",
+            "start": "05:45",
+            "ende": "06:05",
+            "status": "fertig"
+          },
+          "XA101-BELA-01": {
+            "kennung": "XA101-BELA-01",
+            "flug": "XA 101",
+            "arbeit": "Beladen",
+            "mitarbeiter": "MA-01",
+            "start": "06:10",
+            "ende": "06:30",
+            "status": "fertig"
+          },
+          "XA101-BELA-02": {
+            "kennung": "XA101-BELA-02",
+            "flug": "XA 101",
+            "arbeit": "Beladen",
+            "mitarbeiter": "MA-02",
+            "start": "06:10",
+            "ende": "06:30",
+            "status": "fertig"
+          },
+          "XA101-BELA-03": {
+            "kennung": "XA101-BELA-03",
+            "flug": "XA 101",
+            "arbeit": "Beladen",
+            "mitarbeiter": "MA-03",
+            "start": "06:10",
+            "ende": "06:30",
+            "status": "fertig"
+          },
+          "XA101-BELA-04": {
+            "kennung": "XA101-BELA-04",
+            "flug": "XA 101",
+            "arbeit": "Beladen",
+            "mitarbeiter": "MA-04",
+            "start": "06:10",
+            "ende": "06:30",
+            "status": "fertig"
+          },
+          "XA101-FAEK-01": {
+            "kennung": "XA101-FAEK-01",
+            "flug": "XA 101",
+            "arbeit": "Fäkalien entleeren",
+            "mitarbeiter": "MA-30",
+            "start": "05:50",
+            "ende": "06:10",
+            "status": "fertig"
+          },
+          "XA101-TANK-01": {
+            "kennung": "XA101-TANK-01",
+            "flug": "XA 101",
+            "arbeit": "Betanken",
+            "mitarbeiter": "MA-20",
+            "start": "05:55",
+            "ende": "06:20",
+            "status": "fertig"
+          },
+          "XA101-CLEAN-01": {
+            "kennung": "XA101-CLEAN-01",
+            "flug": "XA 101",
+            "arbeit": "Innenraum-Cleaning",
+            "mitarbeiter": "MA-40",
+            "start": "06:00",
+            "ende": "06:30",
+            "status": "fertig"
+          },
+          "XA101-CLEAN-02": {
+            "kennung": "XA101-CLEAN-02",
+            "flug": "XA 101",
+            "arbeit": "Innenraum-Cleaning",
+            "mitarbeiter": "MA-41",
+            "start": "06:00",
+            "ende": "06:30",
+            "status": "fertig"
+          },
+          "XB214-ENTL-01": {
+            "kennung": "XB214-ENTL-01",
+            "flug": "XB 214",
+            "arbeit": "Entladen",
+            "mitarbeiter": "MA-05",
+            "start": "06:15",
+            "ende": "06:35",
+            "status": "begonnen"
+          },
+          "XB214-ENTL-02": {
+            "kennung": "XB214-ENTL-02",
+            "flug": "XB 214",
+            "arbeit": "Entladen",
+            "mitarbeiter": "MA-06",
+            "start": "06:15",
+            "ende": "06:35",
+            "status": "begonnen"
+          },
+          "XB214-ENTL-03": {
+            "kennung": "XB214-ENTL-03",
+            "flug": "XB 214",
+            "arbeit": "Entladen",
+            "mitarbeiter": "MA-07",
+            "start": "06:15",
+            "ende": "06:35",
+            "status": "begonnen"
+          },
+          "XB214-ENTL-04": {
+            "kennung": "XB214-ENTL-04",
+            "flug": "XB 214",
+            "arbeit": "Entladen",
+            "mitarbeiter": "MA-08",
+            "start": "06:15",
+            "ende": "06:35",
+            "status": "begonnen"
+          },
+          "XB214-BELA-01": {
+            "kennung": "XB214-BELA-01",
+            "flug": "XB 214",
+            "arbeit": "Beladen",
+            "mitarbeiter": "MA-05",
+            "start": "06:35",
+            "ende": "06:55",
+            "status": "offen"
+          },
+          "XB214-BELA-02": {
+            "kennung": "XB214-BELA-02",
+            "flug": "XB 214",
+            "arbeit": "Beladen",
+            "mitarbeiter": "MA-06",
+            "start": "06:35",
+            "ende": "06:55",
+            "status": "offen"
+          },
+          "XB214-BELA-03": {
+            "kennung": "XB214-BELA-03",
+            "flug": "XB 214",
+            "arbeit": "Beladen",
+            "mitarbeiter": "MA-07",
+            "start": "06:35",
+            "ende": "06:55",
+            "status": "offen"
+          },
+          "XB214-BELA-04": {
+            "kennung": "XB214-BELA-04",
+            "flug": "XB 214",
+            "arbeit": "Beladen",
+            "mitarbeiter": "MA-08",
+            "start": "06:35",
+            "ende": "06:55",
+            "status": "offen"
+          },
+          "XB214-FAEK-01": {
+            "kennung": "XB214-FAEK-01",
+            "flug": "XB 214",
+            "arbeit": "Fäkalien entleeren",
+            "mitarbeiter": "MA-31",
+            "start": "06:20",
+            "ende": "06:40",
+            "status": "begonnen"
+          },
+          "XB214-TANK-01": {
+            "kennung": "XB214-TANK-01",
+            "flug": "XB 214",
+            "arbeit": "Betanken",
+            "mitarbeiter": "MA-21",
+            "start": "06:25",
+            "ende": "06:50",
+            "status": "begonnen"
+          },
+          "XB214-CLEAN-01": {
+            "kennung": "XB214-CLEAN-01",
+            "flug": "XB 214",
+            "arbeit": "Innenraum-Cleaning",
+            "mitarbeiter": "MA-42",
+            "start": "06:30",
+            "ende": "07:00",
+            "status": "begonnen"
+          },
+          "XB214-CLEAN-02": {
+            "kennung": "XB214-CLEAN-02",
+            "flug": "XB 214",
+            "arbeit": "Innenraum-Cleaning",
+            "mitarbeiter": "MA-43",
+            "start": "06:30",
+            "ende": "07:00",
+            "status": "begonnen"
+          },
+          "XA337-ENTL-01": {
+            "kennung": "XA337-ENTL-01",
+            "flug": "XA 337",
+            "arbeit": "Entladen",
+            "mitarbeiter": "MA-09",
+            "start": "06:40",
+            "ende": "07:00",
+            "status": "offen"
+          },
+          "XA337-ENTL-02": {
+            "kennung": "XA337-ENTL-02",
+            "flug": "XA 337",
+            "arbeit": "Entladen",
+            "mitarbeiter": "MA-10",
+            "start": "06:40",
+            "ende": "07:00",
+            "status": "offen"
+          },
+          "XA337-ENTL-03": {
+            "kennung": "XA337-ENTL-03",
+            "flug": "XA 337",
+            "arbeit": "Entladen",
+            "mitarbeiter": "MA-11",
+            "start": "06:40",
+            "ende": "07:00",
+            "status": "offen"
+          },
+          "XA337-ENTL-04": {
+            "kennung": "XA337-ENTL-04",
+            "flug": "XA 337",
+            "arbeit": "Entladen",
+            "mitarbeiter": "MA-12",
+            "start": "06:40",
+            "ende": "07:00",
+            "status": "offen"
+          },
+          "XA337-BELA-01": {
+            "kennung": "XA337-BELA-01",
+            "flug": "XA 337",
+            "arbeit": "Beladen",
+            "mitarbeiter": "MA-09",
+            "start": "07:15",
+            "ende": "07:35",
+            "status": "offen"
+          },
+          "XA337-BELA-02": {
+            "kennung": "XA337-BELA-02",
+            "flug": "XA 337",
+            "arbeit": "Beladen",
+            "mitarbeiter": "MA-10",
+            "start": "07:15",
+            "ende": "07:35",
+            "status": "offen"
+          },
+          "XA337-BELA-03": {
+            "kennung": "XA337-BELA-03",
+            "flug": "XA 337",
+            "arbeit": "Beladen",
+            "mitarbeiter": "MA-11",
+            "start": "07:15",
+            "ende": "07:35",
+            "status": "offen"
+          },
+          "XA337-BELA-04": {
+            "kennung": "XA337-BELA-04",
+            "flug": "XA 337",
+            "arbeit": "Beladen",
+            "mitarbeiter": "MA-12",
+            "start": "07:15",
+            "ende": "07:35",
+            "status": "offen"
+          },
+          "XA337-FAEK-01": {
+            "kennung": "XA337-FAEK-01",
+            "flug": "XA 337",
+            "arbeit": "Fäkalien entleeren",
+            "mitarbeiter": "MA-22",
+            "start": "06:45",
+            "ende": "07:05",
+            "status": "offen"
+          },
+          "XA337-TANK-01": {
+            "kennung": "XA337-TANK-01",
+            "flug": "XA 337",
+            "arbeit": "Betanken",
+            "mitarbeiter": "MA-22",
+            "start": "06:50",
+            "ende": "07:15",
+            "status": "offen"
+          },
+          "XA337-CLEAN-01": {
+            "kennung": "XA337-CLEAN-01",
+            "flug": "XA 337",
+            "arbeit": "Innenraum-Cleaning",
+            "mitarbeiter": "MA-40",
+            "start": "06:55",
+            "ende": "07:25",
+            "status": "offen"
+          },
+          "XA337-CLEAN-02": {
+            "kennung": "XA337-CLEAN-02",
+            "flug": "XA 337",
+            "arbeit": "Innenraum-Cleaning",
+            "mitarbeiter": "MA-41",
+            "start": "06:55",
+            "ende": "07:25",
+            "status": "offen"
+          },
+          "XC508-ENTL-01": {
+            "kennung": "XC508-ENTL-01",
+            "flug": "XC 508",
+            "arbeit": "Entladen",
+            "mitarbeiter": "MA-01",
+            "start": "07:10",
+            "ende": "07:30",
+            "status": "offen"
+          },
+          "XC508-ENTL-02": {
+            "kennung": "XC508-ENTL-02",
+            "flug": "XC 508",
+            "arbeit": "Entladen",
+            "mitarbeiter": "MA-02",
+            "start": "07:10",
+            "ende": "07:30",
+            "status": "offen"
+          },
+          "XC508-ENTL-03": {
+            "kennung": "XC508-ENTL-03",
+            "flug": "XC 508",
+            "arbeit": "Entladen",
+            "mitarbeiter": "MA-03",
+            "start": "07:10",
+            "ende": "07:30",
+            "status": "offen"
+          },
+          "XC508-ENTL-04": {
+            "kennung": "XC508-ENTL-04",
+            "flug": "XC 508",
+            "arbeit": "Entladen",
+            "mitarbeiter": "MA-04",
+            "start": "07:10",
+            "ende": "07:30",
+            "status": "offen"
+          },
+          "XC508-BELA-01": {
+            "kennung": "XC508-BELA-01",
+            "flug": "XC 508",
+            "arbeit": "Beladen",
+            "mitarbeiter": "MA-01",
+            "start": "07:25",
+            "ende": "07:45",
+            "status": "offen"
+          },
+          "XC508-BELA-02": {
+            "kennung": "XC508-BELA-02",
+            "flug": "XC 508",
+            "arbeit": "Beladen",
+            "mitarbeiter": "MA-02",
+            "start": "07:25",
+            "ende": "07:45",
+            "status": "offen"
+          },
+          "XC508-BELA-03": {
+            "kennung": "XC508-BELA-03",
+            "flug": "XC 508",
+            "arbeit": "Beladen",
+            "mitarbeiter": "MA-03",
+            "start": "07:25",
+            "ende": "07:45",
+            "status": "offen"
+          },
+          "XC508-BELA-04": {
+            "kennung": "XC508-BELA-04",
+            "flug": "XC 508",
+            "arbeit": "Beladen",
+            "mitarbeiter": "MA-04",
+            "start": "07:25",
+            "ende": "07:45",
+            "status": "offen"
+          },
+          "XC508-FAEK-01": {
+            "kennung": "XC508-FAEK-01",
+            "flug": "XC 508",
+            "arbeit": "Fäkalien entleeren",
+            "mitarbeiter": "MA-30",
+            "start": "07:15",
+            "ende": "07:35",
+            "status": "offen"
+          },
+          "XC508-TANK-01": {
+            "kennung": "XC508-TANK-01",
+            "flug": "XC 508",
+            "arbeit": "Betanken",
+            "mitarbeiter": "MA-20",
+            "start": "07:20",
+            "ende": "07:45",
+            "status": "offen"
+          },
+          "XC508-CLEAN-01": {
+            "kennung": "XC508-CLEAN-01",
+            "flug": "XC 508",
+            "arbeit": "Innenraum-Cleaning",
+            "mitarbeiter": "MA-42",
+            "start": "07:25",
+            "ende": "07:50",
+            "status": "offen"
+          },
+          "XB622-ENTL-01": {
+            "kennung": "XB622-ENTL-01",
+            "flug": "XB 622",
+            "arbeit": "Entladen",
+            "mitarbeiter": "MA-05",
+            "start": "07:45",
+            "ende": "08:05",
+            "status": "offen"
+          },
+          "XB622-ENTL-02": {
+            "kennung": "XB622-ENTL-02",
+            "flug": "XB 622",
+            "arbeit": "Entladen",
+            "mitarbeiter": "MA-06",
+            "start": "07:45",
+            "ende": "08:05",
+            "status": "offen"
+          },
+          "XB622-ENTL-03": {
+            "kennung": "XB622-ENTL-03",
+            "flug": "XB 622",
+            "arbeit": "Entladen",
+            "mitarbeiter": "MA-07",
+            "start": "07:45",
+            "ende": "08:05",
+            "status": "offen"
+          },
+          "XB622-ENTL-04": {
+            "kennung": "XB622-ENTL-04",
+            "flug": "XB 622",
+            "arbeit": "Entladen",
+            "mitarbeiter": "MA-08",
+            "start": "07:45",
+            "ende": "08:05",
+            "status": "offen"
+          },
+          "XB622-BELA-01": {
+            "kennung": "XB622-BELA-01",
+            "flug": "XB 622",
+            "arbeit": "Beladen",
+            "mitarbeiter": "MA-05",
+            "start": "08:15",
+            "ende": "08:35",
+            "status": "offen"
+          },
+          "XB622-BELA-02": {
+            "kennung": "XB622-BELA-02",
+            "flug": "XB 622",
+            "arbeit": "Beladen",
+            "mitarbeiter": "MA-06",
+            "start": "08:15",
+            "ende": "08:35",
+            "status": "offen"
+          },
+          "XB622-BELA-03": {
+            "kennung": "XB622-BELA-03",
+            "flug": "XB 622",
+            "arbeit": "Beladen",
+            "mitarbeiter": "MA-07",
+            "start": "08:15",
+            "ende": "08:35",
+            "status": "offen"
+          },
+          "XB622-BELA-04": {
+            "kennung": "XB622-BELA-04",
+            "flug": "XB 622",
+            "arbeit": "Beladen",
+            "mitarbeiter": "MA-08",
+            "start": "08:15",
+            "ende": "08:35",
+            "status": "offen"
+          },
+          "XB622-FAEK-01": {
+            "kennung": "XB622-FAEK-01",
+            "flug": "XB 622",
+            "arbeit": "Fäkalien entleeren",
+            "mitarbeiter": "MA-31",
+            "start": "07:50",
+            "ende": "08:10",
+            "status": "offen"
+          },
+          "XB622-TANK-01": {
+            "kennung": "XB622-TANK-01",
+            "flug": "XB 622",
+            "arbeit": "Betanken",
+            "mitarbeiter": "MA-21",
+            "start": "07:55",
+            "ende": "08:20",
+            "status": "offen"
+          },
+          "XB622-CLEAN-01": {
+            "kennung": "XB622-CLEAN-01",
+            "flug": "XB 622",
+            "arbeit": "Innenraum-Cleaning",
+            "mitarbeiter": "MA-40",
+            "start": "08:00",
+            "ende": "08:30",
+            "status": "offen"
+          },
+          "XB622-CLEAN-02": {
+            "kennung": "XB622-CLEAN-02",
+            "flug": "XB 622",
+            "arbeit": "Innenraum-Cleaning",
+            "mitarbeiter": "MA-41",
+            "start": "08:00",
+            "ende": "08:30",
+            "status": "offen"
+          },
+          "XA745-ENTL-01": {
+            "kennung": "XA745-ENTL-01",
+            "flug": "XA 745",
+            "arbeit": "Entladen",
+            "mitarbeiter": "MA-09",
+            "start": "08:20",
+            "ende": "08:40",
+            "status": "offen"
+          },
+          "XA745-ENTL-02": {
+            "kennung": "XA745-ENTL-02",
+            "flug": "XA 745",
+            "arbeit": "Entladen",
+            "mitarbeiter": "MA-10",
+            "start": "08:20",
+            "ende": "08:40",
+            "status": "offen"
+          },
+          "XA745-ENTL-03": {
+            "kennung": "XA745-ENTL-03",
+            "flug": "XA 745",
+            "arbeit": "Entladen",
+            "mitarbeiter": "MA-11",
+            "start": "08:20",
+            "ende": "08:40",
+            "status": "offen"
+          },
+          "XA745-ENTL-04": {
+            "kennung": "XA745-ENTL-04",
+            "flug": "XA 745",
+            "arbeit": "Entladen",
+            "mitarbeiter": "MA-12",
+            "start": "08:20",
+            "ende": "08:40",
+            "status": "offen"
+          },
+          "XA745-BELA-01": {
+            "kennung": "XA745-BELA-01",
+            "flug": "XA 745",
+            "arbeit": "Beladen",
+            "mitarbeiter": "MA-09",
+            "start": "09:00",
+            "ende": "09:20",
+            "status": "offen"
+          },
+          "XA745-BELA-02": {
+            "kennung": "XA745-BELA-02",
+            "flug": "XA 745",
+            "arbeit": "Beladen",
+            "mitarbeiter": "MA-10",
+            "start": "09:00",
+            "ende": "09:20",
+            "status": "offen"
+          },
+          "XA745-BELA-03": {
+            "kennung": "XA745-BELA-03",
+            "flug": "XA 745",
+            "arbeit": "Beladen",
+            "mitarbeiter": "MA-11",
+            "start": "09:00",
+            "ende": "09:20",
+            "status": "offen"
+          },
+          "XA745-BELA-04": {
+            "kennung": "XA745-BELA-04",
+            "flug": "XA 745",
+            "arbeit": "Beladen",
+            "mitarbeiter": "MA-12",
+            "start": "09:00",
+            "ende": "09:20",
+            "status": "offen"
+          },
+          "XA745-FAEK-01": {
+            "kennung": "XA745-FAEK-01",
+            "flug": "XA 745",
+            "arbeit": "Fäkalien entleeren",
+            "mitarbeiter": "MA-22",
+            "start": "08:25",
+            "ende": "08:45",
+            "status": "offen"
+          },
+          "XA745-TANK-01": {
+            "kennung": "XA745-TANK-01",
+            "flug": "XA 745",
+            "arbeit": "Betanken",
+            "mitarbeiter": "MA-22",
+            "start": "08:30",
+            "ende": "08:55",
+            "status": "offen"
+          },
+          "XA745-CLEAN-01": {
+            "kennung": "XA745-CLEAN-01",
+            "flug": "XA 745",
+            "arbeit": "Innenraum-Cleaning",
+            "mitarbeiter": "MA-42",
+            "start": "08:35",
+            "ende": "09:05",
+            "status": "offen"
+          },
+          "XA745-CLEAN-02": {
+            "kennung": "XA745-CLEAN-02",
+            "flug": "XA 745",
+            "arbeit": "Innenraum-Cleaning",
+            "mitarbeiter": "MA-43",
+            "start": "08:35",
+            "ende": "09:05",
+            "status": "offen"
+          },
+          "XA745-CLEAN-03": {
+            "kennung": "XA745-CLEAN-03",
+            "flug": "XA 745",
+            "arbeit": "Innenraum-Cleaning",
+            "mitarbeiter": "MA-40",
+            "start": "08:35",
+            "ende": "09:05",
+            "status": "offen"
+          },
+          "XC810-ENTL-01": {
+            "kennung": "XC810-ENTL-01",
+            "flug": "XC 810",
+            "arbeit": "Entladen",
+            "mitarbeiter": "MA-01",
+            "start": "08:55",
+            "ende": "09:15",
+            "status": "offen"
+          },
+          "XC810-ENTL-02": {
+            "kennung": "XC810-ENTL-02",
+            "flug": "XC 810",
+            "arbeit": "Entladen",
+            "mitarbeiter": "MA-02",
+            "start": "08:55",
+            "ende": "09:15",
+            "status": "offen"
+          },
+          "XC810-ENTL-03": {
+            "kennung": "XC810-ENTL-03",
+            "flug": "XC 810",
+            "arbeit": "Entladen",
+            "mitarbeiter": "MA-03",
+            "start": "08:55",
+            "ende": "09:15",
+            "status": "offen"
+          },
+          "XC810-ENTL-04": {
+            "kennung": "XC810-ENTL-04",
+            "flug": "XC 810",
+            "arbeit": "Entladen",
+            "mitarbeiter": "MA-04",
+            "start": "08:55",
+            "ende": "09:15",
+            "status": "offen"
+          },
+          "XC810-BELA-01": {
+            "kennung": "XC810-BELA-01",
+            "flug": "XC 810",
+            "arbeit": "Beladen",
+            "mitarbeiter": "MA-01",
+            "start": "09:15",
+            "ende": "09:35",
+            "status": "offen"
+          },
+          "XC810-BELA-02": {
+            "kennung": "XC810-BELA-02",
+            "flug": "XC 810",
+            "arbeit": "Beladen",
+            "mitarbeiter": "MA-02",
+            "start": "09:15",
+            "ende": "09:35",
+            "status": "offen"
+          },
+          "XC810-BELA-03": {
+            "kennung": "XC810-BELA-03",
+            "flug": "XC 810",
+            "arbeit": "Beladen",
+            "mitarbeiter": "MA-03",
+            "start": "09:15",
+            "ende": "09:35",
+            "status": "offen"
+          },
+          "XC810-BELA-04": {
+            "kennung": "XC810-BELA-04",
+            "flug": "XC 810",
+            "arbeit": "Beladen",
+            "mitarbeiter": "MA-04",
+            "start": "09:15",
+            "ende": "09:35",
+            "status": "offen"
+          },
+          "XC810-FAEK-01": {
+            "kennung": "XC810-FAEK-01",
+            "flug": "XC 810",
+            "arbeit": "Fäkalien entleeren",
+            "mitarbeiter": "MA-30",
+            "start": "09:00",
+            "ende": "09:20",
+            "status": "offen"
+          },
+          "XC810-TANK-01": {
+            "kennung": "XC810-TANK-01",
+            "flug": "XC 810",
+            "arbeit": "Betanken",
+            "mitarbeiter": "MA-20",
+            "start": "09:05",
+            "ende": "09:30",
+            "status": "offen"
+          },
+          "XC810-CLEAN-01": {
+            "kennung": "XC810-CLEAN-01",
+            "flug": "XC 810",
+            "arbeit": "Innenraum-Cleaning",
+            "mitarbeiter": "MA-40",
+            "start": "09:10",
+            "ende": "09:40",
+            "status": "offen"
+          },
+          "XB933-ENTL-01": {
+            "kennung": "XB933-ENTL-01",
+            "flug": "XB 933",
+            "arbeit": "Entladen",
+            "mitarbeiter": "MA-05",
+            "start": "09:30",
+            "ende": "09:50",
+            "status": "offen"
+          },
+          "XB933-ENTL-02": {
+            "kennung": "XB933-ENTL-02",
+            "flug": "XB 933",
+            "arbeit": "Entladen",
+            "mitarbeiter": "MA-06",
+            "start": "09:30",
+            "ende": "09:50",
+            "status": "offen"
+          },
+          "XB933-ENTL-03": {
+            "kennung": "XB933-ENTL-03",
+            "flug": "XB 933",
+            "arbeit": "Entladen",
+            "mitarbeiter": "MA-07",
+            "start": "09:30",
+            "ende": "09:50",
+            "status": "offen"
+          },
+          "XB933-ENTL-04": {
+            "kennung": "XB933-ENTL-04",
+            "flug": "XB 933",
+            "arbeit": "Entladen",
+            "mitarbeiter": "MA-08",
+            "start": "09:30",
+            "ende": "09:50",
+            "status": "offen"
+          },
+          "XB933-BELA-01": {
+            "kennung": "XB933-BELA-01",
+            "flug": "XB 933",
+            "arbeit": "Beladen",
+            "mitarbeiter": "MA-05",
+            "start": "10:00",
+            "ende": "10:20",
+            "status": "offen"
+          },
+          "XB933-BELA-02": {
+            "kennung": "XB933-BELA-02",
+            "flug": "XB 933",
+            "arbeit": "Beladen",
+            "mitarbeiter": "MA-06",
+            "start": "10:00",
+            "ende": "10:20",
+            "status": "offen"
+          },
+          "XB933-BELA-03": {
+            "kennung": "XB933-BELA-03",
+            "flug": "XB 933",
+            "arbeit": "Beladen",
+            "mitarbeiter": "MA-07",
+            "start": "10:00",
+            "ende": "10:20",
+            "status": "offen"
+          },
+          "XB933-BELA-04": {
+            "kennung": "XB933-BELA-04",
+            "flug": "XB 933",
+            "arbeit": "Beladen",
+            "mitarbeiter": "MA-08",
+            "start": "10:00",
+            "ende": "10:20",
+            "status": "offen"
+          },
+          "XB933-FAEK-01": {
+            "kennung": "XB933-FAEK-01",
+            "flug": "XB 933",
+            "arbeit": "Fäkalien entleeren",
+            "mitarbeiter": "MA-31",
+            "start": "09:35",
+            "ende": "09:55",
+            "status": "offen"
+          },
+          "XB933-TANK-01": {
+            "kennung": "XB933-TANK-01",
+            "flug": "XB 933",
+            "arbeit": "Betanken",
+            "mitarbeiter": "MA-21",
+            "start": "09:40",
+            "ende": "10:05",
+            "status": "offen"
+          },
+          "XB933-CLEAN-01": {
+            "kennung": "XB933-CLEAN-01",
+            "flug": "XB 933",
+            "arbeit": "Innenraum-Cleaning",
+            "mitarbeiter": "MA-42",
+            "start": "09:45",
+            "ende": "10:15",
+            "status": "offen"
+          },
+          "XB933-CLEAN-02": {
+            "kennung": "XB933-CLEAN-02",
+            "flug": "XB 933",
+            "arbeit": "Innenraum-Cleaning",
+            "mitarbeiter": "MA-43",
+            "start": "09:45",
+            "ende": "10:15",
+            "status": "offen"
+          },
+          "XB933-CLEAN-03": {
+            "kennung": "XB933-CLEAN-03",
+            "flug": "XB 933",
+            "arbeit": "Innenraum-Cleaning",
+            "mitarbeiter": "MA-40",
+            "start": "09:45",
+            "ende": "10:15",
+            "status": "offen"
+          }
+        },
+        "geraete": {
+          "GPU-01": {
+            "kennung": "GPU-01",
+            "art": "Bodenstromgerät (GPU)",
+            "wartungVon": null,
+            "wartungBis": null
+          },
+          "GPU-02": {
+            "kennung": "GPU-02",
+            "art": "Bodenstromgerät (GPU)",
+            "wartungVon": null,
+            "wartungBis": null
+          },
+          "GPU-03": {
+            "kennung": "GPU-03",
+            "art": "Bodenstromgerät (GPU)",
+            "wartungVon": null,
+            "wartungBis": null
+          },
+          "GPU-04": {
+            "kennung": "GPU-04",
+            "art": "Bodenstromgerät (GPU)",
+            "wartungVon": null,
+            "wartungBis": null
+          },
+          "TRP-01": {
+            "kennung": "TRP-01",
+            "art": "Passagiertreppe",
+            "wartungVon": null,
+            "wartungBis": null
+          },
+          "TRP-02": {
+            "kennung": "TRP-02",
+            "art": "Passagiertreppe",
+            "wartungVon": null,
+            "wartungBis": null
+          },
+          "TRP-03": {
+            "kennung": "TRP-03",
+            "art": "Passagiertreppe",
+            "wartungVon": null,
+            "wartungBis": null
+          },
+          "TRP-04": {
+            "kennung": "TRP-04",
+            "art": "Passagiertreppe",
+            "wartungVon": null,
+            "wartungBis": null
+          },
+          "BAND-01": {
+            "kennung": "BAND-01",
+            "art": "Gepäckband",
+            "wartungVon": null,
+            "wartungBis": null
+          },
+          "BAND-02": {
+            "kennung": "BAND-02",
+            "art": "Gepäckband",
+            "wartungVon": null,
+            "wartungBis": null
+          },
+          "BAND-03": {
+            "kennung": "BAND-03",
+            "art": "Gepäckband",
+            "wartungVon": null,
+            "wartungBis": null
+          },
+          "BAND-04": {
+            "kennung": "BAND-04",
+            "art": "Gepäckband",
+            "wartungVon": null,
+            "wartungBis": null
+          },
+          "HUB-01": {
+            "kennung": "HUB-01",
+            "art": "Container-Hublader",
+            "wartungVon": null,
+            "wartungBis": null
+          },
+          "HUB-02": {
+            "kennung": "HUB-02",
+            "art": "Container-Hublader",
+            "wartungVon": null,
+            "wartungBis": null
+          },
+          "GSL-01": {
+            "kennung": "GSL-01",
+            "art": "Gepäckschlepper mit Wagen",
+            "wartungVon": null,
+            "wartungBis": null
+          },
+          "GSL-02": {
+            "kennung": "GSL-02",
+            "art": "Gepäckschlepper mit Wagen",
+            "wartungVon": null,
+            "wartungBis": null
+          },
+          "GSL-03": {
+            "kennung": "GSL-03",
+            "art": "Gepäckschlepper mit Wagen",
+            "wartungVon": null,
+            "wartungBis": null
+          },
+          "GSL-04": {
+            "kennung": "GSL-04",
+            "art": "Gepäckschlepper mit Wagen",
+            "wartungVon": null,
+            "wartungBis": null
+          },
+          "GSL-05": {
+            "kennung": "GSL-05",
+            "art": "Gepäckschlepper mit Wagen",
+            "wartungVon": null,
+            "wartungBis": null
+          },
+          "GSL-06": {
+            "kennung": "GSL-06",
+            "art": "Gepäckschlepper mit Wagen",
+            "wartungVon": "05:00",
+            "wartungBis": "06:45"
+          },
+          "TANK-01": {
+            "kennung": "TANK-01",
+            "art": "Tankwagen",
+            "wartungVon": null,
+            "wartungBis": null
+          },
+          "TANK-02": {
+            "kennung": "TANK-02",
+            "art": "Tankwagen",
+            "wartungVon": "07:00",
+            "wartungBis": "09:30"
+          },
+          "FAE-01": {
+            "kennung": "FAE-01",
+            "art": "Fäkalienwagen",
+            "wartungVon": null,
+            "wartungBis": null
+          },
+          "FAE-02": {
+            "kennung": "FAE-02",
+            "art": "Fäkalienwagen",
+            "wartungVon": null,
+            "wartungBis": null
+          },
+          "FW-01": {
+            "kennung": "FW-01",
+            "art": "Frischwasserwagen",
+            "wartungVon": null,
+            "wartungBis": null
+          },
+          "FW-02": {
+            "kennung": "FW-02",
+            "art": "Frischwasserwagen",
+            "wartungVon": null,
+            "wartungBis": null
+          },
+          "CAT-01": {
+            "kennung": "CAT-01",
+            "art": "Catering-Hubwagen",
+            "wartungVon": null,
+            "wartungBis": null
+          },
+          "CAT-02": {
+            "kennung": "CAT-02",
+            "art": "Catering-Hubwagen",
+            "wartungVon": null,
+            "wartungBis": null
+          },
+          "PUSH-01": {
+            "kennung": "PUSH-01",
+            "art": "Flugzeugschlepper (Pushback)",
+            "wartungVon": null,
+            "wartungBis": null
+          },
+          "PUSH-02": {
+            "kennung": "PUSH-02",
+            "art": "Flugzeugschlepper (Pushback)",
+            "wartungVon": null,
+            "wartungBis": null
+          },
+          "PUSH-03": {
+            "kennung": "PUSH-03",
+            "art": "Flugzeugschlepper (Pushback)",
+            "wartungVon": null,
+            "wartungBis": null
+          }
+        },
+        "geraeteauftraege": {
+          "XA101-GPU": {
+            "kennung": "XA101-GPU",
+            "flug": "XA101",
+            "taetigkeit": "Bodenstrom",
+            "geraeteart": "Bodenstromgerät (GPU)",
+            "geraet": "GPU-01",
+            "start": "05:40",
+            "ende": "06:30"
+          },
+          "XA101-TRP": {
+            "kennung": "XA101-TRP",
+            "flug": "XA101",
+            "taetigkeit": "Treppe",
+            "geraeteart": "Passagiertreppe",
+            "geraet": "TRP-01",
+            "start": "05:40",
+            "ende": "06:30"
+          },
+          "XA101-ENTL-BAND": {
+            "kennung": "XA101-ENTL-BAND",
+            "flug": "XA101",
+            "taetigkeit": "Entladen",
+            "geraeteart": "Gepäckband",
+            "geraet": "BAND-01",
+            "start": "05:45",
+            "ende": "06:05"
+          },
+          "XA101-ENTL-GSL": {
+            "kennung": "XA101-ENTL-GSL",
+            "flug": "XA101",
+            "taetigkeit": "Entladen",
+            "geraeteart": "Gepäckschlepper mit Wagen",
+            "geraet": "GSL-01",
+            "start": "05:45",
+            "ende": "06:05"
+          },
+          "XA101-ENTL-HUB": {
+            "kennung": "XA101-ENTL-HUB",
+            "flug": "XA101",
+            "taetigkeit": "Entladen",
+            "geraeteart": "Container-Hublader",
+            "geraet": "HUB-01",
+            "start": "05:45",
+            "ende": "06:05"
+          },
+          "XA101-TANK": {
+            "kennung": "XA101-TANK",
+            "flug": "XA101",
+            "taetigkeit": "Tanken",
+            "geraeteart": "Tankwagen",
+            "geraet": "TANK-01",
+            "start": "05:55",
+            "ende": "06:15"
+          },
+          "XA101-CAT": {
+            "kennung": "XA101-CAT",
+            "flug": "XA101",
+            "taetigkeit": "Catering",
+            "geraeteart": "Catering-Hubwagen",
+            "geraet": "CAT-01",
+            "start": "05:55",
+            "ende": "06:15"
+          },
+          "XA101-FAE": {
+            "kennung": "XA101-FAE",
+            "flug": "XA101",
+            "taetigkeit": "Fäkalien",
+            "geraeteart": "Fäkalienwagen",
+            "geraet": "FAE-01",
+            "start": "06:00",
+            "ende": "06:10"
+          },
+          "XA101-FW": {
+            "kennung": "XA101-FW",
+            "flug": "XA101",
+            "taetigkeit": "Frischwasser",
+            "geraeteart": "Frischwasserwagen",
+            "geraet": "FW-01",
+            "start": "06:00",
+            "ende": "06:10"
+          },
+          "XA101-BEL-BAND": {
+            "kennung": "XA101-BEL-BAND",
+            "flug": "XA101",
+            "taetigkeit": "Beladen",
+            "geraeteart": "Gepäckband",
+            "geraet": "BAND-02",
+            "start": "06:10",
+            "ende": "06:25"
+          },
+          "XA101-BEL-GSL": {
+            "kennung": "XA101-BEL-GSL",
+            "flug": "XA101",
+            "taetigkeit": "Beladen",
+            "geraeteart": "Gepäckschlepper mit Wagen",
+            "geraet": "GSL-02",
+            "start": "06:10",
+            "ende": "06:25"
+          },
+          "XA101-BEL-HUB": {
+            "kennung": "XA101-BEL-HUB",
+            "flug": "XA101",
+            "taetigkeit": "Beladen",
+            "geraeteart": "Container-Hublader",
+            "geraet": "HUB-01",
+            "start": "06:10",
+            "ende": "06:25"
+          },
+          "XA101-PUSH": {
+            "kennung": "XA101-PUSH",
+            "flug": "XA101",
+            "taetigkeit": "Pushback",
+            "geraeteart": "Flugzeugschlepper (Pushback)",
+            "geraet": "PUSH-01",
+            "start": "06:25",
+            "ende": "06:35"
+          },
+          "XB214-GPU": {
+            "kennung": "XB214-GPU",
+            "flug": "XB214",
+            "taetigkeit": "Bodenstrom",
+            "geraeteart": "Bodenstromgerät (GPU)",
+            "geraet": "GPU-02",
+            "start": "06:10",
+            "ende": "06:55"
+          },
+          "XB214-TRP": {
+            "kennung": "XB214-TRP",
+            "flug": "XB214",
+            "taetigkeit": "Treppe",
+            "geraeteart": "Passagiertreppe",
+            "geraet": "TRP-02",
+            "start": "06:10",
+            "ende": "06:55"
+          },
+          "XB214-ENTL-BAND": {
+            "kennung": "XB214-ENTL-BAND",
+            "flug": "XB214",
+            "taetigkeit": "Entladen",
+            "geraeteart": "Gepäckband",
+            "geraet": "BAND-03",
+            "start": "06:15",
+            "ende": "06:30"
+          },
+          "XB214-ENTL-GSL": {
+            "kennung": "XB214-ENTL-GSL",
+            "flug": "XB214",
+            "taetigkeit": "Entladen",
+            "geraeteart": "Gepäckschlepper mit Wagen",
+            "geraet": "GSL-03",
+            "start": "06:15",
+            "ende": "06:30"
+          },
+          "XB214-TANK": {
+            "kennung": "XB214-TANK",
+            "flug": "XB214",
+            "taetigkeit": "Tanken",
+            "geraeteart": "Tankwagen",
+            "geraet": "TANK-01",
+            "start": "06:20",
+            "ende": "06:40"
+          },
+          "XB214-CAT": {
+            "kennung": "XB214-CAT",
+            "flug": "XB214",
+            "taetigkeit": "Catering",
+            "geraeteart": "Catering-Hubwagen",
+            "geraet": "CAT-02",
+            "start": "06:20",
+            "ende": "06:40"
+          },
+          "XB214-FAE": {
+            "kennung": "XB214-FAE",
+            "flug": "XB214",
+            "taetigkeit": "Fäkalien",
+            "geraeteart": "Fäkalienwagen",
+            "geraet": "FAE-01",
+            "start": "06:25",
+            "ende": "06:35"
+          },
+          "XB214-FW": {
+            "kennung": "XB214-FW",
+            "flug": "XB214",
+            "taetigkeit": "Frischwasser",
+            "geraeteart": "Frischwasserwagen",
+            "geraet": "FW-01",
+            "start": "06:25",
+            "ende": "06:35"
+          },
+          "XB214-BEL-BAND": {
+            "kennung": "XB214-BEL-BAND",
+            "flug": "XB214",
+            "taetigkeit": "Beladen",
+            "geraeteart": "Gepäckband",
+            "geraet": "BAND-01",
+            "start": "06:40",
+            "ende": "06:55"
+          },
+          "XB214-BEL-GSL": {
+            "kennung": "XB214-BEL-GSL",
+            "flug": "XB214",
+            "taetigkeit": "Beladen",
+            "geraeteart": "Gepäckschlepper mit Wagen",
+            "geraet": "GSL-05",
+            "start": "06:40",
+            "ende": "06:55"
+          },
+          "XB214-PUSH": {
+            "kennung": "XB214-PUSH",
+            "flug": "XB214",
+            "taetigkeit": "Pushback",
+            "geraeteart": "Flugzeugschlepper (Pushback)",
+            "geraet": "PUSH-02",
+            "start": "06:50",
+            "ende": "07:00"
+          },
+          "XA337-GPU": {
+            "kennung": "XA337-GPU",
+            "flug": "XA337",
+            "taetigkeit": "Bodenstrom",
+            "geraeteart": "Bodenstromgerät (GPU)",
+            "geraet": "GPU-03",
+            "start": "06:35",
+            "ende": "07:35"
+          },
+          "XA337-TRP-1": {
+            "kennung": "XA337-TRP-1",
+            "flug": "XA337",
+            "taetigkeit": "Treppe vorn",
+            "geraeteart": "Passagiertreppe",
+            "geraet": "TRP-03",
+            "start": "06:35",
+            "ende": "07:35"
+          },
+          "XA337-TRP-2": {
+            "kennung": "XA337-TRP-2",
+            "flug": "XA337",
+            "taetigkeit": "Treppe hinten",
+            "geraeteart": "Passagiertreppe",
+            "geraet": "TRP-04",
+            "start": "06:35",
+            "ende": "07:35"
+          },
+          "XA337-ENTL-BAND": {
+            "kennung": "XA337-ENTL-BAND",
+            "flug": "XA337",
+            "taetigkeit": "Entladen",
+            "geraeteart": "Gepäckband",
+            "geraet": "BAND-02",
+            "start": "06:40",
+            "ende": "07:00"
+          },
+          "XA337-ENTL-GSL": {
+            "kennung": "XA337-ENTL-GSL",
+            "flug": "XA337",
+            "taetigkeit": "Entladen",
+            "geraeteart": "Gepäckschlepper mit Wagen",
+            "geraet": "GSL-01",
+            "start": "06:40",
+            "ende": "07:00"
+          },
+          "XA337-ENTL-HUB": {
+            "kennung": "XA337-ENTL-HUB",
+            "flug": "XA337",
+            "taetigkeit": "Entladen",
+            "geraeteart": "Container-Hublader",
+            "geraet": "HUB-02",
+            "start": "06:40",
+            "ende": "07:00"
+          },
+          "XA337-TANK": {
+            "kennung": "XA337-TANK",
+            "flug": "XA337",
+            "taetigkeit": "Tanken",
+            "geraeteart": "Tankwagen",
+            "geraet": "TANK-01",
+            "start": "06:55",
+            "ende": "07:20"
+          },
+          "XA337-CAT": {
+            "kennung": "XA337-CAT",
+            "flug": "XA337",
+            "taetigkeit": "Catering",
+            "geraeteart": "Catering-Hubwagen",
+            "geraet": "CAT-01",
+            "start": "06:55",
+            "ende": "07:20"
+          },
+          "XA337-FAE": {
+            "kennung": "XA337-FAE",
+            "flug": "XA337",
+            "taetigkeit": "Fäkalien",
+            "geraeteart": "Fäkalienwagen",
+            "geraet": "FAE-02",
+            "start": "07:00",
+            "ende": "07:10"
+          },
+          "XA337-FW": {
+            "kennung": "XA337-FW",
+            "flug": "XA337",
+            "taetigkeit": "Frischwasser",
+            "geraeteart": "Frischwasserwagen",
+            "geraet": "FW-01",
+            "start": "07:00",
+            "ende": "07:10"
+          },
+          "XA337-BEL-BAND": {
+            "kennung": "XA337-BEL-BAND",
+            "flug": "XA337",
+            "taetigkeit": "Beladen",
+            "geraeteart": "Gepäckband",
+            "geraet": "BAND-03",
+            "start": "07:15",
+            "ende": "07:30"
+          },
+          "XA337-BEL-GSL": {
+            "kennung": "XA337-BEL-GSL",
+            "flug": "XA337",
+            "taetigkeit": "Beladen",
+            "geraeteart": "Gepäckschlepper mit Wagen",
+            "geraet": "GSL-02",
+            "start": "07:15",
+            "ende": "07:30"
+          },
+          "XA337-BEL-HUB": {
+            "kennung": "XA337-BEL-HUB",
+            "flug": "XA337",
+            "taetigkeit": "Beladen",
+            "geraeteart": "Container-Hublader",
+            "geraet": "HUB-02",
+            "start": "07:15",
+            "ende": "07:30"
+          },
+          "XA337-PUSH": {
+            "kennung": "XA337-PUSH",
+            "flug": "XA337",
+            "taetigkeit": "Pushback",
+            "geraeteart": "Flugzeugschlepper (Pushback)",
+            "geraet": "PUSH-03",
+            "start": "07:30",
+            "ende": "07:40"
+          },
+          "XC402-TANK": {
+            "kennung": "XC402-TANK",
+            "flug": "XC402",
+            "taetigkeit": "Tanken",
+            "start": "05:15",
+            "ende": "05:40",
+            "geraet": "TANK-02"
+          },
+          "XC402-FW": {
+            "kennung": "XC402-FW",
+            "flug": "XC402",
+            "taetigkeit": "Frischwasser",
+            "start": "05:10",
+            "ende": "05:25",
+            "geraet": "FW-01"
+          },
+          "XC402-BEL-GSL": {
+            "kennung": "XC402-BEL-GSL",
+            "flug": "XC402",
+            "taetigkeit": "Beladen",
+            "start": "05:20",
+            "ende": "05:40",
+            "geraet": "GSL-05"
+          },
+          "XA219-TANK": {
+            "kennung": "XA219-TANK",
+            "flug": "XA219",
+            "taetigkeit": "Tanken",
+            "start": "06:05",
+            "ende": "06:30",
+            "geraet": "TANK-02"
+          },
+          "XA219-FW": {
+            "kennung": "XA219-FW",
+            "flug": "XA219",
+            "taetigkeit": "Frischwasser",
+            "start": "06:00",
+            "ende": "06:15",
+            "geraet": "FW-01"
+          },
+          "XA219-BEL-GSL": {
+            "kennung": "XA219-BEL-GSL",
+            "flug": "XA219",
+            "taetigkeit": "Beladen",
+            "start": "06:15",
+            "ende": "06:35",
+            "geraet": "GSL-05"
+          },
+          "XC615-TANK": {
+            "kennung": "XC615-TANK",
+            "flug": "XC615",
+            "taetigkeit": "Tanken",
+            "start": "07:35",
+            "ende": "08:00",
+            "geraet": "TANK-01"
+          },
+          "XC615-FW": {
+            "kennung": "XC615-FW",
+            "flug": "XC615",
+            "taetigkeit": "Frischwasser",
+            "start": "07:30",
+            "ende": "07:45",
+            "geraet": "FW-01"
+          },
+          "XC615-BEL-GSL": {
+            "kennung": "XC615-BEL-GSL",
+            "flug": "XC615",
+            "taetigkeit": "Beladen",
+            "start": "07:40",
+            "ende": "08:00",
+            "geraet": "GSL-05"
+          },
+          "XA483-TANK": {
+            "kennung": "XA483-TANK",
+            "flug": "XA483",
+            "taetigkeit": "Tanken",
+            "start": "08:10",
+            "ende": "08:35",
+            "geraet": "TANK-01"
+          },
+          "XA483-FW": {
+            "kennung": "XA483-FW",
+            "flug": "XA483",
+            "taetigkeit": "Frischwasser",
+            "start": "08:05",
+            "ende": "08:20",
+            "geraet": "FW-01"
+          },
+          "XA483-BEL-GSL": {
+            "kennung": "XA483-BEL-GSL",
+            "flug": "XA483",
+            "taetigkeit": "Beladen",
+            "start": "08:25",
+            "ende": "08:45",
+            "geraet": "GSL-05"
+          },
+          "XC871-TANK": {
+            "kennung": "XC871-TANK",
+            "flug": "XC871",
+            "taetigkeit": "Tanken",
+            "start": "09:15",
+            "ende": "09:40",
+            "geraet": "TANK-01"
+          },
+          "XC871-FW": {
+            "kennung": "XC871-FW",
+            "flug": "XC871",
+            "taetigkeit": "Frischwasser",
+            "start": "09:10",
+            "ende": "09:25",
+            "geraet": "FW-01"
+          },
+          "XC871-BEL-GSL": {
+            "kennung": "XC871-BEL-GSL",
+            "flug": "XC871",
+            "taetigkeit": "Beladen",
+            "start": "09:20",
+            "ende": "09:40",
+            "geraet": "GSL-05"
+          },
+          "XB956-TANK": {
+            "kennung": "XB956-TANK",
+            "flug": "XB956",
+            "taetigkeit": "Tanken",
+            "start": "10:00",
+            "ende": "10:25",
+            "geraet": "TANK-01"
+          },
+          "XB956-FW": {
+            "kennung": "XB956-FW",
+            "flug": "XB956",
+            "taetigkeit": "Frischwasser",
+            "start": "09:55",
+            "ende": "10:10",
+            "geraet": "FW-01"
+          },
+          "XB956-BEL-GSL": {
+            "kennung": "XB956-BEL-GSL",
+            "flug": "XB956",
+            "taetigkeit": "Beladen",
+            "start": "10:05",
+            "ende": "10:25",
+            "geraet": "GSL-05"
+          },
+          "XA990-TANK": {
+            "kennung": "XA990-TANK",
+            "flug": "XA990",
+            "taetigkeit": "Tanken",
+            "start": "10:25",
+            "ende": "10:50",
+            "geraet": "TANK-01"
+          },
+          "XA990-FW": {
+            "kennung": "XA990-FW",
+            "flug": "XA990",
+            "taetigkeit": "Frischwasser",
+            "start": "10:20",
+            "ende": "10:35",
+            "geraet": "FW-01"
+          },
+          "XA990-BEL-GSL": {
+            "kennung": "XA990-BEL-GSL",
+            "flug": "XA990",
+            "taetigkeit": "Beladen",
+            "start": "10:25",
+            "ende": "10:45",
+            "geraet": "GSL-05"
+          }
+        },
+        "kennzahlen": {
+          "statusmenue": {
+            "auftrag": null
+          },
+          "geraetekonfliktliste": {
+            "konfliktwahl": null
+          },
+          "konflikte": {
+            "offen": false,
+            "wert": 6,
+            "liste": [
+              {
+                "art": "Überlappung",
+                "auftrag": "XA337-FAEK-01",
+                "mit": "XA337-TANK-01",
+                "pfad": "konflikte/ueberlappung-XA337-FAEK-01-XA337-TANK-01"
+              },
+              {
+                "art": "Überlappung",
+                "auftrag": "XC508-ENTL-01",
+                "mit": "XC508-BELA-01",
+                "pfad": "konflikte/ueberlappung-XC508-BELA-01-XC508-ENTL-01"
+              },
+              {
+                "art": "Überlappung",
+                "auftrag": "XC508-ENTL-02",
+                "mit": "XC508-BELA-02",
+                "pfad": "konflikte/ueberlappung-XC508-BELA-02-XC508-ENTL-02"
+              },
+              {
+                "art": "Überlappung",
+                "auftrag": "XC508-ENTL-03",
+                "mit": "XC508-BELA-03",
+                "pfad": "konflikte/ueberlappung-XC508-BELA-03-XC508-ENTL-03"
+              },
+              {
+                "art": "Überlappung",
+                "auftrag": "XC508-ENTL-04",
+                "mit": "XC508-BELA-04",
+                "pfad": "konflikte/ueberlappung-XC508-BELA-04-XC508-ENTL-04"
+              },
+              {
+                "art": "Überlappung",
+                "auftrag": "XA745-FAEK-01",
+                "mit": "XA745-TANK-01",
+                "pfad": "konflikte/ueberlappung-XA745-FAEK-01-XA745-TANK-01"
+              }
+            ]
+          },
+          "mitarbeiterkarte": {
+            "mitarbeiter": null
+          },
+          "mitarbeiterwahl": {
+            "klick": 0,
+            "mitarbeiter": null
+          },
+          "suche": {
+            "begriff": "",
+            "nr": 0
+          }
+        }
+      },
+      "sichten": {
+        "geraete-plan": [
+          "geraete/BAND-01",
+          "geraete/BAND-02",
+          "geraete/BAND-03",
+          "geraete/BAND-04",
+          "geraete/CAT-01",
+          "geraete/CAT-02",
+          "geraete/FAE-01",
+          "geraete/FAE-02",
+          "geraete/FW-01",
+          "geraete/FW-02",
+          "geraete/GPU-01",
+          "geraete/GPU-02",
+          "geraete/GPU-03",
+          "geraete/GPU-04",
+          "geraete/GSL-01",
+          "geraete/GSL-02",
+          "geraete/GSL-03",
+          "geraete/GSL-04",
+          "geraete/GSL-05",
+          "geraete/GSL-06",
+          "geraete/HUB-01",
+          "geraete/HUB-02",
+          "geraete/PUSH-01",
+          "geraete/PUSH-02",
+          "geraete/PUSH-03",
+          "geraete/TANK-01",
+          "geraete/TANK-02",
+          "geraete/TRP-01",
+          "geraete/TRP-02",
+          "geraete/TRP-03",
+          "geraete/TRP-04",
+          "geraeteauftraege/XA101-BEL-BAND",
+          "geraeteauftraege/XA101-BEL-GSL",
+          "geraeteauftraege/XA101-BEL-HUB",
+          "geraeteauftraege/XA101-CAT",
+          "geraeteauftraege/XA101-ENTL-BAND",
+          "geraeteauftraege/XA101-ENTL-GSL",
+          "geraeteauftraege/XA101-ENTL-HUB",
+          "geraeteauftraege/XA101-FAE",
+          "geraeteauftraege/XA101-FW",
+          "geraeteauftraege/XA101-GPU",
+          "geraeteauftraege/XA101-PUSH",
+          "geraeteauftraege/XA101-TANK",
+          "geraeteauftraege/XA101-TRP",
+          "geraeteauftraege/XA219-BEL-GSL",
+          "geraeteauftraege/XA219-FW",
+          "geraeteauftraege/XA219-TANK",
+          "geraeteauftraege/XA337-BEL-BAND",
+          "geraeteauftraege/XA337-BEL-GSL",
+          "geraeteauftraege/XA337-BEL-HUB",
+          "geraeteauftraege/XA337-CAT",
+          "geraeteauftraege/XA337-ENTL-BAND",
+          "geraeteauftraege/XA337-ENTL-GSL",
+          "geraeteauftraege/XA337-ENTL-HUB",
+          "geraeteauftraege/XA337-FAE",
+          "geraeteauftraege/XA337-FW",
+          "geraeteauftraege/XA337-GPU",
+          "geraeteauftraege/XA337-PUSH",
+          "geraeteauftraege/XA337-TANK",
+          "geraeteauftraege/XA337-TRP-1",
+          "geraeteauftraege/XA337-TRP-2",
+          "geraeteauftraege/XA483-BEL-GSL",
+          "geraeteauftraege/XA483-FW",
+          "geraeteauftraege/XA483-TANK",
+          "geraeteauftraege/XA990-BEL-GSL",
+          "geraeteauftraege/XA990-FW",
+          "geraeteauftraege/XA990-TANK",
+          "geraeteauftraege/XB214-BEL-BAND",
+          "geraeteauftraege/XB214-BEL-GSL",
+          "geraeteauftraege/XB214-CAT",
+          "geraeteauftraege/XB214-ENTL-BAND",
+          "geraeteauftraege/XB214-ENTL-GSL",
+          "geraeteauftraege/XB214-FAE",
+          "geraeteauftraege/XB214-FW",
+          "geraeteauftraege/XB214-GPU",
+          "geraeteauftraege/XB214-PUSH",
+          "geraeteauftraege/XB214-TANK",
+          "geraeteauftraege/XB214-TRP",
+          "geraeteauftraege/XB956-BEL-GSL",
+          "geraeteauftraege/XB956-FW",
+          "geraeteauftraege/XB956-TANK",
+          "geraeteauftraege/XC402-BEL-GSL",
+          "geraeteauftraege/XC402-FW",
+          "geraeteauftraege/XC402-TANK",
+          "geraeteauftraege/XC615-BEL-GSL",
+          "geraeteauftraege/XC615-FW",
+          "geraeteauftraege/XC615-TANK",
+          "geraeteauftraege/XC871-BEL-GSL",
+          "geraeteauftraege/XC871-FW",
+          "geraeteauftraege/XC871-TANK",
+          "kennzahlen/geraetekonfliktfeld",
+          "kennzahlen/geraetekonfliktliste",
+          "kennzahlen/geraetekonfliktliste",
+          "kennzahlen/geraetekonfliktliste",
+          "kennzahlen/geraetekonfliktliste",
+          "kennzahlen/geraetekonfliktliste",
+          "kennzahlen/geraetekonfliktliste"
+        ]
+      },
+      "namen": {
+        "geraete/GPU-01": "das Gerät GPU-01",
+        "geraete/GPU-02": "das Gerät GPU-02",
+        "geraete/GPU-03": "das Gerät GPU-03",
+        "geraete/GPU-04": "das Gerät GPU-04",
+        "geraete/TRP-01": "das Gerät TRP-01",
+        "geraete/TRP-02": "das Gerät TRP-02",
+        "geraete/TRP-03": "das Gerät TRP-03",
+        "geraete/TRP-04": "das Gerät TRP-04",
+        "geraete/BAND-01": "das Gerät BAND-01",
+        "geraete/BAND-02": "das Gerät BAND-02",
+        "geraete/BAND-03": "das Gerät BAND-03",
+        "geraete/BAND-04": "das Gerät BAND-04",
+        "geraete/HUB-01": "das Gerät HUB-01",
+        "geraete/HUB-02": "das Gerät HUB-02",
+        "geraete/GSL-01": "das Gerät GSL-01",
+        "geraete/GSL-02": "das Gerät GSL-02",
+        "geraete/GSL-03": "das Gerät GSL-03",
+        "geraete/GSL-04": "das Gerät GSL-04",
+        "geraete/GSL-05": "das Gerät GSL-05",
+        "geraete/GSL-06": "das Gerät GSL-06",
+        "geraete/TANK-01": "das Gerät TANK-01",
+        "geraete/TANK-02": "das Gerät TANK-02",
+        "geraete/FAE-01": "das Gerät FAE-01",
+        "geraete/FAE-02": "das Gerät FAE-02",
+        "geraete/FW-01": "das Gerät FW-01",
+        "geraete/FW-02": "das Gerät FW-02",
+        "geraete/CAT-01": "das Gerät CAT-01",
+        "geraete/CAT-02": "das Gerät CAT-02",
+        "geraete/PUSH-01": "das Gerät PUSH-01",
+        "geraete/PUSH-02": "das Gerät PUSH-02",
+        "geraete/PUSH-03": "das Gerät PUSH-03",
+        "kennzahlen/geraetekonfliktfeld": "die Liste der Gerätekonflikte",
+        "kennzahlen/geraetekonfliktliste": "Gerät doppelt belegt: FW-01: XA 101 Frischwasser und XA 219 Frischwasser überschneiden sich ab 06:00"
+      }
+    }
+  }
+}

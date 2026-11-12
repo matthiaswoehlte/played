@@ -1,0 +1,28 @@
+{
+  "kennung": "geraete-konflikte",
+  "name": "Equipment conflicts",
+  "reihe": 22,
+  "kurz": "To the right of the plan, a list counts the conflicts (two tasks overlapping on one unit, or a task during maintenance); each conflict can be expanded and collapsed by clicking.",
+  "teilApp": "geraete",
+  "wuensche": [
+    {
+      "kennung": "wunsch-032",
+      "name": "Equipment conflicts",
+      "wortlaut": "To the right of the Gantt there is a conflict list with the number of conflicts on top.",
+      "datum": "2026-11-11T17:23:57.020Z"
+    }
+  ],
+  "aktuell": 1,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "prototyp",
+      "wunsch": "wunsch-032",
+      "wortlaut": "To the right of the Gantt there is a conflict list with the number of conflicts on top.",
+      "datum": "2026-11-11T17:23:57.020Z",
+      "kurz": "To the right of the plan, a list counts the conflicts (two tasks overlapping on one unit, or a task during maintenance); each conflict can be expanded and collapsed by clicking.",
+      "drehbuch": null
+    }
+  ]
+}
