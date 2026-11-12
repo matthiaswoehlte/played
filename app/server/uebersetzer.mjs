@@ -329,7 +329,9 @@ async function jeweils(liste, gleichzeitig, tu) {
 }
 
 /* Die KI über das Abo, ohne Werkzeuge, mit fester Antwortform. Dasselbe Modell wie für Wünsche. */
-const SDK = path.resolve(PLAY, '..', '..', 'CCIDE-CODE', 'node_modules', '@anthropic-ai', 'claude-agent-sdk', 'sdk.mjs');
+/* Anweisung 68: zuerst das Agent SDK im eigenen node_modules (im Repo played nach „npm install“), sonst wie bisher neben der App. */
+const SDK_EIGEN = path.resolve(PLAY, '..', 'node_modules', '@anthropic-ai', 'claude-agent-sdk', 'sdk.mjs');
+const SDK = existsSync(SDK_EIGEN) ? SDK_EIGEN : path.resolve(PLAY, '..', '..', 'CCIDE-CODE', 'node_modules', '@anthropic-ai', 'claude-agent-sdk', 'sdk.mjs');
 const CLAUDE = path.join(process.env.USERPROFILE || process.env.HOME || '', '.local', 'bin', 'claude.exe');
 export function kiUeberAbo(modell, zeitlimitMs = 15 * 60 * 1000) {
   return async function ({ system, prompt, schema, aufwand = 'low' }) {

@@ -306,7 +306,9 @@ const ANHANG_ARTEN = {
 const ANHANG_JE_DATEI = 10 * 1024 * 1024;
 const ANHANG_JE_WUNSCH = 25 * 1024 * 1024;
 const ANHANG_HOECHSTENS = 10;
-const SDK = path.resolve(PLAY, '..', '..', 'CCIDE-CODE', 'node_modules', '@anthropic-ai', 'claude-agent-sdk', 'sdk.mjs');
+/* Anweisung 68: zuerst das Agent SDK im eigenen node_modules (im Repo played nach „npm install“), sonst wie bisher neben der App. */
+const SDK_EIGEN = path.resolve(PLAY, '..', 'node_modules', '@anthropic-ai', 'claude-agent-sdk', 'sdk.mjs');
+const SDK = existsSync(SDK_EIGEN) ? SDK_EIGEN : path.resolve(PLAY, '..', '..', 'CCIDE-CODE', 'node_modules', '@anthropic-ai', 'claude-agent-sdk', 'sdk.mjs');
 /* Das im SDK mitgelieferte Claude Code ist älter als das Modell; das installierte hat denselben Login. */
 const CLAUDE = path.join(os.homedir(), '.local', 'bin', 'claude.exe');
 const ANLEITUNG = readFileSync(path.join(SERVER, 'plugin-anleitung.md'), 'utf8');

@@ -3,3 +3,6 @@ sicherungen/
 
 # Cached state for a fast start; rebuilt automatically.
 stand-speicher.json
+
+# Installed by "npm install"; needed only for the AI.
+node_modules/

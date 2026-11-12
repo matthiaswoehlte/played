@@ -1,7 +1,7 @@
 # Demo – Requests for the Equipment Dispatch (video)
 
 This file holds the requests typed into Play in the application video, word for word. They were entered one after another into the English copy "Ground Handling (EN)".
-Vorbereitung: frische Kopie von „Ground Handling (EN)“ → „Clear area“ an Equipment Dispatch → „Start prototype“.
+Preparation: a fresh copy of "Ground Handling (EN)" → "Clear area" on Equipment Dispatch → "Start prototype".
 
 ## Request 1 – Equipment Dispatch
 
