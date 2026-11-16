@@ -220,8 +220,8 @@ mistake." *Source: session "CCIDE-App – New 5 – PF 5".*
 
 ### Case 29 · 18 Sep · Astra's self-imposed quota
 Astra delivered a gap list of 156 questions whose distribution looked like a self-imposed quota: a story that
-alone had produced six escalations got two questions. Caught by Claude in the evaluation — the cross-vendor
-reviewer finds more than the producer, whichever model plays which role. The 156 counted as a lower bound from
+alone had produced six escalations got two questions. Caught by Claude in the evaluation. In this case, Claude identified a gap in Astra's output;
+other cases in this collection show reviews in the opposite direction. The 156 counted as a lower bound from
 then on. *Source: session "CCIDE-App 6 What-if 2".*
 
 ## H. The machine disputes what the human sees
@@ -232,8 +232,8 @@ During recording rehearsals, CC tested in the wrong sub-app and in its own brows
 observation: Claude (chat) returned his first finding to him as its own insight and doubted the second; CC
 denied the windows were its own at 06:34, 06:37 and 06:40 — despite his screenshot — and believed him only
 after he produced the port numbers (06:41:21). CC's errors cluster between 06:34 and 06:44 in one fresh session
-started at 06:24 with an empty context, nine minutes after an instruction full of new terrain — fatigue is
-ruled out. The error protocol CC then wrote about itself contained an invented quote and attributed manual
+started at 06:24 with an empty context, nine minutes after an instruction full of new terrain. These errors
+occurred early in a fresh session, rather than after a long conversation. The error protocol CC then wrote about itself contained an invented quote and attributed manual
 acceptances that never happened: even the confession needed measurement. The measure that matters: how long
 until the machine believes the human. *Sources: measured timeline in `dialog/2026-11-13-014-uhrzeiten-der-nacht.bericht.md`;
 CC's protocol `design-log/2026-11-11-protokoll-cc-irrtum-falsche-teilapp.md` (itself shown unreliable); screenshots in

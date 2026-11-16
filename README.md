@@ -30,8 +30,9 @@ with two working sub-apps (Staff Dispatch and Equipment Dispatch) and a Network
 Navigator. In the supplementary demonstration, the Equipment Dispatch is built from seven
 requests; their verbatim wording is in
 [`demo/requests-equipment-dispatch.md`](demo/requests-equipment-dispatch.md).
-What you can click through here is the app at the end of the video, with the
-full provenance of every plugin.
+The snapshot lets you inspect the recorded requests, plugin versions, scenarios
+and decisions. Some pre-existing functions have no recorded source; Play marks
+these explicitly.
 
 ## Oversight in four screenshots
 
@@ -95,10 +96,10 @@ Without any AI access you can:
   reassign them, and watch the conflict list react,
 - play back any recorded scenario and see it compared against its expected
   outcome,
-- open the Network Navigator and trace every plugin back to the request that
-  created it: the request wording, the plugin versions, the scenarios it
-  touches, the confirmations, and the deviations the product owner knowingly
-  accepted.
+- open the Network Navigator to inspect recorded requests and their plugin
+  versions, associated scenarios, confirmations and knowingly accepted
+  deviations; pre-existing functions without a recorded source are marked
+  explicitly.
 
 Submitting new requests or creating a translated copy calls Claude through the
 official [Claude Agent SDK](https://code.claude.com/docs/en/agent-sdk/overview),
