@@ -34,6 +34,10 @@ The snapshot lets you inspect the recorded requests, plugin versions, scenarios
 and decisions. Some pre-existing functions have no recorded source; Play marks
 these explicitly.
 
+The snapshot includes the recorded assessment from 14 November 2026, so the
+Navigator can show its open items immediately, even before Staff Dispatch has
+been opened. This is the saved demo state, not a fresh verification run.
+
 ## Oversight in four screenshots
 
 The supplementary demonstration shows how the app is built. These screenshots show what the product

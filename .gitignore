@@ -1,8 +1,10 @@
 # Backups made before "Clear area" stay on this machine.
 sicherungen/
 
-# Cached state for a fast start; rebuilt automatically.
+# Runtime caches normally stay local. The recorded demo assessment is part of
+# the snapshot: the Navigator needs it before Staff Dispatch has been opened.
 stand-speicher.json
+!app/projekte/ground-handling-en/stand-speicher.json
 
 # Installed by "npm install"; needed only for the AI.
 node_modules/
