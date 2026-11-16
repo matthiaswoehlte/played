@@ -1,0 +1,51 @@
+{
+  "kennung": "punkte-ueberblick",
+  "name": "Open items on hover",
+  "reihe": 1,
+  "kurz": "When the mouse is over an area on the map with a yellow or red marker, an overlay lists its open items, for example 2 rule violations, 10 cases without a rule and 1 deviating scenario. It disappears when the mouse leaves the area; until then the map looks the same.",
+  "teilApp": "navigator",
+  "wuensche": [
+    {
+      "kennung": "wunsch-003",
+      "name": "Open items on hover",
+      "wortlaut": "In the Navigator, I want a temporary overlay displaying the entries to appear when I hover the mouse over areas where rule violations are indicated by yellow or red markers. When the mouse leaves the area, the overlay should disappear.",
+      "datum": "2026-11-12T12:23:06.835Z",
+      "teilApp": "navigator",
+      "anhaenge": [
+        {
+          "name": "Screenshot 07-21-19.png",
+          "typ": "png",
+          "groesse": 14296,
+          "zur": "wunsch",
+          "pfad": "anhaenge/wunsch-003/Screenshot 07-21-19.png"
+        }
+      ]
+    }
+  ],
+  "aktuell": 1,
+  "fassungen": [
+    {
+      "nr": 1,
+      "vorige": null,
+      "art": "wunsch",
+      "wunsch": "wunsch-003",
+      "wortlaut": "In the Navigator, I want a temporary overlay displaying the entries to appear when I hover the mouse over areas where rule violations are indicated by yellow or red markers. When the mouse leaves the area, the overlay should disappear.",
+      "anhaenge": [
+        {
+          "name": "Screenshot 07-21-19.png",
+          "typ": "png",
+          "groesse": 14296,
+          "zur": "wunsch",
+          "pfad": "anhaenge/wunsch-003/Screenshot 07-21-19.png"
+        }
+      ],
+      "datum": "2026-11-12T12:23:06.835Z",
+      "kurz": "When the mouse is over an area on the map with a yellow or red marker, an overlay lists its open items, for example 2 rule violations, 10 cases without a rule and 1 deviating scenario. It disappears when the mouse leaves the area; until then the map looks the same.",
+      "drehbuch": null,
+      "bestaetigt": {
+        "datum": "2026-11-12T12:24:11.191Z",
+        "wie": "vom PO mit „Bestätigen“"
+      }
+    }
+  ]
+}

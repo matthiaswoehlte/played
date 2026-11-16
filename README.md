@@ -159,4 +159,6 @@ The immediate research focus is the model behaviour observed during this work.
 The main film presents the evidence and explains why a controlled experiment
 is the next step.
 
-Snapshot of 12 November 2026. Development continues outside this repository.
+Demo snapshot refreshed on 16 November 2026 from the recording copy, including
+the English Navigator hover overlay and its recorded project state. The standalone
+installation support is retained. Development continues outside this repository.

@@ -14,5 +14,26 @@
     "enger": [],
     "verstoesse": [],
     "entscheidungen": {}
+  },
+  {
+    "wunsch": "wunsch-003",
+    "art": "wunsch",
+    "wortlaut": "In the Navigator, I want a temporary overlay displaying the entries to appear when I hover the mouse over areas where rule violations are indicated by yellow or red markers. When the mouse leaves the area, the overlay should disappear.",
+    "plugin": "punkte-ueberblick",
+    "name": "Open items on hover",
+    "fassung": 1,
+    "regel": null,
+    "datum": "2026-11-12T12:23:06.854Z",
+    "status": "fertig",
+    "mehr": [],
+    "enger": [
+      {
+        "nr": 0,
+        "was": "It shows only how many open items of each kind an area has, not the entries themselves; your request asks for the entries to be displayed.",
+        "regel": false
+      }
+    ],
+    "verstoesse": [],
+    "entscheidungen": {}
   }
 ]

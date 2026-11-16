@@ -71,7 +71,7 @@
         "bereiche/eltern": "liest"
       }
     },
-    "datum": "2026-11-12"
+    "datum": "2026-11-13"
   },
   "rundgang": {
     "plugins": [
@@ -154,6 +154,6 @@
         "bereiche/eltern": "liest"
       }
     },
-    "datum": "2026-11-12"
+    "datum": "2026-11-13"
   }
 }

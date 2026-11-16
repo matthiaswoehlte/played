@@ -146,7 +146,7 @@
         "auftraege/status": "liest"
       }
     },
-    "datum": "2026-11-12"
+    "datum": "2026-11-14"
   },
   "krankmeldung-ma-01": {
     "plugins": [
@@ -290,7 +290,7 @@
         "auftraege/status": "liest"
       }
     },
-    "datum": "2026-11-12"
+    "datum": "2026-11-14"
   },
   "krankmeldung-ma-20": {
     "plugins": [
@@ -433,7 +433,7 @@
         "auftraege/status": "liest"
       }
     },
-    "datum": "2026-11-12"
+    "datum": "2026-11-14"
   },
   "wunsch-001": {
     "plugins": [
@@ -570,7 +570,7 @@
         "auftraege": "liest"
       }
     },
-    "datum": "2026-11-12"
+    "datum": "2026-11-14"
   },
   "wunsch-004": {
     "plugins": [
@@ -694,7 +694,7 @@
         "auftraege": "liest"
       }
     },
-    "datum": "2026-11-12"
+    "datum": "2026-11-14"
   },
   "wunsch-005": {
     "plugins": [
@@ -819,7 +819,7 @@
         "auftraege": "liest"
       }
     },
-    "datum": "2026-11-12"
+    "datum": "2026-11-14"
   },
   "wunsch-008": {
     "plugins": [
@@ -943,7 +943,7 @@
         "auftraege": "liest"
       }
     },
-    "datum": "2026-11-12"
+    "datum": "2026-11-14"
   },
   "wunsch-009": {
     "plugins": [
@@ -1090,7 +1090,7 @@
         "auftraege/status": "liest"
       }
     },
-    "datum": "2026-11-12"
+    "datum": "2026-11-14"
   },
   "wunsch-010": {
     "plugins": [
@@ -1226,7 +1226,7 @@
         "auftraege": "liest"
       }
     },
-    "datum": "2026-11-12"
+    "datum": "2026-11-14"
   },
   "wunsch-012": {
     "plugins": [
@@ -1393,7 +1393,7 @@
         "geraeteauftraege/arbeit": "liest"
       }
     },
-    "datum": "2026-11-12"
+    "datum": "2026-11-14"
   },
   "wunsch-015": {
     "plugins": [
@@ -1524,7 +1524,7 @@
         "kennzahlen/offen": "aendert"
       }
     },
-    "datum": "2026-11-12"
+    "datum": "2026-11-14"
   },
   "wunsch-017": {
     "plugins": [
@@ -1654,7 +1654,7 @@
         "auftraege/status": "liest"
       }
     },
-    "datum": "2026-11-12"
+    "datum": "2026-11-14"
   },
   "wunsch-022": {
     "plugins": [
@@ -1774,7 +1774,7 @@
         "auftraege": "liest"
       }
     },
-    "datum": "2026-11-12"
+    "datum": "2026-11-14"
   },
   "wunsch-023": {
     "plugins": [
@@ -1888,7 +1888,7 @@
         "kennzahlen/nr": "aendert"
       }
     },
-    "datum": "2026-11-12"
+    "datum": "2026-11-14"
   },
   "wunsch-025": {
     "plugins": [
@@ -2038,7 +2038,7 @@
         "auftraege/status": "liest"
       }
     },
-    "datum": "2026-11-12"
+    "datum": "2026-11-14"
   },
   "wunsch-027": {
     "plugins": [
@@ -2172,7 +2172,7 @@
         "auftraege/ende": "aendert"
       }
     },
-    "datum": "2026-11-12"
+    "datum": "2026-11-14"
   },
   "wunsch-028": {
     "plugins": [
@@ -2311,7 +2311,7 @@
         "auftraege/ende": "aendert"
       }
     },
-    "datum": "2026-11-12"
+    "datum": "2026-11-14"
   },
   "wunsch-031": {
     "plugins": [
@@ -2460,7 +2460,7 @@
         "durch/verhalten-einsatz/auftraege/mitarbeiter": "aendert"
       }
     },
-    "datum": "2026-11-12"
+    "datum": "2026-11-14"
   },
   "wunsch-032": {
     "plugins": [
@@ -2551,7 +2551,7 @@
         "geraeteanzeige/hervorhebung": "aendert"
       }
     },
-    "datum": "2026-11-12"
+    "datum": "2026-11-14"
   },
   "wunsch-033": {
     "plugins": [
@@ -2642,7 +2642,7 @@
         "geraeteauftraege/geraet": "aendert"
       }
     },
-    "datum": "2026-11-12"
+    "datum": "2026-11-14"
   },
   "wunsch-034": {
     "plugins": [
@@ -2737,7 +2737,7 @@
         "geraeteauftraege/geraet": "aendert"
       }
     },
-    "datum": "2026-11-12"
+    "datum": "2026-11-14"
   },
   "wunsch-035": {
     "plugins": [
@@ -2827,7 +2827,7 @@
         "geraeteauftraege/ende": "aendert"
       }
     },
-    "datum": "2026-11-12"
+    "datum": "2026-11-14"
   },
   "wunsch-036": {
     "plugins": [
@@ -2918,7 +2918,7 @@
         "geraeteauftraege/geraet": "aendert"
       }
     },
-    "datum": "2026-11-12"
+    "datum": "2026-11-14"
   },
   "wunsch-039": {
     "plugins": [
@@ -3009,6 +3009,6 @@
         "geraeteanzeige/hervorhebung": "aendert"
       }
     },
-    "datum": "2026-11-12"
+    "datum": "2026-11-14"
   }
 }
