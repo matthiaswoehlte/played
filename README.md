@@ -12,7 +12,7 @@ the observations, two incidents in detail, and the research question.
 The [supplementary demonstration (3:18)](https://youtu.be/Vjr-pXQeURQ) shows
 Play in use: seven requests become an airport dispatch application.
 
-The setup has two stages. Claude Code builds the host application and the
+The setup has two stages. Claude Desktop and Claude Code build the host application and the
 machinery that prepares an inner AI agent. That agent records topics in the
 network, generates application plugins and scenarios, and configures plugins
 to receive and publish messages through a shared message bus. I describe what
